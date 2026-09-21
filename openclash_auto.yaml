@@ -701,10 +701,12 @@ rule-providers:
     path: ./rule_providers/youtube.mrs
     url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs
   threat-tif-mini:
-    type: file
+    type: http
     behavior: domain
-    format: mrs
     path: ./rule_providers/compiled/threat-tif-mini.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/threat-tif-mini.mrs
+    interval: 43200
+    format: mrs
   openai_domain:
     type: http
     interval: 86400
@@ -774,10 +776,12 @@ rule-providers:
     - DOMAIN-SUFFIX,snapchat.com
     - DOMAIN-SUFFIX,snapchatcdn.com
   ads_indonesia:
-    type: file
+    type: http
     behavior: domain
-    format: mrs
     path: ./rule_providers/compiled/ads_indonesia.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/ads_indonesia.mrs
+    interval: 43200
+    format: mrs
   anti-ad:
     type: http
     behavior: domain
@@ -800,10 +804,12 @@ rule-providers:
     interval: 43200
     format: mrs
   gambling-mini:
-    type: file
+    type: http
     behavior: domain
-    format: mrs
     path: ./rule_providers/compiled/gambling-mini.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/gambling-mini.mrs
+    interval: 43200
+    format: mrs
   gambling-regex:
     type: file
     behavior: classical
@@ -820,40 +826,54 @@ rule-providers:
     format: yaml
     path: ./rule_providers/security-pinjol.yaml
   popup-ads:
-    type: file
+    type: http
     behavior: domain
-    format: mrs
     path: ./rule_providers/compiled/popup-ads.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/popup-ads.mrs
+    interval: 43200
+    format: mrs
   threat-malware:
-    type: file
+    type: http
     behavior: domain
-    format: mrs
     path: ./rule_providers/compiled/threat-malware.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/threat-malware.mrs
+    interval: 43200
+    format: mrs
   threat-phishing:
-    type: file
+    type: http
     behavior: domain
-    format: mrs
     path: ./rule_providers/compiled/threat-phishing.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/threat-phishing.mrs
+    interval: 43200
+    format: mrs
   threat-cryptominers:
-    type: file
+    type: http
     behavior: domain
-    format: mrs
     path: ./rule_providers/compiled/threat-cryptominers.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/threat-cryptominers.mrs
+    interval: 43200
+    format: mrs
   threat-fake-scam:
-    type: file
+    type: http
     behavior: domain
-    format: mrs
     path: ./rule_providers/compiled/threat-fake-scam.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/threat-fake-scam.mrs
+    interval: 43200
+    format: mrs
   hagezi-pro-plus-mini:
-    type: file
+    type: http
     behavior: domain
-    format: mrs
     path: ./rule_providers/compiled/hagezi-pro-plus-mini.mrs
-  threat-tif-ip:
-    type: file
-    behavior: ipcidr
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/hagezi-pro-plus-mini.mrs
+    interval: 43200
     format: mrs
+  threat-tif-ip:
+    type: http
+    behavior: ipcidr
     path: ./rule_providers/compiled/threat-tif-ip.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/threat-tif-ip.mrs
+    interval: 43200
+    format: mrs
   app-ad-safe:
     type: inline
     behavior: domain

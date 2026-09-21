@@ -478,42 +478,42 @@ rule-providers:
     behavior: domain
     format: mrs
     path: ./rule_providers/compiled/threat-malware.mrs
-    url: https://raw.githubusercontent.com/adiorany3/AkunYaml/main/rule_providers/compiled/threat-malware.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/threat-malware.mrs
     interval: 43200
   threat-phishing:
     type: http
     behavior: domain
     format: mrs
     path: ./rule_providers/compiled/threat-phishing.mrs
-    url: https://raw.githubusercontent.com/adiorany3/AkunYaml/main/rule_providers/compiled/threat-phishing.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/threat-phishing.mrs
     interval: 43200
   threat-cryptominers:
     type: http
     behavior: domain
     format: mrs
     path: ./rule_providers/compiled/threat-cryptominers.mrs
-    url: https://raw.githubusercontent.com/adiorany3/AkunYaml/main/rule_providers/compiled/threat-cryptominers.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/threat-cryptominers.mrs
     interval: 43200
   threat-fake-scam:
     type: http
     behavior: domain
     format: mrs
     path: ./rule_providers/compiled/threat-fake-scam.mrs
-    url: https://raw.githubusercontent.com/adiorany3/AkunYaml/main/rule_providers/compiled/threat-fake-scam.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/threat-fake-scam.mrs
     interval: 43200
   threat-tif-mini:
     type: http
     behavior: domain
     format: mrs
     path: ./rule_providers/compiled/threat-tif-mini.mrs
-    url: https://raw.githubusercontent.com/adiorany3/AkunYaml/main/rule_providers/compiled/threat-tif-mini.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/threat-tif-mini.mrs
     interval: 43200
   gambling-mini:
     type: http
     behavior: domain
     format: mrs
     path: ./rule_providers/compiled/gambling-mini.mrs
-    url: https://raw.githubusercontent.com/adiorany3/AkunYaml/main/rule_providers/compiled/gambling-mini.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/gambling-mini.mrs
     interval: 43200
   gambling-regex:
     type: http
@@ -548,7 +548,7 @@ rule-providers:
     behavior: domain
     format: mrs
     path: ./rule_providers/compiled/popup-ads.mrs
-    url: https://raw.githubusercontent.com/adiorany3/AkunYaml/main/rule_providers/compiled/popup-ads.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/popup-ads.mrs
     interval: 43200
   app-ad-safe:
     type: inline
@@ -635,7 +635,7 @@ rule-providers:
     behavior: domain
     format: mrs
     path: ./rule_providers/compiled/ads_indonesia.mrs
-    url: https://raw.githubusercontent.com/adiorany3/AkunYaml/main/rule_providers/compiled/ads_indonesia.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/ads_indonesia.mrs
     interval: 43200
   ads_domain:
     type: http
