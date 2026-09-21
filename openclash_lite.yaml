@@ -1,0 +1,820 @@
+mixed-port: 7890
+redir-port: 7892
+tproxy-port: 7895
+allow-lan: true
+bind-address: '*'
+lan-allowed-ips:
+- 127.0.0.0/8
+- 10.0.0.0/8
+- 172.16.0.0/12
+- 192.168.0.0/16
+mode: rule
+log-level: warning
+ipv6: false
+unified-delay: true
+tcp-concurrent: true
+find-process-mode: 'off'
+keep-alive-interval: 15
+keep-alive-idle: 30
+disable-keep-alive: false
+external-controller: 127.0.0.1:9090
+secret: reyre
+profile:
+  store-selected: true
+  store-fake-ip: true
+sniffer:
+  enable: true
+  sniff:
+    TLS:
+      ports:
+      - 443
+      - 8443
+    HTTP:
+      ports:
+      - 80
+      - 8080-8880
+      override-destination: true
+    QUIC:
+      ports:
+      - 443
+      - 8443
+  force-domain:
+  - +.v2ex.com
+  skip-domain:
+  - +.lan
+  - +.local
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:7874
+  respect-rules: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - +.lan
+  - +.local
+  - localhost.ptlogin2.qq.com
+  - dns.msftncsi.com
+  - www.msftconnecttest.com
+  - connectivitycheck.gstatic.com
+  - connect.rom.miui.com
+  - time.*.com
+  - ntp.*.com
+  - +.pool.ntp.org
+  - router.asus.com
+  - tplinkwifi.net
+  - tendawifi.com
+  - +.bca.co.id
+  - +.bni.co.id
+  - +.bri.co.id
+  - +.mandiri.co.id
+  - +.stun.*.*
+  - +.stun.*.*.*
+  - +.stun.*.*.*.*
+  - +.stun.*.*.*.*.*
+  - '*.n.n.srv.nintendo.net'
+  - xbox.*.*.microsoft.com
+  - '*.*.xboxlive.com'
+  cache-algorithm: arc
+  default-nameserver:
+  - https://1.1.1.1/dns-query
+  - https://9.9.9.9/dns-query
+  nameserver:
+  - https://family.dns.bebasid.com/dns-query
+  - tls://family.dns.bebasid.com:853
+  proxy-server-nameserver:
+  - https://1.1.1.1/dns-query
+  - https://dns.google/dns-query
+  - https://dns.quad9.net/dns-query
+  - https://9.9.9.9/dns-query
+  - https://94.140.14.14/dns-query
+  nameserver-policy:
+    +.openai.com:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+    +.chatgpt.com:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+    +.chatgpt.site:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+    +.anthropic.com:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+    +.claude.ai:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+    +.claude.com:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+    +.gemini.google.com:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+    geosite:category-ads-all: rcode://success
+  fallback:
+  - https://family.dns.bebasid.com/dns-query
+  - tls://family.dns.bebasid.com:853
+  fallback-lazy-query: false
+  fallback-filter:
+    geoip: true
+    geoip-code: ID
+    ipcidr:
+    - 240.0.0.0/4
+  prefer-h3: false
+  use-hosts: true
+  use-system-hosts: false
+proxies:
+- name: AKUN-001-ACE-SG-VLESS-WS-126MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /article?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
+  alpn:
+  - http/1.1
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-131MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /ads/pics/special?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
+  alpn:
+  - http/1.1
+- name: AKUN-003-CLOUDFLARE-VLESS-WS-122MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /manhua/streams/index?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
+  alpn:
+  - http/1.1
+- name: AKUN-004-CLOUDFLARE-VLESS-WS-148MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /qa/channel/cb?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
+  alpn:
+  - http/1.1
+- name: AKUN-005-DIGITALOCEAN-VLESS-WS-122MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /drama?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
+  alpn:
+  - http/1.1
+- name: AKUN-006-TYCHRON-02-VLESS-WS-136MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /proxyip
+    headers:
+      Host: nb.lovecf.ggff.net
+  alpn:
+  - http/1.1
+- name: AKUN-007-OLOIN-1-VLESS-WS-115MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /proxyip
+    headers:
+      Host: xi.tbv.ccwu.cc
+  alpn:
+  - http/1.1
+- name: AKUN-008-CLOUDFLARE-VLESS-WS-123MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+  alpn:
+  - http/1.1
+- name: AKUN-009-NET-147-90-26-0-24-VLESS-WS-125MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /?TELEGRAM-ICV2RAY?ed=512
+    headers:
+      Host: cdn8848.776676.xyz
+  alpn:
+  - http/1.1
+- name: AKUN-010-CLOUDFLARE-VLESS-WS-128MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
+    headers:
+      Host: cfvvv-ev1.pages.dev
+  alpn:
+  - http/1.1
+- name: MANUAL-VMess-WS-TLS-443-ikada543
+  type: vmess
+  server: 104.17.3.81
+  port: 443
+  uuid: 07b0b1d3-0f2a-4d95-895a-c31be0f6a784
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: fbcdn.sbs
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /modern-analyze-to-machine-learning/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: fbcdn.sbs
+  alpn:
+  - http/1.1
+- name: MANUAL-VMess-WS-TLS-443-singa08
+  type: vmess
+  server: 104.17.3.81
+  port: 443
+  uuid: 66827e09-9743-47d4-952c-d9c90f31fe48
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: midtrans.cyou
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /essential-achieve-to-growth-hacking/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: midtrans.cyou
+  alpn:
+  - http/1.1
+- name: MANUAL-VMess-WS-TLS-443-akuku8
+  type: vmess
+  server: 104.17.3.81
+  port: 443
+  uuid: 4ee97185-f0ea-4842-b116-aaa1832665cc
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: fbcdn.sbs
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /beginner-understand-to-growth-hacking/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: fbcdn.sbs
+  alpn:
+  - http/1.1
+- name: MANUAL-VLESS-WS-TLS-443-apt50atpprem
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: c13ff27e-268a-4c69-a464-d8a625fd01b3
+  udp: true
+  tls: true
+  servername: atharva.web.id
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /effective-steps-to-cloud-computing/buy-vless-ws-pm-telegram-at-synricha
+    headers:
+      Host: atharva.web.id
+  alpn:
+  - http/1.1
+proxy-groups:
+- name: GLOBAL
+  type: fallback
+  proxies:
+  - FALLBACK
+  - AUTO-FAST
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  lazy: true
+  timeout: 5000
+  expected-status: 200/204/301/302
+  max-failed-times: 3
+- name: PROXY
+  type: fallback
+  proxies:
+  - GLOBAL
+  - AUTO-FAST
+  - FALLBACK
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  lazy: true
+  timeout: 5000
+  expected-status: 200/204/301/302
+  max-failed-times: 3
+- name: AUTO-FAST
+  type: url-test
+  proxies:
+  - MANUAL-VMess-WS-TLS-443-ikada543
+  - MANUAL-VMess-WS-TLS-443-singa08
+  - MANUAL-VMess-WS-TLS-443-akuku8
+  - MANUAL-VLESS-WS-TLS-443-apt50atpprem
+  - AKUN-001-ACE-SG-VLESS-WS-126MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-131MS
+  url: https://www.gstatic.com/generate_204
+  interval: 180
+  tolerance: 150
+  lazy: true
+  timeout: 5000
+  expected-status: 200/204/301/302
+  max-failed-times: 2
+- name: FALLBACK
+  type: fallback
+  proxies:
+  - MANUAL-VMess-WS-TLS-443-ikada543
+  - MANUAL-VMess-WS-TLS-443-singa08
+  - MANUAL-VMess-WS-TLS-443-akuku8
+  - MANUAL-VLESS-WS-TLS-443-apt50atpprem
+  - AKUN-001-ACE-SG-VLESS-WS-126MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-131MS
+  - AKUN-007-OLOIN-1-VLESS-WS-115MS
+  - AKUN-003-CLOUDFLARE-VLESS-WS-122MS
+  - AKUN-005-DIGITALOCEAN-VLESS-WS-122MS
+  - AKUN-008-CLOUDFLARE-VLESS-WS-123MS
+  - AKUN-010-CLOUDFLARE-VLESS-WS-128MS
+  - AKUN-009-NET-147-90-26-0-24-VLESS-WS-125MS
+  - AKUN-006-TYCHRON-02-VLESS-WS-136MS
+  - AKUN-004-CLOUDFLARE-VLESS-WS-148MS
+  url: https://www.gstatic.com/generate_204
+  interval: 180
+  lazy: true
+  timeout: 6000
+  expected-status: 200/204/301/302
+  max-failed-times: 3
+- name: MANUAL
+  type: fallback
+  proxies:
+  - MANUAL-VMess-WS-TLS-443-ikada543
+  - MANUAL-VMess-WS-TLS-443-singa08
+  - MANUAL-VMess-WS-TLS-443-akuku8
+  - MANUAL-VLESS-WS-TLS-443-apt50atpprem
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  lazy: true
+  timeout: 5000
+  expected-status: 200/204/301/302
+  max-failed-times: 2
+- name: REDDIT
+  type: fallback
+  proxies:
+  - MANUAL
+  url: https://www.gstatic.com/generate_204
+  interval: 60
+  lazy: true
+  timeout: 2500
+  expected-status: 200/204/301/302
+  max-failed-times: 2
+- name: YOUTUBE
+  type: fallback
+  proxies:
+  - AUTO-FAST
+  - FALLBACK
+  url: https://www.gstatic.com/generate_204
+  interval: 120
+  lazy: true
+  timeout: 3000
+  expected-status: 200/204/301/302
+  max-failed-times: 2
+rules:
+- DOMAIN-SUFFIX,local,DIRECT
+- DOMAIN-SUFFIX,lan,DIRECT
+- IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+- IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+- DOMAIN,static.doubleclick.net,YOUTUBE
+- DOMAIN,jnn-pa.googleapis.com,YOUTUBE
+- DOMAIN,googleads.g.doubleclick.net,REJECT
+- DOMAIN,ad.doubleclick.net,REJECT
+- DOMAIN,pubads.g.doubleclick.net,REJECT
+- DOMAIN,securepubads.g.doubleclick.net,REJECT
+- DOMAIN,pagead2.googlesyndication.com,REJECT
+- DOMAIN,tpc.googlesyndication.com,REJECT
+- DOMAIN,www.googleadservices.com,REJECT
+- DOMAIN,imasdk.googleapis.com,REJECT
+- DOMAIN,ads.youtube.com,REJECT
+- DOMAIN-SUFFIX,2mdn.net,REJECT
+- DOMAIN-SUFFIX,googlesyndication.com,REJECT
+- DOMAIN-SUFFIX,googleadservices.com,REJECT
+- DOMAIN,adtrafficquality.google,REJECT
+- DOMAIN-SUFFIX,googleadapis.com,REJECT
+- DOMAIN,mobileads.google.com,REJECT
+- DOMAIN,pagead.l.google.com,REJECT
+- DOMAIN,adservice.google.com,REJECT
+- DOMAIN,stats.g.doubleclick.net,REJECT
+- DOMAIN,m.doubleclick.net,REJECT
+- DOMAIN,mediavisor.doubleclick.net,REJECT
+- RULE-SET,youtube_domain,YOUTUBE
+- DOMAIN-SUFFIX,youtube.com,YOUTUBE
+- DOMAIN-SUFFIX,youtu.be,YOUTUBE
+- DOMAIN-SUFFIX,youtube-nocookie.com,YOUTUBE
+- DOMAIN-SUFFIX,googlevideo.com,YOUTUBE
+- DOMAIN-SUFFIX,ytimg.com,YOUTUBE
+- DOMAIN-SUFFIX,youtubei.googleapis.com,YOUTUBE
+- DOMAIN-SUFFIX,youtube.googleapis.com,YOUTUBE
+- DOMAIN-SUFFIX,ggpht.com,YOUTUBE
+- DOMAIN,adstatistics.av380.net,REJECT
+- DOMAIN,logs.av380.net,REJECT
+- DOMAIN,ad.av380.net,REJECT
+- DOMAIN,ads.av380.net,REJECT
+- DOMAIN,advert.av380.net,REJECT
+- DOMAIN,advertising.av380.net,REJECT
+- DOMAIN,promotion.av380.net,REJECT
+- DOMAIN,promotions.av380.net,REJECT
+- DOMAIN,app-ad.av380.net,REJECT
+- DOMAIN-SUFFIX,av380.net,GLOBAL
+- DOMAIN,veepai-device-log.eye4.cn,REJECT
+- DOMAIN,eulog.ezvizlife.com,REJECT
+- DOMAIN,log.ezvizlife.com,REJECT
+- DOMAIN,salog.ezvizlife.com,REJECT
+- DOMAIN,sgplog.ezvizlife.com,REJECT
+- DOMAIN,uslog.ezvizlife.com,REJECT
+- DOMAIN,rum-apis.reolink.com,REJECT
+- DOMAIN,sentry.tuyaus.com,REJECT
+- DOMAIN,promotion-en.xmeye.net,REJECT
+- DOMAIN-SUFFIX,challenges.cloudflare.com,GLOBAL
+- DOMAIN-SUFFIX,hcaptcha.com,GLOBAL
+- DOMAIN-SUFFIX,licdn.com,GLOBAL
+- DOMAIN-SUFFIX,linkedin.cn,GLOBAL
+- DOMAIN-SUFFIX,linkedin.com,GLOBAL
+- DOMAIN-SUFFIX,lnkd.in,GLOBAL
+- DOMAIN-SUFFIX,recaptcha.net,GLOBAL
+- DOMAIN-SUFFIX,simaster.ugm.ac.id,GLOBAL
+- DOMAIN-SUFFIX,speedtest.net,GLOBAL
+- DOMAIN-SUFFIX,ookla.com,GLOBAL
+- DOMAIN-SUFFIX,speedtestcustom.com,GLOBAL
+- RULE-SET,threat-malware,REJECT
+- RULE-SET,threat-phishing,REJECT
+- RULE-SET,threat-cryptominers,REJECT
+- RULE-SET,threat-fake-scam,REJECT
+- RULE-SET,threat-tif-mini,REJECT
+- RULE-SET,gambling-mini,REJECT
+- RULE-SET,gambling-regex,REJECT
+- RULE-SET,adult-category,REJECT
+- RULE-SET,adult-local,REJECT
+- RULE-SET,pinjol-local,REJECT
+- RULE-SET,popup-ads,REJECT
+- DOMAIN,805ba.v.fwmrm.net,REJECT
+- DOMAIN,tvm-mtv-freewheel.akamaized.net,REJECT
+- DOMAIN,adeventtracker.spotify.com,REJECT
+- DOMAIN,audio-ads.spotify.com,REJECT
+- DOMAIN,heads-ec.spotify.com,REJECT
+- DOMAIN,ads.spotify.com,REJECT
+- DOMAIN,ads-fa.spotify.com,REJECT
+- DOMAIN,ads-ak.spotify.com,REJECT
+- DOMAIN,adserver.spotify.com,REJECT
+- DOMAIN,adstudio.spotify.com,REJECT
+- DOMAIN,ad-analytics.spotify.com,REJECT
+- DOMAIN,aet.spotify.com,REJECT
+- DOMAIN,analytics.spotify.com,REJECT
+- DOMAIN,bloodhound.spotify.com,REJECT
+- DOMAIN,crashdump.spotify.com,REJECT
+- DOMAIN,pixel.spotify.com,REJECT
+- DOMAIN,pixel-static.spotify.com,REJECT
+- DOMAIN,pixels.spotify.com,REJECT
+- DOMAIN,advertising.netflix.com,REJECT
+- DOMAIN,beacon.netflix.com,REJECT
+- DOMAIN,ichnaea.netflix.com,REJECT
+- DOMAIN,diproton-ads-prod-eu-central-1.hulu.com.akadns.net,REJECT
+- DOMAIN,diproton-ads-prod-eu-west-1.hulu.com.akadns.net,REJECT
+- DOMAIN,diproton-ads-prod-us-east-1.hulu.com.akadns.net,REJECT
+- DOMAIN,diproton-ads-prod-us-east-2.hulu.com.akadns.net,REJECT
+- DOMAIN,diproton-ads-prod-us-west-2.hulu.com.akadns.net,REJECT
+- DOMAIN,ads.twitch.tv,REJECT
+- DOMAIN,analytics.m7g.twitch.tv,REJECT
+- DOMAIN,spade.twitch.tv,REJECT
+- DOMAIN,ads.roku.com,REJECT
+- DOMAIN,advertising.roku.com,REJECT
+- DOMAIN-SUFFIX,popads.net,REJECT
+- DOMAIN-SUFFIX,popcash.net,REJECT
+- DOMAIN-SUFFIX,propellerads.com,REJECT
+- DOMAIN-SUFFIX,adsterra.com,REJECT
+- DOMAIN-SUFFIX,onclickalgo.com,REJECT
+- DOMAIN-SUFFIX,onclickperformance.com,REJECT
+- DOMAIN-SUFFIX,hilltopads.net,REJECT
+- DOMAIN-SUFFIX,richads.com,REJECT
+- DOMAIN-SUFFIX,clickadu.com,REJECT
+- DOMAIN-SUFFIX,adcash.com,REJECT
+- DOMAIN-SUFFIX,applovin.com,REJECT
+- DOMAIN-SUFFIX,applvn.com,REJECT
+- DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
+- DOMAIN-SUFFIX,supersonicads.com,REJECT
+- DOMAIN-SUFFIX,ironsrc.com,REJECT
+- DOMAIN-SUFFIX,vungle.com,REJECT
+- DOMAIN-SUFFIX,vunglecloud.com,REJECT
+- DOMAIN-SUFFIX,chartboost.com,REJECT
+- DOMAIN-SUFFIX,inmobi.com,REJECT
+- DOMAIN-SUFFIX,adcolony.com,REJECT
+- DOMAIN-SUFFIX,mintegral.com,REJECT
+- DOMAIN-SUFFIX,mtgglobals.com,REJECT
+- DOMAIN-SUFFIX,rayjump.com,REJECT
+- DOMAIN-SUFFIX,pangle.io,REJECT
+- DOMAIN-SUFFIX,pangleglobal.com,REJECT
+- DOMAIN-SUFFIX,tapjoy.com,REJECT
+- DOMAIN-SUFFIX,tapjoyads.com,REJECT
+- DOMAIN-SUFFIX,startappservice.com,REJECT
+- DOMAIN-SUFFIX,startapp.com,REJECT
+- DOMAIN-SUFFIX,fyber.com,REJECT
+- DOMAIN-SUFFIX,inner-active.mobi,REJECT
+- RULE-SET,app-ad-safe,REJECT
+- RULE-SET,ads_indonesia,REJECT
+- RULE-SET,ads_domain,REJECT
+- RULE-SET,anti-ad,REJECT
+- RULE-SET,tracker-domain,REJECT
+- DOMAIN-SUFFIX,reddit.com,REDDIT
+- DOMAIN-SUFFIX,redditmedia.com,REDDIT
+- DOMAIN-SUFFIX,redd.it,REDDIT
+- DOMAIN-KEYWORD,reddit,REDDIT
+- DOMAIN-SUFFIX,twitter.com,REDDIT
+- DOMAIN-SUFFIX,x.com,REDDIT
+- DOMAIN-SUFFIX,api.twitter.com,REDDIT
+- DOMAIN-SUFFIX,api.x.com,REDDIT
+- DOMAIN-SUFFIX,t.co,REDDIT
+- DOMAIN,aff.vaidebet.bet.br,REJECT
+- DOMAIN,alexander-casino-en-ligne.fr,REJECT
+- DOMAIN,casinovegashero.fr,REJECT
+- DOMAIN,gamblingpp.ru,REJECT
+- DOMAIN,mad-casinofr.fr,REJECT
+- DOMAIN,neospincasino.fr,REJECT
+- DOMAIN,tortuga-casinos.fr,REJECT
+- DOMAIN-SUFFIX,x.com,MANUAL
+- DOMAIN-SUFFIX,api.x.com,MANUAL
+- DOMAIN-SUFFIX,twitter.com,MANUAL
+- DOMAIN-SUFFIX,api.twitter.com,MANUAL
+- DOMAIN-SUFFIX,t.co,MANUAL
+- DOMAIN-SUFFIX,twimg.com,MANUAL
+- DOMAIN-SUFFIX,abs.twimg.com,MANUAL
+- DOMAIN-SUFFIX,pbs.twimg.com,MANUAL
+- DOMAIN-SUFFIX,video.twimg.com,MANUAL
+- DOMAIN-SUFFIX,cloudflare.com,MANUAL
+- DOMAIN-SUFFIX,gstatic.com,MANUAL
+- MATCH,GLOBAL
+rule-providers:
+  ads_indonesia:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rule_providers/compiled/ads_indonesia.mrs
+  ads_domain:
+    type: http
+    behavior: domain
+    path: ./rule_providers/ads_domain.mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ads-all.mrs
+    interval: 43200
+    format: mrs
+  anti-ad:
+    type: http
+    behavior: domain
+    path: ./rule_providers/anti-ad-clash.yaml
+    url: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
+    interval: 43200
+    format: yaml
+  tracker-domain:
+    type: http
+    behavior: domain
+    path: ./rule_providers/tracker.mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tracker.mrs
+    interval: 43200
+    format: mrs
+  threat-tif-mini:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rule_providers/compiled/threat-tif-mini.mrs
+  adult-category:
+    type: http
+    behavior: domain
+    path: ./rule_providers/adult-category.mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-porn.mrs
+    interval: 43200
+    format: mrs
+  gambling-mini:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rule_providers/compiled/gambling-mini.mrs
+  gambling-regex:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rule_providers/security-gambling.yaml
+  adult-local:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rule_providers/security-adult.yaml
+  pinjol-local:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rule_providers/security-pinjol.yaml
+  popup-ads:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rule_providers/compiled/popup-ads.mrs
+  threat-malware:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rule_providers/compiled/threat-malware.mrs
+  threat-phishing:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rule_providers/compiled/threat-phishing.mrs
+  threat-cryptominers:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rule_providers/compiled/threat-cryptominers.mrs
+  threat-fake-scam:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rule_providers/compiled/threat-fake-scam.mrs
+  app-ad-safe:
+    type: inline
+    behavior: domain
+    payload:
+    - adv.sec.intl.miui.com
+    - adv.l7.34.sec.miui.com
+    - adv.sec.miui.com
+    - ad.miui.com
+    - api.ads.xiaomi.com
+    - ad.eu.xiaomi.com
+    - ad.quickapp.hybrid.xiaomi.com
+    - ad.india.xiaomi.com
+    - ad.intl.xiaomi.com
+    - xadx.file.market.xiaomi.com
+    - wtradv.market.xiaomi.com
+    - ad.cdn.pandora.xiaomi.com
+    - ads.heytapmobi.com
+    - ads.heytapmobile.com
+    - ads-bdapi-my.heytapmobile.com
+    - ads-bdapi-ph.heytapmobile.com
+    - ads-bdapi-th.heytapmobile.com
+    - ads-bdapi-vn.heytapmobile.com
+    - ad-growth-in.heytapmobile.com
+    - ad-growth-ru.heytapmobile.com
+    - ad-growth-sg.heytapmobile.com
+    - adx-ads-fr.heytapmobile.com
+    - adx-ads-ru.heytapmobile.com
+    - bdapi-ads-sg.heytapmobile.com
+    - cldata-ads-fr.heytapmobile.com
+    - cldata-ads-ru.heytapmobile.com
+    - sms-ads-in.heytapmobile.com
+    - sms-ads-ru.heytapmobile.com
+    - stgdata-ads-fr.heytapmobile.com
+    - ads.oppomobile.com
+    - adsfs.oppomobile.com
+    - ads.bing.com
+    - adserver.bing.com
+    - outlookads.live.com
+    - ads.microsoft.com
+    - adsdk.microsoft.com
+    - advertising.microsoft.com
+    - bingads.microsoft.com
+    - msadsscale.microsoft.com
+    - ads.eu.msn.com
+    - rmads.eu.msn.com
+    - ads.jp.msn.com
+    - advertising.jp.msn.com
+    - ad.msn.com
+    - adevents.msn.com
+    - ads.msn.com
+    - ads1.msn.com
+    - mobileads.msn.com
+    - rads.msn.com
+    - rmads.msn.com
+    - srtb.msn.com
+    - prod.editor.ads.trafficmanager.net
+    - ads-msn-com-profile.trafficmanager.net
+    - adsdk.trafficmanager.net
+    - dsp-ad-cache-tm.trafficmanager.net
+    - ssp-prod-eastus-nonmutt.trafficmanager.net
+    - msads.net
+    - advertising.apple.com
+    - advp.apple.com
+    - api-adservices.apple.com
+    - iad.apple.com
+    - iadcontent.apple.com
+    - iadmoo.apple.com
+    - iadsdk.apple.com
+    - iadworkbench.apple.com
+    - searchads.apple.com
+    - .smaato.com
+    - .smaato.net
+    - .ogury.com
+    - .ogury.co
+    - .pubnative.net
+    - .hyprmx.com
+    - .mobilefuse.com
+    - .amazon-adsystem.com
+    - .mopub.com
+    - .adjoe.io
+  youtube_domain:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rule_providers/youtube.mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs
+    interval: 43200
+hosts:
+  www.google.com: forcesafesearch.google.com
+  www.google.co.id: forcesafesearch.google.com
+  www.youtube.com: restrictmoderate.youtube.com
+  m.youtube.com: restrictmoderate.youtube.com
+  youtubei.googleapis.com: restrictmoderate.youtube.com
+  youtube.googleapis.com: restrictmoderate.youtube.com
+  www.youtube-nocookie.com: restrictmoderate.youtube.com
