@@ -1211,6 +1211,15 @@ rules:
 - DOMAIN-SUFFIX,googleadapis.com,REJECT
 - DOMAIN,mobileads.google.com,REJECT
 - DOMAIN,pagead.l.google.com,REJECT
+- DOMAIN-KEYWORD,888xhruby,REJECT
+- DOMAIN-KEYWORD,888xruby,REJECT
+- DOMAIN,ads30.adcolony.com,REJECT
+- DOMAIN,auction.unityads.unity3d.com,REJECT
+- DOMAIN,adserver.unityads.unity3d.com,REJECT
+- DOMAIN,rt.applovin.com,REJECT
+- DOMAIN,api.vungle.com,REJECT
+- DOMAIN,api.fyber.com,REJECT
+- DOMAIN,live.chartboost.com,REJECT
 - DOMAIN-SUFFIX,youtube.com,YOUTUBE
 - DOMAIN-SUFFIX,youtu.be,YOUTUBE
 - DOMAIN-SUFFIX,youtube-nocookie.com,YOUTUBE
@@ -1395,7 +1404,6 @@ rules:
 - DOMAIN,stats.g.doubleclick.net,REJECT
 - DOMAIN,m.doubleclick.net,REJECT
 - DOMAIN,mediavisor.doubleclick.net,REJECT
-- DOMAIN,ads30.adcolony.com,REJECT
 - DOMAIN,adc3-launch.adcolony.com,REJECT
 - DOMAIN,events3alt.adcolony.com,REJECT
 - DOMAIN,wd.adcolony.com,REJECT
@@ -1471,10 +1479,8 @@ rules:
 - DOMAIN,metrika.yandex.ru,REJECT
 - DOMAIN,offerwall.yandex.net,REJECT
 - DOMAIN,adfox.yandex.ru,REJECT
-- DOMAIN,auction.unityads.unity3d.com,REJECT
 - DOMAIN,webview.unityads.unity3d.com,REJECT
 - DOMAIN,config.unityads.unity3d.com,REJECT
-- DOMAIN,adserver.unityads.unity3d.com,REJECT
 - DOMAIN,iot-eu-logser.realme.com,REJECT
 - DOMAIN,iot-logser.realme.com,REJECT
 - DOMAIN,bdapi-ads.realmemobile.com,REJECT

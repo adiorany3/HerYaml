@@ -1089,6 +1089,15 @@ rules:
 - DOMAIN-SUFFIX,googleadapis.com,REJECT
 - DOMAIN,mobileads.google.com,REJECT
 - DOMAIN,pagead.l.google.com,REJECT
+- DOMAIN-KEYWORD,888xhruby,REJECT
+- DOMAIN-KEYWORD,888xruby,REJECT
+- DOMAIN,ads30.adcolony.com,REJECT
+- DOMAIN,auction.unityads.unity3d.com,REJECT
+- DOMAIN,adserver.unityads.unity3d.com,REJECT
+- DOMAIN,rt.applovin.com,REJECT
+- DOMAIN,api.vungle.com,REJECT
+- DOMAIN,api.fyber.com,REJECT
+- DOMAIN,live.chartboost.com,REJECT
 - DOMAIN,adservice.google.com,REJECT
 - DOMAIN,stats.g.doubleclick.net,REJECT
 - DOMAIN,m.doubleclick.net,REJECT
