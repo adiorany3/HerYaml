@@ -723,75 +723,7 @@ dns:
   - tls://family.dns.bebasid.com:853
   fallback-lazy-query: false
 proxies:
-- name: AKUN-001-CLOUDFLARE-VLESS-WS-81MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: d6828805-5608-44d7-a44b-976d4c3ac2d0
-  udp: true
-  tls: true
-  servername: 0LG3u92i0exN577l3Mc637Ycba3.SfgsfgSfGFSGSf-4630.wOrkeRS.dEv
-  network: ws
-  client-fingerprint: unsafe
-  skip-cert-verify: true
-  ws-opts:
-    path: /vl/5ibXbgAYxWzwbOtkXJWUtvKMKOYjh?ed
-    headers:
-      Host: 0LG3u92i0exN577l3Mc637Ycba3.SfgsfgSfGFSGSf-4630.wOrkeRS.dEv
-  alpn:
-  - http/1.1
-- name: AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 02b4d39e-78f7-47d9-8642-40681ce82774
-  udp: true
-  tls: true
-  servername: 4tRidhN78VTo4-YTfh2zEk04bZafczH.adE-1020.WoRkerS.DEV
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  ws-opts:
-    path: /vl/T0IOBIyj9Os1gomVjXHwqXd2tTW7?ed=2560
-    headers:
-      Host: 4tridhn78vto4-ytfh2zek04bzafczh.ade-1020.workers.dev
-- name: AKUN-003-UK-GB-DCL-01-20191003-VLESS-WS-86MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
-  udp: true
-  tls: true
-  servername: jamph131-1228.pages.dev
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /Telegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3
-    headers:
-      Host: jamph131-1228.pages.dev
-  alpn:
-  - http/1.1
-- name: AKUN-004-CLOUDFLARE-VLESS-WS-78MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 9952b71a-6c86-4522-888f-ff9ea9b93536
-  udp: true
-  tls: true
-  servername: 1.hshs8227shhshs.workers.dev
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: 1.hshs8227shhshs.workers.dev
-  alpn:
-  - http/1.1
-- name: AKUN-005-CLOUDFLARE-VLESS-WS-75MS
+- name: AKUN-001-CLOUDFLARE-VLESS-WS-76MS
   type: vless
   server: 104.17.3.81
   port: 443
@@ -808,41 +740,92 @@ proxies:
     path: /vl/P7l2zlifeGb5UNmfWMkoVakVd
     headers:
       Host: 5xgovtCYqgoh5tEDRLJ6Sg--sn9PbH.mAHsApOdCSt.WOrKers.deV
-- name: AKUN-006-CLOUDFLARE-VLESS-WS-100MS
+- name: AKUN-002-UNKNOWN-VLESS-WS-78MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: 566c0473-382e-aabb-c62a-f5bb00000000
+  uuid: e8d06b09-acd9-448c-9874-3c36151d36ee
   udp: true
   tls: true
-  servername: ez-4b5fd4.appelidmymat.workers.dev
+  servername: icy-wildflower-2590.lihuifeng595.workers.dev
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /sync
+    path: /?ed=2048
     headers:
-      Host: ez-4b5fd4.appelidmymat.workers.dev
+      Host: icy-wildflower-2590.lihuifeng595.workers.dev
   alpn:
   - http/1.1
-- name: AKUN-007-CLOUDFLARE-VLESS-WS-73MS
+- name: AKUN-003-UNKNOWN-VLESS-WS-155MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
   udp: true
   tls: true
-  servername: powered-by-surena.configfarsi695fd42d43c58.workers.dev
+  servername: kkkk-bq7.pages.dev
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /?ed
+    path: /
     headers:
-      Host: powered-by-surena.configfarsi695fd42d43c58.workers.dev
+      Host: kkkk-bq7.pages.dev
   alpn:
   - http/1.1
-- name: AKUN-008-CLOUDFLARE-VLESS-WS-78MS
+- name: AKUN-004-CLOUDFLARE-VLESS-WS-76MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 33918b20-9e02-4dc6-8b30-79b2d4b2e0e6
+  udp: true
+  tls: true
+  servername: auto-scale-238b2b.infra-core-1630dd.workers.dev
+  network: ws
+  client-fingerprint: unsafe
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /eyJqdW5rIjoiUjJBU3JkVlRwSWtnciIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0
+    headers:
+      Host: auto-scale-238b2b.infra-core-1630dd.workers.dev
+- name: AKUN-005-CLOUDFLARE-VLESS-WS-82MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 22424ee2-6fe3-42ca-9749-6d4c5a8acc82
+  udp: true
+  tls: true
+  servername: tn1r.eu.cc
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /id-pusat
+    headers:
+      Host: tn1r.eu.cc
+- name: AKUN-006-CLOUDFLARE-VLESS-WS-80MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 0659eac3-137b-4002-ba2e-88da4d071235
+  udp: true
+  tls: true
+  servername: pruritus.patiromer.workers.dev
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      Host: pruritus.patiromer.workers.dev
+  alpn:
+  - http/1.1
+- name: AKUN-007-CLOUDFLARE-VLESS-WS-75MS
   type: vless
   server: 104.17.3.81
   port: 443
@@ -859,23 +842,40 @@ proxies:
     path: /vl/G4J8aNAVZt9KdOjjcfZDFDRI1Obr5E0?ed=2560
     headers:
       Host: to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev
-- name: AKUN-009-CLOUDFLARE-VLESS-WS-77MS
+- name: AKUN-008-CLOUDFLARE-VLESS-WS-78MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: 513beae3-56e7-4954-a17e-930e06237b27
+  uuid: 419b7a2c-9fa2-4870-b58a-0498ccc7d6c4
   udp: true
   tls: true
-  servername: CfOI-2FX16g3-8rY2kdXmCJ.WJeSv2ILA3rXbUhpC2NSugRAchGaWK.WOrkeRs.DEV
+  servername: sERveR16.pEeKCoNFIg.worKerS.DeV
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
+  ws-opts:
+    path: /eyJqdW5rIjoiYXdUWFpSYnZubU5hIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0
+    headers:
+      Host: server16.peekconfig.workers.dev
   alpn:
   - http/1.1
+- name: AKUN-009-VULTR-VLESS-WS-170MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+  udp: true
+  tls: true
+  servername: mia9.pages.dev
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
   ws-opts:
-    path: /vl/3wSAeuGJbrGHwJ45DA6ircvHC6
+    path: /TG:@MiaChatChannel
     headers:
-      Host: cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev
+      Host: mia9.pages.dev
+  alpn:
+  - http/1.1
 - name: MANUAL-VMess-WS-TLS-443-ikada543
   type: vmess
   server: 104.17.3.81
@@ -957,14 +957,14 @@ proxy-groups:
 - name: AI-OPENAI
   type: fallback
   proxies:
-  - AKUN-007-CLOUDFLARE-VLESS-WS-73MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-005-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-009-CLOUDFLARE-VLESS-WS-77MS
-  - AKUN-004-CLOUDFLARE-VLESS-WS-78MS
+  - AKUN-007-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-001-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-004-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-002-UNKNOWN-VLESS-WS-78MS
   - AKUN-008-CLOUDFLARE-VLESS-WS-78MS
-  - AKUN-001-CLOUDFLARE-VLESS-WS-81MS
-  - AKUN-003-UK-GB-DCL-01-20191003-VLESS-WS-86MS
+  - AKUN-006-CLOUDFLARE-VLESS-WS-80MS
+  - AKUN-005-CLOUDFLARE-VLESS-WS-82MS
+  - AKUN-003-UNKNOWN-VLESS-WS-155MS
   url: https://chatgpt.com/favicon.ico
   interval: 300
   lazy: true
@@ -974,14 +974,14 @@ proxy-groups:
 - name: AI-CLAUDE
   type: fallback
   proxies:
-  - AKUN-007-CLOUDFLARE-VLESS-WS-73MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-005-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-009-CLOUDFLARE-VLESS-WS-77MS
-  - AKUN-004-CLOUDFLARE-VLESS-WS-78MS
+  - AKUN-007-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-001-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-004-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-002-UNKNOWN-VLESS-WS-78MS
   - AKUN-008-CLOUDFLARE-VLESS-WS-78MS
-  - AKUN-001-CLOUDFLARE-VLESS-WS-81MS
-  - AKUN-003-UK-GB-DCL-01-20191003-VLESS-WS-86MS
+  - AKUN-006-CLOUDFLARE-VLESS-WS-80MS
+  - AKUN-005-CLOUDFLARE-VLESS-WS-82MS
+  - AKUN-003-UNKNOWN-VLESS-WS-155MS
   url: https://claude.ai/favicon.ico
   interval: 300
   lazy: true
@@ -991,14 +991,14 @@ proxy-groups:
 - name: AI-GEMINI
   type: fallback
   proxies:
-  - AKUN-007-CLOUDFLARE-VLESS-WS-73MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-005-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-009-CLOUDFLARE-VLESS-WS-77MS
-  - AKUN-004-CLOUDFLARE-VLESS-WS-78MS
+  - AKUN-007-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-001-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-004-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-002-UNKNOWN-VLESS-WS-78MS
   - AKUN-008-CLOUDFLARE-VLESS-WS-78MS
-  - AKUN-001-CLOUDFLARE-VLESS-WS-81MS
-  - AKUN-003-UK-GB-DCL-01-20191003-VLESS-WS-86MS
+  - AKUN-006-CLOUDFLARE-VLESS-WS-80MS
+  - AKUN-005-CLOUDFLARE-VLESS-WS-82MS
+  - AKUN-003-UNKNOWN-VLESS-WS-155MS
   url: https://gemini.google.com/favicon.ico
   interval: 300
   lazy: true
@@ -1008,14 +1008,14 @@ proxy-groups:
 - name: AI-OTHER
   type: fallback
   proxies:
-  - AKUN-007-CLOUDFLARE-VLESS-WS-73MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-005-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-009-CLOUDFLARE-VLESS-WS-77MS
-  - AKUN-004-CLOUDFLARE-VLESS-WS-78MS
+  - AKUN-007-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-001-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-004-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-002-UNKNOWN-VLESS-WS-78MS
   - AKUN-008-CLOUDFLARE-VLESS-WS-78MS
-  - AKUN-001-CLOUDFLARE-VLESS-WS-81MS
-  - AKUN-003-UK-GB-DCL-01-20191003-VLESS-WS-86MS
+  - AKUN-006-CLOUDFLARE-VLESS-WS-80MS
+  - AKUN-005-CLOUDFLARE-VLESS-WS-82MS
+  - AKUN-003-UNKNOWN-VLESS-WS-155MS
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true
@@ -1025,14 +1025,14 @@ proxy-groups:
 - name: AI-STABLE
   type: fallback
   proxies:
-  - AKUN-007-CLOUDFLARE-VLESS-WS-73MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-005-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-009-CLOUDFLARE-VLESS-WS-77MS
-  - AKUN-004-CLOUDFLARE-VLESS-WS-78MS
+  - AKUN-007-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-001-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-004-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-002-UNKNOWN-VLESS-WS-78MS
   - AKUN-008-CLOUDFLARE-VLESS-WS-78MS
-  - AKUN-001-CLOUDFLARE-VLESS-WS-81MS
-  - AKUN-003-UK-GB-DCL-01-20191003-VLESS-WS-86MS
+  - AKUN-006-CLOUDFLARE-VLESS-WS-80MS
+  - AKUN-005-CLOUDFLARE-VLESS-WS-82MS
+  - AKUN-003-UNKNOWN-VLESS-WS-155MS
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true
@@ -1042,7 +1042,7 @@ proxy-groups:
 - name: AI-BACKUP
   type: fallback
   proxies:
-  - AKUN-006-CLOUDFLARE-VLESS-WS-100MS
+  - AKUN-009-VULTR-VLESS-WS-170MS
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true
@@ -1078,15 +1078,15 @@ proxy-groups:
 - name: PING-CHECK
   type: url-test
   proxies:
-  - AKUN-001-CLOUDFLARE-VLESS-WS-81MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-003-UK-GB-DCL-01-20191003-VLESS-WS-86MS
-  - AKUN-004-CLOUDFLARE-VLESS-WS-78MS
-  - AKUN-005-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-006-CLOUDFLARE-VLESS-WS-100MS
-  - AKUN-007-CLOUDFLARE-VLESS-WS-73MS
+  - AKUN-001-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-002-UNKNOWN-VLESS-WS-78MS
+  - AKUN-003-UNKNOWN-VLESS-WS-155MS
+  - AKUN-004-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-005-CLOUDFLARE-VLESS-WS-82MS
+  - AKUN-006-CLOUDFLARE-VLESS-WS-80MS
+  - AKUN-007-CLOUDFLARE-VLESS-WS-75MS
   - AKUN-008-CLOUDFLARE-VLESS-WS-78MS
-  - AKUN-009-CLOUDFLARE-VLESS-WS-77MS
+  - AKUN-009-VULTR-VLESS-WS-170MS
   - MANUAL-VMess-WS-TLS-443-ikada543
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
@@ -1101,10 +1101,10 @@ proxy-groups:
 - name: WARM-UP
   type: url-test
   proxies:
-  - AKUN-007-CLOUDFLARE-VLESS-WS-73MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-005-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-009-CLOUDFLARE-VLESS-WS-77MS
+  - AKUN-007-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-001-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-004-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-002-UNKNOWN-VLESS-WS-78MS
   url: https://www.gstatic.com/generate_204
   interval: 60
   tolerance: 150
@@ -1115,10 +1115,10 @@ proxy-groups:
 - name: WARM-UP-CF
   type: url-test
   proxies:
-  - AKUN-007-CLOUDFLARE-VLESS-WS-73MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-005-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-009-CLOUDFLARE-VLESS-WS-77MS
+  - AKUN-007-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-001-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-004-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-008-CLOUDFLARE-VLESS-WS-78MS
   url: https://cp.cloudflare.com
   interval: 90
   tolerance: 150
@@ -1129,11 +1129,11 @@ proxy-groups:
 - name: STREAMING-FAST
   type: url-test
   proxies:
-  - AKUN-007-CLOUDFLARE-VLESS-WS-73MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-005-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-009-CLOUDFLARE-VLESS-WS-77MS
-  - AKUN-004-CLOUDFLARE-VLESS-WS-78MS
+  - AKUN-007-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-001-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-004-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-008-CLOUDFLARE-VLESS-WS-78MS
+  - AKUN-002-UNKNOWN-VLESS-WS-78MS
   url: https://cp.cloudflare.com
   interval: 180
   tolerance: 150
@@ -1144,7 +1144,7 @@ proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
-  - AKUN-008-CLOUDFLARE-VLESS-WS-78MS
+  - AKUN-006-CLOUDFLARE-VLESS-WS-80MS
   url: https://www.gstatic.com/generate_204
   interval: 180
   tolerance: 150
@@ -1155,15 +1155,15 @@ proxy-groups:
 - name: FALLBACK
   type: fallback
   proxies:
-  - AKUN-007-CLOUDFLARE-VLESS-WS-73MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-005-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-009-CLOUDFLARE-VLESS-WS-77MS
-  - AKUN-004-CLOUDFLARE-VLESS-WS-78MS
+  - AKUN-007-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-001-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-004-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-002-UNKNOWN-VLESS-WS-78MS
   - AKUN-008-CLOUDFLARE-VLESS-WS-78MS
-  - AKUN-001-CLOUDFLARE-VLESS-WS-81MS
-  - AKUN-003-UK-GB-DCL-01-20191003-VLESS-WS-86MS
-  - AKUN-006-CLOUDFLARE-VLESS-WS-100MS
+  - AKUN-006-CLOUDFLARE-VLESS-WS-80MS
+  - AKUN-005-CLOUDFLARE-VLESS-WS-82MS
+  - AKUN-003-UNKNOWN-VLESS-WS-155MS
+  - AKUN-009-VULTR-VLESS-WS-170MS
   - MANUAL-VMess-WS-TLS-443-ikada543
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
@@ -1447,8 +1447,11 @@ rules:
 - DOMAIN-SUFFIX,speedtestcustom.com,GLOBAL
 - DOMAIN,000333casino.com,REJECT
 - DOMAIN,00casino.com,REJECT
+- DOMAIN,10-casino.net,REJECT
+- DOMAIN,1800casinos.net,REJECT
 - DOMAIN,1joycasino.club,REJECT
 - DOMAIN,1kcasino.com,REJECT
+- DOMAIN,1stwikicasino.com,REJECT
 - DOMAIN,1win-casino.fr,REJECT
 - DOMAIN,1win-casinos.fr,REJECT
 - DOMAIN,1wincasino.fr,REJECT
@@ -1460,13 +1463,8 @@ rules:
 - DOMAIN,20betcasinoonline.com,REJECT
 - DOMAIN,21casino-online.de,REJECT
 - DOMAIN,22betcasino.fr,REJECT
-- DOMAIN,29black-casino.fr,REJECT
 - DOMAIN,400bonuscasino.com,REJECT
-- DOMAIN,4xcasino.ru,REJECT
 - DOMAIN,5-best-online-casinos.com,REJECT
-- DOMAIN,5-gringos-casino.fr,REJECT
-- DOMAIN,5gringocasino.fr,REJECT
-- DOMAIN,77-casino.fr,REJECT
 - DOMAIN,770casino-online.fr,REJECT
 - DOMAIN,777casino-france.fr,REJECT
 - DOMAIN,7gamescasino.fr,REJECT
@@ -1476,6 +1474,7 @@ rules:
 - DOMAIN,adnetwork.bet,REJECT
 - DOMAIN,ads.betmgm.bet.br,REJECT
 - DOMAIN,ads.brazino777.bet.br,REJECT
+- DOMAIN,ads.netflix.com,REJECT
 - DOMAIN,ads.roku.com,REJECT
 - DOMAIN,ads.rokuapi.net,REJECT
 - DOMAIN,ads.spotify.com,REJECT
@@ -1500,17 +1499,19 @@ rules:
 - DOMAIN,amonbetcasino-fr.fr,REJECT
 - DOMAIN,amoncasinofr.fr,REJECT
 - DOMAIN,anaktogel.com,REJECT
-- DOMAIN,analytics.m7g.twitch.tv,REJECT
+- DOMAIN,andromedasinocasino.fr,REJECT
+- DOMAIN,anonymouscasino.fr,REJECT
+- DOMAIN,aphroditecasinoo.fr,REJECT
+- DOMAIN,aphroditescasino.fr,REJECT
+- DOMAIN,apple-pay-casino.de,REJECT
 - DOMAIN,argent-reel-casino.fr,REJECT
+- DOMAIN,arjel-casino.fr,REJECT
 - DOMAIN,arlequincasino-enligne.fr,REJECT
 - DOMAIN,aruba-bet-casinoofficiel.fr,REJECT
 - DOMAIN,arubabetcasino.fr,REJECT
 - DOMAIN,azurcasino-enligne.fr,REJECT
-- DOMAIN,b-wincasino.fr,REJECT
 - DOMAIN,b7casino-enligne.fr,REJECT
-- DOMAIN,b7casino1.fr,REJECT
 - DOMAIN,bacanaplay-casino.fr,REJECT
-- DOMAIN,bananziacasino.fr,REJECT
 - DOMAIN,bank-on-bet-casino.fr,REJECT
 - DOMAIN,banner.syairtogelx.com,REJECT
 - DOMAIN,bassbet-casino-fr.fr,REJECT
@@ -1518,8 +1519,8 @@ rules:
 - DOMAIN,bassbetcasino-online.de,REJECT
 - DOMAIN,bdm-betcasino.fr,REJECT
 - DOMAIN,bdmbetcasinofrance.fr,REJECT
-- DOMAIN,bearo-casino.fr,REJECT
 - DOMAIN,beef-casino-aktionscode.de,REJECT
+- DOMAIN,beef-casino.fr,REJECT
 - DOMAIN,beef-online-casino-de.de,REJECT
 - DOMAIN,beonbet-casino.fr,REJECT
 - DOMAIN,bet-on-redcasino.fr,REJECT
@@ -1597,7 +1598,6 @@ rules:
 - DOMAIN,brutal-casino-24.fr,REJECT
 - DOMAIN,brutal-casinos.fr,REJECT
 - DOMAIN,brutalcasino-en-ligne.fr,REJECT
-- DOMAIN,btccasinoexpert.com,REJECT
 - DOMAIN,burancasinobonus.fr,REJECT
 - DOMAIN,bwin-casino.fr,REJECT
 - DOMAIN,bwincasino.fr,REJECT
@@ -1616,12 +1616,17 @@ rules:
 - DOMAIN,cashedcasinofr.fr,REJECT
 - DOMAIN,cashobetcasino-fr.fr,REJECT
 - DOMAIN,casino-770fr.fr,REJECT
-- DOMAIN,casino-ad-mediation.me2zengame.com,REJECT
 - DOMAIN,casino-amonbet.fr,REJECT
+- DOMAIN,casino-amunra.fr,REJECT
 - DOMAIN,casino-betzino.fr,REJECT
 - DOMAIN,casino-captainjack.fr,REJECT
+- DOMAIN,casino-casombie.fr,REJECT
+- DOMAIN,casino-celsius.fr,REJECT
 - DOMAIN,casino-divaspin.fr,REJECT
 - DOMAIN,casino-dragonia-online.de,REJECT
+- DOMAIN,casino-estrella.fr,REJECT
+- DOMAIN,casino-fatboss.fr,REJECT
+- DOMAIN,casino-fatpirate.fr,REJECT
 - DOMAIN,casino-friday-roll.fr,REJECT
 - DOMAIN,casino-fridayroll.fr,REJECT
 - DOMAIN,casino-funbet.fr,REJECT
@@ -1630,25 +1635,48 @@ rules:
 - DOMAIN,casino-infinity-online-de.xyz,REJECT
 - DOMAIN,casino-instant-online.de,REJECT
 - DOMAIN,casino-kinbet-online.de,REJECT
+- DOMAIN,casino-labofficiel.fr,REJECT
 - DOMAIN,casino-leon-online.fr,REJECT
+- DOMAIN,casino-mafia-france.fr,REJECT
+- DOMAIN,casino-mafia1.fr,REJECT
 - DOMAIN,casino-mega-dice.fr,REJECT
+- DOMAIN,casino-nic.fr,REJECT
+- DOMAIN,casino-nine-fr.fr,REJECT
+- DOMAIN,casino-pampago.fr,REJECT
+- DOMAIN,casino-posido.fr,REJECT
 - DOMAIN,casino-prive-fr.fr,REJECT
 - DOMAIN,casino-prive-france.fr,REJECT
+- DOMAIN,casino-roby.fr,REJECT
 - DOMAIN,casino-shinywilds.fr,REJECT
 - DOMAIN,casino-spinit.fr,REJECT
+- DOMAIN,casino-sugar.fr,REJECT
+- DOMAIN,casino-tikitaka.fr,REJECT
+- DOMAIN,casino-touch.fr,REJECT
+- DOMAIN,casino-trino-online.de,REJECT
 - DOMAIN,casino-viggoslots.fr,REJECT
+- DOMAIN,casino-winner.fr,REJECT
 - DOMAIN,casino.betsson.com,REJECT
+- DOMAIN,casino1win.fr,REJECT
+- DOMAIN,casino2win.net,REJECT
+- DOMAIN,casino38.net,REJECT
+- DOMAIN,casinoaphrodite.fr,REJECT
+- DOMAIN,casinobassbet.fr,REJECT
+- DOMAIN,casinobetclic.fr,REJECT
+- DOMAIN,casinobrutal.fr,REJECT
+- DOMAIN,casinocasombie.fr,REJECT
+- DOMAIN,casinocrazytime.fr,REJECT
+- DOMAIN,casinoenlignefiable.fr,REJECT
+- DOMAIN,casinoestrella.fr,REJECT
+- DOMAIN,casinoextra-casino.fr,REJECT
 - DOMAIN,casinoextra-jouer.fr,REJECT
 - DOMAIN,casinoextra-officiel.fr,REJECT
-- DOMAIN,casinogame.fr,REJECT
-- DOMAIN,casinogxmble.fr,REJECT
+- DOMAIN,casinohappyhugo.fr,REJECT
 - DOMAIN,casinohugobets.fr,REJECT
 - DOMAIN,casinoinfinity-fr.fr,REJECT
 - DOMAIN,casinoinfinity-official.fr,REJECT
 - DOMAIN,casinoinfinity.link,REJECT
 - DOMAIN,casinoinfinityy.fr,REJECT
 - DOMAIN,casinointense-fr.fr,REJECT
-- DOMAIN,casinoist-fr.fr,REJECT
 - DOMAIN,casinojoka-fr.fr,REJECT
 - DOMAIN,casinojoka-france.fr,REJECT
 - DOMAIN,casinolabfrance.fr,REJECT
@@ -1665,9 +1693,25 @@ rules:
 - DOMAIN,casinolyenligne.fr,REJECT
 - DOMAIN,casinomad.fr,REJECT
 - DOMAIN,casinomalina.fr,REJECT
+- DOMAIN,casinomanga.fr,REJECT
+- DOMAIN,casinomax1.fr,REJECT
+- DOMAIN,casinomonsterwin.fr,REJECT
+- DOMAIN,casinonevadawin.fr,REJECT
+- DOMAIN,casinonic.fr,REJECT
+- DOMAIN,casinonight-enligne.fr,REJECT
+- DOMAIN,casinonight-france.fr,REJECT
+- DOMAIN,casinonight1.fr,REJECT
+- DOMAIN,casinonightenligne.fr,REJECT
+- DOMAIN,casinoninlay.fr,REJECT
 - DOMAIN,casinonixbet-fr.fr,REJECT
-- DOMAIN,casinos-argentreel.fr,REJECT
-- DOMAIN,casinos-mobile.fr,REJECT
+- DOMAIN,casinopampago.fr,REJECT
+- DOMAIN,casinopeaches-enligne.fr,REJECT
+- DOMAIN,casinopino.info,REJECT
+- DOMAIN,casinopolestar.fr,REJECT
+- DOMAIN,casinoprestiges.fr,REJECT
+- DOMAIN,casinoprivefrance.fr,REJECT
+- DOMAIN,casinoresenas.com,REJECT
+- DOMAIN,casinorocket.org,REJECT
 - DOMAIN,casinosambaslots.fr,REJECT
 - DOMAIN,casinoslot-fr.fr,REJECT
 - DOMAIN,casinoslot1.fr,REJECT
@@ -1675,15 +1719,19 @@ rules:
 - DOMAIN,casinoslott.fr,REJECT
 - DOMAIN,casinospinaura.fr,REJECT
 - DOMAIN,casinospinit.fr,REJECT
+- DOMAIN,casinosspinbara.fr,REJECT
 - DOMAIN,casinostars-en-ligne.fr,REJECT
 - DOMAIN,casinostars-enligne.fr,REJECT
+- DOMAIN,casinostars-fr.fr,REJECT
+- DOMAIN,casinotalismania.fr,REJECT
+- DOMAIN,casinototal.fr,REJECT
+- DOMAIN,casinotouch.fr,REJECT
+- DOMAIN,casinotowerrush.fr,REJECT
+- DOMAIN,casinotreasure.info,REJECT
+- DOMAIN,casinotrustdice.fr,REJECT
 - DOMAIN,casinova-en-ligne.fr,REJECT
 - DOMAIN,casinova-enligne.fr,REJECT
-- DOMAIN,casinova-officiel.fr,REJECT
 - DOMAIN,casinovegashero.fr,REJECT
-- DOMAIN,casinowinaura.fr,REJECT
-- DOMAIN,casinowonaco.fr,REJECT
-- DOMAIN,casinowyns.fr,REJECT
 - DOMAIN,casinozer-casinos-fr.fr,REJECT
 - DOMAIN,casinozer-casinos-france.fr,REJECT
 - DOMAIN,casinozer-online.fr,REJECT
@@ -1726,8 +1774,6 @@ rules:
 - DOMAIN,cresus-casinos-fr.fr,REJECT
 - DOMAIN,cresus-casinos-france.fr,REJECT
 - DOMAIN,cresuscasinofrance.fr,REJECT
-- DOMAIN,cresuscasinosfr.fr,REJECT
-- DOMAIN,cresusecasino.fr,REJECT
 - DOMAIN,crownslotscasino.fr,REJECT
 - DOMAIN,crownz-casino.fr,REJECT
 - DOMAIN,cryptorino-casino.fr,REJECT
@@ -1741,10 +1787,12 @@ rules:
 - DOMAIN,diproton-ads-prod-us-east-1.hulu.com.akadns.net,REJECT
 - DOMAIN,diproton-ads-prod-us-east-2.hulu.com.akadns.net,REJECT
 - DOMAIN,diproton-ads-prod-us-west-2.hulu.com.akadns.net,REJECT
+- DOMAIN,discowin-casino.fr,REJECT
 - DOMAIN,donbetcasinowin.fr,REJECT
 - DOMAIN,dragonia-casino-101.fr,REJECT
 - DOMAIN,dragonia-casino-online.com,REJECT
 - DOMAIN,dragonia-casino.fr,REJECT
+- DOMAIN,dragoniacasino.fr,REJECT
 - DOMAIN,dublinbetcasinoo.fr,REJECT
 - DOMAIN,dublinbetcasinos.fr,REJECT
 - DOMAIN,duelbitscasino.fr,REJECT
@@ -1763,7 +1811,6 @@ rules:
 - DOMAIN,fairplaycasino.fr,REJECT
 - DOMAIN,fam-bet-casino.fr,REJECT
 - DOMAIN,familytogel.fun,REJECT
-- DOMAIN,fanatics.bet,REJECT
 - DOMAIN,farocasino.fr,REJECT
 - DOMAIN,fastpaycasino.fr,REJECT
 - DOMAIN,fatbosscasinofrance.fr,REJECT
@@ -1789,14 +1836,21 @@ rules:
 - DOMAIN,galabingo-casino.fr,REJECT
 - DOMAIN,galabingocasino.fr,REJECT
 - DOMAIN,gamblezen-casino.fr,REJECT
+- DOMAIN,gg-bet.de,REJECT
+- DOMAIN,gg-bet.fr,REJECT
 - DOMAIN,ggbetcasino.de,REJECT
+- DOMAIN,godofcoinscasino.fr,REJECT
 - DOMAIN,godz-casino-fr.fr,REJECT
+- DOMAIN,gold-bet-online.fr,REJECT
 - DOMAIN,gold-spincasino.fr,REJECT
 - DOMAIN,golden-betcasino.fr,REJECT
 - DOMAIN,goldenbetcasinos.fr,REJECT
+- DOMAIN,goldencasino.fr,REJECT
+- DOMAIN,goldeneuro-casino.fr,REJECT
 - DOMAIN,goldenpandacasino-online.de,REJECT
+- DOMAIN,goldenpark-casino.fr,REJECT
+- DOMAIN,goldentiger-casino.fr,REJECT
 - DOMAIN,golisimocasinos.fr,REJECT
-- DOMAIN,golo-bet.fr,REJECT
 - DOMAIN,good-mancasino.fr,REJECT
 - DOMAIN,goodmancasino.fr,REJECT
 - DOMAIN,gorillacasino.fr,REJECT
@@ -1807,9 +1861,11 @@ rules:
 - DOMAIN,green-luck-casino.fr,REJECT
 - DOMAIN,gt-betcasino.fr,REJECT
 - DOMAIN,gtbetcasino.fr,REJECT
+- DOMAIN,gtcasino.fr,REJECT
 - DOMAIN,gxbet-casino.fr,REJECT
 - DOMAIN,h25casinoonline.org,REJECT
 - DOMAIN,happyhugocasino-official.fr,REJECT
+- DOMAIN,hermescasino-fr.fr,REJECT
 - DOMAIN,hi-spin-casino.fr,REJECT
 - DOMAIN,hi-spincasino.fr,REJECT
 - DOMAIN,highspin-casino.fr,REJECT
@@ -1822,10 +1878,13 @@ rules:
 - DOMAIN,hypercasino-fr.fr,REJECT
 - DOMAIN,ice-casino-games.pl,REJECT
 - DOMAIN,icecasino.com.pl,REJECT
+- DOMAIN,iledecasino.fr,REJECT
 - DOMAIN,incognitocasino-fr.fr,REJECT
 - DOMAIN,initogel.net,REJECT
+- DOMAIN,instancasino.fr,REJECT
 - DOMAIN,instant-casino-officiel.fr,REJECT
 - DOMAIN,instant-casino1.fr,REJECT
+- DOMAIN,instantanecasino.fr,REJECT
 - DOMAIN,instantcasino-official.fr,REJECT
 - DOMAIN,instantcasinofr.fr,REJECT
 - DOMAIN,instantcasinofrance.fr,REJECT
@@ -1870,6 +1929,7 @@ rules:
 - DOMAIN,legianocasinofr.fr,REJECT
 - DOMAIN,legzo-casino.net,REJECT
 - DOMAIN,lemon-casino.fr,REJECT
+- DOMAIN,leon-bet.xyz,REJECT
 - DOMAIN,leon-casino-online.fr,REJECT
 - DOMAIN,leon-casinofr.fr,REJECT
 - DOMAIN,leoncasinoenligne.fr,REJECT
@@ -1882,6 +1942,7 @@ rules:
 - DOMAIN,lollybetcasino.fr,REJECT
 - DOMAIN,lto.esportesdasorte.bet.br,REJECT
 - DOMAIN,lto.lottu.bet.br,REJECT
+- DOMAIN,lto.ona.bet.br,REJECT
 - DOMAIN,luck-casino.fr,REJECT
 - DOMAIN,luckcasino-fr.fr,REJECT
 - DOMAIN,luckcasino1.fr,REJECT
@@ -1901,26 +1962,32 @@ rules:
 - DOMAIN,machancecasinowin.fr,REJECT
 - DOMAIN,mad-casino-enligne.fr,REJECT
 - DOMAIN,mad-casinofr.fr,REJECT
+- DOMAIN,mad-casinoo.fr,REJECT
 - DOMAIN,madcasino-enligne.fr,REJECT
 - DOMAIN,madcasino-online.fr,REJECT
 - DOMAIN,madcasino.fr,REJECT
 - DOMAIN,madcasinofr.fr,REJECT
+- DOMAIN,madcasinoo.fr,REJECT
 - DOMAIN,mafia-casinoofficiel.fr,REJECT
 - DOMAIN,mafiacasinofr1.fr,REJECT
 - DOMAIN,magical-spin-casino.fr,REJECT
 - DOMAIN,magicwinscasino.fr,REJECT
 - DOMAIN,magius-casino-fr.fr,REJECT
 - DOMAIN,magius-casino1.fr,REJECT
+- DOMAIN,magiuscasino.fr,REJECT
 - DOMAIN,malina-casino-fr.fr,REJECT
 - DOMAIN,malinacasino-fr.fr,REJECT
 - DOMAIN,malinacasino-official.fr,REJECT
 - DOMAIN,malinacasino777.fr,REJECT
 - DOMAIN,malinacasinobonus.fr,REJECT
 - DOMAIN,malinacasinofrance.fr,REJECT
+- DOMAIN,manekispincasino.fr,REJECT
+- DOMAIN,martincasino-fr.fr,REJECT
 - DOMAIN,marvelcasino-online.de,REJECT
 - DOMAIN,matadorbetcasino.fr,REJECT
 - DOMAIN,matomo.filmcasino.at,REJECT
 - DOMAIN,megacasino-fr.fr,REJECT
+- DOMAIN,metamaskcasino.de,REJECT
 - DOMAIN,metawin-casino.fr,REJECT
 - DOMAIN,milioner-casino.fr,REJECT
 - DOMAIN,million-casino.fr,REJECT
@@ -1928,6 +1995,7 @@ rules:
 - DOMAIN,millioner-casino-france.fr,REJECT
 - DOMAIN,millionercasino-fr.fr,REJECT
 - DOMAIN,millionz-casino-france.fr,REJECT
+- DOMAIN,millionzcasino1.fr,REJECT
 - DOMAIN,monacojack-casino.fr,REJECT
 - DOMAIN,mondcasino-fr.fr,REJECT
 - DOMAIN,monkeyzino-casino.fr,REJECT
@@ -1945,16 +2013,21 @@ rules:
 - DOMAIN,mystakes-casino.fr,REJECT
 - DOMAIN,mzansi-casino.fr,REJECT
 - DOMAIN,n1betcasino.fr,REJECT
+- DOMAIN,nalucasino.fr,REJECT
+- DOMAIN,nano-game-ad-slot-api.erabitstudios.cn,REJECT
 - DOMAIN,naobet-casino.fr,REJECT
 - DOMAIN,napoleoncasino1.fr,REJECT
+- DOMAIN,national-casino.fr,REJECT
 - DOMAIN,neobetcasino.fr,REJECT
 - DOMAIN,neospincasino.fr,REJECT
 - DOMAIN,neue-online-casinos-2026.de,REJECT
 - DOMAIN,nine-casino-enligne.fr,REJECT
 - DOMAIN,nine-casino-official.fr,REJECT
+- DOMAIN,nine-casino1.fr,REJECT
 - DOMAIN,nine-casinosfr.fr,REJECT
 - DOMAIN,ninecasino-enligne.fr,REJECT
 - DOMAIN,ninecasino-joue.fr,REJECT
+- DOMAIN,ninecasino7.fr,REJECT
 - DOMAIN,ninecasinoapp.fr,REJECT
 - DOMAIN,ninecasinobet.fr,REJECT
 - DOMAIN,ninecasinobets.fr,REJECT
@@ -1973,26 +2046,40 @@ rules:
 - DOMAIN,nolimitcasino1.fr,REJECT
 - DOMAIN,nomaspin-casino.fr,REJECT
 - DOMAIN,nv-casino-online.fr,REJECT
+- DOMAIN,nvcasino.fr,REJECT
 - DOMAIN,nyx-betscasino.fr,REJECT
 - DOMAIN,nyxbet-casino7.fr,REJECT
 - DOMAIN,olybetcasino.fr,REJECT
 - DOMAIN,olympe-casino1.fr,REJECT
 - DOMAIN,olympecasino-france.fr,REJECT
 - DOMAIN,olympecasinofrance.fr,REJECT
+- DOMAIN,one-casino.fr,REJECT
 - DOMAIN,onecasino1.fr,REJECT
 - DOMAIN,online-casino-ohne-lizenz.de,REJECT
+- DOMAIN,online-leon-casino.fr,REJECT
+- DOMAIN,onlinecasinoparis.com,REJECT
+- DOMAIN,onlinecasinos77laos.com,REJECT
+- DOMAIN,onlinecasinositeindia.com,REJECT
 - DOMAIN,onlinecasinoslasvegas.com,REJECT
 - DOMAIN,onlinecasinosmitechtgeld.de,REJECT
 - DOMAIN,onlinecasinosohneverifizierung.de,REJECT
+- DOMAIN,onlineleon-casino.fr,REJECT
 - DOMAIN,only-spins-casino-fr.fr,REJECT
 - DOMAIN,onlyspins-casino-fr.fr,REJECT
 - DOMAIN,onlyspinscasino-fr.fr,REJECT
 - DOMAIN,onwincasino.fr,REJECT
+- DOMAIN,orozino-casino.fr,REJECT
 - DOMAIN,oscar-spincasino.fr,REJECT
 - DOMAIN,oscarspincasinos.fr,REJECT
 - DOMAIN,oshicasino-fr.fr,REJECT
 - DOMAIN,paf-casino.fr,REJECT
 - DOMAIN,pafcasino.fr,REJECT
+- DOMAIN,partypoker-casino.fr,REJECT
+- DOMAIN,pistolo-casino.fr,REJECT
+- DOMAIN,plan-bet.fr,REJECT
+- DOMAIN,planbet-casino.fr,REJECT
+- DOMAIN,planet7casino.fr,REJECT
+- DOMAIN,play-regalcasino.fr,REJECT
 - DOMAIN,playidcasino.fr,REJECT
 - DOMAIN,playjonny-bet.fr,REJECT
 - DOMAIN,playmojocasino.fr,REJECT
@@ -2005,16 +2092,25 @@ rules:
 - DOMAIN,posidocasino1.fr,REJECT
 - DOMAIN,posidocasinos.fr,REJECT
 - DOMAIN,posidoscasino.fr,REJECT
-- DOMAIN,posthog.casinoplus.top,REJECT
 - DOMAIN,prediksitogeljitu.in,REJECT
+- DOMAIN,prestige-casino.fr,REJECT
 - DOMAIN,primaplaycasino.fr,REJECT
 - DOMAIN,privecasino-fr.fr,REJECT
+- DOMAIN,qcasino.cc,REJECT
 - DOMAIN,quickwincasino1.fr,REJECT
+- DOMAIN,quickzcasino.fr,REJECT
+- DOMAIN,rakoo-casino.fr,REJECT
+- DOMAIN,real-casino.fr,REJECT
+- DOMAIN,realcasino1.fr,REJECT
 - DOMAIN,reelscasino.fr,REJECT
 - DOMAIN,retabet-casino.fr,REJECT
+- DOMAIN,retrozino-casino.fr,REJECT
 - DOMAIN,revolutioncasino-online.de,REJECT
 - DOMAIN,rewardscasino.fr,REJECT
 - DOMAIN,richardcasino-online.de,REJECT
+- DOMAIN,richardcasino.fr,REJECT
+- DOMAIN,rizzcasinos.fr,REJECT
+- DOMAIN,rizzcasinoz.fr,REJECT
 - DOMAIN,robocat-casino-fr.fr,REJECT
 - DOMAIN,roby-casino-france.fr,REJECT
 - DOMAIN,roby-casinos.fr,REJECT
@@ -2078,7 +2174,6 @@ rules:
 - DOMAIN,smetrics.casino.guru,REJECT
 - DOMAIN,smetrics.casino.org,REJECT
 - DOMAIN,sol-casino.fr,REJECT
-- DOMAIN,solcasino-user6.top,REJECT
 - DOMAIN,spin-aura-casino-fr.fr,REJECT
 - DOMAIN,spin-mama-casino.fr,REJECT
 - DOMAIN,spinania-casino.fr,REJECT
@@ -2107,25 +2202,21 @@ rules:
 - DOMAIN,sportazacasinofr.fr,REJECT
 - DOMAIN,sportingbetscasino.fr,REJECT
 - DOMAIN,sportunacasinobet.fr,REJECT
-- DOMAIN,sst.apostaganha.bet.br,REJECT
-- DOMAIN,sst.betesporte.bet.br,REJECT
 - DOMAIN,sst.vaidebet.bet.br,REJECT
 - DOMAIN,stake-casino-france.fr,REJECT
 - DOMAIN,stakecasino-fr.fr,REJECT
-- DOMAIN,staked-casino.fr,REJECT
 - DOMAIN,stakeprixcasino.fr,REJECT
-- DOMAIN,stape.betpontobet.bet.br,REJECT
-- DOMAIN,stape.pix.bet.br,REJECT
 - DOMAIN,stardacasinoonline.de,REJECT
 - DOMAIN,staxino-casino-888.fr,REJECT
+- DOMAIN,sugar-casino.fr,REJECT
 - DOMAIN,sumbawatogel.xyz,REJECT
 - DOMAIN,supa-bet-casino.fr,REJECT
 - DOMAIN,superbet-casino.fr,REJECT
 - DOMAIN,superspin-casino.fr,REJECT
-- DOMAIN,svenskaspelsportandcasino.data.adobedc.net,REJECT
 - DOMAIN,sweatbet-casino.fr,REJECT
 - DOMAIN,talismaniacasino1.fr,REJECT
 - DOMAIN,talksportcasino.fr,REJECT
+- DOMAIN,tantegacor88.link,REJECT
 - DOMAIN,tempobetcasino.fr,REJECT
 - DOMAIN,tenobet-casino.fr,REJECT
 - DOMAIN,the-crash-casino.co.uk,REJECT
@@ -2143,16 +2234,6 @@ rules:
 - DOMAIN,tortuga-casinos.fr,REJECT
 - DOMAIN,tortuga-slot.fr,REJECT
 - DOMAIN,tortugacasino-enligne.fr,REJECT
-- DOMAIN,tortugacasinofrance.fr,REJECT
-- DOMAIN,total-casino.fr,REJECT
-- DOMAIN,totalcasino-fr.fr,REJECT
-- DOMAIN,toto-casino.fr,REJECT
-- DOMAIN,totocasino.fr,REJECT
-- DOMAIN,touch-casinos.fr,REJECT
-- DOMAIN,touchcasinos.fr,REJECT
-- DOMAIN,traditioncasino-online.de,REJECT
-- DOMAIN,trickzcasino-fr.fr,REJECT
-- DOMAIN,trinocasino-fr.fr,REJECT
 - DOMAIN,trixinocasino.fr,REJECT
 - DOMAIN,trueluckcasino1.fr,REJECT
 - DOMAIN,tsars-casino.fr,REJECT
@@ -2166,10 +2247,8 @@ rules:
 - DOMAIN,ufabaccarat.bet,REJECT
 - DOMAIN,unibetcasino777.net,REJECT
 - DOMAIN,unibetcasinomt.xyz,REJECT
-- DOMAIN,unique-casino-fr.fr,REJECT
 - DOMAIN,uniquecasino-en-ligne.fr,REJECT
 - DOMAIN,uniquecasinofrance.fr,REJECT
-- DOMAIN,uspinme-casino.fr,REJECT
 - DOMAIN,vavecasino-official.fr,REJECT
 - DOMAIN,vavecasino1.fr,REJECT
 - DOMAIN,vavecasino365.fr,REJECT
@@ -2194,16 +2273,17 @@ rules:
 - DOMAIN,virgingamescasino.fr,REJECT
 - DOMAIN,vivalavita-casino.fr,REJECT
 - DOMAIN,vlad-casino.fr,REJECT
+- DOMAIN,vladcasino1.fr,REJECT
 - DOMAIN,vulkanvegascasino.at,REJECT
 - DOMAIN,wazamba-casino-fr.fr,REJECT
 - DOMAIN,wazambacasino-fr.fr,REJECT
 - DOMAIN,wazambacasinologin.fr,REJECT
 - DOMAIN,wbetz-casino.fr,REJECT
 - DOMAIN,wbetzcasino.fr,REJECT
+- DOMAIN,webcasinozone.com,REJECT
 - DOMAIN,weezy-bet.fr,REJECT
 - DOMAIN,westace-casino-365.fr,REJECT
 - DOMAIN,westacescasino.fr,REJECT
-- DOMAIN,wg87vip.bet,REJECT
 - DOMAIN,wild-dice-casinoofficiel.fr,REJECT
 - DOMAIN,wild-sultan-casino.fr,REJECT
 - DOMAIN,wildhub-casino.fr,REJECT
@@ -2220,9 +2300,13 @@ rules:
 - DOMAIN,winbeatzcasino.fr,REJECT
 - DOMAIN,winluxo-casino.fr,REJECT
 - DOMAIN,winnercasino-fr.fr,REJECT
-- DOMAIN,winnercasino-official.fr,REJECT
 - DOMAIN,winnerz-casino-online.de,REJECT
 - DOMAIN,winnerz-casino.fr,REJECT
+- DOMAIN,winorio-casino.fr,REJECT
+- DOMAIN,winota-casino.fr,REJECT
+- DOMAIN,winshark-casino.fr,REJECT
+- DOMAIN,wintailscasino.fr,REJECT
+- DOMAIN,winthere-casino.fr,REJECT
 - DOMAIN,winwin-casinos.fr,REJECT
 - DOMAIN,winz-casino.fr,REJECT
 - DOMAIN,winzcasino.fr,REJECT
@@ -2234,12 +2318,6 @@ rules:
 - DOMAIN,x3bet-casino.fr,REJECT
 - DOMAIN,x3betcasino.fr,REJECT
 - DOMAIN,x5bet.casino,REJECT
-- DOMAIN,yaacasino1.fr,REJECT
-- DOMAIN,yetizinocasino.fr,REJECT
-- DOMAIN,zazibetcasino.fr,REJECT
-- DOMAIN,zebet-casino.fr,REJECT
-- DOMAIN,zetcasino-france.fr,REJECT
-- DOMAIN,zumobet-casino.fr,REJECT
 - RULE-SET,threat-malware,REJECT
 - RULE-SET,threat-phishing,REJECT
 - RULE-SET,threat-cryptominers,REJECT
@@ -2509,6 +2587,7 @@ rules:
 - DOMAIN,advertising.netflix.com,REJECT
 - DOMAIN,beacon.netflix.com,REJECT
 - DOMAIN,ichnaea.netflix.com,REJECT
+- DOMAIN,analytics.m7g.twitch.tv,REJECT
 - DOMAIN,spade.twitch.tv,REJECT
 - DOMAIN-SUFFIX,popads.net,REJECT
 - DOMAIN-SUFFIX,popcash.net,REJECT
