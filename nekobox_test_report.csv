@@ -1,11 +1,9 @@
 name,type,network,original_server,bug_sni,mihomo_status,url_test_ms,nekobox_test_ms,nekobox_status,nekobox_ready
-AKUN-003-CLOUDFLARE-VLESS-WS-76MS,vless,ws,5xgovtcyqgoh5tedrlj6sg--sn9pbh.mahsapodcst.workers.dev,5xgovtCYqgoh5tEDRLJ6Sg--sn9PbH.mAHsApOdCSt.WOrKers.deV,HTTP 204,199,548,HTTP 204,yes
-AKUN-026-UNKNOWN-VLESS-WS-78MS,vless,ws,165.215.250.16,icy-wildflower-2590.lihuifeng595.workers.dev,HTTP 204,202,263,HTTP 204,yes
-AKUN-030-UNKNOWN-VLESS-WS-155MS,vless,ws,8.35.211.236,kkkk-bq7.pages.dev,HTTP 204,204,267,HTTP 204,yes
-AKUN-017-CLOUDFLARE-VLESS-WS-76MS,vless,ws,188.114.97.6,auto-scale-238b2b.infra-core-1630dd.workers.dev,HTTP 204,205,298,HTTP 204,yes
-AKUN-014-CLOUDFLARE-VLESS-WS-82MS,vless,ws,188.114.98.0,tn1r.eu.cc,HTTP 204,206,260,HTTP 204,yes
-AKUN-005-CLOUDFLARE-VLESS-WS-80MS,vless,ws,pruritus.patiromer.workers.dev,pruritus.patiromer.workers.dev,HTTP 204,211,237,HTTP 204,yes
-AKUN-032-CLOUDFLARE-VLESS-WS-75MS,vless,ws,104.17.148.22,to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev,HTTP 204,220,254,HTTP 204,yes
-AKUN-002-CLOUDFLARE-VLESS-WS-78MS,vless,ws,server16.peekconfig.workers.dev,sERveR16.pEeKCoNFIg.worKerS.DeV,HTTP 204,224,245,HTTP 204,yes
-AKUN-033-VULTR-VLESS-WS-170MS,vless,ws,45.32.248.168,mia9.pages.dev,HTTP 204,224,297,HTTP 204,yes
-AKUN-023-CLOUDFLARE-VLESS-WS-75MS,vless,ws,172.64.149.54,lATE-LaB-d6A2.CIwodA8715.WoRKerS.DeV,HTTP 204,224,185,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",no
+AKUN-003-NOTION-WEB-VLESS-WS-80MS,vless,ws,208.103.161.5,dry-butterfly-8eb9.tmpgnacio83.workers.dev,HTTP 204,211,6171,"ReadTimeout: HTTPSConnectionPool(host='www.gstatic.com', port=443): Read timed out. (read timeout=6.0)",no
+AKUN-004-BIGCOMMERCE-VLESS-WS-77MS,vless,ws,63.141.128.22,MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv,HTTP 204,228,253,HTTP 204,yes
+AKUN-002-CLOUDFLARE-VLESS-WS-79MS,vless,ws,104.21.70.21,super-sunset-010c.24-43d.workers.dev,HTTP 204,229,271,HTTP 204,yes
+AKUN-007-CLOUDFLARE-VLESS-WS-81MS,vless,ws,web-tomcat.pages.dev,web-tomcat.pages.dev,HTTP 204,234,238,HTTP 204,yes
+AKUN-006-CLOUDFLARE-VLESS-WS-78MS,vless,ws,188.114.97.6,FrEe.SeRVEr14peekCoNfIG.WoRKErS.dEV,HTTP 204,240,240,HTTP 204,yes
+AKUN-005-CLOUDFLARE-VLESS-WS-79MS,vless,ws,104.21.5.155,mSg-QUeUE-140448-edg.rOyaL-dISK-882F.woRkErS.DEv,HTTP 204,244,339,HTTP 204,yes
+AKUN-009-SEPPORATED-VLESS-WS-113MS,vless,ws,ams.sepporated.com,ams.sepporated.com,HTTP 204,245,269,HTTP 204,yes
+AKUN-010-OVH-VLESS-WS-242MS,vless,ws,149.202.58.99,bab-6.site,HTTP 204,3479,5305,HTTP 204,yes
