@@ -1,9 +1,10 @@
 name,type,network,original_server,bug_sni,mihomo_status,url_test_ms,nekobox_test_ms,nekobox_status,nekobox_ready
-AKUN-003-NOTION-WEB-VLESS-WS-80MS,vless,ws,208.103.161.5,dry-butterfly-8eb9.tmpgnacio83.workers.dev,HTTP 204,211,6171,"ReadTimeout: HTTPSConnectionPool(host='www.gstatic.com', port=443): Read timed out. (read timeout=6.0)",no
-AKUN-004-BIGCOMMERCE-VLESS-WS-77MS,vless,ws,63.141.128.22,MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv,HTTP 204,228,253,HTTP 204,yes
-AKUN-002-CLOUDFLARE-VLESS-WS-79MS,vless,ws,104.21.70.21,super-sunset-010c.24-43d.workers.dev,HTTP 204,229,271,HTTP 204,yes
-AKUN-007-CLOUDFLARE-VLESS-WS-81MS,vless,ws,web-tomcat.pages.dev,web-tomcat.pages.dev,HTTP 204,234,238,HTTP 204,yes
-AKUN-006-CLOUDFLARE-VLESS-WS-78MS,vless,ws,188.114.97.6,FrEe.SeRVEr14peekCoNfIG.WoRKErS.dEV,HTTP 204,240,240,HTTP 204,yes
-AKUN-005-CLOUDFLARE-VLESS-WS-79MS,vless,ws,104.21.5.155,mSg-QUeUE-140448-edg.rOyaL-dISK-882F.woRkErS.DEv,HTTP 204,244,339,HTTP 204,yes
-AKUN-009-SEPPORATED-VLESS-WS-113MS,vless,ws,ams.sepporated.com,ams.sepporated.com,HTTP 204,245,269,HTTP 204,yes
-AKUN-010-OVH-VLESS-WS-242MS,vless,ws,149.202.58.99,bab-6.site,HTTP 204,3479,5305,HTTP 204,yes
+AKUN-004-NOTION-WEB-VLESS-WS-78MS,vless,ws,208.103.161.5,dry-butterfly-8eb9.tmpgnacio83.workers.dev,HTTP 204,209,6171,"ReadTimeout: HTTPSConnectionPool(host='www.gstatic.com', port=443): Read timed out. (read timeout=6.0)",no
+AKUN-006-CLOUDFLARE-VLESS-WS-85MS,vless,ws,web-tomcat.pages.dev,web-tomcat.pages.dev,HTTP 204,233,235,HTTP 204,yes
+AKUN-003-BIGCOMMERCE-VLESS-WS-76MS,vless,ws,63.141.128.22,MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv,HTTP 204,234,235,HTTP 204,yes
+AKUN-007-CLOUDFLARE-VLESS-WS-85MS,vless,ws,104.21.5.155,mSg-QUeUE-140448-edg.rOyaL-dISK-882F.woRkErS.DEv,HTTP 204,239,242,HTTP 204,yes
+AKUN-010-SEPPORATED-VLESS-WS-107MS,vless,ws,ams.sepporated.com,ams.sepporated.com,HTTP 204,240,284,HTTP 204,yes
+AKUN-002-CLOUDFLARE-VLESS-WS-78MS,vless,ws,104.21.70.21,super-sunset-010c.24-43d.workers.dev,HTTP 204,244,257,HTTP 204,yes
+AKUN-001-CLOUDFLARE-VLESS-WS-77MS,vless,ws,188.114.97.6,FrEe.SeRVEr14peekCoNfIG.WoRKErS.dEV,HTTP 204,253,284,HTTP 204,yes
+AKUN-008-OVH-VLESS-WS-103MS,vless,ws,149.202.58.99,bab-6.site,HTTP 204,1128,701,HTTP 204,yes
+AKUN-013-CLOUDFLARE-VLESS-WS-375MS,vless,ws,188.114.97.6,a.cwvps.eu.org,HTTP 204,3240,5412,HTTP 204,yes
