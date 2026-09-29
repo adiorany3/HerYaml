@@ -259,6 +259,74 @@ proxies:
       Host: MSg-QUeue-140448-edg.royal-DiSk-882F.wORKErs.Dev
   alpn:
   - http/1.1
+- name: AKUN-001-CLOUDFLARE-VLESS-WS-78MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 15a05f72-8e49-408e-8337-9c4d418f2d43
+  udp: true
+  tls: true
+  servername: mSg-QUeUE-140448-edg.rOyaL-dISK-882F.woRkErS.DEv
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /?proxyip=37.152.182.54
+    headers:
+      Host: MSg-QUeue-140448-edg.royal-DiSk-882F.wORKErs.Dev
+  alpn:
+  - http/1.1
+- name: AKUN-002-FREIFUNKFRANKEN-VLESS-WS-335MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  servername: bab-6.site
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+  alpn:
+  - http/1.1
+- name: AKUN-001-FREIFUNKFRANKEN-VLESS-WS-124MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  servername: bab-6.site
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+  alpn:
+  - http/1.1
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-564MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+  alpn:
+  - http/1.1
 - name: MANUAL-VMess-WS-TLS-443-ikada543
   type: vmess
   server: 104.17.3.81
@@ -325,40 +393,40 @@ proxies:
     path: /effective-steps-to-cloud-computing/buy-vless-ws-pm-telegram-at-synricha
     headers:
       Host: atharva.web.id
-- name: AKUN-001-CLOUDFLARE-VLESS-WS-78MS
+- name: AKUN-003-CLOUDFLARE-VLESS-WS-76MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: 15a05f72-8e49-408e-8337-9c4d418f2d43
+  uuid: 0799a47d-d446-4a20-8e75-441fa899fbb1
   udp: true
   tls: true
-  servername: mSg-QUeUE-140448-edg.rOyaL-dISK-882F.woRkErS.DEv
+  servername: unnes.ac.id.r3xxe.eu.cc
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /?proxyip=37.152.182.54
+    path: /id-pusat
     headers:
-      Host: MSg-QUeue-140448-edg.royal-DiSk-882F.wORKErs.Dev
+      Host: unnes.ac.id.r3xxe.eu.cc
   alpn:
   - http/1.1
-- name: AKUN-002-FREIFUNKFRANKEN-VLESS-WS-335MS
+- name: AKUN-004-CLOUDFLARE-VLESS-WS-77MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  uuid: 0b41f339-5809-46ef-8351-b03fdc441539
   udp: true
   tls: true
-  servername: bab-6.site
+  servername: FpoiXF69hQT3E6d4URTB.MamADNEIZeH.WorKers.DEV
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
   alpn:
   - http/1.1
+  ws-opts:
+    path: /vl/lYNtP7z8pJUmfp01tz5wEnuDujJtZ
+    headers:
+      Host: FpoiXF69hQT3E6d4URTB.MamADNEIZeH.WorKers.DEV
 proxy-groups:
 - name: MANUAL
   type: select
@@ -368,8 +436,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-001-CLOUDFLARE-VLESS-WS-78MS
-  - AKUN-002-FREIFUNKFRANKEN-VLESS-WS-335MS
+  - AKUN-003-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-004-CLOUDFLARE-VLESS-WS-77MS
 rules:
 - DOMAIN,googleads.g.doubleclick.net,REJECT
 - DOMAIN,ad.doubleclick.net,REJECT
