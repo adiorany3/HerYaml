@@ -7,11 +7,45 @@
   "dns": {
     "servers": [
       {
+        "type": "https",
+        "tag": "dns-cloudflare",
+        "server": "1.1.1.1",
+        "server_port": 443,
+        "path": "/dns-query",
+        "tls": {
+          "enabled": true,
+          "server_name": "cloudflare-dns.com"
+        }
+      },
+      {
+        "type": "https",
+        "tag": "dns-google",
+        "server": "8.8.8.8",
+        "server_port": 443,
+        "path": "/dns-query",
+        "tls": {
+          "enabled": true,
+          "server_name": "dns.google"
+        }
+      },
+      {
         "type": "local",
         "tag": "local"
       }
     ],
-    "final": "local",
+    "rules": [
+      {
+        "domain_suffix": [
+          "reddit.com",
+          "redditmedia.com",
+          "redditstatic.com",
+          "redd.it",
+          "redditinc.com"
+        ],
+        "server": "dns-cloudflare"
+      }
+    ],
+    "final": "dns-cloudflare",
     "strategy": "prefer_ipv4"
   },
   "inbounds": [
@@ -168940,6 +168974,6 @@
     ],
     "final": "direct",
     "auto_detect_interface": true,
-    "default_domain_resolver": "local"
+    "default_domain_resolver": "dns-cloudflare"
   }
 }
