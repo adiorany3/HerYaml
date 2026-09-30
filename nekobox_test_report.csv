@@ -1,11 +1,4 @@
 name,type,network,original_server,bug_sni,mihomo_status,url_test_ms,nekobox_test_ms,nekobox_status,nekobox_ready
-AKUN-009-CLOUDFLARE-VLESS-WS-74MS,vless,ws,172.64.144.198,powered-by-surena.configfarsi695fd42d43c58.workers.dev,HTTP 204,201,232,HTTP 204,yes
-AKUN-010-NOTION-WEB-VLESS-WS-77MS,vless,ws,208.103.161.5,dry-butterfly-8eb9.tmpgnacio83.workers.dev,HTTP 204,203,6171,"ReadTimeout: HTTPSConnectionPool(host='www.gstatic.com', port=443): Read timed out. (read timeout=6.0)",no
-AKUN-008-CLOUDFLARE-VLESS-WS-77MS,vless,ws,104.21.61.42,001.inc-electrocell-001-001.workers.dev,HTTP 204,204,183,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",no
-AKUN-002-CLOUDFLARE-VLESS-WS-75MS,vless,ws,hi.n2foriran.workers.dev,hi.n2foriran.workers.dev,HTTP 204,206,6171,"ReadTimeout: HTTPSConnectionPool(host='www.gstatic.com', port=443): Read timed out. (read timeout=6.0)",no
-AKUN-012-CLOUDFLARE-VLESS-WS-80MS,vless,ws,pruritus.patiromer.workers.dev,pruritus.patiromer.workers.dev,HTTP 204,206,246,HTTP 204,yes
-AKUN-011-CLOUDFLARE-VLESS-WS-77MS,vless,ws,188.114.97.6,FrEe.SeRVEr14peekCoNfIG.WoRKErS.dEV,HTTP 204,212,239,HTTP 204,yes
-AKUN-003-CLOUDFLARE-VLESS-WS-74MS,vless,ws,104.21.70.21,super-sunset-010c.24-43d.workers.dev,HTTP 204,226,230,HTTP 204,yes
-AKUN-013-CLOUDFLARE-VLESS-WS-82MS,vless,ws,188.114.97.6,auto-scale-238b2b.infra-core-1630dd.workers.dev,HTTP 204,227,256,HTTP 204,yes
-AKUN-005-CLOUDFLARE-VLESS-WS-74MS,vless,ws,172.64.149.192,powered-by-surena.configfarsi695fd42d43c58.workers.dev,HTTP 204,228,254,HTTP 204,yes
-AKUN-007-CLOUDFLARE-VLESS-WS-75MS,vless,ws,medium.com,rAyAn-007.mAxImA.DpDnS.OrG,HTTP 204,228,228,HTTP 204,yes
+AKUN-006-FREIFUNKFRANKEN-VLESS-WS-346MS,vless,ws,81.95.4.189,bab-6.site,HTTP 204,1758,3018,HTTP 204,yes
+AKUN-007-CLOUDFLARE-VLESS-WS-581MS,vless,ws,188.114.97.6,a.cwvps.eu.org,HTTP 204,3371,5977,HTTP 204,yes
+AKUN-008-CLOUDFLARE-VLESS-WS-517MS,vless,ws,188.114.97.6,jp3.yohototo.top,HTTP 204,4687,6172,"ReadTimeout: HTTPSConnectionPool(host='www.gstatic.com', port=443): Read timed out. (read timeout=6.0)",no
