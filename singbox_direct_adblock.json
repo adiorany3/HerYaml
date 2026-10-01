@@ -169074,7 +169074,6 @@
           "dai.google.com",
           "decide.mixpanel.com",
           "doubleverify.com",
-          "facebook.com",
           "facebook.net",
           "fw.adsafeprotected.com",
           "images.taboola.com",
@@ -169089,8 +169088,6 @@
           "outcome-ssp.supersonicads.com",
           "pixel.adsafeprotected.com",
           "pubads.g.doubleclick.net",
-          "redirector.googlevideo.com",
-          "s.youtube.com",
           "s.adroll.com",
           "s3.amazonaws.com",
           "safebrowsing.googleapis.com",
@@ -169111,9 +169108,7 @@
           "www.google-analytics.com",
           "www.googletagmanager.com",
           "www.googleadservices.com",
-          "x.com",
-          "yandex.ru",
-          "youtubei.googleapis.com"
+          "yandex.ru"
         ],
         "action": "reject"
       }

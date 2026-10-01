@@ -2749,11 +2749,9 @@ rules:
 - DOMAIN,pixel.adsafeprotected.com,REJECT
 - DOMAIN,pixel.wp.com,REJECT
 - DOMAIN,pubmatic.com,REJECT
-- DOMAIN,redirector.googlevideo.com,REJECT
 - DOMAIN,refersion.com,REJECT
 - DOMAIN,revcontent.com,REJECT
 - DOMAIN,rubiconproject.com,REJECT
-- DOMAIN,s.youtube.com,REJECT
 - DOMAIN,s.adroll.com,REJECT
 - DOMAIN,s3.amazonaws.com,REJECT
 - DOMAIN,safebrowsing.googleapis.com,REJECT
@@ -2782,7 +2780,6 @@ rules:
 - DOMAIN,www.google-analytics.com,REJECT
 - DOMAIN,www.googletagmanager.com,REJECT
 - DOMAIN,yandex.ru,REJECT
-- DOMAIN,youtubei.googleapis.com,REJECT
 - MATCH,GLOBAL
 find-process-mode: 'off'
 hosts:
