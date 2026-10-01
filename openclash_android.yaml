@@ -1215,7 +1215,7 @@ rule-providers:
     type: http
     behavior: domain
     path: ./rule_providers/popup-ads_android.yaml
-    url: https://raw.githubusercontent.com/adiorany3/AkunYaml/HEAD/rule_providers/popup-ads_android.yaml
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/popup-ads_android.yaml
     interval: 43200
     format: yaml
   ads_domain:
