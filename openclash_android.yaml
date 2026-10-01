@@ -2620,6 +2620,8 @@ rules:
 - RULE-SET,ads_domain,REJECT
 - RULE-SET,anti-ad,REJECT
 - RULE-SET,tracker-domain,REJECT
+- DOMAIN,pagead2.googleadservices.com,REJECT
+- DOMAIN,afs.googlesyndication.com,REJECT
 - MATCH,GLOBAL
 find-process-mode: 'off'
 hosts:
