@@ -1117,6 +1117,11 @@ rule-providers:
     - .amazon-adsystem.com
     - .mopub.com
     - .adjoe.io
+  indonesia-gambling-research:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rule_providers/indonesia-gambling-research.yaml
 rules:
 - DOMAIN-SUFFIX,local,DIRECT
 - DOMAIN-SUFFIX,lan,DIRECT
@@ -2096,6 +2101,7 @@ rules:
 - RULE-SET,threat-tif-mini,REJECT
 - RULE-SET,gambling-mini,REJECT
 - RULE-SET,gambling-regex,REJECT
+- RULE-SET,indonesia-gambling-research,REJECT
 - RULE-SET,adult-category,REJECT
 - RULE-SET,adult-local,REJECT
 - RULE-SET,pinjol-local,REJECT

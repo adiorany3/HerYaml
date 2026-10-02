@@ -875,6 +875,7 @@ rules:
 - RULE-SET,threat-tif-mini,REJECT
 - RULE-SET,gambling-mini,REJECT
 - RULE-SET,gambling-regex,REJECT
+- RULE-SET,indonesia-gambling-research,REJECT
 - RULE-SET,adult-category,REJECT
 - RULE-SET,adult-local,REJECT
 - RULE-SET,pinjol-local,REJECT
@@ -1400,3 +1401,8 @@ rule-providers:
     url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tracker.mrs
     interval: 43200
     format: mrs
+  indonesia-gambling-research:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rule_providers/indonesia-gambling-research.yaml

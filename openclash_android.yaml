@@ -1275,6 +1275,11 @@ rule-providers:
     type: file
     behavior: domain
     path: ./rule_providers/ads_indonesia_android.yaml
+  indonesia-gambling-research:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rule_providers/indonesia-gambling-research.yaml
 rules:
 - DOMAIN-SUFFIX,local,GLOBAL
 - DOMAIN-SUFFIX,lan,GLOBAL
@@ -2781,6 +2786,7 @@ rules:
 - DOMAIN,www.googletagmanager.com,REJECT
 - DOMAIN,yandex.ru,REJECT
 - MATCH,GLOBAL
+- RULE-SET,indonesia-gambling-research,REJECT
 find-process-mode: 'off'
 hosts:
   www.google.com: forcesafesearch.google.com

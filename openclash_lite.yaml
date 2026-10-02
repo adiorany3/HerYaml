@@ -1320,6 +1320,7 @@ rules:
 - RULE-SET,threat-tif-mini,REJECT
 - RULE-SET,gambling-mini,REJECT
 - RULE-SET,gambling-regex,REJECT
+- RULE-SET,indonesia-gambling-research,REJECT
 - RULE-SET,adult-category,REJECT
 - RULE-SET,adult-local,REJECT
 - RULE-SET,pinjol-local,REJECT
@@ -1860,6 +1861,11 @@ rule-providers:
     path: ./rule_providers/youtube.mrs
     url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs
     interval: 43200
+  indonesia-gambling-research:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rule_providers/indonesia-gambling-research.yaml
 hosts:
   www.google.com: forcesafesearch.google.com
   www.google.co.id: forcesafesearch.google.com
