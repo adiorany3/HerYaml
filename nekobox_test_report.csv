@@ -1,1 +1,11 @@
 name,type,network,original_server,bug_sni,mihomo_status,url_test_ms,nekobox_test_ms,nekobox_status,nekobox_ready
+AKUN-012-CLOUDFLARE-VLESS-WS-78MS,vless,ws,172.67.160.192,nuclear.us.kg,HTTP 204,197,240,HTTP 204,yes
+AKUN-015-CLOUDFLARE-VLESS-WS-86MS,vless,ws,173.245.49.173,sOFt-WoOd-79F6.UzTMldzdSlCeGqSs.WorkErs.DeV,HTTP 204,198,186,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",no
+AKUN-017-CLOUDFLARE-VLESS-WS-80MS,vless,ws,104.18.12.187,auto-1f40d7.rohawmk.workers.dev,HTTP 204,199,248,HTTP 204,yes
+AKUN-002-CLOUDFLARE-VLESS-WS-76MS,vless,ws,104.21.22.200,hi.n2foriran.workers.dev,HTTP 204,203,6172,"ReadTimeout: HTTPSConnectionPool(host='www.gstatic.com', port=443): Read timed out. (read timeout=6.0)",no
+AKUN-014-CLOUDFLARE-VLESS-WS-89MS,vless,ws,vl.cocopon.top,vl.cocopon.top,HTTP 204,204,264,HTTP 204,yes
+AKUN-001-CLOUDFLARE-VLESS-WS-77MS,vless,ws,173.245.49.20,hAsaNTRAIDEr.hIdJ51pIMU26IaL1ABmzyf.wORKErs.dEV,HTTP 204,216,187,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",no
+AKUN-010-CLOUDFLARE-VLESS-WS-81MS,vless,ws,173.245.49.37,sOfT-WoOD-79F6.UZTMlDzDsLCEgQss.WORkErS.DeV,HTTP 204,223,190,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",no
+AKUN-013-CLOUDFLARE-VLESS-WS-85MS,vless,ws,172.67.216.233,J3Bx1S9MK2syLW66yJ-hSk.TJsJrKk8GbHTS0Q5-0Os.wOrKeRS.DEv,HTTP 204,225,265,HTTP 204,yes
+AKUN-003-CLOUDFLARE-VLESS-WS-78MS,vless,ws,104.21.61.42,001.inc-electrocell-001-001.workers.dev,HTTP 204,228,192,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",no
+AKUN-008-CLOUDFLARE-VLESS-WS-78MS,vless,ws,173.245.49.119,SoFT-wood-79f6.uzTmlDZdslCEgqsS.wOrkErS.dev,HTTP 204,228,197,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",no
