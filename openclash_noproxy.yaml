@@ -531,6 +531,40 @@ proxies:
     path: /vl/lYNtP7z8pJUmfp01tz5wEnuDujJtZ
     headers:
       Host: FpoiXF69hQT3E6d4URTB.MamADNEIZeH.WorKers.DEV
+- name: AKUN-001-CLOUDFLARE-VLESS-WS-78MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  udp: true
+  tls: true
+  servername: nuclear.us.kg
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /free/103.101.153.32:443
+    headers:
+      Host: nuclear.us.kg
+  alpn:
+  - http/1.1
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-80MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 1f40d742-dfaa-4694-a509-3d81918a5673
+  udp: true
+  tls: true
+  servername: auto-1f40d7.rohawmk.workers.dev
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI?ed=2560
+    headers:
+      Host: auto-1f40d7.rohawmk.workers.dev
+  alpn:
+  - http/1.1
 - name: MANUAL-VMess-WS-TLS-443-ikada543
   type: vmess
   server: 104.17.3.81
@@ -605,38 +639,38 @@ proxies:
       Host: atharva.web.id
   alpn:
   - http/1.1
-- name: AKUN-001-CLOUDFLARE-VLESS-WS-78MS
+- name: AKUN-002-OVH-VLESS-WS-341MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
   tls: true
-  servername: nuclear.us.kg
+  servername: bab-6.site
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /free/103.101.153.32:443
+    path: /vws/
     headers:
-      Host: nuclear.us.kg
+      Host: bab-6.site
   alpn:
   - http/1.1
-- name: AKUN-002-CLOUDFLARE-VLESS-WS-80MS
+- name: AKUN-001-CLOUDFLARE-VLESS-WS-899MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: 1f40d742-dfaa-4694-a509-3d81918a5673
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   udp: true
   tls: true
-  servername: auto-1f40d7.rohawmk.workers.dev
+  servername: a.cwvps.eu.org
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI?ed=2560
+    path: /ws
     headers:
-      Host: auto-1f40d7.rohawmk.workers.dev
+      Host: a.cwvps.eu.org
   alpn:
   - http/1.1
 proxy-groups:
@@ -648,8 +682,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-001-CLOUDFLARE-VLESS-WS-78MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-80MS
+  - AKUN-002-OVH-VLESS-WS-341MS
+  - AKUN-001-CLOUDFLARE-VLESS-WS-899MS
 rules:
 - DOMAIN,googleads.g.doubleclick.net,REJECT
 - DOMAIN,ad.doubleclick.net,REJECT
