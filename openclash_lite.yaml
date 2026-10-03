@@ -124,75 +124,7 @@ dns:
   use-hosts: true
   use-system-hosts: false
 proxies:
-- name: AKUN-001-CLOUDFLARE-VLESS-WS-77MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 0b41f339-5809-46ef-8351-b03fdc441539
-  udp: true
-  tls: true
-  servername: FpoiXF69hQT3E6d4URTB.MamADNEIZeH.WorKers.DEV
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  ws-opts:
-    path: /vl/lYNtP7z8pJUmfp01tz5wEnuDujJtZ
-    headers:
-      Host: FpoiXF69hQT3E6d4URTB.MamADNEIZeH.WorKers.DEV
-- name: AKUN-002-CLOUDFLARE-VLESS-WS-78MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 35e8826f-0873-492d-8b8a-d495c9947480
-  udp: true
-  tls: true
-  servername: super-sunset-010c.24-43d.workers.dev
-  network: ws
-  client-fingerprint: unsafe
-  skip-cert-verify: true
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: super-sunset-010c.24-43d.workers.dev
-  alpn:
-  - http/1.1
-- name: AKUN-003-CLOUDFLARE-VLESS-WS-77MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 1c9daf90-3950-44ac-b06f-4cf9aec63170
-  udp: true
-  tls: true
-  servername: FrEe.SeRVEr14peekCoNfIG.WoRKErS.dEV
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /eyJqdW5rIjoiQmFCblN3SmhXYTB3RzVoIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
-    headers:
-      Host: free.server14peekconfig.workers.dev
-  alpn:
-  - http/1.1
-- name: AKUN-004-CLOUDFLARE-VLESS-WS-84MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 0659eac3-137b-4002-ba2e-88da4d071235
-  udp: true
-  tls: true
-  servername: pruritus.patiromer.workers.dev
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: pruritus.patiromer.workers.dev
-  alpn:
-  - http/1.1
-- name: AKUN-005-BIGCOMMERCE-VLESS-WS-76MS
+- name: AKUN-001-BIGCOMMERCE-VLESS-WS-77MS
   type: vless
   server: 104.17.3.81
   port: 443
@@ -209,57 +141,125 @@ proxies:
       Host: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
   alpn:
   - http/1.1
-- name: AKUN-006-CLOUDFLARE-VLESS-WS-77MS
+- name: AKUN-002-NOTION-WEB-VLESS-WS-79MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: 33918b20-9e02-4dc6-8b30-79b2d4b2e0e6
+  uuid: d042a74a-c305-4eec-a89f-39a348022c92
   udp: true
   tls: true
-  servername: auto-scale-238b2b.infra-core-1630dd.workers.dev
+  servername: dry-butterfly-8eb9.tmpgnacio83.workers.dev
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      Host: dry-butterfly-8eb9.tmpgnacio83.workers.dev
+  alpn:
+  - http/1.1
+- name: AKUN-003-RS-RAPIDSEEDBOX-20190717-VLESS-WS-74MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9
+  udp: true
+  tls: true
+  servername: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   alpn:
   - http/1.1
   ws-opts:
-    path: /eyJqdW5rIjoiUjJBU3JkVlRwSWtnciIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0
+    path: /eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
     headers:
-      Host: auto-scale-238b2b.infra-core-1630dd.workers.dev
-- name: AKUN-007-CLOUDFLARE-VLESS-WS-76MS
+      Host: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
+- name: AKUN-004-CLOUDFLARE-VLESS-WS-75MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
   udp: true
   tls: true
-  servername: rAyAn-007.mAxImA.DpDnS.OrG
+  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
+      Host: rayan-007.nastaran.dpdns.org
   alpn:
   - http/1.1
-- name: AKUN-008-CLOUDFLARE-VLESS-WS-79MS
+- name: AKUN-005-CLOUDFLARE-VLESS-WS-77MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: 682d30e4-3dfc-49f2-a017-9049119e3497
+  uuid: 1c9daf90-3950-44ac-b06f-4cf9aec63170
   udp: true
   tls: true
-  servername: free.server7peekconfig.workers.dev
+  servername: FrEe.SeRVEr14peekCoNfIG.WoRKErS.dEV
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
+  ws-opts:
+    path: /eyJqdW5rIjoiQmFCblN3SmhXYTB3RzVoIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
+    headers:
+      Host: free.server14peekconfig.workers.dev
   alpn:
   - http/1.1
+- name: AKUN-006-AIMALL-VLESS-WS-74MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
+  udp: true
+  tls: true
+  servername: cf-vless-4cf55824.aimall.fr
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
   ws-opts:
-    path: /eyJqdW5rIjoiRm5kaUkxZVFtRVJBIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19
+    path: /connect
     headers:
-      Host: free.server7peekconfig.workers.dev
+      Host: cf-vless-4cf55824.aimall.fr
+  alpn:
+  - http/1.1
+- name: AKUN-007-FREIFUNKFRANKEN-VLESS-WS-94MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  servername: bab-6.site
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+  alpn:
+  - http/1.1
+- name: AKUN-008-CLOUDFLARE-VLESS-WS-544MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+  alpn:
+  - http/1.1
 - name: MANUAL-VMess-WS-TLS-443-ikada543
   type: vmess
   server: 104.17.3.81
@@ -365,8 +365,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-001-CLOUDFLARE-VLESS-WS-77MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-78MS
+  - AKUN-001-BIGCOMMERCE-VLESS-WS-77MS
+  - AKUN-002-NOTION-WEB-VLESS-WS-79MS
   url: https://www.gstatic.com/generate_204
   interval: 180
   tolerance: 150
@@ -381,14 +381,14 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-001-CLOUDFLARE-VLESS-WS-77MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-78MS
-  - AKUN-005-BIGCOMMERCE-VLESS-WS-76MS
-  - AKUN-007-CLOUDFLARE-VLESS-WS-76MS
-  - AKUN-003-CLOUDFLARE-VLESS-WS-77MS
-  - AKUN-006-CLOUDFLARE-VLESS-WS-77MS
-  - AKUN-008-CLOUDFLARE-VLESS-WS-79MS
-  - AKUN-004-CLOUDFLARE-VLESS-WS-84MS
+  - AKUN-001-BIGCOMMERCE-VLESS-WS-77MS
+  - AKUN-002-NOTION-WEB-VLESS-WS-79MS
+  - AKUN-003-RS-RAPIDSEEDBOX-20190717-VLESS-WS-74MS
+  - AKUN-006-AIMALL-VLESS-WS-74MS
+  - AKUN-004-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-005-CLOUDFLARE-VLESS-WS-77MS
+  - AKUN-007-FREIFUNKFRANKEN-VLESS-WS-94MS
+  - AKUN-008-CLOUDFLARE-VLESS-WS-544MS
   url: https://www.gstatic.com/generate_204
   interval: 180
   lazy: true
@@ -505,13 +505,32 @@ rules:
 - DOMAIN,sentry.tuyaus.com,REJECT
 - DOMAIN,promotion-en.xmeye.net,REJECT
 - DOMAIN-SUFFIX,challenges.cloudflare.com,GLOBAL
+- DOMAIN-SUFFIX,dana.id,GLOBAL
+- DOMAIN-SUFFIX,faspay.co.id,GLOBAL
+- DOMAIN-SUFFIX,finpay.co.id,GLOBAL
+- DOMAIN-SUFFIX,flip.id,GLOBAL
+- DOMAIN-SUFFIX,go-jek.com,GLOBAL
+- DOMAIN-SUFFIX,gopay.co.id,GLOBAL
 - DOMAIN-SUFFIX,hcaptcha.com,GLOBAL
+- DOMAIN-SUFFIX,ipaymu.com,GLOBAL
 - DOMAIN-SUFFIX,licdn.com,GLOBAL
+- DOMAIN-SUFFIX,linkaja.id,GLOBAL
 - DOMAIN-SUFFIX,linkedin.cn,GLOBAL
 - DOMAIN-SUFFIX,linkedin.com,GLOBAL
 - DOMAIN-SUFFIX,lnkd.in,GLOBAL
+- DOMAIN-SUFFIX,midtrans.com,GLOBAL
+- DOMAIN-SUFFIX,nicepay.co.id,GLOBAL
+- DOMAIN-SUFFIX,ovo.id,GLOBAL
+- DOMAIN-SUFFIX,qris.id,GLOBAL
 - DOMAIN-SUFFIX,recaptcha.net,GLOBAL
+- DOMAIN-SUFFIX,shopee.co.id,GLOBAL
+- DOMAIN-SUFFIX,shopee.com,GLOBAL
+- DOMAIN-SUFFIX,shopeemobile.com,GLOBAL
+- DOMAIN-SUFFIX,shopeepay.co.id,GLOBAL
 - DOMAIN-SUFFIX,simaster.ugm.ac.id,GLOBAL
+- DOMAIN-SUFFIX,spaylater.co.id,GLOBAL
+- DOMAIN-SUFFIX,tripay.co.id,GLOBAL
+- DOMAIN-SUFFIX,xendit.co,GLOBAL
 - DOMAIN-SUFFIX,speedtest.net,GLOBAL
 - DOMAIN-SUFFIX,ookla.com,GLOBAL
 - DOMAIN-SUFFIX,speedtestcustom.com,GLOBAL
@@ -1325,6 +1344,7 @@ rules:
 - RULE-SET,adult-local,REJECT
 - RULE-SET,pinjol-local,REJECT
 - RULE-SET,popup-ads,REJECT
+- RULE-SET,obfusgated-coverage,REJECT
 - DOMAIN,805ba.v.fwmrm.net,REJECT
 - DOMAIN,tvm-mtv-freewheel.akamaized.net,REJECT
 - DOMAIN,adeventtracker.spotify.com,REJECT
@@ -1395,284 +1415,6 @@ rules:
 - DOMAIN-SUFFIX,video.twimg.com,MANUAL
 - DOMAIN-SUFFIX,cloudflare.com,MANUAL
 - DOMAIN-SUFFIX,gstatic.com,MANUAL
-- DOMAIN,adtago.s3.amazonaws.com,REJECT
-- DOMAIN,analyticsengine.s3.amazonaws.com,REJECT
-- DOMAIN,analytics.s3.amazonaws.com,REJECT
-- DOMAIN,advice-ads.s3.amazonaws.com,REJECT
-- DOMAIN,pagead2.googleadservices.com,REJECT
-- DOMAIN,afs.googlesyndication.com,REJECT
-- DOMAIN,adc3-launch.adcolony.com,REJECT
-- DOMAIN,events3alt.adcolony.com,REJECT
-- DOMAIN,wd.adcolony.com,REJECT
-- DOMAIN,static.media.net,REJECT
-- DOMAIN,media.net,REJECT
-- DOMAIN,adservetx.media.net,REJECT
-- DOMAIN,analytics.google.com,REJECT
-- DOMAIN,click.googleanalytics.com,REJECT
-- DOMAIN,google-analytics.com,REJECT
-- DOMAIN,ssl.google-analytics.com,REJECT
-- DOMAIN,adm.hotjar.com,REJECT
-- DOMAIN,identify.hotjar.com,REJECT
-- DOMAIN,insights.hotjar.com,REJECT
-- DOMAIN,script.hotjar.com,REJECT
-- DOMAIN,surveys.hotjar.com,REJECT
-- DOMAIN,careers.hotjar.com,REJECT
-- DOMAIN,events.hotjar.io,REJECT
-- DOMAIN,mouseflow.com,REJECT
-- DOMAIN,cdn.mouseflow.com,REJECT
-- DOMAIN,o2.mouseflow.com,REJECT
-- DOMAIN,gtm.mouseflow.com,REJECT
-- DOMAIN,api.mouseflow.com,REJECT
-- DOMAIN,tools.mouseflow.com,REJECT
-- DOMAIN,cdn-test.mouseflow.com,REJECT
-- DOMAIN,freshmarketer.com,REJECT
-- DOMAIN,claritybt.freshmarketer.com,REJECT
-- DOMAIN,fwtracks.freshmarketer.com,REJECT
-- DOMAIN,luckyorange.com,REJECT
-- DOMAIN,api.luckyorange.com,REJECT
-- DOMAIN,realtime.luckyorange.com,REJECT
-- DOMAIN,cdn.luckyorange.com,REJECT
-- DOMAIN,w1.luckyorange.com,REJECT
-- DOMAIN,upload.luckyorange.net,REJECT
-- DOMAIN,cs.luckyorange.net,REJECT
-- DOMAIN,settings.luckyorange.net,REJECT
-- DOMAIN,stats.wp.com,REJECT
-- DOMAIN,notify.bugsnag.com,REJECT
-- DOMAIN,sessions.bugsnag.com,REJECT
-- DOMAIN,api.bugsnag.com,REJECT
-- DOMAIN,app.bugsnag.com,REJECT
-- DOMAIN,browser.sentry-cdn.com,REJECT
-- DOMAIN,app.getsentry.com,REJECT
-- DOMAIN,pixel.facebook.com,REJECT
-- DOMAIN,an.facebook.com,REJECT
-- DOMAIN,static.ads-twitter.com,REJECT
-- DOMAIN,ads-api.twitter.com,REJECT
-- DOMAIN,ads.linkedin.com,REJECT
-- DOMAIN,analytics.pointdrive.linkedin.com,REJECT
-- DOMAIN,ads.pinterest.com,REJECT
-- DOMAIN,log.pinterest.com,REJECT
-- DOMAIN,trk.pinterest.com,REJECT
-- DOMAIN,events.reddit.com,REJECT
-- DOMAIN,events.redditmedia.com,REJECT
-- DOMAIN,ads-api.tiktok.com,REJECT
-- DOMAIN,analytics.tiktok.com,REJECT
-- DOMAIN,ads-sg.tiktok.com,REJECT
-- DOMAIN,analytics-sg.tiktok.com,REJECT
-- DOMAIN,business-api.tiktok.com,REJECT
-- DOMAIN,ads.tiktok.com,REJECT
-- DOMAIN,log.byteoversea.com,REJECT
-- DOMAIN,ads.yahoo.com,REJECT
-- DOMAIN,analytics.yahoo.com,REJECT
-- DOMAIN,geo.yahoo.com,REJECT
-- DOMAIN,udcm.yahoo.com,REJECT
-- DOMAIN,analytics.query.yahoo.com,REJECT
-- DOMAIN,partnerads.ysm.yahoo.com,REJECT
-- DOMAIN,log.fc.yahoo.com,REJECT
-- DOMAIN,gemini.yahoo.com,REJECT
-- DOMAIN,adtech.yahooinc.com,REJECT
-- DOMAIN,extmaps-api.yandex.net,REJECT
-- DOMAIN,appmetrica.yandex.ru,REJECT
-- DOMAIN,adfstat.yandex.ru,REJECT
-- DOMAIN,metrika.yandex.ru,REJECT
-- DOMAIN,offerwall.yandex.net,REJECT
-- DOMAIN,adfox.yandex.ru,REJECT
-- DOMAIN,webview.unityads.unity3d.com,REJECT
-- DOMAIN,config.unityads.unity3d.com,REJECT
-- DOMAIN,iot-eu-logser.realme.com,REJECT
-- DOMAIN,iot-logser.realme.com,REJECT
-- DOMAIN,bdapi-ads.realmemobile.com,REJECT
-- DOMAIN,bdapi-in-ads.realmemobile.com,REJECT
-- DOMAIN,api.ad.xiaomi.com,REJECT
-- DOMAIN,data.mistat.xiaomi.com,REJECT
-- DOMAIN,data.mistat.india.xiaomi.com,REJECT
-- DOMAIN,data.mistat.rus.xiaomi.com,REJECT
-- DOMAIN,sdkconfig.ad.xiaomi.com,REJECT
-- DOMAIN,sdkconfig.ad.intl.xiaomi.com,REJECT
-- DOMAIN,tracking.rus.miui.com,REJECT
-- DOMAIN,adsfs.oppomobile.com,REJECT
-- DOMAIN,adx.ads.oppomobile.com,REJECT
-- DOMAIN,ck.ads.oppomobile.com,REJECT
-- DOMAIN,data.ads.oppomobile.com,REJECT
-- DOMAIN,metrics.data.hicloud.com,REJECT
-- DOMAIN,metrics2.data.hicloud.com,REJECT
-- DOMAIN,grs.hicloud.com,REJECT
-- DOMAIN,logservice.hicloud.com,REJECT
-- DOMAIN,logservice1.hicloud.com,REJECT
-- DOMAIN,logbak.hicloud.com,REJECT
-- DOMAIN,click.oneplus.cn,REJECT
-- DOMAIN,open.oneplus.net,REJECT
-- DOMAIN,samsungads.com,REJECT
-- DOMAIN,smetrics.samsung.com,REJECT
-- DOMAIN,nmetrics.samsung.com,REJECT
-- DOMAIN,samsung-com.112.2o7.net,REJECT
-- DOMAIN,analytics-api.samsunghealthcn.com,REJECT
-- DOMAIN,iadsdk.apple.com,REJECT
-- DOMAIN,metrics.icloud.com,REJECT
-- DOMAIN,metrics.mzstatic.com,REJECT
-- DOMAIN,api-adservices.apple.com,REJECT
-- DOMAIN,books-analytics-events.apple.com,REJECT
-- DOMAIN,weather-analytics-events.apple.com,REJECT
-- DOMAIN,notes-analytics-events.apple.com,REJECT
-- DOMAIN,2giga.link,REJECT
-- DOMAIN,a.lenovo.com,REJECT
-- DOMAIN,a.teads.tv,REJECT
-- DOMAIN,aan.amazon.com,REJECT
-- DOMAIN,aax.amazon-adsystem.com,REJECT
-- DOMAIN,acdn.adnxs.com,REJECT
-- DOMAIN,ad.gt,REJECT
-- DOMAIN,ad.lgappstv.com,REJECT
-- DOMAIN,ad.linksynergy.com,REJECT
-- DOMAIN,ad.mail.ru,REJECT
-- DOMAIN,adjust.com,REJECT
-- DOMAIN,adlog.vivo.com,REJECT
-- DOMAIN,adnxs.com,REJECT
-- DOMAIN,adroll.com,REJECT
-- DOMAIN,ads-api.vivo.com,REJECT
-- DOMAIN,ads-api.x.com,REJECT
-- DOMAIN,ads.huawei.com,REJECT
-- DOMAIN,ads.microsoft.com,REJECT
-- DOMAIN,ads.pubmatic.com,REJECT
-- DOMAIN,ads.snapchat.com,REJECT
-- DOMAIN,ads.tremorhub.com,REJECT
-- DOMAIN,ads.vizio.com,REJECT
-- DOMAIN,ads.vk.com,REJECT
-- DOMAIN,ads.x.com,REJECT
-- DOMAIN,adsrvr.org,REJECT
-- DOMAIN,amazon-adsystem.com,REJECT
-- DOMAIN,analytics.adobe.io,REJECT
-- DOMAIN,analytics.twitter.com,REJECT
-- DOMAIN,apex.go.sonobi.com,REJECT
-- DOMAIN,api-js.mixpanel.com,REJECT
-- DOMAIN,api.amplitude.com,REJECT
-- DOMAIN,api.fpjs.io,REJECT
-- DOMAIN,api.impact.com,REJECT
-- DOMAIN,api.mixpanel.com,REJECT
-- DOMAIN,api.optimizely.com,REJECT
-- DOMAIN,api.partnerstack.com,REJECT
-- DOMAIN,api.refersion.com,REJECT
-- DOMAIN,api.rlcdn.com,REJECT
-- DOMAIN,api.segment.io,REJECT
-- DOMAIN,api.taboola.com,REJECT
-- DOMAIN,api.viglink.com,REJECT
-- DOMAIN,api2.amplitude.com,REJECT
-- DOMAIN,api2.branch.io,REJECT
-- DOMAIN,app-measurement.com,REJECT
-- DOMAIN,app.adjust.com,REJECT
-- DOMAIN,app.appsflyer.com,REJECT
-- DOMAIN,app.usercentrics.eu,REJECT
-- DOMAIN,applovin.com,REJECT
-- DOMAIN,appsflyer.com,REJECT
-- DOMAIN,as.casalemedia.com,REJECT
-- DOMAIN,b.scorecardresearch.com,REJECT
-- DOMAIN,bam.nr-data.net,REJECT
-- DOMAIN,bat.bing.com,REJECT
-- DOMAIN,bidder.criteo.com,REJECT
-- DOMAIN,bidswitch.net,REJECT
-- DOMAIN,bingads.microsoft.com,REJECT
-- DOMAIN,bluekai.com,REJECT
-- DOMAIN,bnc.lt,REJECT
-- DOMAIN,c.clarity.ms,REJECT
-- DOMAIN,c.gumgum.com,REJECT
-- DOMAIN,capi.connatix.com,REJECT
-- DOMAIN,casalemedia.com,REJECT
-- DOMAIN,cd.connatix.com,REJECT
-- DOMAIN,cdn.cookielaw.org,REJECT
-- DOMAIN,cdn.doubleverify.com,REJECT
-- DOMAIN,cdn.dynamicyield.com,REJECT
-- DOMAIN,cdn.heapanalytics.com,REJECT
-- DOMAIN,cdn.indexexchange.com,REJECT
-- DOMAIN,cdn.kargo.com,REJECT
-- DOMAIN,cdn.mgid.com,REJECT
-- DOMAIN,cdn.optimizely.com,REJECT
-- DOMAIN,cdn.permutive.com,REJECT
-- DOMAIN,cdn.privacy-mgmt.com,REJECT
-- DOMAIN,cdn.segment.com,REJECT
-- DOMAIN,cdn.siftscience.com,REJECT
-- DOMAIN,cdn.taboola.com,REJECT
-- DOMAIN,cdn.teads.tv,REJECT
-- DOMAIN,cdn.viglink.com,REJECT
-- DOMAIN,clarity.ms,REJECT
-- DOMAIN,clevertap-prod.com,REJECT
-- DOMAIN,click.linksynergy.com,REJECT
-- DOMAIN,clickadu.com,REJECT
-- DOMAIN,coinimp.com,REJECT
-- DOMAIN,config.samsungads.com,REJECT
-- DOMAIN,connect.facebook.net,REJECT
-- DOMAIN,consent.cookiebot.com,REJECT
-- DOMAIN,consent.trustarc.com,REJECT
-- DOMAIN,consentcdn.cookiebot.com,REJECT
-- DOMAIN,contextual.media.net,REJECT
-- DOMAIN,contextweb.com,REJECT
-- DOMAIN,control.kochava.com,REJECT
-- DOMAIN,cookiebot.com,REJECT
-- DOMAIN,crwdcntrl.net,REJECT
-- DOMAIN,crypto-loot.org,REJECT
-- DOMAIN,d.adroll.com,REJECT
-- DOMAIN,d.applovin.com,REJECT
-- DOMAIN,d.impactradius-event.com,REJECT
-- DOMAIN,dai.google.com,REJECT
-- DOMAIN,decide.mixpanel.com,REJECT
-- DOMAIN,device-metrics-us-2.amazon.com,REJECT
-- DOMAIN,device-metrics-us.amazon.com,REJECT
-- DOMAIN,doubleverify.com,REJECT
-- DOMAIN,facebook.net,REJECT
-- DOMAIN,fw.adsafeprotected.com,REJECT
-- DOMAIN,googleadservices.com,REJECT
-- DOMAIN,googletagmanager.com,REJECT
-- DOMAIN,images.taboola.com,REJECT
-- DOMAIN,init.supersonicads.com,REJECT
-- DOMAIN,inmobi.com,REJECT
-- DOMAIN,insightexpressai.com,REJECT
-- DOMAIN,ironsource.mobi,REJECT
-- DOMAIN,is.com,REJECT
-- DOMAIN,log.outbrain.com,REJECT
-- DOMAIN,mc.yandex.ru,REJECT
-- DOMAIN,mgid.com,REJECT
-- DOMAIN,mixpanel.com,REJECT
-- DOMAIN,mobile.pipe.aria.microsoft.com,REJECT
-- DOMAIN,mraid.iabtechlab.com,REJECT
-- DOMAIN,msevents.microsoft.com,REJECT
-- DOMAIN,nr-data.net,REJECT
-- DOMAIN,odb.outbrain.com,REJECT
-- DOMAIN,open.oneplus.cn,REJECT
-- DOMAIN,optimizely.com,REJECT
-- DOMAIN,outcome-ssp.supersonicads.com,REJECT
-- DOMAIN,outbrain.com,REJECT
-- DOMAIN,pangleglobal.com,REJECT
-- DOMAIN,pixel.adsafeprotected.com,REJECT
-- DOMAIN,pixel.wp.com,REJECT
-- DOMAIN,pubmatic.com,REJECT
-- DOMAIN,refersion.com,REJECT
-- DOMAIN,revcontent.com,REJECT
-- DOMAIN,rubiconproject.com,REJECT
-- DOMAIN,s.adroll.com,REJECT
-- DOMAIN,s3.amazonaws.com,REJECT
-- DOMAIN,safebrowsing.googleapis.com,REJECT
-- DOMAIN,segment.io,REJECT
-- DOMAIN,sentry.io,REJECT
-- DOMAIN,sharethrough.com,REJECT
-- DOMAIN,snapchat.com,REJECT
-- DOMAIN,sonobi.com,REJECT
-- DOMAIN,static.adsafeprotected.com,REJECT
-- DOMAIN,static.criteo.net,REJECT
-- DOMAIN,static.hotjar.com,REJECT
-- DOMAIN,step-s3-tokyo.s3.amazonaws.com,REJECT
-- DOMAIN,sync.kargo.com,REJECT
-- DOMAIN,sync.taboola.com,REJECT
-- DOMAIN,taboola.com,REJECT
-- DOMAIN,tagmanager.google.com,REJECT
-- DOMAIN,target.adform.net,REJECT
-- DOMAIN,teads.tv,REJECT
-- DOMAIN,tlx.3lift.com,REJECT
-- DOMAIN,trc.taboola.com,REJECT
-- DOMAIN,tracking.tiktok.com,REJECT
-- DOMAIN,twitter.com,REJECT
-- DOMAIN,unityads.unity3d.com,REJECT
-- DOMAIN,vungle.com,REJECT
-- DOMAIN,widgets.outbrain.com,REJECT
-- DOMAIN,www.google-analytics.com,REJECT
-- DOMAIN,www.googletagmanager.com,REJECT
-- DOMAIN,yandex.ru,REJECT
 - MATCH,GLOBAL
 rule-providers:
   ads_indonesia:
@@ -1729,6 +1471,11 @@ rule-providers:
     behavior: classical
     format: yaml
     path: ./rule_providers/security-gambling.yaml
+  indonesia-gambling-research:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rule_providers/indonesia-gambling-research.yaml
   adult-local:
     type: file
     behavior: classical
@@ -1774,6 +1521,245 @@ rule-providers:
     url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/threat-fake-scam.mrs
     interval: 43200
     format: mrs
+  obfusgated-coverage:
+    type: inline
+    behavior: domain
+    payload:
+    - 2giga.link
+    - a.lenovo.com
+    - a.teads.tv
+    - aan.amazon.com
+    - aax.amazon-adsystem.com
+    - acdn.adnxs.com
+    - ad.doubleclick.net
+    - ad.gt
+    - ad.lgappstv.com
+    - ad.linksynergy.com
+    - ad.mail.ru
+    - adfox.yandex.ru
+    - adfstat.yandex.ru
+    - adjust.com
+    - adlog.vivo.com
+    - adnxs.com
+    - adroll.com
+    - ads-api.tiktok.com
+    - ads-api.twitter.com
+    - ads-api.vivo.com
+    - ads-api.x.com
+    - ads-sg.tiktok.com
+    - ads.huawei.com
+    - ads.linkedin.com
+    - ads.microsoft.com
+    - ads.pubmatic.com
+    - ads.roku.com
+    - ads.snapchat.com
+    - ads.tiktok.com
+    - ads.tremorhub.com
+    - ads.vizio.com
+    - ads.vk.com
+    - ads.x.com
+    - ads.yahoo.com
+    - adserver.unityads.unity3d.com
+    - adservice.google.com
+    - adsfs.oppomobile.com
+    - adsrvr.org
+    - adtech.yahooinc.com
+    - adx.ads.oppomobile.com
+    - amazon-adsystem.com
+    - an.facebook.com
+    - analytics-api.samsunghealthcn.com
+    - analytics-sg.tiktok.com
+    - analytics.adobe.io
+    - analytics.google.com
+    - analytics.pointdrive.linkedin.com
+    - analytics.tiktok.com
+    - analytics.twitter.com
+    - apex.go.sonobi.com
+    - api-adservices.apple.com
+    - api-js.mixpanel.com
+    - api.ad.xiaomi.com
+    - api.amplitude.com
+    - api.fpjs.io
+    - api.fyber.com
+    - api.impact.com
+    - api.mixpanel.com
+    - api.optimizely.com
+    - api.partnerstack.com
+    - api.refersion.com
+    - api.rlcdn.com
+    - api.segment.io
+    - api.taboola.com
+    - api.viglink.com
+    - api.vungle.com
+    - api2.amplitude.com
+    - api2.branch.io
+    - app-measurement.com
+    - app.adjust.com
+    - app.appsflyer.com
+    - app.usercentrics.eu
+    - applovin.com
+    - appmetrica.yandex.ru
+    - appsflyer.com
+    - as.casalemedia.com
+    - auction.unityads.unity3d.com
+    - b.scorecardresearch.com
+    - bam.nr-data.net
+    - bat.bing.com
+    - bdapi-ads.realmemobile.com
+    - bdapi-in-ads.realmemobile.com
+    - bidder.criteo.com
+    - bidswitch.net
+    - bingads.microsoft.com
+    - bluekai.com
+    - bnc.lt
+    - books-analytics-events.apple.com
+    - browser.sentry-cdn.com
+    - business-api.tiktok.com
+    - c.clarity.ms
+    - c.gumgum.com
+    - capi.connatix.com
+    - casalemedia.com
+    - cd.connatix.com
+    - cdn.cookielaw.org
+    - cdn.doubleverify.com
+    - cdn.dynamicyield.com
+    - cdn.heapanalytics.com
+    - cdn.indexexchange.com
+    - cdn.kargo.com
+    - cdn.mgid.com
+    - cdn.optimizely.com
+    - cdn.permutive.com
+    - cdn.privacy-mgmt.com
+    - cdn.segment.com
+    - cdn.siftscience.com
+    - cdn.taboola.com
+    - cdn.teads.tv
+    - cdn.viglink.com
+    - ck.ads.oppomobile.com
+    - clarity.ms
+    - clevertap-prod.com
+    - click.googleanalytics.com
+    - click.linksynergy.com
+    - click.oneplus.cn
+    - clickadu.com
+    - coinimp.com
+    - config.samsungads.com
+    - config.unityads.unity3d.com
+    - connect.facebook.net
+    - consent.cookiebot.com
+    - consent.trustarc.com
+    - consentcdn.cookiebot.com
+    - contextual.media.net
+    - contextweb.com
+    - control.kochava.com
+    - cookiebot.com
+    - crwdcntrl.net
+    - crypto-loot.org
+    - d.adroll.com
+    - d.applovin.com
+    - d.impactradius-event.com
+    - dai.google.com
+    - data.ads.oppomobile.com
+    - data.mistat.india.xiaomi.com
+    - data.mistat.rus.xiaomi.com
+    - data.mistat.xiaomi.com
+    - decide.mixpanel.com
+    - device-metrics-us-2.amazon.com
+    - device-metrics-us.amazon.com
+    - doubleverify.com
+    - events3alt.adcolony.com
+    - extmaps-api.yandex.net
+    - facebook.net
+    - fw.adsafeprotected.com
+    - geo.yahoo.com
+    - google-analytics.com
+    - googleadservices.com
+    - googletagmanager.com
+    - gtm.mouseflow.com
+    - identify.hotjar.com
+    - images.taboola.com
+    - init.supersonicads.com
+    - inmobi.com
+    - insightexpressai.com
+    - ironsource.mobi
+    - is.com
+    - log.byteoversea.com
+    - log.fc.yahoo.com
+    - log.outbrain.com
+    - logservice.hicloud.com
+    - logservice1.hicloud.com
+    - luckyorange.com
+    - mc.yandex.ru
+    - media.net
+    - metrika.yandex.ru
+    - mgid.com
+    - mixpanel.com
+    - mobile.pipe.aria.microsoft.com
+    - mouseflow.com
+    - mraid.iabtechlab.com
+    - msevents.microsoft.com
+    - nmetrics.samsung.com
+    - notify.bugsnag.com
+    - nr-data.net
+    - odb.outbrain.com
+    - offerwall.yandex.net
+    - open.oneplus.cn
+    - optimizely.com
+    - outcome-ssp.supersonicads.com
+    - outbrain.com
+    - pagead2.googlesyndication.com
+    - pangleglobal.com
+    - partnerads.ysm.yahoo.com
+    - pixel.adsafeprotected.com
+    - pixel.facebook.com
+    - pixel.wp.com
+    - pubads.g.doubleclick.net
+    - pubmatic.com
+    - realtime.luckyorange.com
+    - refersion.com
+    - revcontent.com
+    - rubiconproject.com
+    - s.adroll.com
+    - s3.amazonaws.com
+    - safebrowsing.googleapis.com
+    - securepubads.g.doubleclick.net
+    - segment.io
+    - sentry.io
+    - sharethrough.com
+    - smetrics.samsung.com
+    - snapchat.com
+    - sonobi.com
+    - static.adsafeprotected.com
+    - static.criteo.net
+    - static.doubleclick.net
+    - static.hotjar.com
+    - static.media.net
+    - stats.g.doubleclick.net
+    - stats.wp.com
+    - step-s3-tokyo.s3.amazonaws.com
+    - surveys.hotjar.com
+    - sync.kargo.com
+    - sync.taboola.com
+    - taboola.com
+    - tagmanager.google.com
+    - target.adform.net
+    - teads.tv
+    - tlx.3lift.com
+    - trc.taboola.com
+    - tracking.rus.miui.com
+    - tracking.tiktok.com
+    - trk.pinterest.com
+    - twitter.com
+    - udcm.yahoo.com
+    - unityads.unity3d.com
+    - upload.luckyorange.net
+    - vungle.com
+    - webview.unityads.unity3d.com
+    - widgets.outbrain.com
+    - www.google-analytics.com
+    - www.googletagmanager.com
+    - www.googleadservices.com
+    - yandex.ru
   app-ad-safe:
     type: inline
     behavior: domain
@@ -1861,11 +1847,6 @@ rule-providers:
     path: ./rule_providers/youtube.mrs
     url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs
     interval: 43200
-  indonesia-gambling-research:
-    type: file
-    behavior: classical
-    format: yaml
-    path: ./rule_providers/indonesia-gambling-research.yaml
 hosts:
   www.google.com: forcesafesearch.google.com
   www.google.co.id: forcesafesearch.google.com

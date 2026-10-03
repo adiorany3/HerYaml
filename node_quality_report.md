@@ -24,8 +24,7 @@
 - Tidak ada
 
 ## Node Berisiko dari NekoBox/sing-box Test
-- AKUN-012-CLOUDFLARE-VLESS-WS-79MS: ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-- AKUN-006-CLOUDFLARE-VLESS-WS-74MS: ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+- Tes NekoBox/sing-box dinonaktifkan; node tidak diuji.
 
 ## Catatan Smart Mode
 - Health-check cepat hanya untuk pool kecil, bukan semua node.

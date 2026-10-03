@@ -463,6 +463,40 @@ proxies:
       Host: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
   alpn:
   - http/1.1
+- name: AKUN-005-BIGCOMMERCE-VLESS-WS-76MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b8b01773-36b1-4b49-9bd0-6249f52345b4
+  udp: true
+  tls: true
+  servername: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /eyJqdW5rIjoiTkNUaFg0ZnJNUjhhcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
+  alpn:
+  - http/1.1
+- name: AKUN-007-CLOUDFLARE-VLESS-WS-76MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  udp: true
+  tls: true
+  servername: rAyAn-007.mAxImA.DpDnS.OrG
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
+  alpn:
+  - http/1.1
 - name: MANUAL-VMess-WS-TLS-443-ikada543
   type: vmess
   server: 104.17.3.81
@@ -537,38 +571,38 @@ proxies:
       Host: atharva.web.id
   alpn:
   - http/1.1
-- name: AKUN-005-BIGCOMMERCE-VLESS-WS-76MS
+- name: AKUN-003-RS-RAPIDSEEDBOX-20190717-VLESS-WS-74MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: b8b01773-36b1-4b49-9bd0-6249f52345b4
+  uuid: b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9
   udp: true
   tls: true
-  servername: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
+  servername: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
-  ws-opts:
-    path: /eyJqdW5rIjoiTkNUaFg0ZnJNUjhhcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
   alpn:
   - http/1.1
-- name: AKUN-007-CLOUDFLARE-VLESS-WS-76MS
+  ws-opts:
+    path: /eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
+- name: AKUN-006-AIMALL-VLESS-WS-74MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
   udp: true
   tls: true
-  servername: rAyAn-007.mAxImA.DpDnS.OrG
+  servername: cf-vless-4cf55824.aimall.fr
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /?ed=2560
+    path: /connect
     headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
+      Host: cf-vless-4cf55824.aimall.fr
   alpn:
   - http/1.1
 proxy-groups:
@@ -580,8 +614,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-005-BIGCOMMERCE-VLESS-WS-76MS
-  - AKUN-007-CLOUDFLARE-VLESS-WS-76MS
+  - AKUN-003-RS-RAPIDSEEDBOX-20190717-VLESS-WS-74MS
+  - AKUN-006-AIMALL-VLESS-WS-74MS
 rules:
 - DOMAIN,googleads.g.doubleclick.net,REJECT
 - DOMAIN,ad.doubleclick.net,REJECT
