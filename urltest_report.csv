@@ -1,26 +1,4 @@
 name,type,network,original_server,bug_sni,handshake_ms,ws_upgrade_ms,url_test_ms,url_test_status,url_test_success
-AKUN-001-CLOUDFLARE-VLESS-WS-74MS,vless,ws,o.server5peekconfig.workers.dev,O.seRVer5peEKCOnFIG.WOrKers.dEV,74,74,206,HTTP 204,yes
-AKUN-002-CLOUDFLARE-VLESS-WS-76MS,vless,ws,free.server11peekconfig.workers.dev,FRee.SeRver11pEEkcONFIg.WorkeRS.DEv,76,76,236,HTTP 204,yes
-AKUN-003-CLOUDFLARE-VLESS-WS-75MS,vless,ws,o.server3peekconfig.workers.dev,o.SERVeR3PeEkConFIG.WOrKerS.dEv,75,75,232,HTTP 204,yes
-AKUN-004-CLOUDFLARE-VLESS-WS-76MS,vless,ws,172.67.150.198,server3.pegibol940.workers.dev,76,76,240,HTTP 204,yes
-AKUN-005-CLOUDFLARE-VLESS-WS-76MS,vless,ws,188.114.97.6,wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev,76,76,227,HTTP 204,yes
-AKUN-006-BIGCOMMERCE-VLESS-WS-77MS,vless,ws,63.141.128.22,MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv,77,77,205,HTTP 204,yes
-AKUN-007-CLOUDFLARE-VLESS-WS-77MS,vless,ws,bpb-panel-4e2c.sakwra939.workers.dev,bpb-PanEl-4e2C.SAkWra939.wORKErS.DEV,77,77,221,HTTP 204,yes
-AKUN-008-CLOUDFLARE-VLESS-WS-78MS,vless,ws,time.is,fREE.sERVer6PeeKCOnFIG.wOrkErs.dEv.,78,78,233,HTTP 204,yes
-AKUN-009-CLOUDFLARE-VLESS-WS-78MS,vless,ws,v2ngfast-v2ngfast-v2ngfast-v2ngfast.jovego2551.workers.dev,v2ngfast-v2ngfast-v2ngfast-v2ngfast.jovego2551.workers.dev,78,78,199,HTTP 204,yes
-AKUN-010-CLOUDFLARE-VLESS-WS-78MS,vless,ws,172.67.133.44,blue-disk-1124.sawmansafi.workers.dev,78,78,239,HTTP 204,yes
-AKUN-011-CLOUDFLARE-VLESS-WS-79MS,vless,ws,104.21.70.21,super-sunset-010c.24-43d.workers.dev,79,79,229,HTTP 204,yes
-AKUN-012-CLOUDFLARE-VLESS-WS-76MS,vless,ws,188.114.97.6,FrEe.SeRVEr14peekCoNfIG.WoRKErS.dEV,76,76,204,HTTP 204,yes
-AKUN-013-CLOUDFLARE-VLESS-WS-79MS,vless,ws,172.67.216.233,J3Bx1S9MK2syLW66yJ-hSk.TJsJrKk8GbHTS0Q5-0Os.wOrKeRS.DEv,79,79,228,HTTP 204,yes
-AKUN-014-CLOUDFLARE-VLESS-WS-80MS,vless,ws,188.114.96.37,TeLegrAm.FREEPErSiANland1.woRKERS.DEv,80,80,181,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
-AKUN-015-CLOUDFLARE-VLESS-WS-82MS,vless,ws,104.24.68.193,wild-grass-1917.tmpduardoolfsonerluke15.workers.dev,82,82,208,HTTP 204,yes
-AKUN-016-CLOUDFLARE-VLESS-WS-76MS,vless,ws,188.114.98.0,tn1r.eu.cc,76,76,232,HTTP 204,yes
-AKUN-017-CLOUDFLARE-VLESS-WS-76MS,vless,ws,104.21.94.230,FroSTy-PonD-7436.SHHabbYAt914.woRkErS.dEv,76,76,203,HTTP 204,yes
-AKUN-018-CLOUDFLARE-VLESS-WS-77MS,vless,ws,172.64.156.60,powered-by-surena.configfarsi6982dd6e0355e.workers.dev,77,77,235,HTTP 204,yes
-AKUN-019-CLOUDFLARE-VLESS-WS-80MS,vless,ws,188.114.97.6,long-firefly-a226.216-ce0.workers.dev,80,80,232,HTTP 204,yes
-AKUN-020-CLOUDFLARE-VLESS-WS-79MS,vless,ws,5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev,5DKTCUajb2a1jxIX7csNrmEUCg.MAhRADeMAmi.wORkeRs.dEV,79,79,209,HTTP 204,yes
-AKUN-021-CLOUDFLARE-VLESS-WS-76MS,vless,ws,wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev,wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev,76,76,221,HTTP 204,yes
-AKUN-022-CLOUDFLARE-VLESS-WS-77MS,vless,ws,104.21.68.27,sERveR16.pEeKCoNFIg.worKerS.DeV,77,77,236,HTTP 204,yes
-AKUN-023-CLOUDFLARE-VLESS-WS-77MS,vless,ws,188.114.97.6,ez-98919a.motoricb.workers.dev,77,77,241,HTTP 204,yes
-AKUN-024-CLOUDFLARE-VLESS-WS-79MS,vless,ws,fpoixf69hqt3e6d4urtb.mamadneizeh.workers.dev,FpoiXF69hQT3E6d4URTB.MamADNEIZeH.WorKers.DEV,79,79,227,HTTP 204,yes
-AKUN-025-CLOUDFLARE-VLESS-WS-80MS,vless,ws,cf-socks.caoyuwu.eu.org,cf-socks.caoyuwu.eu.org,80,80,232,HTTP 204,yes
+AKUN-001-NOTION-WEB-VLESS-WS-80MS,vless,ws,208.103.161.5,dry-butterfly-8eb9.tmpgnacio83.workers.dev,80,80,206,HTTP 204,yes
+AKUN-002-CLOUDFLARE-VLESS-WS-86MS,vless,ws,188.114.96.37,TeLegrAm.FREEPErSiANland1.woRKERS.DEv,86,86,186,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
+AKUN-003-OVH-VLESS-WS-358MS,vless,ws,149.202.58.99,bab-6.site,358,358,3532,HTTP 204,yes

@@ -1,11 +1,1 @@
 name,type,network,original_server,bug_sni,mihomo_status,url_test_ms,nekobox_test_ms,nekobox_status,nekobox_ready
-AKUN-009-CLOUDFLARE-VLESS-WS-78MS,vless,ws,v2ngfast-v2ngfast-v2ngfast-v2ngfast.jovego2551.workers.dev,v2ngfast-v2ngfast-v2ngfast-v2ngfast.jovego2551.workers.dev,HTTP 204,199,6175,"ReadTimeout: HTTPSConnectionPool(host='www.gstatic.com', port=443): Read timed out. (read timeout=6.0)",no
-AKUN-017-CLOUDFLARE-VLESS-WS-76MS,vless,ws,104.21.94.230,FroSTy-PonD-7436.SHHabbYAt914.woRkErS.dEv,HTTP 204,203,258,HTTP 204,yes
-AKUN-012-CLOUDFLARE-VLESS-WS-76MS,vless,ws,188.114.97.6,FrEe.SeRVEr14peekCoNfIG.WoRKErS.dEV,HTTP 204,204,257,HTTP 204,yes
-AKUN-006-BIGCOMMERCE-VLESS-WS-77MS,vless,ws,63.141.128.22,MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv,HTTP 204,205,248,HTTP 204,yes
-AKUN-001-CLOUDFLARE-VLESS-WS-74MS,vless,ws,o.server5peekconfig.workers.dev,O.seRVer5peEKCOnFIG.WOrKers.dEV,HTTP 204,206,185,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",no
-AKUN-015-CLOUDFLARE-VLESS-WS-82MS,vless,ws,104.24.68.193,wild-grass-1917.tmpduardoolfsonerluke15.workers.dev,HTTP 204,208,6178,"ReadTimeout: HTTPSConnectionPool(host='www.gstatic.com', port=443): Read timed out. (read timeout=6.0)",no
-AKUN-020-CLOUDFLARE-VLESS-WS-79MS,vless,ws,5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev,5DKTCUajb2a1jxIX7csNrmEUCg.MAhRADeMAmi.wORkeRs.dEV,HTTP 204,209,259,HTTP 204,yes
-AKUN-007-CLOUDFLARE-VLESS-WS-77MS,vless,ws,bpb-panel-4e2c.sakwra939.workers.dev,bpb-PanEl-4e2C.SAkWra939.wORKErS.DEV,HTTP 204,221,205,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",no
-AKUN-021-CLOUDFLARE-VLESS-WS-76MS,vless,ws,wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev,wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev,HTTP 204,221,260,HTTP 204,yes
-AKUN-005-CLOUDFLARE-VLESS-WS-76MS,vless,ws,188.114.97.6,wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev,HTTP 204,227,259,HTTP 204,yes
