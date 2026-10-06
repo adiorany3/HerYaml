@@ -723,41 +723,7 @@ dns:
   - tls://family.dns.bebasid.com:853
   fallback-lazy-query: false
 proxies:
-- name: AKUN-001-NOTION-WEB-VLESS-WS-83MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: d042a74a-c305-4eec-a89f-39a348022c92
-  udp: true
-  tls: true
-  servername: dry-butterfly-8eb9.tmpgnacio83.workers.dev
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: dry-butterfly-8eb9.tmpgnacio83.workers.dev
-  alpn:
-  - http/1.1
-- name: AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 1c9daf90-3950-44ac-b06f-4cf9aec63170
-  udp: true
-  tls: true
-  servername: FrEe.SeRVEr14peekCoNfIG.WoRKErS.dEV
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /eyJqdW5rIjoiQmFCblN3SmhXYTB3RzVoIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
-    headers:
-      Host: free.server14peekconfig.workers.dev
-  alpn:
-  - http/1.1
-- name: AKUN-003-OVH-VLESS-WS-279MS
+- name: AKUN-001-OVH-VLESS-WS-257MS
   type: vless
   server: 104.17.3.81
   port: 443
@@ -772,6 +738,23 @@ proxies:
     path: /vws/
     headers:
       Host: bab-6.site
+  alpn:
+  - http/1.1
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-567MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
   alpn:
   - http/1.1
 - name: MANUAL-VMess-WS-TLS-443-ikada543
@@ -863,9 +846,8 @@ proxy-groups:
 - name: AI-OPENAI
   type: fallback
   proxies:
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-001-NOTION-WEB-VLESS-WS-83MS
-  - AKUN-003-OVH-VLESS-WS-279MS
+  - AKUN-001-OVH-VLESS-WS-257MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-567MS
   - MANUAL-VMess-WS-TLS-443-ikada543
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
@@ -879,9 +861,8 @@ proxy-groups:
 - name: AI-CLAUDE
   type: fallback
   proxies:
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-001-NOTION-WEB-VLESS-WS-83MS
-  - AKUN-003-OVH-VLESS-WS-279MS
+  - AKUN-001-OVH-VLESS-WS-257MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-567MS
   - MANUAL-VMess-WS-TLS-443-ikada543
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
@@ -895,9 +876,8 @@ proxy-groups:
 - name: AI-GEMINI
   type: fallback
   proxies:
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-001-NOTION-WEB-VLESS-WS-83MS
-  - AKUN-003-OVH-VLESS-WS-279MS
+  - AKUN-001-OVH-VLESS-WS-257MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-567MS
   - MANUAL-VMess-WS-TLS-443-ikada543
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
@@ -911,9 +891,8 @@ proxy-groups:
 - name: AI-OTHER
   type: fallback
   proxies:
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-001-NOTION-WEB-VLESS-WS-83MS
-  - AKUN-003-OVH-VLESS-WS-279MS
+  - AKUN-001-OVH-VLESS-WS-257MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-567MS
   - MANUAL-VMess-WS-TLS-443-ikada543
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
@@ -927,8 +906,8 @@ proxy-groups:
 - name: AI-STABLE
   type: fallback
   proxies:
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-001-NOTION-WEB-VLESS-WS-83MS
+  - AKUN-001-OVH-VLESS-WS-257MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-567MS
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true
@@ -938,7 +917,8 @@ proxy-groups:
 - name: AI-BACKUP
   type: fallback
   proxies:
-  - AKUN-003-OVH-VLESS-WS-279MS
+  - AKUN-001-OVH-VLESS-WS-257MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-567MS
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true
@@ -974,9 +954,8 @@ proxy-groups:
 - name: PING-CHECK
   type: url-test
   proxies:
-  - AKUN-001-NOTION-WEB-VLESS-WS-83MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-003-OVH-VLESS-WS-279MS
+  - AKUN-001-OVH-VLESS-WS-257MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-567MS
   - MANUAL-VMess-WS-TLS-443-ikada543
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
@@ -991,8 +970,10 @@ proxy-groups:
 - name: WARM-UP
   type: url-test
   proxies:
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-001-NOTION-WEB-VLESS-WS-83MS
+  - AKUN-001-OVH-VLESS-WS-257MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-567MS
+  - MANUAL-VMess-WS-TLS-443-ikada543
+  - MANUAL-VMess-WS-TLS-443-singa08
   url: https://www.gstatic.com/generate_204
   interval: 60
   tolerance: 150
@@ -1003,7 +984,7 @@ proxy-groups:
 - name: WARM-UP-CF
   type: url-test
   proxies:
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-567MS
   url: https://cp.cloudflare.com
   interval: 90
   tolerance: 150
@@ -1014,11 +995,11 @@ proxy-groups:
 - name: STREAMING-FAST
   type: url-test
   proxies:
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-001-NOTION-WEB-VLESS-WS-83MS
-  - AKUN-003-OVH-VLESS-WS-279MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-567MS
+  - AKUN-001-OVH-VLESS-WS-257MS
   - MANUAL-VMess-WS-TLS-443-ikada543
   - MANUAL-VMess-WS-TLS-443-singa08
+  - MANUAL-VMess-WS-TLS-443-akuku8
   url: https://cp.cloudflare.com
   interval: 180
   tolerance: 150
@@ -1029,12 +1010,12 @@ proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
-  - AKUN-001-NOTION-WEB-VLESS-WS-83MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-003-OVH-VLESS-WS-279MS
+  - AKUN-001-OVH-VLESS-WS-257MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-567MS
   - MANUAL-VMess-WS-TLS-443-ikada543
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
+  - MANUAL-VLESS-WS-TLS-443-apt50atpprem
   url: https://www.gstatic.com/generate_204
   interval: 180
   tolerance: 150
@@ -1045,9 +1026,8 @@ proxy-groups:
 - name: FALLBACK
   type: fallback
   proxies:
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-001-NOTION-WEB-VLESS-WS-83MS
-  - AKUN-003-OVH-VLESS-WS-279MS
+  - AKUN-001-OVH-VLESS-WS-257MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-567MS
   - MANUAL-VMess-WS-TLS-443-ikada543
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8

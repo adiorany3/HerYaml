@@ -701,6 +701,40 @@ proxies:
       Host: cf-vless-4cf55824.aimall.fr
   alpn:
   - http/1.1
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-75MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 1c9daf90-3950-44ac-b06f-4cf9aec63170
+  udp: true
+  tls: true
+  servername: FrEe.SeRVEr14peekCoNfIG.WoRKErS.dEV
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /eyJqdW5rIjoiQmFCblN3SmhXYTB3RzVoIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
+    headers:
+      Host: free.server14peekconfig.workers.dev
+  alpn:
+  - http/1.1
+- name: AKUN-001-NOTION-WEB-VLESS-WS-83MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: d042a74a-c305-4eec-a89f-39a348022c92
+  udp: true
+  tls: true
+  servername: dry-butterfly-8eb9.tmpgnacio83.workers.dev
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      Host: dry-butterfly-8eb9.tmpgnacio83.workers.dev
+  alpn:
+  - http/1.1
 - name: MANUAL-VMess-WS-TLS-443-ikada543
   type: vmess
   server: 104.17.3.81
@@ -775,38 +809,38 @@ proxies:
       Host: atharva.web.id
   alpn:
   - http/1.1
-- name: AKUN-002-CLOUDFLARE-VLESS-WS-75MS
+- name: AKUN-001-OVH-VLESS-WS-257MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: 1c9daf90-3950-44ac-b06f-4cf9aec63170
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
   tls: true
-  servername: FrEe.SeRVEr14peekCoNfIG.WoRKErS.dEV
+  servername: bab-6.site
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /eyJqdW5rIjoiQmFCblN3SmhXYTB3RzVoIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
+    path: /vws/
     headers:
-      Host: free.server14peekconfig.workers.dev
+      Host: bab-6.site
   alpn:
   - http/1.1
-- name: AKUN-001-NOTION-WEB-VLESS-WS-83MS
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-567MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: d042a74a-c305-4eec-a89f-39a348022c92
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   udp: true
   tls: true
-  servername: dry-butterfly-8eb9.tmpgnacio83.workers.dev
+  servername: a.cwvps.eu.org
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /
+    path: /ws
     headers:
-      Host: dry-butterfly-8eb9.tmpgnacio83.workers.dev
+      Host: a.cwvps.eu.org
   alpn:
   - http/1.1
 proxy-groups:
@@ -818,8 +852,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-001-NOTION-WEB-VLESS-WS-83MS
+  - AKUN-001-OVH-VLESS-WS-257MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-567MS
 rules:
 - DOMAIN,googleads.g.doubleclick.net,REJECT
 - DOMAIN,ad.doubleclick.net,REJECT
