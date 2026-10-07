@@ -1,1 +1,11 @@
 name,type,network,original_server,bug_sni,mihomo_status,url_test_ms,nekobox_test_ms,nekobox_status,nekobox_ready
+AKUN-008-WHITE-LABEL-VLESS-WS-79MS,vless,ws,203.202.232.211,ccc.010304.xyz,HTTP 204,224,237,HTTP 204,yes
+AKUN-005-CLOUDFLARE-VLESS-WS-80MS,vless,ws,cf.877774.xyz,lucasjow.us.ci,HTTP 204,230,262,HTTP 204,yes
+AKUN-002-CLOUDFLARE-VLESS-WS-77MS,vless,ws,104.17.98.5,newcscf.jisucf.cloudns.ch,HTTP 204,231,255,HTTP 204,yes
+AKUN-001-CLOUDFLARE-VLESS-WS-74MS,vless,ws,cf.877774.xyz,ccc.010304.xyz,HTTP 204,234,254,HTTP 204,yes
+AKUN-009-CLOUDFLARE-VLESS-WS-80MS,vless,ws,188.114.97.6,lucasjow.us.ci,HTTP 204,236,260,HTTP 204,yes
+AKUN-003-WHITE-LABEL-VLESS-WS-73MS,vless,ws,155.103.71.159,ccc.010304.xyz,HTTP 204,246,252,HTTP 204,yes
+AKUN-013-CLOUDFLARE-VLESS-WS-119MS,vless,ws,188.114.96.7,s3ws.ragingbull.de5.net,HTTP 204,298,341,HTTP 204,yes
+AKUN-014-CLOUDFLARE-VLESS-WS-109MS,vless,ws,188.114.97.6,s3ws.ragingbull.de5.net,HTTP 204,319,221,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",no
+AKUN-015-AE-CLOUDZY-19910923-VLESS-WS-144MS,vless,ws,153.75.81.16,s4ws.ragingbull.de5.net,HTTP 204,348,6182,"ReadTimeout: HTTPSConnectionPool(host='www.gstatic.com', port=443): Read timed out. (read timeout=6.0)",no
+AKUN-016-CLOUDFLARE-VLESS-WS-347MS,vless,ws,188.114.97.6,bab-6.site,HTTP 204,1946,4043,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",no

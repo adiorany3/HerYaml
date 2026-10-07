@@ -344,23 +344,6 @@ proxies:
       Host: powered-by-surena.configfarsi695fd42d43c58.workers.dev
   alpn:
   - http/1.1
-- name: AKUN-004-CLOUDFLARE-VLESS-WS-74MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 35e8826f-0873-492d-8b8a-d495c9947480
-  udp: true
-  tls: true
-  servername: super-sunset-010c.24-43d.workers.dev
-  network: ws
-  client-fingerprint: unsafe
-  skip-cert-verify: true
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: super-sunset-010c.24-43d.workers.dev
-  alpn:
-  - http/1.1
 - name: AKUN-001-FREIFUNKFRANKEN-VLESS-WS-346MS
   type: vless
   server: 104.17.3.81
@@ -820,6 +803,40 @@ proxies:
       Host: bab-6.site
   alpn:
   - http/1.1
+- name: AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  servername: bab-6.site
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+  alpn:
+  - http/1.1
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-570MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+  alpn:
+  - http/1.1
 - name: MANUAL-VMess-WS-TLS-443-ikada543
   type: vmess
   server: 104.17.3.81
@@ -894,38 +911,38 @@ proxies:
       Host: atharva.web.id
   alpn:
   - http/1.1
-- name: AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+- name: AKUN-006-WHITE-LABEL-VLESS-WS-73MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
-  servername: bab-6.site
+  servername: ccc.010304.xyz
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /vws/
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
     headers:
-      Host: bab-6.site
+      Host: ccc.010304.xyz
   alpn:
   - http/1.1
-- name: AKUN-002-CLOUDFLARE-VLESS-WS-570MS
+- name: AKUN-004-CLOUDFLARE-VLESS-WS-74MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
-  servername: a.cwvps.eu.org
+  servername: ccc.010304.xyz
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /ws
+    path: /
     headers:
-      Host: a.cwvps.eu.org
+      Host: ccc.010304.xyz
   alpn:
   - http/1.1
 proxy-groups:
@@ -937,8 +954,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
+  - AKUN-006-WHITE-LABEL-VLESS-WS-73MS
+  - AKUN-004-CLOUDFLARE-VLESS-WS-74MS
 rules:
 - DOMAIN,googleads.g.doubleclick.net,REJECT
 - DOMAIN,ad.doubleclick.net,REJECT
