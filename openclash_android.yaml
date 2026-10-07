@@ -723,7 +723,7 @@ dns:
   - tls://family.dns.bebasid.com:853
   fallback-lazy-query: false
 proxies:
-- name: AKUN-001-OVH-VLESS-WS-1323MS
+- name: AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
   type: vless
   server: 104.17.3.81
   port: 443
@@ -740,7 +740,7 @@ proxies:
       Host: bab-6.site
   alpn:
   - http/1.1
-- name: AKUN-002-CLOUDFLARE-VLESS-WS-571MS
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   type: vless
   server: 104.17.3.81
   port: 443
@@ -846,8 +846,8 @@ proxy-groups:
 - name: AI-OPENAI
   type: fallback
   proxies:
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  - AKUN-001-OVH-VLESS-WS-1323MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   - MANUAL-VMess-WS-TLS-443-ikada543
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
@@ -861,8 +861,8 @@ proxy-groups:
 - name: AI-CLAUDE
   type: fallback
   proxies:
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  - AKUN-001-OVH-VLESS-WS-1323MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   - MANUAL-VMess-WS-TLS-443-ikada543
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
@@ -876,8 +876,8 @@ proxy-groups:
 - name: AI-GEMINI
   type: fallback
   proxies:
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  - AKUN-001-OVH-VLESS-WS-1323MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   - MANUAL-VMess-WS-TLS-443-ikada543
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
@@ -891,8 +891,8 @@ proxy-groups:
 - name: AI-OTHER
   type: fallback
   proxies:
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  - AKUN-001-OVH-VLESS-WS-1323MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   - MANUAL-VMess-WS-TLS-443-ikada543
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
@@ -906,8 +906,8 @@ proxy-groups:
 - name: AI-STABLE
   type: fallback
   proxies:
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  - AKUN-001-OVH-VLESS-WS-1323MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true
@@ -917,8 +917,8 @@ proxy-groups:
 - name: AI-BACKUP
   type: fallback
   proxies:
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  - AKUN-001-OVH-VLESS-WS-1323MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true
@@ -954,8 +954,8 @@ proxy-groups:
 - name: PING-CHECK
   type: url-test
   proxies:
-  - AKUN-001-OVH-VLESS-WS-1323MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   - MANUAL-VMess-WS-TLS-443-ikada543
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
@@ -970,8 +970,8 @@ proxy-groups:
 - name: WARM-UP
   type: url-test
   proxies:
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  - AKUN-001-OVH-VLESS-WS-1323MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   - MANUAL-VMess-WS-TLS-443-ikada543
   - MANUAL-VMess-WS-TLS-443-singa08
   url: https://www.gstatic.com/generate_204
@@ -984,7 +984,7 @@ proxy-groups:
 - name: WARM-UP-CF
   type: url-test
   proxies:
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   url: https://cp.cloudflare.com
   interval: 90
   tolerance: 150
@@ -995,8 +995,8 @@ proxy-groups:
 - name: STREAMING-FAST
   type: url-test
   proxies:
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  - AKUN-001-OVH-VLESS-WS-1323MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
   - MANUAL-VMess-WS-TLS-443-ikada543
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
@@ -1010,8 +1010,8 @@ proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
-  - AKUN-001-OVH-VLESS-WS-1323MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   - MANUAL-VMess-WS-TLS-443-ikada543
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
@@ -1026,8 +1026,8 @@ proxy-groups:
 - name: FALLBACK
   type: fallback
   proxies:
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  - AKUN-001-OVH-VLESS-WS-1323MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   - MANUAL-VMess-WS-TLS-443-ikada543
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8

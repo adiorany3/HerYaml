@@ -786,6 +786,40 @@ proxies:
       Host: www.genflix.co.id.r3xxe.eu.cc
   alpn:
   - http/1.1
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-571MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+  alpn:
+  - http/1.1
+- name: AKUN-001-OVH-VLESS-WS-1323MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  servername: bab-6.site
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+  alpn:
+  - http/1.1
 - name: MANUAL-VMess-WS-TLS-443-ikada543
   type: vmess
   server: 104.17.3.81
@@ -860,24 +894,7 @@ proxies:
       Host: atharva.web.id
   alpn:
   - http/1.1
-- name: AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  tls: true
-  servername: a.cwvps.eu.org
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-  alpn:
-  - http/1.1
-- name: AKUN-001-OVH-VLESS-WS-1323MS
+- name: AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
   type: vless
   server: 104.17.3.81
   port: 443
@@ -894,6 +911,23 @@ proxies:
       Host: bab-6.site
   alpn:
   - http/1.1
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-570MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+  alpn:
+  - http/1.1
 proxy-groups:
 - name: MANUAL
   type: select
@@ -903,8 +937,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  - AKUN-001-OVH-VLESS-WS-1323MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
 rules:
 - DOMAIN,googleads.g.doubleclick.net,REJECT
 - DOMAIN,ad.doubleclick.net,REJECT

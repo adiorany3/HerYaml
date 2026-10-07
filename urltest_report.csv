@@ -1,4 +1,4 @@
 name,type,network,original_server,bug_sni,handshake_ms,ws_upgrade_ms,url_test_ms,url_test_status,url_test_success
-AKUN-001-CLOUDFLARE-VLESS-WS-80MS,vless,ws,188.114.96.37,TeLegrAm.FREEPErSiANland1.woRKERS.DEv,80,80,181,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
-AKUN-002-CLOUDFLARE-VLESS-WS-571MS,vless,ws,188.114.97.6,a.cwvps.eu.org,571,571,3268,HTTP 204,yes
-AKUN-003-OVH-VLESS-WS-1323MS,vless,ws,149.202.58.99,bab-6.site,1323,1323,2179,HTTP 204,yes
+AKUN-001-CLOUDFLARE-VLESS-WS-81MS,vless,ws,188.114.96.37,TeLegrAm.FREEPErSiANland1.woRKERS.DEv,81,81,178,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
+AKUN-002-FREIFUNKFRANKEN-VLESS-WS-344MS,vless,ws,81.95.4.189,bab-6.site,344,344,1867,HTTP 204,yes
+AKUN-003-CLOUDFLARE-VLESS-WS-570MS,vless,ws,188.114.97.6,a.cwvps.eu.org,570,570,2141,HTTP 204,yes

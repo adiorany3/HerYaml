@@ -124,24 +124,7 @@ dns:
   use-hosts: true
   use-system-hosts: false
 proxies:
-- name: AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  tls: true
-  servername: a.cwvps.eu.org
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-  alpn:
-  - http/1.1
-- name: AKUN-001-OVH-VLESS-WS-1323MS
+- name: AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
   type: vless
   server: 104.17.3.81
   port: 443
@@ -156,6 +139,23 @@ proxies:
     path: /vws/
     headers:
       Host: bab-6.site
+  alpn:
+  - http/1.1
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-570MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
   alpn:
   - http/1.1
 - name: MANUAL-VMess-WS-TLS-443-ikada543
@@ -264,8 +264,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  - AKUN-001-OVH-VLESS-WS-1323MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   url: https://chatgpt.com/favicon.ico
   interval: 300
   lazy: true
@@ -279,8 +279,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  - AKUN-001-OVH-VLESS-WS-1323MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   url: https://claude.ai/favicon.ico
   interval: 300
   lazy: true
@@ -294,8 +294,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  - AKUN-001-OVH-VLESS-WS-1323MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   url: https://gemini.google.com/favicon.ico
   interval: 300
   lazy: true
@@ -309,8 +309,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  - AKUN-001-OVH-VLESS-WS-1323MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true
@@ -324,8 +324,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  - AKUN-001-OVH-VLESS-WS-1323MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true
@@ -339,8 +339,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  - AKUN-001-OVH-VLESS-WS-1323MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true
@@ -354,8 +354,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  - AKUN-001-OVH-VLESS-WS-1323MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   url: https://www.gstatic.com/generate_204
   interval: 600
   lazy: true
@@ -369,8 +369,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  - AKUN-001-OVH-VLESS-WS-1323MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   - AI-OPENAI
   - AI-CLAUDE
   - AI-GEMINI
@@ -446,8 +446,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  - AKUN-001-OVH-VLESS-WS-1323MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   url: https://www.gstatic.com/generate_204
   interval: 180
   tolerance: 150
@@ -462,8 +462,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  - AKUN-001-OVH-VLESS-WS-1323MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   url: https://www.gstatic.com/generate_204
   interval: 180
   lazy: true
@@ -474,8 +474,8 @@ proxy-groups:
   type: load-balance
   strategy: sticky-sessions
   proxies:
-  - AKUN-002-CLOUDFLARE-VLESS-WS-571MS
-  - AKUN-001-OVH-VLESS-WS-1323MS
+  - AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-570MS
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true
