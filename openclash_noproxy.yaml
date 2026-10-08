@@ -837,6 +837,40 @@ proxies:
       Host: a.cwvps.eu.org
   alpn:
   - http/1.1
+- name: AKUN-006-WHITE-LABEL-VLESS-WS-73MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  servername: ccc.010304.xyz
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
+    headers:
+      Host: ccc.010304.xyz
+  alpn:
+  - http/1.1
+- name: AKUN-004-CLOUDFLARE-VLESS-WS-74MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  servername: ccc.010304.xyz
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+  alpn:
+  - http/1.1
 - name: MANUAL-VMess-WS-TLS-443-ikada543
   type: vmess
   server: 104.17.3.81
@@ -911,7 +945,24 @@ proxies:
       Host: atharva.web.id
   alpn:
   - http/1.1
-- name: AKUN-006-WHITE-LABEL-VLESS-WS-73MS
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-74MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: f759cead-5aca-4c72-8143-e802698da73b
+  udp: true
+  tls: true
+  servername: vless2.gem-audio3.us.ci
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      Host: vless2.gem-audio3.us.ci
+  alpn:
+  - http/1.1
+- name: AKUN-008-WHITE-LABEL-VLESS-WS-74MS
   type: vless
   server: 104.17.3.81
   port: 443
@@ -928,23 +979,6 @@ proxies:
       Host: ccc.010304.xyz
   alpn:
   - http/1.1
-- name: AKUN-004-CLOUDFLARE-VLESS-WS-74MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  servername: ccc.010304.xyz
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-  alpn:
-  - http/1.1
 proxy-groups:
 - name: MANUAL
   type: select
@@ -954,8 +988,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-006-WHITE-LABEL-VLESS-WS-73MS
-  - AKUN-004-CLOUDFLARE-VLESS-WS-74MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-74MS
+  - AKUN-008-WHITE-LABEL-VLESS-WS-74MS
 rules:
 - DOMAIN,googleads.g.doubleclick.net,REJECT
 - DOMAIN,ad.doubleclick.net,REJECT
@@ -1245,6 +1279,114 @@ rules:
 - RULE-SET,threat-malware,REJECT
 - RULE-SET,threat-phishing,REJECT
 - RULE-SET,threat-cryptominers,REJECT
+- DOMAIN-SUFFIX,blu.co.id,DIRECT
+- DOMAIN-SUFFIX,jago.com,DIRECT
+- DOMAIN-SUFFIX,seabank.co.id,DIRECT
+- DOMAIN-SUFFIX,bca.co.id,DIRECT
+- DOMAIN-SUFFIX,klikbca.com,DIRECT
+- DOMAIN-SUFFIX,mybca.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmandiri.co.id,DIRECT
+- DOMAIN-SUFFIX,livinbymandiri.co.id,DIRECT
+- DOMAIN-SUFFIX,bri.co.id,DIRECT
+- DOMAIN-SUFFIX,bni.co.id,DIRECT
+- DOMAIN-SUFFIX,btn.co.id,DIRECT
+- DOMAIN-SUFFIX,cimbniaga.co.id,DIRECT
+- DOMAIN-SUFFIX,octo.co.id,DIRECT
+- DOMAIN-SUFFIX,danamon.co.id,DIRECT
+- DOMAIN-SUFFIX,permatabank.com,DIRECT
+- DOMAIN-SUFFIX,panin.co.id,DIRECT
+- DOMAIN-SUFFIX,ocbc.id,DIRECT
+- DOMAIN-SUFFIX,ocbcnisp.com,DIRECT
+- DOMAIN-SUFFIX,maybank.co.id,DIRECT
+- DOMAIN-SUFFIX,hsbc.co.id,DIRECT
+- DOMAIN-SUFFIX,uob.co.id,DIRECT
+- DOMAIN-SUFFIX,dbs.com,DIRECT
+- DOMAIN-SUFFIX,dbs.id,DIRECT
+- DOMAIN-SUFFIX,sc.com,DIRECT
+- DOMAIN-SUFFIX,citibank.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmega.com,DIRECT
+- DOMAIN-SUFFIX,bankmega.co.id,DIRECT
+- DOMAIN-SUFFIX,btpn.com,DIRECT
+- DOMAIN-SUFFIX,jenius.com,DIRECT
+- DOMAIN-SUFFIX,bankjago.com,DIRECT
+- DOMAIN-SUFFIX,bankneo.co.id,DIRECT
+- DOMAIN-SUFFIX,allobank.com,DIRECT
+- DOMAIN-SUFFIX,bankraya.co.id,DIRECT
+- DOMAIN-SUFFIX,bankaladin.co.id,DIRECT
+- DOMAIN-SUFFIX,bankina.co.id,DIRECT
+- DOMAIN-SUFFIX,bankbsi.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmuamalat.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmega-syariah.co.id,DIRECT
+- DOMAIN-SUFFIX,bcasyariah.co.id,DIRECT
+- DOMAIN-SUFFIX,btpnsyariah.com,DIRECT
+- DOMAIN-SUFFIX,bankvictoriasyariah.co.id,DIRECT
+- DOMAIN-SUFFIX,banksinarmas.com,DIRECT
+- DOMAIN-SUFFIX,bankmas.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmestika.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmayapada.com,DIRECT
+- DOMAIN-SUFFIX,bankcapital.co.id,DIRECT
+- DOMAIN-SUFFIX,bankganesha.co.id,DIRECT
+- DOMAIN-SUFFIX,bankindex.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmayora.com,DIRECT
+- DOMAIN-SUFFIX,bankwoorisaudara.com,DIRECT
+- DOMAIN-SUFFIX,kebhana.co.id,DIRECT
+- DOMAIN-SUFFIX,shinhan.co.id,DIRECT
+- DOMAIN-SUFFIX,bankbisnis.com,DIRECT
+- DOMAIN-SUFFIX,banksampoerna.com,DIRECT
+- DOMAIN-SUFFIX,banknobu.com,DIRECT
+- DOMAIN-SUFFIX,bankbjb.co.id,DIRECT
+- DOMAIN-SUFFIX,bankdki.co.id,DIRECT
+- DOMAIN-SUFFIX,bankjateng.co.id,DIRECT
+- DOMAIN-SUFFIX,bankjatim.co.id,DIRECT
+- DOMAIN-SUFFIX,bpddiy.co.id,DIRECT
+- DOMAIN-SUFFIX,banksumut.co.id,DIRECT
+- DOMAIN-SUFFIX,bankaceh.co.id,DIRECT
+- DOMAIN-SUFFIX,banknagari.co.id,DIRECT
+- DOMAIN-SUFFIX,bankriaukepri.co.id,DIRECT
+- DOMAIN-SUFFIX,banksumselbabel.com,DIRECT
+- DOMAIN-SUFFIX,banklampung.co.id,DIRECT
+- DOMAIN-SUFFIX,bankkalbar.co.id,DIRECT
+- DOMAIN-SUFFIX,bankkalsel.co.id,DIRECT
+- DOMAIN-SUFFIX,bankkalteng.co.id,DIRECT
+- DOMAIN-SUFFIX,bankaltimtara.co.id,DIRECT
+- DOMAIN-SUFFIX,banksulselbar.co.id,DIRECT
+- DOMAIN-SUFFIX,banksulutgo.co.id,DIRECT
+- DOMAIN-SUFFIX,bankntbsyariah.co.id,DIRECT
+- DOMAIN-SUFFIX,bpdbali.co.id,DIRECT
+- DOMAIN-SUFFIX,bpdntt.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmalukumalut.co.id,DIRECT
+- DOMAIN-SUFFIX,bankpapua.co.id,DIRECT
+- DOMAIN-SUFFIX,gojek.com,DIRECT
+- DOMAIN-SUFFIX,gojekapi.com,DIRECT
+- DOMAIN-SUFFIX,gopay.co.id,DIRECT
+- DOMAIN-SUFFIX,grab.com,DIRECT
+- DOMAIN-SUFFIX,grabtaxi.com,DIRECT
+- DOMAIN-SUFFIX,ovo.id,DIRECT
+- DOMAIN-SUFFIX,dana.id,DIRECT
+- DOMAIN-SUFFIX,linkaja.id,DIRECT
+- DOMAIN-SUFFIX,flip.id,DIRECT
+- DOMAIN-SUFFIX,shopee.co.id,DIRECT
+- DOMAIN-SUFFIX,shopee.com,DIRECT
+- DOMAIN-SUFFIX,shopee.sg,DIRECT
+- DOMAIN-SUFFIX,shopeemobile.com,DIRECT
+- DOMAIN-SUFFIX,shopeeusercontent.com,DIRECT
+- DOMAIN-SUFFIX,susercontent.com,DIRECT
+- DOMAIN-SUFFIX,shp.ee,DIRECT
+- DOMAIN-SUFFIX,spaylater.co.id,DIRECT
+- DOMAIN-SUFFIX,shopeepay.co.id,DIRECT
+- DOMAIN-SUFFIX,midtrans.com,DIRECT
+- DOMAIN-SUFFIX,xendit.co,DIRECT
+- DOMAIN-SUFFIX,doku.com,DIRECT
+- DOMAIN-SUFFIX,faspay.co.id,DIRECT
+- DOMAIN-SUFFIX,nicepay.co.id,DIRECT
+- DOMAIN-SUFFIX,duitku.com,DIRECT
+- DOMAIN-SUFFIX,tripay.co.id,DIRECT
+- DOMAIN-SUFFIX,prismalink.co.id,DIRECT
+- DOMAIN-SUFFIX,finpay.co.id,DIRECT
+- DOMAIN-SUFFIX,ipaymu.com,DIRECT
+- DOMAIN-SUFFIX,oyindonesia.com,DIRECT
+- DOMAIN-SUFFIX,qris.id,DIRECT
+- DOMAIN-SUFFIX,bi.go.id,DIRECT
 - RULE-SET,threat-fake-scam,REJECT
 - RULE-SET,threat-tif-mini,REJECT
 - RULE-SET,gambling-mini,REJECT
