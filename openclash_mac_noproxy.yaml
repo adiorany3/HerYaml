@@ -1,0 +1,1949 @@
+# OpenClash macOS + No Proxy; adblock providers YAML-only, no MRS adblock files.
+mixed-port: 7890
+redir-port: 7892
+tproxy-port: 7895
+allow-lan: true
+bind-address: '*'
+lan-allowed-ips:
+- 127.0.0.0/8
+- 10.0.0.0/8
+- 172.16.0.0/12
+- 192.168.0.0/16
+mode: rule
+log-level: warning
+ipv6: false
+unified-delay: true
+tcp-concurrent: true
+find-process-mode: 'off'
+keep-alive-interval: 15
+keep-alive-idle: 30
+disable-keep-alive: false
+external-controller: 127.0.0.1:9090
+secret: ''
+profile:
+  store-selected: true
+  store-fake-ip: true
+sniffer:
+  enable: true
+  sniff:
+    TLS:
+      ports:
+      - 443
+      - 8443
+    HTTP:
+      ports:
+      - 80
+      - 8080-8880
+      override-destination: true
+    QUIC:
+      ports:
+      - 443
+      - 8443
+  force-domain:
+  - +.v2ex.com
+  skip-domain:
+  - +.lan
+  - +.local
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:7874
+  respect-rules: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - +.lan
+  - +.local
+  - localhost.ptlogin2.qq.com
+  - dns.msftncsi.com
+  - www.msftconnecttest.com
+  - connectivitycheck.gstatic.com
+  - connect.rom.miui.com
+  - time.*.com
+  - ntp.*.com
+  - +.pool.ntp.org
+  - router.asus.com
+  - tplinkwifi.net
+  - tendawifi.com
+  - +.bca.co.id
+  - +.bni.co.id
+  - +.bri.co.id
+  - +.mandiri.co.id
+  - +.stun.*.*
+  - +.stun.*.*.*
+  - +.stun.*.*.*.*
+  - +.stun.*.*.*.*.*
+  - '*.n.n.srv.nintendo.net'
+  - xbox.*.*.microsoft.com
+  - '*.*.xboxlive.com'
+  cache-algorithm: arc
+  default-nameserver:
+  - https://1.1.1.1/dns-query
+  - https://9.9.9.9/dns-query
+  nameserver:
+  - https://family.dns.bebasid.com/dns-query
+  - tls://family.dns.bebasid.com:853
+  proxy-server-nameserver:
+  - https://1.1.1.1/dns-query
+  - https://dns.google/dns-query
+  - https://dns.quad9.net/dns-query
+  - https://9.9.9.9/dns-query
+  - https://94.140.14.14/dns-query
+  nameserver-policy:
+    +.openai.com:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+    +.chatgpt.com:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+    +.chatgpt.site:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+    +.anthropic.com:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+    +.claude.ai:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+    +.claude.com:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+    +.gemini.google.com:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+  fallback:
+  - https://family.dns.bebasid.com/dns-query
+  - tls://family.dns.bebasid.com:853
+  fallback-lazy-query: false
+  fallback-filter:
+    geoip: true
+    geoip-code: ID
+    ipcidr:
+    - 240.0.0.0/4
+  prefer-h3: false
+  use-hosts: true
+  use-system-hosts: false
+proxies:
+- name: AKUN-001-BIGCOMMERCE-VLESS-WS-77MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b8b01773-36b1-4b49-9bd0-6249f52345b4
+  udp: true
+  tls: true
+  servername: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /eyJqdW5rIjoiTkNUaFg0ZnJNUjhhcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
+  alpn:
+  - http/1.1
+- name: AKUN-005-CLOUDFLARE-VLESS-WS-78MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 35e8826f-0873-492d-8b8a-d495c9947480
+  udp: true
+  tls: true
+  servername: super-sunset-010c.24-43d.workers.dev
+  network: ws
+  client-fingerprint: unsafe
+  skip-cert-verify: true
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: super-sunset-010c.24-43d.workers.dev
+  alpn:
+  - http/1.1
+- name: AKUN-003-CLOUDFLARE-VLESS-WS-75MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 419b7a2c-9fa2-4870-b58a-0498ccc7d6c4
+  udp: true
+  tls: true
+  servername: sERveR16.pEeKCoNFIg.worKerS.DeV
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /eyJqdW5rIjoiYXdUWFpSYnZubU5hIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0
+    headers:
+      Host: server16.peekconfig.workers.dev
+  alpn:
+  - http/1.1
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-73MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 419b7a2c-9fa2-4870-b58a-0498ccc7d6c4
+  udp: true
+  tls: true
+  servername: sERveR16.pEeKCoNFIg.worKerS.DeV
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /eyJqdW5rIjoiYXdUWFpSYnZubU5hIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0
+    headers:
+      Host: server16.peekconfig.workers.dev
+  alpn:
+  - http/1.1
+- name: AKUN-006-CLOUDFLARE-VLESS-WS-74MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  udp: true
+  tls: true
+  servername: powered-by-surena.configfarsi695fd42d43c58.workers.dev
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: powered-by-surena.configfarsi695fd42d43c58.workers.dev
+  alpn:
+  - http/1.1
+- name: AKUN-001-BIGCOMMERCE-VLESS-WS-76MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b8b01773-36b1-4b49-9bd0-6249f52345b4
+  udp: true
+  tls: true
+  servername: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /eyJqdW5rIjoiTkNUaFg0ZnJNUjhhcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
+  alpn:
+  - http/1.1
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-85MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 15a05f72-8e49-408e-8337-9c4d418f2d43
+  udp: true
+  tls: true
+  servername: mSg-QUeUE-140448-edg.rOyaL-dISK-882F.woRkErS.DEv
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /?proxyip=37.152.182.54
+    headers:
+      Host: MSg-QUeue-140448-edg.royal-DiSk-882F.wORKErs.Dev
+  alpn:
+  - http/1.1
+- name: AKUN-002-FREIFUNKFRANKEN-VLESS-WS-335MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  servername: bab-6.site
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+  alpn:
+  - http/1.1
+- name: AKUN-001-FREIFUNKFRANKEN-VLESS-WS-124MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  servername: bab-6.site
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+  alpn:
+  - http/1.1
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-564MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+  alpn:
+  - http/1.1
+- name: AKUN-003-CLOUDFLARE-VLESS-WS-76MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 0799a47d-d446-4a20-8e75-441fa899fbb1
+  udp: true
+  tls: true
+  servername: unnes.ac.id.r3xxe.eu.cc
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /id-pusat
+    headers:
+      Host: unnes.ac.id.r3xxe.eu.cc
+  alpn:
+  - http/1.1
+- name: AKUN-004-CLOUDFLARE-VLESS-WS-77MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 0b41f339-5809-46ef-8351-b03fdc441539
+  udp: true
+  tls: true
+  servername: FpoiXF69hQT3E6d4URTB.MamADNEIZeH.WorKers.DEV
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /vl/lYNtP7z8pJUmfp01tz5wEnuDujJtZ
+    headers:
+      Host: FpoiXF69hQT3E6d4URTB.MamADNEIZeH.WorKers.DEV
+- name: AKUN-001-CLOUDFLARE-VLESS-WS-74MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  udp: true
+  tls: true
+  servername: powered-by-surena.configfarsi695fd42d43c58.workers.dev
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: powered-by-surena.configfarsi695fd42d43c58.workers.dev
+  alpn:
+  - http/1.1
+- name: AKUN-001-FREIFUNKFRANKEN-VLESS-WS-346MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  servername: bab-6.site
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+  alpn:
+  - http/1.1
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-581MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+  alpn:
+  - http/1.1
+- name: AKUN-002-DIGITALOCEAN-VLESS-WS-75MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+  udp: true
+  tls: true
+  servername: white-forest-2c01.alvlirm222.workers.dev
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      Host: white-forest-2c01.alvlirm222.workers.dev
+  alpn:
+  - http/1.1
+- name: AKUN-006-BIGCOMMERCE-VLESS-WS-76MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b8b01773-36b1-4b49-9bd0-6249f52345b4
+  udp: true
+  tls: true
+  servername: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /eyJqdW5rIjoiTkNUaFg0ZnJNUjhhcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
+  alpn:
+  - http/1.1
+- name: AKUN-005-BIGCOMMERCE-VLESS-WS-76MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b8b01773-36b1-4b49-9bd0-6249f52345b4
+  udp: true
+  tls: true
+  servername: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /eyJqdW5rIjoiTkNUaFg0ZnJNUjhhcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
+  alpn:
+  - http/1.1
+- name: AKUN-007-CLOUDFLARE-VLESS-WS-76MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  udp: true
+  tls: true
+  servername: rAyAn-007.mAxImA.DpDnS.OrG
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
+  alpn:
+  - http/1.1
+- name: AKUN-003-RS-RAPIDSEEDBOX-20190717-VLESS-WS-74MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9
+  udp: true
+  tls: true
+  servername: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
+- name: AKUN-006-AIMALL-VLESS-WS-74MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
+  udp: true
+  tls: true
+  servername: cf-vless-4cf55824.aimall.fr
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /connect
+    headers:
+      Host: cf-vless-4cf55824.aimall.fr
+  alpn:
+  - http/1.1
+- name: AKUN-001-CLOUDFLARE-VLESS-WS-78MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  udp: true
+  tls: true
+  servername: nuclear.us.kg
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /free/103.101.153.32:443
+    headers:
+      Host: nuclear.us.kg
+  alpn:
+  - http/1.1
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-80MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 1f40d742-dfaa-4694-a509-3d81918a5673
+  udp: true
+  tls: true
+  servername: auto-1f40d7.rohawmk.workers.dev
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI?ed=2560
+    headers:
+      Host: auto-1f40d7.rohawmk.workers.dev
+  alpn:
+  - http/1.1
+- name: AKUN-002-OVH-VLESS-WS-341MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  servername: bab-6.site
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+  alpn:
+  - http/1.1
+- name: AKUN-001-CLOUDFLARE-VLESS-WS-899MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+  alpn:
+  - http/1.1
+- name: AKUN-008-CLOUDFLARE-VLESS-WS-75MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: c5db14f6-2a21-401c-8160-a8093ff4ffd3
+  udp: true
+  tls: true
+  servername: mxp6jvjacystdp-s4f.kjnnv3i410u6mq-itd.workers.dev
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /vl/14m2B3TtxW5N85ews
+    headers:
+      Host: mxp6jvjacystdp-s4f.kjnnv3i410u6mq-itd.workers.dev
+- name: AKUN-006-CLOUDFLARE-VLESS-WS-75MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 1c9daf90-3950-44ac-b06f-4cf9aec63170
+  udp: true
+  tls: true
+  servername: FrEe.SeRVEr14peekCoNfIG.WoRKErS.dEV
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /eyJqdW5rIjoiQmFCblN3SmhXYTB3RzVoIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
+    headers:
+      Host: free.server14peekconfig.workers.dev
+  alpn:
+  - http/1.1
+- name: AKUN-001-CLOUDFLARE-VLESS-WS-76MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: de78c0b1-c5c8-412a-bd92-430d1f2e2642
+  udp: true
+  tls: true
+  servername: FroSTy-PonD-7436.SHHabbYAt914.woRkErS.dEv
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /NmrU9ImDG7jA7oFEem
+    headers:
+      Host: frosty-pond-7436.shhabbyat914.workers.dev
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-76MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 1c9daf90-3950-44ac-b06f-4cf9aec63170
+  udp: true
+  tls: true
+  servername: FrEe.SeRVEr14peekCoNfIG.WoRKErS.dEV
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /eyJqdW5rIjoiQmFCblN3SmhXYTB3RzVoIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
+    headers:
+      Host: free.server14peekconfig.workers.dev
+  alpn:
+  - http/1.1
+- name: AKUN-001-NOTION-WEB-VLESS-WS-80MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: d042a74a-c305-4eec-a89f-39a348022c92
+  udp: true
+  tls: true
+  servername: dry-butterfly-8eb9.tmpgnacio83.workers.dev
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      Host: dry-butterfly-8eb9.tmpgnacio83.workers.dev
+  alpn:
+  - http/1.1
+- name: AKUN-002-OVH-VLESS-WS-358MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  servername: bab-6.site
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+  alpn:
+  - http/1.1
+- name: AKUN-003-RS-RAPIDSEEDBOX-20190717-VLESS-WS-75MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9
+  udp: true
+  tls: true
+  servername: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
+- name: AKUN-006-CLOUDFLARE-VLESS-WS-76MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
+  udp: true
+  tls: true
+  servername: cf-vless-4cf55824.aimall.fr
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /connect
+    headers:
+      Host: cf-vless-4cf55824.aimall.fr
+  alpn:
+  - http/1.1
+- name: AKUN-001-NOTION-WEB-VLESS-WS-83MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: d042a74a-c305-4eec-a89f-39a348022c92
+  udp: true
+  tls: true
+  servername: dry-butterfly-8eb9.tmpgnacio83.workers.dev
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      Host: dry-butterfly-8eb9.tmpgnacio83.workers.dev
+  alpn:
+  - http/1.1
+- name: AKUN-001-OVH-VLESS-WS-257MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  servername: bab-6.site
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+  alpn:
+  - http/1.1
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-567MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+  alpn:
+  - http/1.1
+- name: AKUN-010-CLOUDFLARE-VLESS-WS-73MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 4ccf70f9-7632-4b5a-9557-10d2dd347bb2
+  udp: true
+  tls: true
+  servername: To6R63-kKChiGHqm2.vxz0Dduq7to7Su0CDQf.worKERs.DEV
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /vl/zhlUKkHT4SNWHmPFOf4cu6?ed=2560
+    headers:
+      Host: to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-75MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 42026ed0-7d74-4585-8e46-0fe6aa4d665a
+  udp: true
+  tls: true
+  servername: www.genflix.co.id.r3xxe.eu.cc
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /au-do
+    headers:
+      Host: www.genflix.co.id.r3xxe.eu.cc
+  alpn:
+  - http/1.1
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-571MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+  alpn:
+  - http/1.1
+- name: AKUN-001-OVH-VLESS-WS-1323MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  servername: bab-6.site
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+  alpn:
+  - http/1.1
+- name: AKUN-001-FREIFUNKFRANKEN-VLESS-WS-344MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  servername: bab-6.site
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+  alpn:
+  - http/1.1
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-570MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+  alpn:
+  - http/1.1
+- name: AKUN-006-WHITE-LABEL-VLESS-WS-73MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  servername: ccc.010304.xyz
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
+    headers:
+      Host: ccc.010304.xyz
+  alpn:
+  - http/1.1
+- name: AKUN-004-CLOUDFLARE-VLESS-WS-74MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  servername: ccc.010304.xyz
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+  alpn:
+  - http/1.1
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-74MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: f759cead-5aca-4c72-8143-e802698da73b
+  udp: true
+  tls: true
+  servername: vless2.gem-audio3.us.ci
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      Host: vless2.gem-audio3.us.ci
+  alpn:
+  - http/1.1
+- name: AKUN-008-WHITE-LABEL-VLESS-WS-74MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  servername: ccc.010304.xyz
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
+    headers:
+      Host: ccc.010304.xyz
+  alpn:
+  - http/1.1
+- name: MANUAL-VMess-WS-TLS-443-ikada543
+  type: vmess
+  server: 104.17.3.81
+  port: 443
+  uuid: 07b0b1d3-0f2a-4d95-895a-c31be0f6a784
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: fbcdn.sbs
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /modern-analyze-to-machine-learning/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: fbcdn.sbs
+  alpn:
+  - http/1.1
+- name: MANUAL-VMess-WS-TLS-443-singa08
+  type: vmess
+  server: 104.17.3.81
+  port: 443
+  uuid: 66827e09-9743-47d4-952c-d9c90f31fe48
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: midtrans.cyou
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /essential-achieve-to-growth-hacking/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: midtrans.cyou
+  alpn:
+  - http/1.1
+- name: MANUAL-VMess-WS-TLS-443-akuku8
+  type: vmess
+  server: 104.17.3.81
+  port: 443
+  uuid: 4ee97185-f0ea-4842-b116-aaa1832665cc
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: fbcdn.sbs
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /beginner-understand-to-growth-hacking/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: fbcdn.sbs
+  alpn:
+  - http/1.1
+- name: MANUAL-VLESS-WS-TLS-443-apt50atpprem
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: c13ff27e-268a-4c69-a464-d8a625fd01b3
+  udp: true
+  tls: true
+  servername: atharva.web.id
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /effective-steps-to-cloud-computing/buy-vless-ws-pm-telegram-at-synricha
+    headers:
+      Host: atharva.web.id
+  alpn:
+  - http/1.1
+- name: AKUN-002-OVH-VLESS-WS-352MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  servername: bab-6.site
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+  alpn:
+  - http/1.1
+- name: AKUN-001-CLOUDFLARE-VLESS-WS-590MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+  alpn:
+  - http/1.1
+proxy-groups:
+- name: MANUAL
+  type: select
+  proxies:
+  - DIRECT
+  - MANUAL-VMess-WS-TLS-443-ikada543
+  - MANUAL-VMess-WS-TLS-443-singa08
+  - MANUAL-VMess-WS-TLS-443-akuku8
+  - MANUAL-VLESS-WS-TLS-443-apt50atpprem
+  - AKUN-002-OVH-VLESS-WS-352MS
+  - AKUN-001-CLOUDFLARE-VLESS-WS-590MS
+rules:
+- DOMAIN,googleads.g.doubleclick.net,REJECT
+- DOMAIN,ad.doubleclick.net,REJECT
+- DOMAIN,pubads.g.doubleclick.net,REJECT
+- DOMAIN,securepubads.g.doubleclick.net,REJECT
+- DOMAIN,pagead2.googlesyndication.com,REJECT
+- DOMAIN,tpc.googlesyndication.com,REJECT
+- DOMAIN,www.googleadservices.com,REJECT
+- DOMAIN,imasdk.googleapis.com,REJECT
+- DOMAIN,ads.youtube.com,REJECT
+- DOMAIN-SUFFIX,2mdn.net,REJECT
+- DOMAIN-SUFFIX,googlesyndication.com,REJECT
+- DOMAIN-SUFFIX,googleadservices.com,REJECT
+- DOMAIN,adtrafficquality.google,REJECT
+- DOMAIN-SUFFIX,googleadapis.com,REJECT
+- DOMAIN,mobileads.google.com,REJECT
+- DOMAIN,pagead.l.google.com,REJECT
+- DOMAIN,adservice.google.com,REJECT
+- DOMAIN,stats.g.doubleclick.net,REJECT
+- DOMAIN,m.doubleclick.net,REJECT
+- DOMAIN,mediavisor.doubleclick.net,REJECT
+- DOMAIN,adstatistics.av380.net,REJECT
+- DOMAIN,logs.av380.net,REJECT
+- DOMAIN,ad.av380.net,REJECT
+- DOMAIN,ads.av380.net,REJECT
+- DOMAIN,advert.av380.net,REJECT
+- DOMAIN,advertising.av380.net,REJECT
+- DOMAIN,promotion.av380.net,REJECT
+- DOMAIN,promotions.av380.net,REJECT
+- DOMAIN,app-ad.av380.net,REJECT
+- DOMAIN,veepai-device-log.eye4.cn,REJECT
+- DOMAIN,eulog.ezvizlife.com,REJECT
+- DOMAIN,log.ezvizlife.com,REJECT
+- DOMAIN,salog.ezvizlife.com,REJECT
+- DOMAIN,sgplog.ezvizlife.com,REJECT
+- DOMAIN,uslog.ezvizlife.com,REJECT
+- DOMAIN,rum-apis.reolink.com,REJECT
+- DOMAIN,sentry.tuyaus.com,REJECT
+- DOMAIN,promotion-en.xmeye.net,REJECT
+- DOMAIN,000333casino.com,REJECT
+- DOMAIN,1joycasino.club,REJECT
+- DOMAIN,20betcasinoonline.com,REJECT
+- DOMAIN,21casino-online.de,REJECT
+- DOMAIN,400bonuscasino.com,REJECT
+- DOMAIN,5-best-online-casinos.com,REJECT
+- DOMAIN,adnetwork.bet,REJECT
+- DOMAIN,adpool.bet,REJECT
+- DOMAIN,ads.betmgm.bet.br,REJECT
+- DOMAIN,ads.brazino777.bet.br,REJECT
+- DOMAIN,ads.energycasinopartners.com,REJECT
+- DOMAIN,ads.gogocasino.com,REJECT
+- DOMAIN,ads.grosvenorcasinos.com,REJECT
+- DOMAIN,ads.roku.com,REJECT
+- DOMAIN,ads.spotify.com,REJECT
+- DOMAIN,ads.twitch.tv,REJECT
+- DOMAIN,ads.versus.bet.br,REJECT
+- DOMAIN,adv.casinopays.com,REJECT
+- DOMAIN,advertising.netflix.com,REJECT
+- DOMAIN,advertising.roku.com,REJECT
+- DOMAIN,aff.bateu.bet.br,REJECT
+- DOMAIN,aff.esportesdasorte.bet.br,REJECT
+- DOMAIN,aff.hiper.bet.br,REJECT
+- DOMAIN,aff.oleybet.bet.br,REJECT
+- DOMAIN,afiliados.esportiva.bet,REJECT
+- DOMAIN,alexander-casino-en-ligne.fr,REJECT
+- DOMAIN,allyspin-casino.fr,REJECT
+- DOMAIN,allyspincasino-online.de,REJECT
+- DOMAIN,amon-casino-fr.fr,REJECT
+- DOMAIN,anaktogel.com,REJECT
+- DOMAIN,analytics-api.crowncoinscasino.com,REJECT
+- DOMAIN,aquawinscasino.fr,REJECT
+- DOMAIN,banner.syairtogelx.com,REJECT
+- DOMAIN,bassbetcasino-online.de,REJECT
+- DOMAIN,beef-casino-aktionscode.de,REJECT
+- DOMAIN,beef-online-casino-de.de,REJECT
+- DOMAIN,bet-on-redcasino.fr,REJECT
+- DOMAIN,betify-casino-bonus-fr.fr,REJECT
+- DOMAIN,betify-casino-en-ligne.fr,REJECT
+- DOMAIN,betify-casino-poker-fr.fr,REJECT
+- DOMAIN,betssoncasino.fr,REJECT
+- DOMAIN,bettogel.shop,REJECT
+- DOMAIN,bokacasino.fr,REJECT
+- DOMAIN,btccasinoexpert.com,REJECT
+- DOMAIN,candy-casino-online.de,REJECT
+- DOMAIN,captaincookscasino-online.de,REJECT
+- DOMAIN,casino-ad-mediation.me2zengame.com,REJECT
+- DOMAIN,casino-amonbet.fr,REJECT
+- DOMAIN,casino-blitz.fr,REJECT
+- DOMAIN,casino-dragonia-online.de,REJECT
+- DOMAIN,casino-friday-roll.fr,REJECT
+- DOMAIN,casino-fridayroll.fr,REJECT
+- DOMAIN,casino-igobet.fr,REJECT
+- DOMAIN,casino-infinity-online-de.xyz,REJECT
+- DOMAIN,casino-instant-online.de,REJECT
+- DOMAIN,casino-kinbet-online.de,REJECT
+- DOMAIN,casino.betsson.com,REJECT
+- DOMAIN,casino1win.fr,REJECT
+- DOMAIN,casinobonusdeals.io,REJECT
+- DOMAIN,casinoboomsbet.fr,REJECT
+- DOMAIN,casinocrazytime.fr,REJECT
+- DOMAIN,casinohacksforyou.com,REJECT
+- DOMAIN,casinohermesvip.fr,REJECT
+- DOMAIN,casinoinfinity-official.fr,REJECT
+- DOMAIN,casinojoy.fr,REJECT
+- DOMAIN,casinoliraspin.fr,REJECT
+- DOMAIN,casinolucky8.fr,REJECT
+- DOMAIN,casinolyenligne.fr,REJECT
+- DOMAIN,casinomostbet.fr,REJECT
+- DOMAIN,casinovacasinos.fr,REJECT
+- DOMAIN,casinovascasino.fr,REJECT
+- DOMAIN,casinovegashero.fr,REJECT
+- DOMAIN,cawinocasino.fr,REJECT
+- DOMAIN,cazeus-casino-fr.fr,REJECT
+- DOMAIN,celsius-casino.fr,REJECT
+- DOMAIN,celsiuscasino-connexion.fr,REJECT
+- DOMAIN,circus-casino1.fr,REJECT
+- DOMAIN,circuscasinoenligne.fr,REJECT
+- DOMAIN,congtogel168.site,REJECT
+- DOMAIN,coolzinoscasino.fr,REJECT
+- DOMAIN,corgibetcasinos.fr,REJECT
+- DOMAIN,corgibetscasino.fr,REJECT
+- DOMAIN,crash-casinos.co.uk,REJECT
+- DOMAIN,crash-casinouk.co.uk,REJECT
+- DOMAIN,dachbet-casino-online.de,REJECT
+- DOMAIN,diproton-ads-prod-eu-central-1.hulu.com.akadns.net,REJECT
+- DOMAIN,diproton-ads-prod-eu-west-1.hulu.com.akadns.net,REJECT
+- DOMAIN,diproton-ads-prod-us-east-1.hulu.com.akadns.net,REJECT
+- DOMAIN,diproton-ads-prod-us-east-2.hulu.com.akadns.net,REJECT
+- DOMAIN,diproton-ads-prod-us-west-2.hulu.com.akadns.net,REJECT
+- DOMAIN,dragonia-casino-online.com,REJECT
+- DOMAIN,dublinbet-casinos.fr,REJECT
+- DOMAIN,duospin-casino.fr,REJECT
+- DOMAIN,elitespin-casino.fr,REJECT
+- DOMAIN,euslotcasino.fr,REJECT
+- DOMAIN,familytogel.fun,REJECT
+- DOMAIN,fanatics.bet,REJECT
+- DOMAIN,firixslotcasino.fr,REJECT
+- DOMAIN,fontancasino-online.de,REJECT
+- DOMAIN,forbetcasino.pl,REJECT
+- DOMAIN,fr-roobetcasino.fr,REJECT
+- DOMAIN,freespins.bet,REJECT
+- DOMAIN,fridayrollcasino-online.de,REJECT
+- DOMAIN,gamix-casino.fr,REJECT
+- DOMAIN,gg-bet.de,REJECT
+- DOMAIN,ggbetcasino.de,REJECT
+- DOMAIN,gioocasino.fr,REJECT
+- DOMAIN,goldenpandacasino-online.de,REJECT
+- DOMAIN,h25casinoonline.org,REJECT
+- DOMAIN,happyhugocasinos.fr,REJECT
+- DOMAIN,happyhugoscasino.fr,REJECT
+- DOMAIN,hitnspin-casino.fr,REJECT
+- DOMAIN,hitnspincasino.fr,REJECT
+- DOMAIN,hugo-bets-casino.fr,REJECT
+- DOMAIN,ile-de-casinos.fr,REJECT
+- DOMAIN,instant-casinoinstant.fr,REJECT
+- DOMAIN,iwildcasinoonline.com,REJECT
+- DOMAIN,jokery-casino-online.de,REJECT
+- DOMAIN,jokerycasino-online.de,REJECT
+- DOMAIN,jouermafiacasino.fr,REJECT
+- DOMAIN,jpfevercasino.fr,REJECT
+- DOMAIN,julius-casino-onlinefr.fr,REJECT
+- DOMAIN,juliuscasino-bonus.fr,REJECT
+- DOMAIN,juliuscasino-officiel.fr,REJECT
+- DOMAIN,juliuscasinofrance.fr,REJECT
+- DOMAIN,kingbillycasino-online.de,REJECT
+- DOMAIN,korucasino.fr,REJECT
+- DOMAIN,lazacasino.com,REJECT
+- DOMAIN,legzo-casino.net,REJECT
+- DOMAIN,locowincasinopromo.fr,REJECT
+- DOMAIN,lp.titancasino.com,REJECT
+- DOMAIN,lto.esportesdasorte.bet.br,REJECT
+- DOMAIN,lto.lottu.bet.br,REJECT
+- DOMAIN,lto.ona.bet.br,REJECT
+- DOMAIN,lucky-bet.site,REJECT
+- DOMAIN,lucky8-casino-france.fr,REJECT
+- DOMAIN,lucky8casino-france.fr,REJECT
+- DOMAIN,luckystart-casino.fr,REJECT
+- DOMAIN,luckywave-casino-fr.fr,REJECT
+- DOMAIN,lukkicasino.fr,REJECT
+- DOMAIN,mad-casino-enligne.fr,REJECT
+- DOMAIN,mad-casinofr.fr,REJECT
+- DOMAIN,madcasino-online.fr,REJECT
+- DOMAIN,madcasinofr.fr,REJECT
+- DOMAIN,madcasinoo.fr,REJECT
+- DOMAIN,magicalspins-casino.fr,REJECT
+- DOMAIN,malinaacasinos.fr,REJECT
+- DOMAIN,marvelcasino-online.de,REJECT
+- DOMAIN,megawin-casinos.fr,REJECT
+- DOMAIN,millionzcasino1.fr,REJECT
+- DOMAIN,motorcasino.com,REJECT
+- DOMAIN,mrcash-casino.fr,REJECT
+- DOMAIN,mzansi-casino.fr,REJECT
+- DOMAIN,neospincasino.fr,REJECT
+- DOMAIN,neue-online-casinos-2026.de,REJECT
+- DOMAIN,nine-casinosfr.fr,REJECT
+- DOMAIN,nixbet-casino-fr.fr,REJECT
+- DOMAIN,nixbet-casino.fr,REJECT
+- DOMAIN,ohacasino.fr,REJECT
+- DOMAIN,olybetcasino.fr,REJECT
+- DOMAIN,olympes-casino.fr,REJECT
+- DOMAIN,online-casino-ohne-lizenz.de,REJECT
+- DOMAIN,online-casino.webpark.pl,REJECT
+- DOMAIN,onlinebonuscasino-de.de,REJECT
+- DOMAIN,onlinecasinoparis.com,REJECT
+- DOMAIN,onlinecasinos77laos.com,REJECT
+- DOMAIN,onlinecasinositeindia.com,REJECT
+- DOMAIN,onlinecasinoslasvegas.com,REJECT
+- DOMAIN,onlinecasinosohneverifizierung.de,REJECT
+- DOMAIN,orozino-casino.fr,REJECT
+- DOMAIN,oscar-spincasino.fr,REJECT
+- DOMAIN,pixel.spotify.com,REJECT
+- DOMAIN,pixel.web.roku.com,REJECT
+- DOMAIN,playmojocasino.fr,REJECT
+- DOMAIN,plinkocasinoenligne.fr,REJECT
+- DOMAIN,poker-bet.com,REJECT
+- DOMAIN,poker.bet365.com,REJECT
+- DOMAIN,polisitogel.hair,REJECT
+- DOMAIN,prediksitogeljitu.in,REJECT
+- DOMAIN,premiercasino.fr,REJECT
+- DOMAIN,revolutioncasino-online.de,REJECT
+- DOMAIN,richardcasino-online.de,REJECT
+- DOMAIN,ritzocasino.fr,REJECT
+- DOMAIN,robycasino-france.fr,REJECT
+- DOMAIN,rocketplayonlinecasino.net,REJECT
+- DOMAIN,rockstarscasino.fr,REJECT
+- DOMAIN,rockyspinscasino.fr,REJECT
+- DOMAIN,roo-casino.fr,REJECT
+- DOMAIN,roobet-casino.fr,REJECT
+- DOMAIN,scoredcasino-fr.fr,REJECT
+- DOMAIN,serve.williamhillcasino.com,REJECT
+- DOMAIN,sgtm.betmgm.bet.br,REJECT
+- DOMAIN,sgtm.betpontobet.bet.br,REJECT
+- DOMAIN,shanscasino1.ru,REJECT
+- DOMAIN,simsino-casino-fr.fr,REJECT
+- DOMAIN,simsinocasinofrance.fr,REJECT
+- DOMAIN,slot-n-bet.fr,REJECT
+- DOMAIN,slotlair-casino.fr,REJECT
+- DOMAIN,slotn-bet.fr,REJECT
+- DOMAIN,slotrushcasino.fr,REJECT
+- DOMAIN,slotshoppercasino.de,REJECT
+- DOMAIN,smetrics.casino.org,REJECT
+- DOMAIN,spinline-casino-online.de,REJECT
+- DOMAIN,spinsy-bet.fr,REJECT
+- DOMAIN,spinsycasinoenligne.fr,REJECT
+- DOMAIN,spirit-casino.fr,REJECT
+- DOMAIN,sst.betesporte.bet.br,REJECT
+- DOMAIN,sst.betvip.bet.br,REJECT
+- DOMAIN,sst.sortenabet.bet.br,REJECT
+- DOMAIN,sst.vaidebet.bet.br,REJECT
+- DOMAIN,sst.zeroum.bet,REJECT
+- DOMAIN,stape.betpontobet.bet.br,REJECT
+- DOMAIN,stape.pix.bet.br,REJECT
+- DOMAIN,stardacasinoonline.de,REJECT
+- DOMAIN,sumbawatogel.xyz,REJECT
+- DOMAIN,the-crash-casino.co.uk,REJECT
+- DOMAIN,togelsydneypools.org,REJECT
+- DOMAIN,together-casinos.fr,REJECT
+- DOMAIN,top-neue-online-casinos.de,REJECT
+- DOMAIN,toptrustedcasino.com,REJECT
+- DOMAIN,topwebcasino.com,REJECT
+- DOMAIN,tortuga-casinotortuga.fr,REJECT
+- DOMAIN,touchcasinos.fr,REJECT
+- DOMAIN,traditioncasino-online.de,REJECT
+- DOMAIN,ufabaccarat.bet,REJECT
+- DOMAIN,unibetcasino777.net,REJECT
+- DOMAIN,unibetcasinomt.xyz,REJECT
+- DOMAIN,v-casino.xyz,REJECT
+- DOMAIN,vegas-plus-casinos.fr,REJECT
+- DOMAIN,verdecasino-offers.com,REJECT
+- DOMAIN,villentoonlinecasino.org,REJECT
+- DOMAIN,vinylcasinoenligne.fr,REJECT
+- DOMAIN,volna.casino,REJECT
+- DOMAIN,vulkanvegascasino.at,REJECT
+- DOMAIN,webcasinozone.com,REJECT
+- DOMAIN,wg87vip.bet,REJECT
+- DOMAIN,win-vegas-plus-casino.fr,REJECT
+- DOMAIN,win2daycasino.at,REJECT
+- DOMAIN,winmachance-casino.fr,REJECT
+- DOMAIN,winnerz-casino-online.de,REJECT
+- DOMAIN,winspincasino.fr,REJECT
+- DOMAIN,winwin.bet,REJECT
+- DOMAIN,winztercasinos.fr,REJECT
+- DOMAIN,www.entercasino.com,REJECT
+- DOMAIN,www.titancasino.com,REJECT
+- DOMAIN,x5bet.casino,REJECT
+- DOMAIN,zoome-casino.fr,REJECT
+- RULE-SET,threat-malware,REJECT
+- RULE-SET,threat-phishing,REJECT
+- RULE-SET,threat-cryptominers,REJECT
+- DOMAIN-SUFFIX,blu.co.id,DIRECT
+- DOMAIN-SUFFIX,jago.com,DIRECT
+- DOMAIN-SUFFIX,seabank.co.id,DIRECT
+- DOMAIN-SUFFIX,bca.co.id,DIRECT
+- DOMAIN-SUFFIX,klikbca.com,DIRECT
+- DOMAIN-SUFFIX,mybca.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmandiri.co.id,DIRECT
+- DOMAIN-SUFFIX,livinbymandiri.co.id,DIRECT
+- DOMAIN-SUFFIX,bri.co.id,DIRECT
+- DOMAIN-SUFFIX,bni.co.id,DIRECT
+- DOMAIN-SUFFIX,btn.co.id,DIRECT
+- DOMAIN-SUFFIX,cimbniaga.co.id,DIRECT
+- DOMAIN-SUFFIX,octo.co.id,DIRECT
+- DOMAIN-SUFFIX,danamon.co.id,DIRECT
+- DOMAIN-SUFFIX,permatabank.com,DIRECT
+- DOMAIN-SUFFIX,panin.co.id,DIRECT
+- DOMAIN-SUFFIX,ocbc.id,DIRECT
+- DOMAIN-SUFFIX,ocbcnisp.com,DIRECT
+- DOMAIN-SUFFIX,maybank.co.id,DIRECT
+- DOMAIN-SUFFIX,hsbc.co.id,DIRECT
+- DOMAIN-SUFFIX,uob.co.id,DIRECT
+- DOMAIN-SUFFIX,dbs.com,DIRECT
+- DOMAIN-SUFFIX,dbs.id,DIRECT
+- DOMAIN-SUFFIX,sc.com,DIRECT
+- DOMAIN-SUFFIX,citibank.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmega.com,DIRECT
+- DOMAIN-SUFFIX,bankmega.co.id,DIRECT
+- DOMAIN-SUFFIX,btpn.com,DIRECT
+- DOMAIN-SUFFIX,jenius.com,DIRECT
+- DOMAIN-SUFFIX,bankjago.com,DIRECT
+- DOMAIN-SUFFIX,bankneo.co.id,DIRECT
+- DOMAIN-SUFFIX,allobank.com,DIRECT
+- DOMAIN-SUFFIX,bankraya.co.id,DIRECT
+- DOMAIN-SUFFIX,bankaladin.co.id,DIRECT
+- DOMAIN-SUFFIX,bankina.co.id,DIRECT
+- DOMAIN-SUFFIX,bankbsi.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmuamalat.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmega-syariah.co.id,DIRECT
+- DOMAIN-SUFFIX,bcasyariah.co.id,DIRECT
+- DOMAIN-SUFFIX,btpnsyariah.com,DIRECT
+- DOMAIN-SUFFIX,bankvictoriasyariah.co.id,DIRECT
+- DOMAIN-SUFFIX,banksinarmas.com,DIRECT
+- DOMAIN-SUFFIX,bankmas.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmestika.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmayapada.com,DIRECT
+- DOMAIN-SUFFIX,bankcapital.co.id,DIRECT
+- DOMAIN-SUFFIX,bankganesha.co.id,DIRECT
+- DOMAIN-SUFFIX,bankindex.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmayora.com,DIRECT
+- DOMAIN-SUFFIX,bankwoorisaudara.com,DIRECT
+- DOMAIN-SUFFIX,kebhana.co.id,DIRECT
+- DOMAIN-SUFFIX,shinhan.co.id,DIRECT
+- DOMAIN-SUFFIX,bankbisnis.com,DIRECT
+- DOMAIN-SUFFIX,banksampoerna.com,DIRECT
+- DOMAIN-SUFFIX,banknobu.com,DIRECT
+- DOMAIN-SUFFIX,bankbjb.co.id,DIRECT
+- DOMAIN-SUFFIX,bankdki.co.id,DIRECT
+- DOMAIN-SUFFIX,bankjateng.co.id,DIRECT
+- DOMAIN-SUFFIX,bankjatim.co.id,DIRECT
+- DOMAIN-SUFFIX,bpddiy.co.id,DIRECT
+- DOMAIN-SUFFIX,banksumut.co.id,DIRECT
+- DOMAIN-SUFFIX,bankaceh.co.id,DIRECT
+- DOMAIN-SUFFIX,banknagari.co.id,DIRECT
+- DOMAIN-SUFFIX,bankriaukepri.co.id,DIRECT
+- DOMAIN-SUFFIX,banksumselbabel.com,DIRECT
+- DOMAIN-SUFFIX,banklampung.co.id,DIRECT
+- DOMAIN-SUFFIX,bankkalbar.co.id,DIRECT
+- DOMAIN-SUFFIX,bankkalsel.co.id,DIRECT
+- DOMAIN-SUFFIX,bankkalteng.co.id,DIRECT
+- DOMAIN-SUFFIX,bankaltimtara.co.id,DIRECT
+- DOMAIN-SUFFIX,banksulselbar.co.id,DIRECT
+- DOMAIN-SUFFIX,banksulutgo.co.id,DIRECT
+- DOMAIN-SUFFIX,bankntbsyariah.co.id,DIRECT
+- DOMAIN-SUFFIX,bpdbali.co.id,DIRECT
+- DOMAIN-SUFFIX,bpdntt.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmalukumalut.co.id,DIRECT
+- DOMAIN-SUFFIX,bankpapua.co.id,DIRECT
+- DOMAIN-SUFFIX,gojek.com,DIRECT
+- DOMAIN-SUFFIX,gojekapi.com,DIRECT
+- DOMAIN-SUFFIX,gopay.co.id,DIRECT
+- DOMAIN-SUFFIX,grab.com,DIRECT
+- DOMAIN-SUFFIX,grabtaxi.com,DIRECT
+- DOMAIN-SUFFIX,ovo.id,DIRECT
+- DOMAIN-SUFFIX,dana.id,DIRECT
+- DOMAIN-SUFFIX,linkaja.id,DIRECT
+- DOMAIN-SUFFIX,flip.id,DIRECT
+- DOMAIN-SUFFIX,shopee.co.id,DIRECT
+- DOMAIN-SUFFIX,shopee.com,DIRECT
+- DOMAIN-SUFFIX,shopee.sg,DIRECT
+- DOMAIN-SUFFIX,shopeemobile.com,DIRECT
+- DOMAIN-SUFFIX,shopeeusercontent.com,DIRECT
+- DOMAIN-SUFFIX,susercontent.com,DIRECT
+- DOMAIN-SUFFIX,shp.ee,DIRECT
+- DOMAIN-SUFFIX,spaylater.co.id,DIRECT
+- DOMAIN-SUFFIX,shopeepay.co.id,DIRECT
+- DOMAIN-SUFFIX,midtrans.com,DIRECT
+- DOMAIN-SUFFIX,xendit.co,DIRECT
+- DOMAIN-SUFFIX,doku.com,DIRECT
+- DOMAIN-SUFFIX,faspay.co.id,DIRECT
+- DOMAIN-SUFFIX,nicepay.co.id,DIRECT
+- DOMAIN-SUFFIX,duitku.com,DIRECT
+- DOMAIN-SUFFIX,tripay.co.id,DIRECT
+- DOMAIN-SUFFIX,prismalink.co.id,DIRECT
+- DOMAIN-SUFFIX,finpay.co.id,DIRECT
+- DOMAIN-SUFFIX,ipaymu.com,DIRECT
+- DOMAIN-SUFFIX,oyindonesia.com,DIRECT
+- DOMAIN-SUFFIX,qris.id,DIRECT
+- DOMAIN-SUFFIX,bi.go.id,DIRECT
+- RULE-SET,threat-fake-scam,REJECT
+- RULE-SET,threat-tif-mini,REJECT
+- RULE-SET,gambling-mini,REJECT
+- RULE-SET,gambling-regex,REJECT
+- RULE-SET,indonesia-gambling-research,REJECT
+- RULE-SET,adult-category,REJECT
+- RULE-SET,adult-local,REJECT
+- RULE-SET,pinjol-local,REJECT
+- RULE-SET,popup-ads,REJECT
+- DOMAIN,805ba.v.fwmrm.net,REJECT
+- DOMAIN,tvm-mtv-freewheel.akamaized.net,REJECT
+- DOMAIN,adeventtracker.spotify.com,REJECT
+- DOMAIN,ads-fa.spotify.com,REJECT
+- DOMAIN,ads-ak.spotify.com,REJECT
+- DOMAIN,adserver.spotify.com,REJECT
+- DOMAIN,adstudio.spotify.com,REJECT
+- DOMAIN,ad-analytics.spotify.com,REJECT
+- DOMAIN,aet.spotify.com,REJECT
+- DOMAIN,analytics.spotify.com,REJECT
+- DOMAIN,bloodhound.spotify.com,REJECT
+- DOMAIN,crashdump.spotify.com,REJECT
+- DOMAIN,pixel-static.spotify.com,REJECT
+- DOMAIN,pixels.spotify.com,REJECT
+- DOMAIN-SUFFIX,popads.net,REJECT
+- DOMAIN-SUFFIX,popcash.net,REJECT
+- DOMAIN-SUFFIX,propellerads.com,REJECT
+- DOMAIN-SUFFIX,adsterra.com,REJECT
+- DOMAIN-SUFFIX,onclickalgo.com,REJECT
+- DOMAIN-SUFFIX,onclickperformance.com,REJECT
+- DOMAIN-SUFFIX,hilltopads.net,REJECT
+- DOMAIN-SUFFIX,richads.com,REJECT
+- DOMAIN-SUFFIX,clickadu.com,REJECT
+- DOMAIN-SUFFIX,adcash.com,REJECT
+- DOMAIN-SUFFIX,applovin.com,REJECT
+- DOMAIN-SUFFIX,applvn.com,REJECT
+- DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
+- DOMAIN-SUFFIX,supersonicads.com,REJECT
+- DOMAIN-SUFFIX,ironsrc.com,REJECT
+- DOMAIN-SUFFIX,vungle.com,REJECT
+- DOMAIN-SUFFIX,vunglecloud.com,REJECT
+- DOMAIN-SUFFIX,chartboost.com,REJECT
+- DOMAIN-SUFFIX,inmobi.com,REJECT
+- DOMAIN-SUFFIX,adcolony.com,REJECT
+- DOMAIN-SUFFIX,mintegral.com,REJECT
+- DOMAIN-SUFFIX,mtgglobals.com,REJECT
+- DOMAIN-SUFFIX,rayjump.com,REJECT
+- DOMAIN-SUFFIX,pangle.io,REJECT
+- DOMAIN-SUFFIX,pangleglobal.com,REJECT
+- DOMAIN-SUFFIX,tapjoy.com,REJECT
+- DOMAIN-SUFFIX,tapjoyads.com,REJECT
+- DOMAIN-SUFFIX,startappservice.com,REJECT
+- DOMAIN-SUFFIX,startapp.com,REJECT
+- DOMAIN-SUFFIX,fyber.com,REJECT
+- DOMAIN-SUFFIX,inner-active.mobi,REJECT
+- RULE-SET,app-ad-safe,REJECT
+- RULE-SET,ads_indonesia,REJECT
+- RULE-SET,ads_domain,REJECT
+- RULE-SET,anti-ad,REJECT
+- RULE-SET,tracker-domain,REJECT
+- DOMAIN,adtago.s3.amazonaws.com,REJECT
+- DOMAIN,analyticsengine.s3.amazonaws.com,REJECT
+- DOMAIN,analytics.s3.amazonaws.com,REJECT
+- DOMAIN,advice-ads.s3.amazonaws.com,REJECT
+- DOMAIN,pagead2.googleadservices.com,REJECT
+- DOMAIN,afs.googlesyndication.com,REJECT
+- DOMAIN,static.doubleclick.net,REJECT
+- DOMAIN,ads30.adcolony.com,REJECT
+- DOMAIN,adc3-launch.adcolony.com,REJECT
+- DOMAIN,events3alt.adcolony.com,REJECT
+- DOMAIN,wd.adcolony.com,REJECT
+- DOMAIN,static.media.net,REJECT
+- DOMAIN,media.net,REJECT
+- DOMAIN,adservetx.media.net,REJECT
+- DOMAIN,analytics.google.com,REJECT
+- DOMAIN,click.googleanalytics.com,REJECT
+- DOMAIN,google-analytics.com,REJECT
+- DOMAIN,ssl.google-analytics.com,REJECT
+- DOMAIN,adm.hotjar.com,REJECT
+- DOMAIN,identify.hotjar.com,REJECT
+- DOMAIN,insights.hotjar.com,REJECT
+- DOMAIN,script.hotjar.com,REJECT
+- DOMAIN,surveys.hotjar.com,REJECT
+- DOMAIN,careers.hotjar.com,REJECT
+- DOMAIN,events.hotjar.io,REJECT
+- DOMAIN,mouseflow.com,REJECT
+- DOMAIN,cdn.mouseflow.com,REJECT
+- DOMAIN,o2.mouseflow.com,REJECT
+- DOMAIN,gtm.mouseflow.com,REJECT
+- DOMAIN,api.mouseflow.com,REJECT
+- DOMAIN,tools.mouseflow.com,REJECT
+- DOMAIN,cdn-test.mouseflow.com,REJECT
+- DOMAIN,freshmarketer.com,REJECT
+- DOMAIN,claritybt.freshmarketer.com,REJECT
+- DOMAIN,fwtracks.freshmarketer.com,REJECT
+- DOMAIN,luckyorange.com,REJECT
+- DOMAIN,api.luckyorange.com,REJECT
+- DOMAIN,realtime.luckyorange.com,REJECT
+- DOMAIN,cdn.luckyorange.com,REJECT
+- DOMAIN,w1.luckyorange.com,REJECT
+- DOMAIN,upload.luckyorange.net,REJECT
+- DOMAIN,cs.luckyorange.net,REJECT
+- DOMAIN,settings.luckyorange.net,REJECT
+- DOMAIN,stats.wp.com,REJECT
+- DOMAIN,notify.bugsnag.com,REJECT
+- DOMAIN,sessions.bugsnag.com,REJECT
+- DOMAIN,api.bugsnag.com,REJECT
+- DOMAIN,app.bugsnag.com,REJECT
+- DOMAIN,browser.sentry-cdn.com,REJECT
+- DOMAIN,app.getsentry.com,REJECT
+- DOMAIN,pixel.facebook.com,REJECT
+- DOMAIN,an.facebook.com,REJECT
+- DOMAIN,static.ads-twitter.com,REJECT
+- DOMAIN,ads-api.twitter.com,REJECT
+- DOMAIN,ads.linkedin.com,REJECT
+- DOMAIN,analytics.pointdrive.linkedin.com,REJECT
+- DOMAIN,ads.pinterest.com,REJECT
+- DOMAIN,log.pinterest.com,REJECT
+- DOMAIN,trk.pinterest.com,REJECT
+- DOMAIN,events.reddit.com,REJECT
+- DOMAIN,events.redditmedia.com,REJECT
+- DOMAIN,ads-api.tiktok.com,REJECT
+- DOMAIN,analytics.tiktok.com,REJECT
+- DOMAIN,ads-sg.tiktok.com,REJECT
+- DOMAIN,analytics-sg.tiktok.com,REJECT
+- DOMAIN,business-api.tiktok.com,REJECT
+- DOMAIN,ads.tiktok.com,REJECT
+- DOMAIN,log.byteoversea.com,REJECT
+- DOMAIN,ads.yahoo.com,REJECT
+- DOMAIN,analytics.yahoo.com,REJECT
+- DOMAIN,geo.yahoo.com,REJECT
+- DOMAIN,udcm.yahoo.com,REJECT
+- DOMAIN,analytics.query.yahoo.com,REJECT
+- DOMAIN,partnerads.ysm.yahoo.com,REJECT
+- DOMAIN,log.fc.yahoo.com,REJECT
+- DOMAIN,gemini.yahoo.com,REJECT
+- DOMAIN,adtech.yahooinc.com,REJECT
+- DOMAIN,extmaps-api.yandex.net,REJECT
+- DOMAIN,appmetrica.yandex.ru,REJECT
+- DOMAIN,adfstat.yandex.ru,REJECT
+- DOMAIN,metrika.yandex.ru,REJECT
+- DOMAIN,offerwall.yandex.net,REJECT
+- DOMAIN,adfox.yandex.ru,REJECT
+- DOMAIN,auction.unityads.unity3d.com,REJECT
+- DOMAIN,webview.unityads.unity3d.com,REJECT
+- DOMAIN,config.unityads.unity3d.com,REJECT
+- DOMAIN,adserver.unityads.unity3d.com,REJECT
+- DOMAIN,iot-eu-logser.realme.com,REJECT
+- DOMAIN,iot-logser.realme.com,REJECT
+- DOMAIN,bdapi-ads.realmemobile.com,REJECT
+- DOMAIN,bdapi-in-ads.realmemobile.com,REJECT
+- DOMAIN,api.ad.xiaomi.com,REJECT
+- DOMAIN,data.mistat.xiaomi.com,REJECT
+- DOMAIN,data.mistat.india.xiaomi.com,REJECT
+- DOMAIN,data.mistat.rus.xiaomi.com,REJECT
+- DOMAIN,sdkconfig.ad.xiaomi.com,REJECT
+- DOMAIN,sdkconfig.ad.intl.xiaomi.com,REJECT
+- DOMAIN,tracking.rus.miui.com,REJECT
+- DOMAIN,adsfs.oppomobile.com,REJECT
+- DOMAIN,adx.ads.oppomobile.com,REJECT
+- DOMAIN,ck.ads.oppomobile.com,REJECT
+- DOMAIN,data.ads.oppomobile.com,REJECT
+- DOMAIN,metrics.data.hicloud.com,REJECT
+- DOMAIN,metrics2.data.hicloud.com,REJECT
+- DOMAIN,grs.hicloud.com,REJECT
+- DOMAIN,logservice.hicloud.com,REJECT
+- DOMAIN,logservice1.hicloud.com,REJECT
+- DOMAIN,logbak.hicloud.com,REJECT
+- DOMAIN,click.oneplus.cn,REJECT
+- DOMAIN,open.oneplus.net,REJECT
+- DOMAIN,samsungads.com,REJECT
+- DOMAIN,smetrics.samsung.com,REJECT
+- DOMAIN,nmetrics.samsung.com,REJECT
+- DOMAIN,samsung-com.112.2o7.net,REJECT
+- DOMAIN,analytics-api.samsunghealthcn.com,REJECT
+- DOMAIN,iadsdk.apple.com,REJECT
+- DOMAIN,metrics.icloud.com,REJECT
+- DOMAIN,metrics.mzstatic.com,REJECT
+- DOMAIN,api-adservices.apple.com,REJECT
+- DOMAIN,books-analytics-events.apple.com,REJECT
+- DOMAIN,weather-analytics-events.apple.com,REJECT
+- DOMAIN,notes-analytics-events.apple.com,REJECT
+- DOMAIN,2giga.link,REJECT
+- DOMAIN,a.lenovo.com,REJECT
+- DOMAIN,a.teads.tv,REJECT
+- DOMAIN,aan.amazon.com,REJECT
+- DOMAIN,aax.amazon-adsystem.com,REJECT
+- DOMAIN,acdn.adnxs.com,REJECT
+- DOMAIN,ad.gt,REJECT
+- DOMAIN,ad.lgappstv.com,REJECT
+- DOMAIN,ad.linksynergy.com,REJECT
+- DOMAIN,ad.mail.ru,REJECT
+- DOMAIN,adjust.com,REJECT
+- DOMAIN,adlog.vivo.com,REJECT
+- DOMAIN,adnxs.com,REJECT
+- DOMAIN,adroll.com,REJECT
+- DOMAIN,ads-api.vivo.com,REJECT
+- DOMAIN,ads-api.x.com,REJECT
+- DOMAIN,ads.huawei.com,REJECT
+- DOMAIN,ads.microsoft.com,REJECT
+- DOMAIN,ads.pubmatic.com,REJECT
+- DOMAIN,ads.snapchat.com,REJECT
+- DOMAIN,ads.tremorhub.com,REJECT
+- DOMAIN,ads.vizio.com,REJECT
+- DOMAIN,ads.vk.com,REJECT
+- DOMAIN,ads.x.com,REJECT
+- DOMAIN,adsrvr.org,REJECT
+- DOMAIN,amazon-adsystem.com,REJECT
+- DOMAIN,analytics.adobe.io,REJECT
+- DOMAIN,analytics.twitter.com,REJECT
+- DOMAIN,apex.go.sonobi.com,REJECT
+- DOMAIN,api-js.mixpanel.com,REJECT
+- DOMAIN,api.amplitude.com,REJECT
+- DOMAIN,api.fpjs.io,REJECT
+- DOMAIN,api.fyber.com,REJECT
+- DOMAIN,api.impact.com,REJECT
+- DOMAIN,api.mixpanel.com,REJECT
+- DOMAIN,api.optimizely.com,REJECT
+- DOMAIN,api.partnerstack.com,REJECT
+- DOMAIN,api.refersion.com,REJECT
+- DOMAIN,api.rlcdn.com,REJECT
+- DOMAIN,api.segment.io,REJECT
+- DOMAIN,api.taboola.com,REJECT
+- DOMAIN,api.viglink.com,REJECT
+- DOMAIN,api.vungle.com,REJECT
+- DOMAIN,api2.amplitude.com,REJECT
+- DOMAIN,api2.branch.io,REJECT
+- DOMAIN,app-measurement.com,REJECT
+- DOMAIN,app.adjust.com,REJECT
+- DOMAIN,app.appsflyer.com,REJECT
+- DOMAIN,app.usercentrics.eu,REJECT
+- DOMAIN,applovin.com,REJECT
+- DOMAIN,appsflyer.com,REJECT
+- DOMAIN,as.casalemedia.com,REJECT
+- DOMAIN,b.scorecardresearch.com,REJECT
+- DOMAIN,bam.nr-data.net,REJECT
+- DOMAIN,bat.bing.com,REJECT
+- DOMAIN,bidder.criteo.com,REJECT
+- DOMAIN,bidswitch.net,REJECT
+- DOMAIN,bingads.microsoft.com,REJECT
+- DOMAIN,bluekai.com,REJECT
+- DOMAIN,bnc.lt,REJECT
+- DOMAIN,c.clarity.ms,REJECT
+- DOMAIN,c.gumgum.com,REJECT
+- DOMAIN,capi.connatix.com,REJECT
+- DOMAIN,casalemedia.com,REJECT
+- DOMAIN,cd.connatix.com,REJECT
+- DOMAIN,cdn.cookielaw.org,REJECT
+- DOMAIN,cdn.doubleverify.com,REJECT
+- DOMAIN,cdn.dynamicyield.com,REJECT
+- DOMAIN,cdn.heapanalytics.com,REJECT
+- DOMAIN,cdn.indexexchange.com,REJECT
+- DOMAIN,cdn.kargo.com,REJECT
+- DOMAIN,cdn.mgid.com,REJECT
+- DOMAIN,cdn.optimizely.com,REJECT
+- DOMAIN,cdn.permutive.com,REJECT
+- DOMAIN,cdn.privacy-mgmt.com,REJECT
+- DOMAIN,cdn.segment.com,REJECT
+- DOMAIN,cdn.siftscience.com,REJECT
+- DOMAIN,cdn.taboola.com,REJECT
+- DOMAIN,cdn.teads.tv,REJECT
+- DOMAIN,cdn.viglink.com,REJECT
+- DOMAIN,clarity.ms,REJECT
+- DOMAIN,clevertap-prod.com,REJECT
+- DOMAIN,click.linksynergy.com,REJECT
+- DOMAIN,clickadu.com,REJECT
+- DOMAIN,coinimp.com,REJECT
+- DOMAIN,config.samsungads.com,REJECT
+- DOMAIN,connect.facebook.net,REJECT
+- DOMAIN,consent.cookiebot.com,REJECT
+- DOMAIN,consent.trustarc.com,REJECT
+- DOMAIN,consentcdn.cookiebot.com,REJECT
+- DOMAIN,contextual.media.net,REJECT
+- DOMAIN,contextweb.com,REJECT
+- DOMAIN,control.kochava.com,REJECT
+- DOMAIN,cookiebot.com,REJECT
+- DOMAIN,crwdcntrl.net,REJECT
+- DOMAIN,crypto-loot.org,REJECT
+- DOMAIN,d.adroll.com,REJECT
+- DOMAIN,d.applovin.com,REJECT
+- DOMAIN,d.impactradius-event.com,REJECT
+- DOMAIN,dai.google.com,REJECT
+- DOMAIN,decide.mixpanel.com,REJECT
+- DOMAIN,device-metrics-us-2.amazon.com,REJECT
+- DOMAIN,device-metrics-us.amazon.com,REJECT
+- DOMAIN,doubleverify.com,REJECT
+- DOMAIN,facebook.net,REJECT
+- DOMAIN,fw.adsafeprotected.com,REJECT
+- DOMAIN,googleadservices.com,REJECT
+- DOMAIN,googletagmanager.com,REJECT
+- DOMAIN,images.taboola.com,REJECT
+- DOMAIN,init.supersonicads.com,REJECT
+- DOMAIN,inmobi.com,REJECT
+- DOMAIN,insightexpressai.com,REJECT
+- DOMAIN,ironsource.mobi,REJECT
+- DOMAIN,is.com,REJECT
+- DOMAIN,log.outbrain.com,REJECT
+- DOMAIN,mc.yandex.ru,REJECT
+- DOMAIN,mgid.com,REJECT
+- DOMAIN,mixpanel.com,REJECT
+- DOMAIN,mobile.pipe.aria.microsoft.com,REJECT
+- DOMAIN,mraid.iabtechlab.com,REJECT
+- DOMAIN,msevents.microsoft.com,REJECT
+- DOMAIN,nr-data.net,REJECT
+- DOMAIN,odb.outbrain.com,REJECT
+- DOMAIN,open.oneplus.cn,REJECT
+- DOMAIN,optimizely.com,REJECT
+- DOMAIN,outcome-ssp.supersonicads.com,REJECT
+- DOMAIN,outbrain.com,REJECT
+- DOMAIN,pangleglobal.com,REJECT
+- DOMAIN,pixel.adsafeprotected.com,REJECT
+- DOMAIN,pixel.wp.com,REJECT
+- DOMAIN,pubmatic.com,REJECT
+- DOMAIN,refersion.com,REJECT
+- DOMAIN,revcontent.com,REJECT
+- DOMAIN,rubiconproject.com,REJECT
+- DOMAIN,s.adroll.com,REJECT
+- DOMAIN,s3.amazonaws.com,REJECT
+- DOMAIN,safebrowsing.googleapis.com,REJECT
+- DOMAIN,segment.io,REJECT
+- DOMAIN,sentry.io,REJECT
+- DOMAIN,sharethrough.com,REJECT
+- DOMAIN,snapchat.com,REJECT
+- DOMAIN,sonobi.com,REJECT
+- DOMAIN,static.adsafeprotected.com,REJECT
+- DOMAIN,static.criteo.net,REJECT
+- DOMAIN,static.hotjar.com,REJECT
+- DOMAIN,step-s3-tokyo.s3.amazonaws.com,REJECT
+- DOMAIN,sync.kargo.com,REJECT
+- DOMAIN,sync.taboola.com,REJECT
+- DOMAIN,taboola.com,REJECT
+- DOMAIN,tagmanager.google.com,REJECT
+- DOMAIN,target.adform.net,REJECT
+- DOMAIN,teads.tv,REJECT
+- DOMAIN,tlx.3lift.com,REJECT
+- DOMAIN,trc.taboola.com,REJECT
+- DOMAIN,tracking.tiktok.com,REJECT
+- DOMAIN,twitter.com,REJECT
+- DOMAIN,unityads.unity3d.com,REJECT
+- DOMAIN,vungle.com,REJECT
+- DOMAIN,widgets.outbrain.com,REJECT
+- DOMAIN,www.google-analytics.com,REJECT
+- DOMAIN,www.googletagmanager.com,REJECT
+- DOMAIN,yandex.ru,REJECT
+- MATCH,MANUAL
+rule-providers:
+  threat-malware:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rule_providers/compiled/threat-malware.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/threat-malware.mrs
+    interval: 43200
+  threat-phishing:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rule_providers/compiled/threat-phishing.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/threat-phishing.mrs
+    interval: 43200
+  threat-cryptominers:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rule_providers/compiled/threat-cryptominers.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/threat-cryptominers.mrs
+    interval: 43200
+  threat-fake-scam:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rule_providers/compiled/threat-fake-scam.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/threat-fake-scam.mrs
+    interval: 43200
+  threat-tif-mini:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rule_providers/compiled/threat-tif-mini.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/threat-tif-mini.mrs
+    interval: 43200
+  gambling-mini:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rule_providers/compiled/gambling-mini.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/gambling-mini.mrs
+    interval: 43200
+  gambling-regex:
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./rule_providers/security-gambling.yaml
+    url: https://raw.githubusercontent.com/adiorany3/AkunYaml/main/rule_providers/security-gambling.yaml
+    interval: 43200
+  adult-category:
+    type: http
+    behavior: domain
+    path: ./rule_providers/adult-category.mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-porn.mrs
+    interval: 43200
+    format: mrs
+  adult-local:
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./rule_providers/security-adult.yaml
+    url: https://raw.githubusercontent.com/adiorany3/AkunYaml/main/rule_providers/security-adult.yaml
+    interval: 43200
+  pinjol-local:
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./rule_providers/security-pinjol.yaml
+    url: https://raw.githubusercontent.com/adiorany3/AkunYaml/main/rule_providers/security-pinjol.yaml
+    interval: 43200
+  popup-ads:
+    type: file
+    behavior: domain
+    format: yaml
+    path: ./rule_providers/mac/popup-ads.yaml
+  app-ad-safe:
+    type: inline
+    behavior: domain
+    payload:
+    - adv.sec.intl.miui.com
+    - adv.l7.34.sec.miui.com
+    - adv.sec.miui.com
+    - ad.miui.com
+    - api.ads.xiaomi.com
+    - ad.eu.xiaomi.com
+    - ad.quickapp.hybrid.xiaomi.com
+    - ad.india.xiaomi.com
+    - ad.intl.xiaomi.com
+    - xadx.file.market.xiaomi.com
+    - wtradv.market.xiaomi.com
+    - ad.cdn.pandora.xiaomi.com
+    - ads.heytapmobi.com
+    - ads.heytapmobile.com
+    - ads-bdapi-my.heytapmobile.com
+    - ads-bdapi-ph.heytapmobile.com
+    - ads-bdapi-th.heytapmobile.com
+    - ads-bdapi-vn.heytapmobile.com
+    - ad-growth-in.heytapmobile.com
+    - ad-growth-ru.heytapmobile.com
+    - ad-growth-sg.heytapmobile.com
+    - adx-ads-fr.heytapmobile.com
+    - adx-ads-ru.heytapmobile.com
+    - bdapi-ads-sg.heytapmobile.com
+    - cldata-ads-fr.heytapmobile.com
+    - cldata-ads-ru.heytapmobile.com
+    - sms-ads-in.heytapmobile.com
+    - sms-ads-ru.heytapmobile.com
+    - stgdata-ads-fr.heytapmobile.com
+    - ads.oppomobile.com
+    - adsfs.oppomobile.com
+    - ads.bing.com
+    - adserver.bing.com
+    - outlookads.live.com
+    - ads.microsoft.com
+    - adsdk.microsoft.com
+    - advertising.microsoft.com
+    - bingads.microsoft.com
+    - msadsscale.microsoft.com
+    - ads.eu.msn.com
+    - rmads.eu.msn.com
+    - ads.jp.msn.com
+    - advertising.jp.msn.com
+    - ad.msn.com
+    - adevents.msn.com
+    - ads.msn.com
+    - ads1.msn.com
+    - mobileads.msn.com
+    - rads.msn.com
+    - rmads.msn.com
+    - srtb.msn.com
+    - prod.editor.ads.trafficmanager.net
+    - ads-msn-com-profile.trafficmanager.net
+    - adsdk.trafficmanager.net
+    - dsp-ad-cache-tm.trafficmanager.net
+    - ssp-prod-eastus-nonmutt.trafficmanager.net
+    - msads.net
+    - advertising.apple.com
+    - advp.apple.com
+    - api-adservices.apple.com
+    - iad.apple.com
+    - iadcontent.apple.com
+    - iadmoo.apple.com
+    - iadsdk.apple.com
+    - iadworkbench.apple.com
+    - searchads.apple.com
+    - .smaato.com
+    - .smaato.net
+    - .ogury.com
+    - .ogury.co
+    - .pubnative.net
+    - .hyprmx.com
+    - .mobilefuse.com
+    - .amazon-adsystem.com
+    - .mopub.com
+    - .adjoe.io
+  ads_indonesia:
+    type: file
+    behavior: domain
+    format: yaml
+    path: ./rule_providers/mac/ads_indonesia.yaml
+  ads_domain:
+    type: file
+    behavior: domain
+    format: yaml
+    path: ./rule_providers/mac/ads_domain.yaml
+  anti-ad:
+    type: file
+    behavior: domain
+    format: yaml
+    path: ./rule_providers/mac/anti-ad-clash.yaml
+  tracker-domain:
+    type: file
+    behavior: domain
+    format: yaml
+    path: ./rule_providers/mac/tracker.yaml
+  indonesia-gambling-research:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rule_providers/indonesia-gambling-research.yaml
