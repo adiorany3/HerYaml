@@ -871,6 +871,40 @@ proxies:
       Host: ccc.010304.xyz
   alpn:
   - http/1.1
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-74MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: f759cead-5aca-4c72-8143-e802698da73b
+  udp: true
+  tls: true
+  servername: vless2.gem-audio3.us.ci
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      Host: vless2.gem-audio3.us.ci
+  alpn:
+  - http/1.1
+- name: AKUN-008-WHITE-LABEL-VLESS-WS-74MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  servername: ccc.010304.xyz
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
+    headers:
+      Host: ccc.010304.xyz
+  alpn:
+  - http/1.1
 - name: MANUAL-VMess-WS-TLS-443-ikada543
   type: vmess
   server: 104.17.3.81
@@ -945,38 +979,38 @@ proxies:
       Host: atharva.web.id
   alpn:
   - http/1.1
-- name: AKUN-002-CLOUDFLARE-VLESS-WS-74MS
+- name: AKUN-002-OVH-VLESS-WS-352MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: f759cead-5aca-4c72-8143-e802698da73b
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
   tls: true
-  servername: vless2.gem-audio3.us.ci
+  servername: bab-6.site
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /
+    path: /vws/
     headers:
-      Host: vless2.gem-audio3.us.ci
+      Host: bab-6.site
   alpn:
   - http/1.1
-- name: AKUN-008-WHITE-LABEL-VLESS-WS-74MS
+- name: AKUN-001-CLOUDFLARE-VLESS-WS-590MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   udp: true
   tls: true
-  servername: ccc.010304.xyz
+  servername: a.cwvps.eu.org
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
+    path: /ws
     headers:
-      Host: ccc.010304.xyz
+      Host: a.cwvps.eu.org
   alpn:
   - http/1.1
 proxy-groups:
@@ -988,8 +1022,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-002-CLOUDFLARE-VLESS-WS-74MS
-  - AKUN-008-WHITE-LABEL-VLESS-WS-74MS
+  - AKUN-002-OVH-VLESS-WS-352MS
+  - AKUN-001-CLOUDFLARE-VLESS-WS-590MS
 rules:
 - DOMAIN,googleads.g.doubleclick.net,REJECT
 - DOMAIN,ad.doubleclick.net,REJECT
