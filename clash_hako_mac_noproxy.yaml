@@ -869,6 +869,40 @@ proxies:
       Host: ccc.010304.xyz
   alpn:
   - http/1.1
+- name: AKUN-002-OVH-VLESS-WS-352MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  servername: bab-6.site
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+  alpn:
+  - http/1.1
+- name: AKUN-001-CLOUDFLARE-VLESS-WS-590MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+  alpn:
+  - http/1.1
 - name: MANUAL-VMess-WS-TLS-443-ikada543
   type: vmess
   server: 104.17.3.81
@@ -943,38 +977,38 @@ proxies:
       Host: atharva.web.id
   alpn:
   - http/1.1
-- name: AKUN-002-OVH-VLESS-WS-352MS
+- name: AKUN-001-CLOUDFLARE-VLESS-WS-77MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
   udp: true
   tls: true
-  servername: bab-6.site
+  servername: cf-vless-4cf55824.aimall.fr
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /vws/
+    path: /connect
     headers:
-      Host: bab-6.site
+      Host: cf-vless-4cf55824.aimall.fr
   alpn:
   - http/1.1
-- name: AKUN-001-CLOUDFLARE-VLESS-WS-590MS
+- name: AKUN-002-BIGCOMMERCE-VLESS-WS-78MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  uuid: b8b01773-36b1-4b49-9bd0-6249f52345b4
   udp: true
   tls: true
-  servername: a.cwvps.eu.org
+  servername: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /ws
+    path: /eyJqdW5rIjoiTkNUaFg0ZnJNUjhhcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
     headers:
-      Host: a.cwvps.eu.org
+      Host: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
   alpn:
   - http/1.1
 proxy-groups:
@@ -986,8 +1020,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-002-OVH-VLESS-WS-352MS
-  - AKUN-001-CLOUDFLARE-VLESS-WS-590MS
+  - AKUN-001-CLOUDFLARE-VLESS-WS-77MS
+  - AKUN-002-BIGCOMMERCE-VLESS-WS-78MS
 rule-providers:
   ads-indonesia:
     type: http
