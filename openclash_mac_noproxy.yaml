@@ -1060,6 +1060,7 @@ proxy-groups:
   - AKUN-001-CLOUDFLARE-VLESS-WS-77MS
   - AKUN-002-BIGCOMMERCE-VLESS-WS-78MS
 rules:
+- DOMAIN,audit.checkmarx.cx,REJECT
 - DOMAIN,googleads.g.doubleclick.net,REJECT
 - DOMAIN,ad.doubleclick.net,REJECT
 - DOMAIN,pubads.g.doubleclick.net,REJECT
