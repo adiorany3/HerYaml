@@ -112,8 +112,10 @@ dns:
     - https://dns.google/dns-query
     geosite:category-ads-all: rcode://success
   fallback:
-  - https://family.dns.bebasid.com/dns-query
-  - tls://family.dns.bebasid.com:853
+  - https://family.cloudflare-dns.com/dns-query
+  - tls://family.cloudflare-dns.com:853
+  - https://dns.quad9.net/dns-query
+  - tls://dns.quad9.net:853
   fallback-lazy-query: false
   fallback-filter:
     geoip: true
@@ -374,6 +376,7 @@ proxy-groups:
   proxies:
   - FALLBACK
   - AUTO-FAST
+  - DIRECT
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true
@@ -402,9 +405,9 @@ proxy-groups:
   - AKUN-001-CLOUDFLARE-VLESS-WS-81MS
   - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
   url: https://www.gstatic.com/generate_204
-  interval: 180
+  interval: 90
   tolerance: 150
-  lazy: true
+  lazy: false
   timeout: 5000
   expected-status: 200/204/301/302
   max-failed-times: 2
@@ -460,11 +463,11 @@ proxy-groups:
   - AUTO-FAST
   - FALLBACK
   url: https://www.gstatic.com/generate_204
-  interval: 120
+  interval: 300
   lazy: true
-  timeout: 3000
+  timeout: 5000
   expected-status: 200/204/301/302
-  max-failed-times: 2
+  max-failed-times: 3
 rules:
 - DOMAIN,audit.checkmarx.cx,REJECT
 - DOMAIN-SUFFIX,local,DIRECT

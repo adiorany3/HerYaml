@@ -302,15 +302,25 @@ dns:
   - +.byteimg.com
   - business-api.tiktok.com
   - log.byteoversea.com
+  - +.stun.*.*
+  - +.stun.*.*.*
+  - +.stun.*.*.*.*
+  - +.stun.*.*.*.*.*
+  - '*.n.n.srv.nintendo.net'
+  - xbox.*.*.microsoft.com
+  - '*.*.xboxlive.com'
   default-nameserver:
-  - 1.1.1.1
-  - 8.8.8.8
+  - https://1.1.1.1/dns-query
+  - https://9.9.9.9/dns-query
   nameserver:
   - https://1.1.1.1/dns-query
   - https://dns.google/dns-query
   proxy-server-nameserver:
   - https://1.1.1.1/dns-query
   - https://dns.google/dns-query
+  - https://dns.quad9.net/dns-query
+  - https://9.9.9.9/dns-query
+  - https://94.140.14.14/dns-query
   nameserver-policy:
     +.openai.com:
     - https://1.1.1.1/dns-query
@@ -702,6 +712,17 @@ dns:
     +.log.byteoversea.com:
     - https://1.1.1.1/dns-query
     - https://dns.google/dns-query
+  cache-algorithm: arc
+  prefer-h3: false
+  respect-rules: true
+  use-hosts: true
+  use-system-hosts: false
+  fallback:
+  - https://family.cloudflare-dns.com/dns-query
+  - tls://family.cloudflare-dns.com:853
+  - https://dns.quad9.net/dns-query
+  - tls://dns.quad9.net:853
+  fallback-lazy-query: false
 proxies:
 - name: AKUN-001-CLOUDFLARE-VLESS-WS-85MS
   type: vless
@@ -817,12 +838,13 @@ proxy-groups:
   proxies:
   - FALLBACK
   - AUTO-FAST
+  - DIRECT
   url: https://www.gstatic.com/generate_204
   interval: 180
   lazy: true
-  timeout: 3000
+  timeout: 5000
   expected-status: 200/204/301/302
-  max-failed-times: 1
+  max-failed-times: 3
 - name: AI-OPENAI
   type: fallback
   proxies:
@@ -837,7 +859,7 @@ proxy-groups:
   lazy: true
   timeout: 5000
   expected-status: 200/204/301/302
-  max-failed-times: 2
+  max-failed-times: 3
 - name: AI-CLAUDE
   type: fallback
   proxies:
@@ -852,7 +874,7 @@ proxy-groups:
   lazy: true
   timeout: 5000
   expected-status: 200/204/301/302
-  max-failed-times: 2
+  max-failed-times: 3
 - name: AI-GEMINI
   type: fallback
   proxies:
@@ -867,7 +889,7 @@ proxy-groups:
   lazy: true
   timeout: 5000
   expected-status: 200/204/301/302
-  max-failed-times: 2
+  max-failed-times: 3
 - name: AI-OTHER
   type: fallback
   proxies:
@@ -882,7 +904,7 @@ proxy-groups:
   lazy: true
   timeout: 5000
   expected-status: 200/204/301/302
-  max-failed-times: 2
+  max-failed-times: 3
 - name: AI-STABLE
   type: fallback
   proxies:
@@ -893,7 +915,7 @@ proxy-groups:
   lazy: true
   timeout: 5000
   expected-status: 200/204/301/302
-  max-failed-times: 2
+  max-failed-times: 3
 - name: AI-BACKUP
   type: fallback
   proxies:
@@ -904,7 +926,7 @@ proxy-groups:
   lazy: true
   timeout: 5000
   expected-status: 200/204/301/302
-  max-failed-times: 2
+  max-failed-times: 3
 - name: AI-MANUAL
   type: fallback
   proxies:
@@ -917,7 +939,7 @@ proxy-groups:
   lazy: true
   timeout: 5000
   expected-status: 200/204/301/302
-  max-failed-times: 2
+  max-failed-times: 3
 - name: AI
   type: fallback
   proxies:
@@ -930,7 +952,7 @@ proxy-groups:
   lazy: true
   timeout: 5000
   expected-status: 200/204/301/302
-  max-failed-times: 2
+  max-failed-times: 3
 - name: PING-CHECK
   type: url-test
   proxies:
@@ -954,9 +976,9 @@ proxy-groups:
   - AKUN-001-CLOUDFLARE-VLESS-WS-85MS
   url: https://www.gstatic.com/generate_204
   interval: 60
-  tolerance: 30
+  tolerance: 150
   lazy: false
-  timeout: 3000
+  timeout: 5000
   expected-status: 200/204/301/302
   max-failed-times: 2
 - name: WARM-UP-CF
@@ -966,9 +988,9 @@ proxy-groups:
   - AKUN-001-CLOUDFLARE-VLESS-WS-85MS
   url: https://cp.cloudflare.com
   interval: 120
-  tolerance: 30
+  tolerance: 150
   lazy: true
-  timeout: 3000
+  timeout: 5000
   expected-status: 200/204/301/302
   max-failed-times: 2
 - name: STREAMING-FAST
@@ -981,10 +1003,10 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
   url: https://cp.cloudflare.com
-  interval: 45
-  tolerance: 50
+  interval: 90
+  tolerance: 150
   lazy: true
-  timeout: 3000
+  timeout: 5000
   expected-status: 200/204/301/302
   max-failed-times: 2
 - name: AUTO-FAST
@@ -997,10 +1019,10 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
   url: https://www.gstatic.com/generate_204
-  interval: 45
-  tolerance: 40
+  interval: 90
+  tolerance: 150
   lazy: true
-  timeout: 3000
+  timeout: 5000
   expected-status: 200/204/301/302
   max-failed-times: 2
 - name: FALLBACK
@@ -1036,9 +1058,9 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
   url: https://www.gstatic.com/generate_204
-  interval: 30
-  lazy: false
-  timeout: 3000
+  interval: 300
+  lazy: true
+  timeout: 5000
   expected-status: 200/204/301/302
   max-failed-times: 2
 rule-providers:
@@ -1350,3 +1372,4 @@ rules:
 - RULE-SET,anti-ad,REJECT
 - RULE-SET,tracker-domain,REJECT
 - MATCH,GLOBAL
+find-process-mode: 'off'
