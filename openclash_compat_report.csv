@@ -1,10 +1,8 @@
 source,name,type,network,compatible,reason
-automatic-free-vless,AKUN-001-CLOUDFLARE-VLESS-WS-78MS,vless,ws,yes,mihomo batch config test ok
-automatic-free-vless,AKUN-002-NOTION-WEB-VLESS-WS-81MS,vless,ws,yes,mihomo batch config test ok
-automatic-free-vless,AKUN-003-BIGCOMMERCE-VLESS-WS-80MS,vless,ws,yes,mihomo batch config test ok
-automatic-free-vless,AKUN-004-CLOUDFLARE-VLESS-WS-88MS,vless,ws,yes,mihomo batch config test ok
-automatic-free-vless,AKUN-005-OVH-VLESS-WS-114MS,vless,ws,yes,mihomo batch config test ok
-automatic-free-vless,AKUN-006-CLOUDFLARE-VLESS-WS-532MS,vless,ws,yes,mihomo batch config test ok
+automatic-free-vless,AKUN-001-CLOUDFLARE-VLESS-WS-75MS,vless,ws,yes,mihomo batch config test ok
+automatic-free-vless,AKUN-002-CLOUDFLARE-VLESS-WS-85MS,vless,ws,yes,mihomo batch config test ok
+automatic-free-vless,AKUN-003-NOTION-WEB-VLESS-WS-93MS,vless,ws,yes,mihomo batch config test ok
+automatic-free-vless,AKUN-004-CLOUDFLARE-VLESS-WS-97MS,vless,ws,yes,mihomo batch config test ok
 manual,MANUAL-VMess-WS-TLS-443-ikada543,vmess,ws,yes,mihomo batch config test ok
 manual,MANUAL-VMess-WS-TLS-443-singa08,vmess,ws,yes,mihomo batch config test ok
 manual,MANUAL-VMess-WS-TLS-443-akuku8,vmess,ws,yes,mihomo batch config test ok

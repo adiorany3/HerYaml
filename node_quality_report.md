@@ -1,12 +1,12 @@
 # Node Quality Report - Smart Stable
 
 ## Ringkasan
-- Total proxy di YAML: 8
+- Total proxy di YAML: 6
 - WARM-UP harian: 0 node
 - WARM-UP-CF Cloudflare/Worker: 0 node
 - STREAMING-FAST: 0 node
-- AUTO-FAST: 8 node
-- FALLBACK: 8 referensi, manual backup: 4 node
+- AUTO-FAST: 6 node
+- FALLBACK: 6 referensi, manual backup: 4 node
 
 ## Rekomendasi Pakai
 - Harian/browsing: pilih `WARM-UP` atau `AUTO-FAST`.
@@ -24,7 +24,7 @@
 - Tidak ada
 
 ## Node Berisiko dari NekoBox/sing-box Test
-- Tes NekoBox/sing-box dinonaktifkan; node tidak diuji.
+- AKUN-003-NOTION-WEB-VLESS-WS-93MS: ReadTimeout: HTTPSConnectionPool(host='www.gstatic.com', port=443): Read timed out. (read timeout=5.0)
 
 ## Catatan Smart Mode
 - Health-check cepat hanya untuk pool kecil, bukan semua node.
