@@ -112,10 +112,8 @@ dns:
     - https://dns.google/dns-query
     geosite:category-ads-all: rcode://success
   fallback:
-  - https://family.cloudflare-dns.com/dns-query
-  - tls://family.cloudflare-dns.com:853
-  - https://dns.quad9.net/dns-query
-  - tls://dns.quad9.net:853
+  - https://family.dns.bebasid.com/dns-query
+  - tls://family.dns.bebasid.com:853
   fallback-lazy-query: false
   fallback-filter:
     geoip: true
@@ -126,176 +124,74 @@ dns:
   use-hosts: true
   use-system-hosts: false
 proxies:
-- name: AKUN-001-CLOUDFLARE-VLESS-WS-81MS
+- name: AKUN-001-BIGCOMMERCE-VLESS-WS-80MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: 506e4a91-1d05-5683-b84c-2113f673cb19
+  uuid: b8b01773-36b1-4b49-9bd0-6249f52345b4
   udp: true
   tls: true
-  servername: vltj.qzz.io
+  servername: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /id-pusat
+    path: /eyJqdW5rIjoiTkNUaFg0ZnJNUjhhcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
     headers:
-      Host: vltj.qzz.io
+      Host: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
   alpn:
   - http/1.1
-- name: AKUN-002-CLOUDFLARE-VLESS-WS-75MS
+- name: AKUN-002-NOTION-WEB-VLESS-WS-81MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: 42026ed0-7d74-4585-8e46-0fe6aa4d665a
+  uuid: d042a74a-c305-4eec-a89f-39a348022c92
   udp: true
   tls: true
-  servername: www.genflix.co.id.r3xxe.eu.cc
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /au-do
-    headers:
-      Host: www.genflix.co.id.r3xxe.eu.cc
-  alpn:
-  - http/1.1
-- name: AKUN-003-CLOUDFLARE-VLESS-WS-77MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 9cdcbaf0-d244-4f37-b227-90166e43f5b5
-  udp: true
-  tls: true
-  servername: cf-socks.caoyuwu.eu.org
+  servername: dry-butterfly-8eb9.tmpgnacio83.workers.dev
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
     path: /
     headers:
-      Host: cf-socks.caoyuwu.eu.org
+      Host: dry-butterfly-8eb9.tmpgnacio83.workers.dev
   alpn:
   - http/1.1
-- name: AKUN-004-UNKNOWN-VLESS-WS-77MS
+- name: AKUN-003-CLOUDFLARE-VLESS-WS-78MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  uuid: 1c9daf90-3950-44ac-b06f-4cf9aec63170
   udp: true
   tls: true
-  servername: cf3.schzyc.cc.cd
+  servername: FrEe.SeRVEr14peekCoNfIG.WoRKErS.dEV
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /proxyip=ProxyIP.CMLiussss.net
+    path: /eyJqdW5rIjoiQmFCblN3SmhXYTB3RzVoIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
     headers:
-      Host: cf3.schzyc.cc.cd
+      Host: free.server14peekconfig.workers.dev
   alpn:
   - http/1.1
-- name: AKUN-005-CLOUDFLARE-VLESS-WS-85MS
+- name: AKUN-004-CLOUDFLARE-VLESS-WS-532MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   udp: true
   tls: true
-  servername: nuclear.us.kg
+  servername: a.cwvps.eu.org
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /free/1.226.227.169:50001
+    path: /ws
     headers:
-      Host: nuclear.us.kg
+      Host: a.cwvps.eu.org
   alpn:
   - http/1.1
-- name: AKUN-006-CLOUDFLARE-VLESS-WS-75MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: d9f94532-c4d4-4f94-ba23-6eb6d35bfc7d
-  udp: true
-  tls: true
-  servername: small-scene-f215.amiralizarefast1.workers.dev
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /eyJqdW5rIjoiZW5GMjJSRmYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
-    headers:
-      Host: small-scene-f215.amiralizarefast1.workers.dev
-  alpn:
-  - http/1.1
-- name: AKUN-007-CLOUDFLARE-VLESS-WS-77MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 0aab6adc-104c-4339-8d25-09755ffe2cbd
-  udp: true
-  tls: true
-  servername: liang92.dpdns.org
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: liang92.dpdns.org
-  alpn:
-  - http/1.1
-- name: AKUN-008-CLOUDFLARE-VLESS-WS-78MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
-  udp: true
-  tls: true
-  servername: web-tomcat.pages.dev
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: web-tomcat.pages.dev
-  alpn:
-  - http/1.1
-- name: AKUN-009-ACE-SG-VLESS-WS-75MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  servername: ccc.010304.xyz
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /fp
-    headers:
-      Host: ccc.010304.xyz
-  alpn:
-  - http/1.1
-- name: AKUN-010-CLOUDFLARE-VLESS-WS-73MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 4ccf70f9-7632-4b5a-9557-10d2dd347bb2
-  udp: true
-  tls: true
-  servername: To6R63-kKChiGHqm2.vxz0Dduq7to7Su0CDQf.worKERs.DEV
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  ws-opts:
-    path: /vl/zhlUKkHT4SNWHmPFOf4cu6?ed=2560
-    headers:
-      Host: to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev
 - name: MANUAL-VMess-WS-TLS-443-ikada543
   type: vmess
   server: 104.17.3.81
@@ -401,12 +297,12 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-001-CLOUDFLARE-VLESS-WS-81MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-001-BIGCOMMERCE-VLESS-WS-80MS
+  - AKUN-002-NOTION-WEB-VLESS-WS-81MS
   url: https://www.gstatic.com/generate_204
-  interval: 90
+  interval: 180
   tolerance: 150
-  lazy: false
+  lazy: true
   timeout: 5000
   expected-status: 200/204/301/302
   max-failed-times: 2
@@ -417,16 +313,10 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-001-CLOUDFLARE-VLESS-WS-81MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-010-CLOUDFLARE-VLESS-WS-73MS
-  - AKUN-006-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-009-ACE-SG-VLESS-WS-75MS
-  - AKUN-003-CLOUDFLARE-VLESS-WS-77MS
-  - AKUN-004-UNKNOWN-VLESS-WS-77MS
-  - AKUN-007-CLOUDFLARE-VLESS-WS-77MS
-  - AKUN-008-CLOUDFLARE-VLESS-WS-78MS
-  - AKUN-005-CLOUDFLARE-VLESS-WS-85MS
+  - AKUN-001-BIGCOMMERCE-VLESS-WS-80MS
+  - AKUN-002-NOTION-WEB-VLESS-WS-81MS
+  - AKUN-003-CLOUDFLARE-VLESS-WS-78MS
+  - AKUN-004-CLOUDFLARE-VLESS-WS-532MS
   url: https://www.gstatic.com/generate_204
   interval: 180
   lazy: true
@@ -675,6 +565,7 @@ rules:
 - RULE-SET,adult-category,REJECT
 - RULE-SET,adult-local,REJECT
 - RULE-SET,pinjol-local,REJECT
+- RULE-SET,popup-ads,REJECT
 - RULE-SET,obfusgated-coverage,REJECT
 - DOMAIN,805ba.v.fwmrm.net,REJECT
 - DOMAIN,tvm-mtv-freewheel.akamaized.net,REJECT
@@ -825,6 +716,13 @@ rule-providers:
     behavior: classical
     format: yaml
     path: ./rule_providers/security-pinjol.yaml
+  popup-ads:
+    type: http
+    behavior: domain
+    path: ./rule_providers/compiled/popup-ads.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/popup-ads.mrs
+    interval: 43200
+    format: mrs
   threat-malware:
     type: http
     behavior: domain
