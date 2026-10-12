@@ -223,40 +223,40 @@ proxies:
       Host: atharva.web.id
   alpn:
   - http/1.1
-- name: AKUN-002-CLOUDFLARE-VLESS-WS-75MS
+- name: AKUN-003-CLOUDFLARE-VLESS-WS-84MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: 1c9daf90-3950-44ac-b06f-4cf9aec63170
   udp: true
   tls: true
-  servername: ccc.010304.xyz
+  servername: FrEe.SeRVEr14peekCoNfIG.WoRKErS.dEV
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /fp=chrome
+    path: /eyJqdW5rIjoiQmFCblN3SmhXYTB3RzVoIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
     headers:
-      Host: ccc.010304.xyz
+      Host: free.server14peekconfig.workers.dev
   alpn:
   - http/1.1
-- name: AKUN-001-CLOUDFLARE-VLESS-WS-85MS
+- name: AKUN-002-BIGCOMMERCE-VLESS-WS-87MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: b8b01773-36b1-4b49-9bd0-6249f52345b4
   udp: true
   tls: true
-  servername: lucasjow.us.ci
+  servername: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
+  ws-opts:
+    path: /eyJqdW5rIjoiTkNUaFg0ZnJNUjhhcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
   alpn:
   - http/1.1
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed%23Telegram---TOOTFARANGI
-    headers:
-      Host: lucasjow.us.ci
 proxy-groups:
 - name: MANUAL
   type: select
@@ -266,8 +266,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-002-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-001-CLOUDFLARE-VLESS-WS-85MS
+  - AKUN-003-CLOUDFLARE-VLESS-WS-84MS
+  - AKUN-002-BIGCOMMERCE-VLESS-WS-87MS
 rules:
 - DOMAIN-SUFFIX,reddit.com,DIRECT
 - DOMAIN-SUFFIX,redditmedia.com,DIRECT

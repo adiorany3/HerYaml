@@ -1,4 +1,1 @@
 name,type,network,original_server,bug_sni,mihomo_status,url_test_ms,nekobox_test_ms,nekobox_status,nekobox_ready
-AKUN-002-CLOUDFLARE-VLESS-WS-85MS,vless,ws,188.114.97.6,lucasjow.us.ci,HTTP 204,205,293,HTTP 204,yes
-AKUN-001-CLOUDFLARE-VLESS-WS-75MS,vless,ws,172.64.152.241,ccc.010304.xyz,HTTP 204,250,263,HTTP 204,yes
-AKUN-003-NOTION-WEB-VLESS-WS-93MS,vless,ws,208.103.161.5,dry-butterfly-8eb9.tmpgnacio83.workers.dev,HTTP 204,262,5178,"ReadTimeout: HTTPSConnectionPool(host='www.gstatic.com', port=443): Read timed out. (read timeout=5.0)",no

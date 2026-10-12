@@ -1,5 +1,9 @@
 name,type,network,original_server,bug_sni,handshake_ms,ws_upgrade_ms,url_test_ms,url_test_status,url_test_success
-AKUN-001-CLOUDFLARE-VLESS-WS-75MS,vless,ws,172.64.152.241,ccc.010304.xyz,75,75,250,HTTP 204,yes
-AKUN-002-CLOUDFLARE-VLESS-WS-85MS,vless,ws,188.114.97.6,lucasjow.us.ci,85,85,205,HTTP 204,yes
-AKUN-003-NOTION-WEB-VLESS-WS-93MS,vless,ws,208.103.161.5,dry-butterfly-8eb9.tmpgnacio83.workers.dev,93,93,262,HTTP 204,yes
-AKUN-004-CLOUDFLARE-VLESS-WS-97MS,vless,ws,188.114.96.37,TeLegrAm.FREEPErSiANland1.woRKERS.DEv,97,97,187,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
+AKUN-001-CLOUDFLARE-VLESS-WS-84MS,vless,ws,188.114.97.6,FrEe.SeRVEr14peekCoNfIG.WoRKErS.dEV,84,84,230,HTTP 204,yes
+AKUN-002-NOTION-WEB-VLESS-WS-89MS,vless,ws,208.103.161.5,dry-butterfly-8eb9.tmpgnacio83.workers.dev,89,89,210,HTTP 204,yes
+AKUN-003-CLOUDFLARE-VLESS-WS-88MS,vless,ws,188.114.96.37,TeLegrAm.FREEPErSiANland1.woRKERS.DEv,88,88,202,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
+AKUN-004-CLOUDFLARE-VLESS-WS-88MS,vless,ws,cf-vless-4cf55824.aimall.fr,cf-vless-4cf55824.aimall.fr,88,88,235,HTTP 204,yes
+AKUN-005-BIGCOMMERCE-VLESS-WS-87MS,vless,ws,63.141.128.22,MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv,87,87,227,HTTP 204,yes
+AKUN-006-FREIFUNKFRANKEN-VLESS-WS-114MS,vless,ws,81.95.4.189,bab-6.site,114,114,208,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
+AKUN-007-RS-RAPIDSEEDBOX-20190717-VLESS-WS-105MS,vless,ws,45.130.125.126,BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv,105,105,246,HTTP 204,yes
+AKUN-008-CLOUDFLARE-VLESS-WS-526MS,vless,ws,188.114.97.6,a.cwvps.eu.org,526,526,1800,HTTP 204,yes
