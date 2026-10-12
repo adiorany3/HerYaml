@@ -1,12 +1,12 @@
 source,name,type,network,compatible,reason
-automatic-free-vless,AKUN-001-CLOUDFLARE-VLESS-WS-84MS,vless,ws,yes,mihomo batch config test ok
-automatic-free-vless,AKUN-002-NOTION-WEB-VLESS-WS-89MS,vless,ws,yes,mihomo batch config test ok
-automatic-free-vless,AKUN-003-CLOUDFLARE-VLESS-WS-88MS,vless,ws,yes,mihomo batch config test ok
-automatic-free-vless,AKUN-004-CLOUDFLARE-VLESS-WS-88MS,vless,ws,yes,mihomo batch config test ok
-automatic-free-vless,AKUN-005-BIGCOMMERCE-VLESS-WS-87MS,vless,ws,yes,mihomo batch config test ok
-automatic-free-vless,AKUN-006-FREIFUNKFRANKEN-VLESS-WS-114MS,vless,ws,yes,mihomo batch config test ok
-automatic-free-vless,AKUN-007-RS-RAPIDSEEDBOX-20190717-VLESS-WS-105MS,vless,ws,yes,mihomo batch config test ok
-automatic-free-vless,AKUN-008-CLOUDFLARE-VLESS-WS-526MS,vless,ws,yes,mihomo batch config test ok
+automatic-free-vless,AKUN-001-CLOUDFLARE-VLESS-WS-86MS,vless,ws,yes,mihomo batch config test ok
+automatic-free-vless,AKUN-002-CLOUDFLARE-VLESS-WS-99MS,vless,ws,yes,mihomo batch config test ok
+automatic-free-vless,AKUN-003-CLOUDFLARE-VLESS-WS-85MS,vless,ws,yes,mihomo batch config test ok
+automatic-free-vless,AKUN-004-NOTION-WEB-VLESS-WS-103MS,vless,ws,yes,mihomo batch config test ok
+automatic-free-vless,AKUN-005-RS-RAPIDSEEDBOX-20190717-VLESS-WS-104MS,vless,ws,yes,mihomo batch config test ok
+automatic-free-vless,AKUN-006-OVH-VLESS-WS-111MS,vless,ws,yes,mihomo batch config test ok
+automatic-free-vless,AKUN-007-BIGCOMMERCE-VLESS-WS-87MS,vless,ws,yes,mihomo batch config test ok
+automatic-free-vless,AKUN-008-CLOUDFLARE-VLESS-WS-342MS,vless,ws,yes,mihomo batch config test ok
 manual,MANUAL-VMess-WS-TLS-443-ikada543,vmess,ws,yes,mihomo batch config test ok
 manual,MANUAL-VMess-WS-TLS-443-singa08,vmess,ws,yes,mihomo batch config test ok
 manual,MANUAL-VMess-WS-TLS-443-akuku8,vmess,ws,yes,mihomo batch config test ok
