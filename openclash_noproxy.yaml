@@ -85,16 +85,19 @@ dns:
   - https://1.1.1.1/dns-query
   - https://9.9.9.9/dns-query
   nameserver:
+  - https://dns.google/dns-query
+  - https://1.1.1.1/dns-query
+  - https://94.140.14.14/dns-query
   - https://dns.bebasid.com/dns-query
   - tls://dns.bebasid.com:853
   - https://family.dns.bebasid.com/dns-query
   - tls://family.dns.bebasid.com:853
   proxy-server-nameserver:
-  - https://1.1.1.1/dns-query
   - https://dns.google/dns-query
+  - https://1.1.1.1/dns-query
+  - https://94.140.14.14/dns-query
   - https://dns.quad9.net/dns-query
   - https://9.9.9.9/dns-query
-  - https://94.140.14.14/dns-query
   nameserver-policy:
     +.openai.com:
     - https://1.1.1.1/dns-query
@@ -138,6 +141,9 @@ dns:
     - https://dns.google/dns-query
     - https://dns.quad9.net/dns-query
   fallback:
+  - https://dns.google/dns-query
+  - https://1.1.1.1/dns-query
+  - https://94.140.14.14/dns-query
   - https://dns.bebasid.com/dns-query
   - tls://dns.bebasid.com:853
   - https://family.dns.bebasid.com/dns-query
