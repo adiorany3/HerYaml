@@ -9,29 +9,6 @@
       {
         "type": "local",
         "tag": "local"
-      },
-      {
-        "type": "https",
-        "tag": "dns-bebasid",
-        "server": "dns.bebasid.com",
-        "server_port": 443,
-        "path": "/dns-query",
-        "tls": {
-          "enabled": true,
-          "server_name": "dns.bebasid.com"
-        },
-        "domain_resolver": "local"
-      },
-      {
-        "type": "https",
-        "tag": "dns-cloudflare",
-        "server": "1.1.1.1",
-        "server_port": 443,
-        "path": "/dns-query",
-        "tls": {
-          "enabled": true,
-          "server_name": "cloudflare-dns.com"
-        }
       }
     ],
     "rules": [
@@ -246,7 +223,7 @@
         "server": "local"
       }
     ],
-    "final": "dns-bebasid",
+    "final": "local",
     "strategy": "prefer_ipv4"
   },
   "inbounds": [
@@ -491119,6 +491096,6 @@
     ],
     "final": "proxy",
     "auto_detect_interface": true,
-    "default_domain_resolver": "dns-bebasid"
+    "default_domain_resolver": "local"
   }
 }
