@@ -318,6 +318,8 @@ dns:
   - https://1.1.1.1/dns-query
   - https://9.9.9.9/dns-query
   nameserver:
+  - https://dns.bebasid.com/dns-query
+  - tls://dns.bebasid.com:853
   - https://family.dns.bebasid.com/dns-query
   - tls://family.dns.bebasid.com:853
   proxy-server-nameserver:
@@ -744,6 +746,8 @@ dns:
   use-hosts: true
   use-system-hosts: false
   fallback:
+  - https://dns.bebasid.com/dns-query
+  - tls://dns.bebasid.com:853
   - https://family.dns.bebasid.com/dns-query
   - tls://family.dns.bebasid.com:853
   fallback-lazy-query: false

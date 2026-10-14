@@ -7,6 +7,22 @@
   "dns": {
     "servers": [
       {
+        "type": "local",
+        "tag": "local"
+      },
+      {
+        "type": "https",
+        "tag": "dns-bebasid",
+        "server": "dns.bebasid.com",
+        "server_port": 443,
+        "path": "/dns-query",
+        "tls": {
+          "enabled": true,
+          "server_name": "dns.bebasid.com"
+        },
+        "domain_resolver": "local"
+      },
+      {
         "type": "https",
         "tag": "dns-cloudflare",
         "server": "1.1.1.1",
@@ -27,10 +43,6 @@
           "enabled": true,
           "server_name": "dns.google"
         }
-      },
-      {
-        "type": "local",
-        "tag": "local"
       }
     ],
     "rules": [
@@ -42,10 +54,10 @@
           "redd.it",
           "redditinc.com"
         ],
-        "server": "dns-cloudflare"
+        "server": "dns-bebasid"
       }
     ],
-    "final": "dns-cloudflare",
+    "final": "dns-bebasid",
     "strategy": "prefer_ipv4"
   },
   "inbounds": [
@@ -169608,6 +169620,6 @@
     ],
     "final": "direct",
     "auto_detect_interface": true,
-    "default_domain_resolver": "dns-cloudflare"
+    "default_domain_resolver": "dns-bebasid"
   }
 }
