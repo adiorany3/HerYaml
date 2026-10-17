@@ -45,6 +45,114 @@ sniffer:
   skip-domain:
   - +.lan
   - +.local
+  - +.allobank.com
+  - +.bankaceh.co.id
+  - +.bankaladin.co.id
+  - +.bankaltimtara.co.id
+  - +.bankbisnis.com
+  - +.bankbjb.co.id
+  - +.bankbsi.co.id
+  - +.bankcapital.co.id
+  - +.bankdki.co.id
+  - +.bankganesha.co.id
+  - +.bankina.co.id
+  - +.bankindex.co.id
+  - +.bankjago.com
+  - +.bankjateng.co.id
+  - +.bankjatim.co.id
+  - +.bankkalbar.co.id
+  - +.bankkalsel.co.id
+  - +.bankkalteng.co.id
+  - +.banklampung.co.id
+  - +.bankmalukumalut.co.id
+  - +.bankmandiri.co.id
+  - +.bankmas.co.id
+  - +.bankmayapada.com
+  - +.bankmayora.com
+  - +.bankmega-syariah.co.id
+  - +.bankmega.co.id
+  - +.bankmega.com
+  - +.bankmestika.co.id
+  - +.bankmuamalat.co.id
+  - +.banknagari.co.id
+  - +.bankneo.co.id
+  - +.banknobu.com
+  - +.bankntbsyariah.co.id
+  - +.bankpapua.co.id
+  - +.bankraya.co.id
+  - +.bankriaukepri.co.id
+  - +.banksampoerna.com
+  - +.banksinarmas.com
+  - +.banksulselbar.co.id
+  - +.banksulutgo.co.id
+  - +.banksumselbabel.com
+  - +.banksumut.co.id
+  - +.bankvictoriasyariah.co.id
+  - +.bankwoorisaudara.com
+  - +.bca.co.id
+  - +.bcasyariah.co.id
+  - +.bi.go.id
+  - +.blu.co.id
+  - +.bni.co.id
+  - +.bpdbali.co.id
+  - +.bpddiy.co.id
+  - +.bpdntt.co.id
+  - +.bri.co.id
+  - +.btn.co.id
+  - +.btpn.com
+  - +.btpnsyariah.com
+  - +.cimbniaga.co.id
+  - +.citibank.co.id
+  - +.dana.id
+  - +.danamon.co.id
+  - +.dbs.com
+  - +.dbs.id
+  - +.doku.com
+  - +.duitku.com
+  - +.faspay.co.id
+  - +.finpay.co.id
+  - +.flip.id
+  - +.gojek.com
+  - +.gojekapi.com
+  - +.gopay.co.id
+  - +.grab.com
+  - +.grabtaxi.com
+  - +.hsbc.co.id
+  - +.ipaymu.com
+  - +.jago.com
+  - +.jenius.com
+  - +.kebhana.co.id
+  - +.klikbca.com
+  - +.linkaja.id
+  - +.livinbymandiri.co.id
+  - +.maybank.co.id
+  - +.midtrans.com
+  - +.mybca.co.id
+  - +.nicepay.co.id
+  - +.ocbc.id
+  - +.ocbcnisp.com
+  - +.octo.co.id
+  - +.ovo.id
+  - +.oyindonesia.com
+  - +.panin.co.id
+  - +.permatabank.com
+  - +.prismalink.co.id
+  - +.qris.id
+  - +.sc.com
+  - +.seabank.co.id
+  - +.shinhan.co.id
+  - +.shopee.co.id
+  - +.shopee.com
+  - +.shopee.sg
+  - +.shopeemobile.com
+  - +.shopeepay.co.id
+  - +.shopeeusercontent.com
+  - +.shp.ee
+  - +.spaylater.co.id
+  - +.susercontent.com
+  - +.tripay.co.id
+  - +.uob.co.id
+  - +.xendit.co
 dns:
   enable: true
   ipv6: false
@@ -82,6 +190,111 @@ dns:
   - +.redditstatic.com
   - +.redd.it
   - +.redditinc.com
+  - +.allobank.com
+  - +.bankaceh.co.id
+  - +.bankaladin.co.id
+  - +.bankaltimtara.co.id
+  - +.bankbisnis.com
+  - +.bankbjb.co.id
+  - +.bankbsi.co.id
+  - +.bankcapital.co.id
+  - +.bankdki.co.id
+  - +.bankganesha.co.id
+  - +.bankina.co.id
+  - +.bankindex.co.id
+  - +.bankjago.com
+  - +.bankjateng.co.id
+  - +.bankjatim.co.id
+  - +.bankkalbar.co.id
+  - +.bankkalsel.co.id
+  - +.bankkalteng.co.id
+  - +.banklampung.co.id
+  - +.bankmalukumalut.co.id
+  - +.bankmandiri.co.id
+  - +.bankmas.co.id
+  - +.bankmayapada.com
+  - +.bankmayora.com
+  - +.bankmega-syariah.co.id
+  - +.bankmega.co.id
+  - +.bankmega.com
+  - +.bankmestika.co.id
+  - +.bankmuamalat.co.id
+  - +.banknagari.co.id
+  - +.bankneo.co.id
+  - +.banknobu.com
+  - +.bankntbsyariah.co.id
+  - +.bankpapua.co.id
+  - +.bankraya.co.id
+  - +.bankriaukepri.co.id
+  - +.banksampoerna.com
+  - +.banksinarmas.com
+  - +.banksulselbar.co.id
+  - +.banksulutgo.co.id
+  - +.banksumselbabel.com
+  - +.banksumut.co.id
+  - +.bankvictoriasyariah.co.id
+  - +.bankwoorisaudara.com
+  - +.bcasyariah.co.id
+  - +.bi.go.id
+  - +.blu.co.id
+  - +.bpdbali.co.id
+  - +.bpddiy.co.id
+  - +.bpdntt.co.id
+  - +.btn.co.id
+  - +.btpn.com
+  - +.btpnsyariah.com
+  - +.cimbniaga.co.id
+  - +.citibank.co.id
+  - +.dana.id
+  - +.danamon.co.id
+  - +.dbs.com
+  - +.dbs.id
+  - +.doku.com
+  - +.duitku.com
+  - +.faspay.co.id
+  - +.finpay.co.id
+  - +.flip.id
+  - +.gojek.com
+  - +.gojekapi.com
+  - +.gopay.co.id
+  - +.grab.com
+  - +.grabtaxi.com
+  - +.hsbc.co.id
+  - +.ipaymu.com
+  - +.jago.com
+  - +.jenius.com
+  - +.kebhana.co.id
+  - +.klikbca.com
+  - +.linkaja.id
+  - +.livinbymandiri.co.id
+  - +.maybank.co.id
+  - +.midtrans.com
+  - +.mybca.co.id
+  - +.nicepay.co.id
+  - +.ocbc.id
+  - +.ocbcnisp.com
+  - +.octo.co.id
+  - +.ovo.id
+  - +.oyindonesia.com
+  - +.panin.co.id
+  - +.permatabank.com
+  - +.prismalink.co.id
+  - +.qris.id
+  - +.sc.com
+  - +.seabank.co.id
+  - +.shinhan.co.id
+  - +.shopee.co.id
+  - +.shopee.com
+  - +.shopee.sg
+  - +.shopeemobile.com
+  - +.shopeepay.co.id
+  - +.shopeeusercontent.com
+  - +.shp.ee
+  - +.spaylater.co.id
+  - +.susercontent.com
+  - +.tripay.co.id
+  - +.uob.co.id
+  - +.xendit.co
   cache-algorithm: arc
   default-nameserver:
   - https://1.1.1.1/dns-query
@@ -142,6 +355,7 @@ dns:
     - https://cloudflare-dns.com/dns-query
     - https://dns.google/dns-query
     - https://dns.quad9.net/dns-query
+    geosite:category-ads-all: rcode://success
   fallback:
   - https://dns.google/dns-query
   - https://1.1.1.1/dns-query
@@ -1138,8 +1352,6 @@ rules:
 - DOMAIN-SUFFIX,minigames.com,REJECT
 - DOMAIN-SUFFIX,minigame.com,REJECT
 - DOMAIN-SUFFIX,playminigames.com,REJECT
-- DOMAIN-SUFFIX,onlinegames.com,REJECT
-- DOMAIN-SUFFIX,freegames.com,REJECT
 - DOMAIN-SUFFIX,bestgames.com,REJECT
 - DOMAIN-SUFFIX,gamehouse.com,REJECT
 - DOMAIN-SUFFIX,bigfishgames.com,REJECT
@@ -1192,6 +1404,248 @@ rules:
 - DOMAIN-SUFFIX,minecraftservices.com,REJECT
 - DOMAIN-SUFFIX,realms.gg,REJECT
 - DOMAIN-SUFFIX,realms.minecraft.net,REJECT
+- DOMAIN-SUFFIX,gamebrott.com,REJECT
+- DOMAIN-SUFFIX,duniagames.co.id,REJECT
+- DOMAIN-SUFFIX,gamedaim.com,REJECT
+- DOMAIN-SUFFIX,esports.id,REJECT
+- DOMAIN-SUFFIX,ligagame.com,REJECT
+- DOMAIN-SUFFIX,gamegos.com,REJECT
+- DOMAIN-SUFFIX,surgagame.com,REJECT
+- DOMAIN-SUFFIX,androidapksfree.com,REJECT
+- DOMAIN-SUFFIX,gameloop.com,REJECT
+- DOMAIN-SUFFIX,bluestacks.com,REJECT
+- DOMAIN-SUFFIX,ldplayer.net,REJECT
+- DOMAIN-SUFFIX,memuplay.com,REJECT
+- DOMAIN-SUFFIX,noxplayer.com,REJECT
+- DOMAIN-SUFFIX,mumu.163.com,REJECT
+- DOMAIN-SUFFIX,gametwist.com,REJECT
+- DOMAIN-SUFFIX,gametwist.net,REJECT
+- DOMAIN-SUFFIX,spielaffe.de,REJECT
+- DOMAIN-SUFFIX,spiele-kostenlos-online.de,REJECT
+- DOMAIN-SUFFIX,spielspiele.de,REJECT
+- DOMAIN-SUFFIX,kostenlosspielen.net,REJECT
+- DOMAIN-SUFFIX,online-spiele.com,REJECT
+- DOMAIN-SUFFIX,jeux.fr,REJECT
+- DOMAIN-SUFFIX,jeux.com,REJECT
+- DOMAIN-SUFFIX,jeuxjeuxjeux.fr,REJECT
+- DOMAIN-SUFFIX,juegos.com,REJECT
+- DOMAIN-SUFFIX,juegosjuegos.com,REJECT
+- DOMAIN-SUFFIX,juegos.fr,REJECT
+- DOMAIN-SUFFIX,juegosgratis.com,REJECT
+- DOMAIN-SUFFIX,jogos.com.br,REJECT
+- DOMAIN-SUFFIX,jogosjogos.com,REJECT
+- DOMAIN-SUFFIX,jogosgratis.com,REJECT
+- DOMAIN-SUFFIX,jogosonline.com.br,REJECT
+- DOMAIN-SUFFIX,friv4school.com,REJECT
+- DOMAIN-SUFFIX,friv5online.com,REJECT
+- DOMAIN-SUFFIX,friv-online.com,REJECT
+- DOMAIN-SUFFIX,friv.co,REJECT
+- DOMAIN-SUFFIX,friv.games,REJECT
+- DOMAIN-SUFFIX,friv2.com,REJECT
+- DOMAIN-SUFFIX,friv3.com,REJECT
+- DOMAIN-SUFFIX,y8.co,REJECT
+- DOMAIN-SUFFIX,y8.com.tr,REJECT
+- DOMAIN-SUFFIX,y8y8.com,REJECT
+- DOMAIN-SUFFIX,y8games.com,REJECT
+- DOMAIN-SUFFIX,y8games.co,REJECT
+- DOMAIN-SUFFIX,y8.games,REJECT
+- DOMAIN-SUFFIX,kizi2.com,REJECT
+- DOMAIN-SUFFIX,kizi.games,REJECT
+- DOMAIN-SUFFIX,kizigames.com,REJECT
+- DOMAIN-SUFFIX,kizi.co,REJECT
+- DOMAIN-SUFFIX,gry.pl,REJECT
+- DOMAIN-SUFFIX,gry-online.pl,REJECT
+- DOMAIN-SUFFIX,gier.pl,REJECT
+- DOMAIN-SUFFIX,gierki.pl,REJECT
+- DOMAIN-SUFFIX,grydladzieci.pl,REJECT
+- DOMAIN-SUFFIX,gryfry.com,REJECT
+- DOMAIN-SUFFIX,igrice.com,REJECT
+- DOMAIN-SUFFIX,igre.com,REJECT
+- DOMAIN-SUFFIX,igre123.com,REJECT
+- DOMAIN-SUFFIX,igrice.biz,REJECT
+- DOMAIN-SUFFIX,igre.biz,REJECT
+- DOMAIN-SUFFIX,igre-igre.com,REJECT
+- DOMAIN-SUFFIX,igrica.com,REJECT
+- DOMAIN-SUFFIX,igre123.net,REJECT
+- DOMAIN-SUFFIX,oyun.com,REJECT
+- DOMAIN-SUFFIX,oyunlar.com,REJECT
+- DOMAIN-SUFFIX,oyunlar1.com,REJECT
+- DOMAIN-SUFFIX,oyunskor.com,REJECT
+- DOMAIN-SUFFIX,oyunoyun.com,REJECT
+- DOMAIN-SUFFIX,oyunlari.com,REJECT
+- DOMAIN-SUFFIX,spiele.com,REJECT
+- DOMAIN-SUFFIX,spielen.com,REJECT
+- DOMAIN-SUFFIX,spiel.com,REJECT
+- DOMAIN-SUFFIX,spiel.de,REJECT
+- DOMAIN-SUFFIX,spiele.de,REJECT
+- DOMAIN-SUFFIX,spielspiele.com,REJECT
+- DOMAIN-SUFFIX,spielekostenlos.com,REJECT
+- DOMAIN-SUFFIX,jeuxjeux.com,REJECT
+- DOMAIN-SUFFIX,jeux-gratuits.com,REJECT
+- DOMAIN-SUFFIX,jeuxonline.com,REJECT
+- DOMAIN-SUFFIX,jeuxgratuits.com,REJECT
+- DOMAIN-SUFFIX,juegos-online.com,REJECT
+- DOMAIN-SUFFIX,juegosonlines.com,REJECT
+- DOMAIN-SUFFIX,jocuri.com,REJECT
+- DOMAIN-SUFFIX,jocuri.ro,REJECT
+- DOMAIN-SUFFIX,jocurigratis.com,REJECT
+- DOMAIN-SUFFIX,jocurionline.com,REJECT
+- DOMAIN-SUFFIX,giochi.com,REJECT
+- DOMAIN-SUFFIX,giochigratis.com,REJECT
+- DOMAIN-SUFFIX,giochionline.com,REJECT
+- DOMAIN-SUFFIX,giochi.it,REJECT
+- DOMAIN-SUFFIX,gioco.it,REJECT
+- DOMAIN-SUFFIX,grydladzieci.com,REJECT
+- DOMAIN-SUFFIX,hry.cz,REJECT
+- DOMAIN-SUFFIX,hry.com,REJECT
+- DOMAIN-SUFFIX,hryonline.cz,REJECT
+- DOMAIN-SUFFIX,hryprodivky.cz,REJECT
+- DOMAIN-SUFFIX,hryprodeti.cz,REJECT
+- DOMAIN-SUFFIX,hry-online.cz,REJECT
+- DOMAIN-SUFFIX,igre.com.hr,REJECT
+- DOMAIN-SUFFIX,igre.com.ba,REJECT
+- DOMAIN-SUFFIX,igre.com.mk,REJECT
+- DOMAIN-SUFFIX,igre.com.rs,REJECT
+- DOMAIN-SUFFIX,igre.com.me,REJECT
+- DOMAIN-SUFFIX,miniclip.net,REJECT
+- DOMAIN-SUFFIX,poki.co,REJECT
+- DOMAIN-SUFFIX,crazygames.co.id,REJECT
+- DOMAIN-SUFFIX,crazygames.co,REJECT
+- DOMAIN-SUFFIX,crazygames.cn,REJECT
+- DOMAIN-SUFFIX,agames.com,REJECT
+- DOMAIN-SUFFIX,yepi.com,REJECT
+- DOMAIN-SUFFIX,yepi2.com,REJECT
+- DOMAIN-SUFFIX,yepi.co,REJECT
+- DOMAIN-SUFFIX,yepi.games,REJECT
+- DOMAIN-SUFFIX,kizi.net,REJECT
+- DOMAIN-SUFFIX,kizigames.net,REJECT
+- DOMAIN-SUFFIX,kizionline.com,REJECT
+- DOMAIN-SUFFIX,y8games.net,REJECT
+- DOMAIN-SUFFIX,y8-games.com,REJECT
+- DOMAIN-SUFFIX,y8online.com,REJECT
+- DOMAIN-SUFFIX,y8online.net,REJECT
+- DOMAIN-SUFFIX,friv-online.net,REJECT
+- DOMAIN-SUFFIX,friv-online.co,REJECT
+- DOMAIN-SUFFIX,friv-online.org,REJECT
+- DOMAIN-SUFFIX,friv.online,REJECT
+- DOMAIN-SUFFIX,friv.xyz,REJECT
+- DOMAIN-SUFFIX,friv.cool,REJECT
+- DOMAIN-SUFFIX,friv.onl,REJECT
+- DOMAIN-SUFFIX,friv.io,REJECT
+- DOMAIN-SUFFIX,friv.world,REJECT
+- DOMAIN-SUFFIX,friv.site,REJECT
+- DOMAIN-SUFFIX,friv.live,REJECT
+- DOMAIN-SUFFIX,friv.club,REJECT
+- DOMAIN-SUFFIX,friv.co.com,REJECT
+- DOMAIN-SUFFIX,friv2019.com,REJECT
+- DOMAIN-SUFFIX,friv2020.com,REJECT
+- DOMAIN-SUFFIX,friv2021.com,REJECT
+- DOMAIN-SUFFIX,friv2022.com,REJECT
+- DOMAIN-SUFFIX,friv2023.com,REJECT
+- DOMAIN-SUFFIX,friv2024.com,REJECT
+- DOMAIN-SUFFIX,friv2025.com,REJECT
+- DOMAIN-SUFFIX,friv2026.com,REJECT
+- DOMAIN-SUFFIX,friv-games.com,REJECT
+- DOMAIN-SUFFIX,frivgames.com,REJECT
+- DOMAIN-SUFFIX,frivgames.net,REJECT
+- DOMAIN-SUFFIX,friv-games.net,REJECT
+- DOMAIN-SUFFIX,friv4.com,REJECT
+- DOMAIN-SUFFIX,friv5.com,REJECT
+- DOMAIN-SUFFIX,friv6.com,REJECT
+- DOMAIN-SUFFIX,friv7.com,REJECT
+- DOMAIN-SUFFIX,friv8.com,REJECT
+- DOMAIN-SUFFIX,friv9.com,REJECT
+- DOMAIN-SUFFIX,friv10.com,REJECT
+- DOMAIN-SUFFIX,friv11.com,REJECT
+- DOMAIN-SUFFIX,friv12.com,REJECT
+- DOMAIN-SUFFIX,friv13.com,REJECT
+- DOMAIN-SUFFIX,friv14.com,REJECT
+- DOMAIN-SUFFIX,friv15.com,REJECT
+- DOMAIN-SUFFIX,friv16.com,REJECT
+- DOMAIN-SUFFIX,friv17.com,REJECT
+- DOMAIN-SUFFIX,friv18.com,REJECT
+- DOMAIN-SUFFIX,friv19.com,REJECT
+- DOMAIN-SUFFIX,friv20.com,REJECT
+- DOMAIN-SUFFIX,poki-games.com,REJECT
+- DOMAIN-SUFFIX,pokigames.com,REJECT
+- DOMAIN-SUFFIX,pokigames.net,REJECT
+- DOMAIN-SUFFIX,crazy-games.com,REJECT
+- DOMAIN-SUFFIX,crazygames.net,REJECT
+- DOMAIN-SUFFIX,crazygames.games,REJECT
+- DOMAIN-SUFFIX,crazygames.org,REJECT
+- DOMAIN-SUFFIX,crazygames.io,REJECT
+- DOMAIN-SUFFIX,addictinggames.net,REJECT
+- DOMAIN-SUFFIX,addicting-games.com,REJECT
+- DOMAIN-SUFFIX,armorgames.net,REJECT
+- DOMAIN-SUFFIX,kongregate.net,REJECT
+- DOMAIN-SUFFIX,newgrounds.net,REJECT
+- DOMAIN-SUFFIX,itch.zone,REJECT
+- DOMAIN-SUFFIX,gamejolt.net,REJECT
+- DOMAIN-SUFFIX,gamemonetize.co,REJECT
+- DOMAIN-SUFFIX,gamemonetize.io,REJECT
+- DOMAIN-SUFFIX,gamedistribution.net,REJECT
+- DOMAIN-SUFFIX,yandexgames.net,REJECT
+- DOMAIN-SUFFIX,yandexgames.io,REJECT
+- DOMAIN-SUFFIX,games.yandex.ru,REJECT
+- DOMAIN-SUFFIX,games.yandex.com.tr,REJECT
+- DOMAIN-SUFFIX,games.yandex.kz,REJECT
+- DOMAIN-SUFFIX,games.yandex.by,REJECT
+- DOMAIN-SUFFIX,games.yandex.ua,REJECT
+- DOMAIN-SUFFIX,games.yandex.co.id,REJECT
+- DOMAIN-SUFFIX,minigames.io,REJECT
+- DOMAIN-SUFFIX,minigames.games,REJECT
+- DOMAIN-SUFFIX,minigame.io,REJECT
+- DOMAIN-SUFFIX,minigame.games,REJECT
+- DOMAIN-SUFFIX,minigameonline.com,REJECT
+- DOMAIN-SUFFIX,minigamesonline.com,REJECT
+- DOMAIN-SUFFIX,minigame-online.com,REJECT
+- DOMAIN-SUFFIX,game.id,REJECT
+- DOMAIN-SUFFIX,games.id,REJECT
+- DOMAIN-SUFFIX,mainkan.co.id,REJECT
+- DOMAIN-SUFFIX,mainkangame.com,REJECT
+- DOMAIN-SUFFIX,mainkangames.com,REJECT
+- DOMAIN-SUFFIX,main-main.com,REJECT
+- DOMAIN-SUFFIX,maingame.com,REJECT
+- DOMAIN-SUFFIX,maingames.com,REJECT
+- DOMAIN-SUFFIX,maingame.id,REJECT
+- DOMAIN-SUFFIX,mainyuk.com,REJECT
+- DOMAIN-SUFFIX,ayomain.com,REJECT
+- DOMAIN-SUFFIX,ayomaingame.com,REJECT
+- DOMAIN-SUFFIX,ayo-main.com,REJECT
+- DOMAIN-SUFFIX,mainbareng.com,REJECT
+- DOMAIN-SUFFIX,bermain.com,REJECT
+- DOMAIN-SUFFIX,bermaingame.com,REJECT
+- DOMAIN-SUFFIX,permainan.com,REJECT
+- DOMAIN-SUFFIX,permainan.co.id,REJECT
+- DOMAIN-SUFFIX,permainan.online,REJECT
+- DOMAIN-SUFFIX,game-online.id,REJECT
+- DOMAIN-SUFFIX,gamegratis.co.id,REJECT
+- DOMAIN-SUFFIX,gamegratis.id,REJECT
+- DOMAIN-SUFFIX,esport.id,REJECT
+- DOMAIN-SUFFIX,gameinid.com,REJECT
+- DOMAIN-SUFFIX,game-in.id,REJECT
+- DOMAIN-SUFFIX,bermain-games.com,REJECT
+- DOMAIN-SUFFIX,mainyuk.co.id,REJECT
+- DOMAIN-SUFFIX,ayomain.co.id,REJECT
+- DOMAIN-SUFFIX,ayomain.id,REJECT
+- DOMAIN-SUFFIX,mainbareng.co.id,REJECT
+- DOMAIN-SUFFIX,permainangame.com,REJECT
+- DOMAIN-SUFFIX,permainangratis.com,REJECT
+- DOMAIN-SUFFIX,permainan-online.com,REJECT
+- DOMAIN-SUFFIX,permainanonline.com,REJECT
+- DOMAIN-SUFFIX,permainanonline.co.id,REJECT
+- DOMAIN-SUFFIX,permainanonline.id,REJECT
+- DOMAIN-SUFFIX,permainanonline.net,REJECT
+- DOMAIN-SUFFIX,permainan-online.id,REJECT
+- DOMAIN-SUFFIX,permainan-online.co.id,REJECT
+- DOMAIN-SUFFIX,permainan-online.net,REJECT
+- DOMAIN-SUFFIX,permainanonline.games,REJECT
+- DOMAIN-SUFFIX,permainangame.co.id,REJECT
+- DOMAIN-SUFFIX,permainangame.id,REJECT
+- DOMAIN-SUFFIX,permainangame.net,REJECT
+- DOMAIN-SUFFIX,permainangratis.co.id,REJECT
+- DOMAIN-SUFFIX,permainangratis.id,REJECT
+- DOMAIN-SUFFIX,permainangratis.net,REJECT
 - DOMAIN-SUFFIX,100classicbooks.com,REJECT
 - DOMAIN-SUFFIX,17173.com,REJECT
 - DOMAIN-SUFFIX,17173cdn.com,REJECT
@@ -1491,7 +1945,6 @@ rules:
 - DOMAIN-SUFFIX,gamebonfire.com,REJECT
 - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net,REJECT
 - DOMAIN-SUFFIX,gameitop.com,REJECT
-- DOMAIN-SUFFIX,gameloop.com,REJECT
 - DOMAIN-SUFFIX,gamemei.com,REJECT
 - DOMAIN-SUFFIX,gamepass.com,REJECT
 - DOMAIN-SUFFIX,gamesfirsthelsinki.com,REJECT
@@ -1571,7 +2024,6 @@ rules:
 - DOMAIN-SUFFIX,infinityward.com,REJECT
 - DOMAIN-SUFFIX,insights-collector.gog.com,REJECT
 - DOMAIN-SUFFIX,instituteofwar.org,REJECT
-- DOMAIN-SUFFIX,itch.zone,REJECT
 - DOMAIN-SUFFIX,jiaoyimao.cn,REJECT
 - DOMAIN-SUFFIX,jiaoyimao.com,REJECT
 - DOMAIN-SUFFIX,joinsquad.com,REJECT
@@ -2250,6 +2702,22 @@ rules:
 - DOMAIN-SUFFIX,zx.com,REJECT
 - DOMAIN-SUFFIX,zyngaplayersupport.com,REJECT
 - DOMAIN-SUFFIX,zyngapoker.com,REJECT
+- DOMAIN-KEYWORD,game,REJECT
+- DOMAIN-KEYWORD,minigame,REJECT
+- DOMAIN-KEYWORD,juegos,REJECT
+- DOMAIN-KEYWORD,jogos,REJECT
+- DOMAIN-KEYWORD,jocuri,REJECT
+- DOMAIN-KEYWORD,giochi,REJECT
+- DOMAIN-KEYWORD,gioco,REJECT
+- DOMAIN-KEYWORD,igrice,REJECT
+- DOMAIN-KEYWORD,oyun,REJECT
+- DOMAIN-KEYWORD,spiele,REJECT
+- DOMAIN-KEYWORD,spiel,REJECT
+- DOMAIN-KEYWORD,jeux,REJECT
+- DOMAIN-KEYWORD,arcade,REJECT
+- DOMAIN-KEYWORD,friv,REJECT
+- DOMAIN-KEYWORD,poki,REJECT
+- DOMAIN-KEYWORD,crazygames,REJECT
 - MATCH,MANUAL
 rule-providers:
   threat-malware:
