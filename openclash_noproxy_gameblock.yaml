@@ -1724,6 +1724,17 @@ rules:
 - DOMAIN-SUFFIX,dressupgames.com,REJECT
 - DOMAIN-SUFFIX,techplaygaming.com,REJECT
 - DOMAIN-SUFFIX,gombis.com,REJECT
+- DOMAIN-SUFFIX,taplup.com,REJECT
+- DOMAIN-SUFFIX,games.family,REJECT
+- DOMAIN-SUFFIX,poki.us.com,REJECT
+- DOMAIN-SUFFIX,htmlgames.com,REJECT
+- DOMAIN-SUFFIX,webgameplus.com,REJECT
+- DOMAIN-SUFFIX,topgames.com,REJECT
+- DOMAIN-SUFFIX,pacogames.com,REJECT
+- DOMAIN-SUFFIX,games.gg,REJECT
+- DOMAIN-SUFFIX,pogames.com,REJECT
+- DOMAIN-SUFFIX,freegame.com,REJECT
+- DOMAIN-SUFFIX,zygomatic.com,REJECT
 - DOMAIN-SUFFIX,100classicbooks.com,REJECT
 - DOMAIN-SUFFIX,17173.com,REJECT
 - DOMAIN-SUFFIX,17173cdn.com,REJECT
