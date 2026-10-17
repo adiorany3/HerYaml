@@ -1723,6 +1723,7 @@ rules:
 - DOMAIN-SUFFIX,games2girls.com,REJECT
 - DOMAIN-SUFFIX,dressupgames.com,REJECT
 - DOMAIN-SUFFIX,techplaygaming.com,REJECT
+- DOMAIN-SUFFIX,gombis.com,REJECT
 - DOMAIN-SUFFIX,100classicbooks.com,REJECT
 - DOMAIN-SUFFIX,17173.com,REJECT
 - DOMAIN-SUFFIX,17173cdn.com,REJECT
