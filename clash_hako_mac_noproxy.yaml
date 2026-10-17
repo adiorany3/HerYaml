@@ -1,4 +1,3 @@
-# Clash for macOS (Hako): direct-only with remote YAML adblock providers; no MRS.
 mode: rule
 log-level: warning
 ipv6: false
@@ -390,4 +389,13 @@ rules:
 - RULE-SET,ads-domain,REJECT
 - RULE-SET,anti-ad,REJECT
 - RULE-SET,tracker-domain,REJECT
+- DOMAIN-SUFFIX,games.msn.com,REJECT
+- DOMAIN-SUFFIX,play.msn.com,REJECT
+- DOMAIN-SUFFIX,msngames.msn.com,REJECT
+- DOMAIN-SUFFIX,gaming.msn.com,REJECT
+- DOMAIN-SUFFIX,zone.msn.com,REJECT
+- DOMAIN-SUFFIX,microsoftcasualgames.com,REJECT
+- DOMAIN-SUFFIX,idmapper.microsoftcasualgames.com,REJECT
+- DOMAIN-SUFFIX,msnfun.com,REJECT
+- DOMAIN-KEYWORD,msnfun,REJECT
 - MATCH,DIRECT

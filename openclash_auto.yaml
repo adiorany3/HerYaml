@@ -1679,6 +1679,15 @@ rules:
 - DOMAIN-SUFFIX,gstatic.com,DIRECT
 - RULE-SET,manual-routing,MANUAL
 - RULE-SET,social_media_auto,SOCIAL-MEDIA
+- DOMAIN-SUFFIX,games.msn.com,REJECT
+- DOMAIN-SUFFIX,play.msn.com,REJECT
+- DOMAIN-SUFFIX,msngames.msn.com,REJECT
+- DOMAIN-SUFFIX,gaming.msn.com,REJECT
+- DOMAIN-SUFFIX,zone.msn.com,REJECT
+- DOMAIN-SUFFIX,microsoftcasualgames.com,REJECT
+- DOMAIN-SUFFIX,idmapper.microsoftcasualgames.com,REJECT
+- DOMAIN-SUFFIX,msnfun.com,REJECT
+- DOMAIN-KEYWORD,msnfun,REJECT
 - MATCH,GLOBAL
 hosts:
   www.google.com: forcesafesearch.google.com

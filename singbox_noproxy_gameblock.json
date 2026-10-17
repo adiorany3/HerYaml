@@ -90,6 +90,25 @@
         "outbound": "direct"
       },
       {
+        "domain_suffix": [
+          "games.msn.com",
+          "play.msn.com",
+          "msngames.msn.com",
+          "gaming.msn.com",
+          "zone.msn.com",
+          "microsoftcasualgames.com",
+          "idmapper.microsoftcasualgames.com",
+          "msnfun.com"
+        ],
+        "domain_keyword": [
+          "msnfun"
+        ],
+        "action": "reject",
+        "tags": [
+          "msn-games"
+        ]
+      },
+      {
         "rule_set": [
           "ads-domain",
           "tracker-domain"
@@ -593,6 +612,11 @@
           "pogames.com",
           "freegame.com",
           "zygomatic.com",
+          "zone.msn.com",
+          "gaming.msn.com",
+          "microsoftcasualgames.com",
+          "idmapper.microsoftcasualgames.com",
+          "msnfun.com",
           "100classicbooks.com",
           "17173.com",
           "17173cdn.com",

@@ -512,3 +512,8 @@ games.gg
 pogames.com
 freegame.com
 zygomatic.com
+zone.msn.com
+gaming.msn.com
+microsoftcasualgames.com
+idmapper.microsoftcasualgames.com
+msnfun.com

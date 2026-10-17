@@ -1746,6 +1746,15 @@ rules:
 - RULE-SET,ads_domain,REJECT
 - RULE-SET,anti-ad,REJECT
 - RULE-SET,tracker-domain,REJECT
+- DOMAIN-SUFFIX,games.msn.com,REJECT
+- DOMAIN-SUFFIX,play.msn.com,REJECT
+- DOMAIN-SUFFIX,msngames.msn.com,REJECT
+- DOMAIN-SUFFIX,gaming.msn.com,REJECT
+- DOMAIN-SUFFIX,zone.msn.com,REJECT
+- DOMAIN-SUFFIX,microsoftcasualgames.com,REJECT
+- DOMAIN-SUFFIX,idmapper.microsoftcasualgames.com,REJECT
+- DOMAIN-SUFFIX,msnfun.com,REJECT
+- DOMAIN-KEYWORD,msnfun,REJECT
 - MATCH,GLOBAL
 find-process-mode: 'off'
 hosts:
