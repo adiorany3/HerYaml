@@ -2994,6 +2994,7 @@ rules:
 - DOMAIN-KEYWORD,friv,REJECT
 - DOMAIN-KEYWORD,poki,REJECT
 - DOMAIN-KEYWORD,crazygames,REJECT
+- RULE-SET,game-block-online,REJECT
 - DOMAIN-SUFFIX,games.msn.com,REJECT
 - DOMAIN-SUFFIX,play.msn.com,REJECT
 - DOMAIN-SUFFIX,msngames.msn.com,REJECT
@@ -3195,3 +3196,8 @@ rule-providers:
     behavior: classical
     format: yaml
     path: ./rule_providers/indonesia-gambling-research.yaml
+  game-block-online:
+    type: file
+    behavior: domain
+    format: text
+    path: ./rule_providers/game-block-online.txt

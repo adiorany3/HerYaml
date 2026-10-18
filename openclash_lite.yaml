@@ -863,6 +863,7 @@ rules:
 - DOMAIN-SUFFIX,video.twimg.com,MANUAL
 - DOMAIN-SUFFIX,cloudflare.com,MANUAL
 - DOMAIN-SUFFIX,gstatic.com,MANUAL
+- RULE-SET,game-block-online,REJECT
 - DOMAIN-SUFFIX,games.msn.com,REJECT
 - DOMAIN-SUFFIX,play.msn.com,REJECT
 - DOMAIN-SUFFIX,msngames.msn.com,REJECT
@@ -1319,6 +1320,11 @@ rule-providers:
     path: ./rule_providers/youtube.mrs
     url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs
     interval: 43200
+  game-block-online:
+    type: file
+    behavior: domain
+    format: text
+    path: ./rule_providers/game-block-online.txt
 hosts:
   www.google.com: forcesafesearch.google.com
   www.google.co.id: forcesafesearch.google.com

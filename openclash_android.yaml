@@ -1186,6 +1186,11 @@ rule-providers:
     type: file
     behavior: domain
     path: ./rule_providers/ads_indonesia_android.yaml
+  game-block-online:
+    type: file
+    behavior: domain
+    format: text
+    path: ./rule_providers/game-block-online.txt
 rules:
 - DOMAIN-SUFFIX,local,GLOBAL
 - DOMAIN-SUFFIX,lan,GLOBAL
@@ -1746,6 +1751,7 @@ rules:
 - RULE-SET,ads_domain,REJECT
 - RULE-SET,anti-ad,REJECT
 - RULE-SET,tracker-domain,REJECT
+- RULE-SET,game-block-online,REJECT
 - DOMAIN-SUFFIX,games.msn.com,REJECT
 - DOMAIN-SUFFIX,play.msn.com,REJECT
 - DOMAIN-SUFFIX,msngames.msn.com,REJECT

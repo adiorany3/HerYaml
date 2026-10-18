@@ -1234,6 +1234,11 @@ rule-providers:
     - .amazon-adsystem.com
     - .mopub.com
     - .adjoe.io
+  game-block-online:
+    type: file
+    behavior: domain
+    format: text
+    path: ./rule_providers/game-block-online.txt
 rules:
 - DOMAIN-SUFFIX,local,DIRECT
 - DOMAIN-SUFFIX,lan,DIRECT
@@ -1625,6 +1630,7 @@ rules:
 - DOMAIN-SUFFIX,tiktokcdn.com,SOCIAL-MEDIA
 - DOMAIN-SUFFIX,t.me,SOCIAL-MEDIA
 - DOMAIN-SUFFIX,telegram.org,SOCIAL-MEDIA
+- RULE-SET,game-block-online,REJECT
 - DOMAIN-SUFFIX,games.msn.com,REJECT
 - DOMAIN-SUFFIX,play.msn.com,REJECT
 - DOMAIN-SUFFIX,msngames.msn.com,REJECT
