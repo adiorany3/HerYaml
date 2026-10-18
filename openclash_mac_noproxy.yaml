@@ -1,3 +1,4 @@
+# OpenClash macOS + No Proxy; adblock providers YAML-only, no MRS adblock files.
 mixed-port: 7890
 redir-port: 7892
 tproxy-port: 7895
@@ -1240,6 +1241,7 @@ rules:
 - DOMAIN,yandex.ru,REJECT
 - RULE-SET,game-block-online,REJECT
 - DOMAIN-SUFFIX,msn.com,REJECT
+- DOMAIN-SUFFIX,yandex.com,REJECT
 - DOMAIN-SUFFIX,games.msn.com,REJECT
 - DOMAIN-SUFFIX,play.msn.com,REJECT
 - DOMAIN-SUFFIX,msngames.msn.com,REJECT
