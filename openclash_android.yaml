@@ -1191,6 +1191,13 @@ rule-providers:
     behavior: domain
     format: text
     path: ./rule_providers/game-block-online.txt
+  hagezi-pro:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rule_providers/compiled/hagezi-pro.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/hagezi-pro.mrs
+    interval: 43200
 rules:
 - DOMAIN-SUFFIX,local,GLOBAL
 - DOMAIN-SUFFIX,lan,GLOBAL
@@ -1752,6 +1759,7 @@ rules:
 - RULE-SET,anti-ad,REJECT
 - RULE-SET,tracker-domain,REJECT
 - RULE-SET,game-block-online,REJECT
+- RULE-SET,hagezi-pro,REJECT
 - DOMAIN-SUFFIX,msn.com,REJECT
 - DOMAIN-SUFFIX,yandex.com,REJECT
 - DOMAIN-SUFFIX,games.msn.com,REJECT
