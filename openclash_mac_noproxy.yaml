@@ -1,3 +1,4 @@
+# OpenClash macOS + No Proxy; adblock providers YAML-only, no MRS adblock files.
 mixed-port: 7890
 redir-port: 7892
 tproxy-port: 7895
