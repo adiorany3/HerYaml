@@ -1685,6 +1685,7 @@ rules:
 - RULE-SET,manual-routing,MANUAL
 - RULE-SET,social_media_auto,SOCIAL-MEDIA
 - RULE-SET,game-block-online,REJECT
+- DOMAIN-SUFFIX,msn.com,REJECT
 - DOMAIN-SUFFIX,games.msn.com,REJECT
 - DOMAIN-SUFFIX,play.msn.com,REJECT
 - DOMAIN-SUFFIX,msngames.msn.com,REJECT
