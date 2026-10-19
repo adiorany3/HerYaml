@@ -706,6 +706,9 @@
 ^(?:.*\.)?songpop\.com$
 ^(?:.*\.)?osu\.ppy\.sh$
 ^(?:.*\.)?kahoot\.com$
+^(?:.*\.)?wtmobile\.com$
+^(?:.*\.)?gaijin\.net$
+^(?:.*\.)?gaijinent\.com$
 ^(?:.*\.)?01\-casino\.com$
 ^(?:.*\.)?01\-chase\.com$
 ^(?:.*\.)?01\-topsites\.com$
@@ -1400,7 +1403,6 @@
 ^(?:.*\.)?asianf4rmer\.vercel\.app$
 ^(?:.*\.)?asit\.riverdark\.net$
 ^(?:.*\.)?asmodee\.com$
-^(?:.*\.)?asobostudio\.com$
 ^(?:.*\.)?assets\.com$
 ^(?:.*\.)?assets\.ppy\.sh$
 ^(?:.*\.)?asspixel\.net$
@@ -3391,8 +3393,6 @@
 ^(?:.*\.)?flight1\.100megabyte\.com$
 ^(?:.*\.)?flightsim\.com$
 ^(?:.*\.)?flightsim\.com\.br$
-^(?:.*\.)?flightsimulator\.azureedge\.net$
-^(?:.*\.)?flightsimulator\.com$
 ^(?:.*\.)?flightsimulatorarg\.com\.ar$
 ^(?:.*\.)?flightsimworld\.com$
 ^(?:.*\.)?fliiby\.com$
@@ -3718,8 +3718,6 @@
 ^(?:.*\.)?gagnerducash\.com$
 ^(?:.*\.)?gagnersurleweb\.com$
 ^(?:.*\.)?gaiaonline\.com$
-^(?:.*\.)?gaijin\.net$
-^(?:.*\.)?gaijinent\.com$
 ^(?:.*\.)?galactic\-horizon\.com$
 ^(?:.*\.)?galactic\-tales\.de$
 ^(?:.*\.)?galactica\-rpg\.actifforum\.com$
@@ -10881,7 +10879,6 @@
 ^(?:.*\.)?wowwebstats\.com$
 ^(?:.*\.)?wrathworld\.com$
 ^(?:.*\.)?wtcraft\.com$
-^(?:.*\.)?wtmobile\.com$
 ^(?:.*\.)?wurmonline\.com$
 ^(?:.*\.)?wurzelimperium\.de$
 ^(?:.*\.)?wwe\.com$

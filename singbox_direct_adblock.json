@@ -111,6 +111,17 @@
         ]
       },
       {
+        "domain_suffix": [
+          "wtmobile.com",
+          "gaijin.net",
+          "gaijinent.com"
+        ],
+        "action": "reject",
+        "tags": [
+          "wtm-block"
+        ]
+      },
+      {
         "rule_set": [
           "ads-domain",
           "tracker-domain"

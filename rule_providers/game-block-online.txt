@@ -726,3 +726,8 @@ jetpunk.com
 songpop.com
 osu.ppy.sh
 kahoot.com
+
+# War Thunder / Gaijin Entertainment: War Thunder Mobile portal, accounts/login, CDN (gaijin.net), corporate apex. DNS-verified 2026-10-19.
+wtmobile.com
+gaijin.net
+gaijinent.com

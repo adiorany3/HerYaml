@@ -445,6 +445,17 @@
       },
       {
         "domain_suffix": [
+          "wtmobile.com",
+          "gaijin.net",
+          "gaijinent.com"
+        ],
+        "action": "reject",
+        "tags": [
+          "wtm-block"
+        ]
+      },
+      {
+        "domain_suffix": [
           "123.ywxww.net",
           "132.red-81-42-249.staticip.rima-tde.net",
           "150.co.il",
