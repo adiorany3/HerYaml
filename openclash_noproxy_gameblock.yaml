@@ -1934,6 +1934,9 @@ rules:
 - DOMAIN-SUFFIX,songpop.com,REJECT
 - DOMAIN-SUFFIX,osu.ppy.sh,REJECT
 - DOMAIN-SUFFIX,kahoot.com,REJECT
+- DOMAIN-SUFFIX,wtmobile.com,REJECT
+- DOMAIN-SUFFIX,gaijin.net,REJECT
+- DOMAIN-SUFFIX,gaijinent.com,REJECT
 - DOMAIN-SUFFIX,01-casino.com,REJECT
 - DOMAIN-SUFFIX,01-chase.com,REJECT
 - DOMAIN-SUFFIX,01-topsites.com,REJECT
@@ -2628,7 +2631,6 @@ rules:
 - DOMAIN-SUFFIX,asianf4rmer.vercel.app,REJECT
 - DOMAIN-SUFFIX,asit.riverdark.net,REJECT
 - DOMAIN-SUFFIX,asmodee.com,REJECT
-- DOMAIN-SUFFIX,asobostudio.com,REJECT
 - DOMAIN-SUFFIX,assets.com,REJECT
 - DOMAIN-SUFFIX,assets.ppy.sh,REJECT
 - DOMAIN-SUFFIX,asspixel.net,REJECT
@@ -4619,8 +4621,6 @@ rules:
 - DOMAIN-SUFFIX,flight1.100megabyte.com,REJECT
 - DOMAIN-SUFFIX,flightsim.com,REJECT
 - DOMAIN-SUFFIX,flightsim.com.br,REJECT
-- DOMAIN-SUFFIX,flightsimulator.azureedge.net,REJECT
-- DOMAIN-SUFFIX,flightsimulator.com,REJECT
 - DOMAIN-SUFFIX,flightsimulatorarg.com.ar,REJECT
 - DOMAIN-SUFFIX,flightsimworld.com,REJECT
 - DOMAIN-SUFFIX,fliiby.com,REJECT
@@ -4946,8 +4946,6 @@ rules:
 - DOMAIN-SUFFIX,gagnerducash.com,REJECT
 - DOMAIN-SUFFIX,gagnersurleweb.com,REJECT
 - DOMAIN-SUFFIX,gaiaonline.com,REJECT
-- DOMAIN-SUFFIX,gaijin.net,REJECT
-- DOMAIN-SUFFIX,gaijinent.com,REJECT
 - DOMAIN-SUFFIX,galactic-horizon.com,REJECT
 - DOMAIN-SUFFIX,galactic-tales.de,REJECT
 - DOMAIN-SUFFIX,galactica-rpg.actifforum.com,REJECT
@@ -12109,7 +12107,6 @@ rules:
 - DOMAIN-SUFFIX,wowwebstats.com,REJECT
 - DOMAIN-SUFFIX,wrathworld.com,REJECT
 - DOMAIN-SUFFIX,wtcraft.com,REJECT
-- DOMAIN-SUFFIX,wtmobile.com,REJECT
 - DOMAIN-SUFFIX,wurmonline.com,REJECT
 - DOMAIN-SUFFIX,wurzelimperium.de,REJECT
 - DOMAIN-SUFFIX,wwe.com,REJECT
