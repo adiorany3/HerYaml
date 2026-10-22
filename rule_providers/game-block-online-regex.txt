@@ -8615,6 +8615,7 @@
 ^(?:.*\.)?quoverbis\.com$
 ^(?:.*\.)?r\-c\-etrange\.forumactif\.net$
 ^(?:.*\.)?r\-miniclip\.biz$
+^(?:.*\.)?r2modman\.com$
 ^(?:.*\.)?raadhetwoord\.nl$
 ^(?:.*\.)?rabbo\.fr$
 ^(?:.*\.)?racedrivergrid\.com$
@@ -10028,6 +10029,7 @@
 ^(?:.*\.)?thsonicgames\.com$
 ^(?:.*\.)?thugsstreet\.fireblazehost\.com$
 ^(?:.*\.)?thugwars\.co\.uk$
+^(?:.*\.)?thunderstore\.org$
 ^(?:.*\.)?tiamat\-web\.com$
 ^(?:.*\.)?tiamat64\.free\.fr$
 ^(?:.*\.)?tiancity\.com$
@@ -10877,6 +10879,7 @@
 ^(?:.*\.)?wowsblitz\.com$
 ^(?:.*\.)?wowtcg\.fr$
 ^(?:.*\.)?wowwebstats\.com$
+^(?:.*\.)?wplace\.live$
 ^(?:.*\.)?wrathworld\.com$
 ^(?:.*\.)?wtcraft\.com$
 ^(?:.*\.)?wurmonline\.com$

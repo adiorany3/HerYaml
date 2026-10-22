@@ -9843,6 +9843,7 @@ rules:
 - DOMAIN-SUFFIX,quoverbis.com,REJECT
 - DOMAIN-SUFFIX,r-c-etrange.forumactif.net,REJECT
 - DOMAIN-SUFFIX,r-miniclip.biz,REJECT
+- DOMAIN-SUFFIX,r2modman.com,REJECT
 - DOMAIN-SUFFIX,raadhetwoord.nl,REJECT
 - DOMAIN-SUFFIX,rabbo.fr,REJECT
 - DOMAIN-SUFFIX,racedrivergrid.com,REJECT
@@ -11256,6 +11257,7 @@ rules:
 - DOMAIN-SUFFIX,thsonicgames.com,REJECT
 - DOMAIN-SUFFIX,thugsstreet.fireblazehost.com,REJECT
 - DOMAIN-SUFFIX,thugwars.co.uk,REJECT
+- DOMAIN-SUFFIX,thunderstore.org,REJECT
 - DOMAIN-SUFFIX,tiamat-web.com,REJECT
 - DOMAIN-SUFFIX,tiamat64.free.fr,REJECT
 - DOMAIN-SUFFIX,tiancity.com,REJECT
@@ -12105,6 +12107,7 @@ rules:
 - DOMAIN-SUFFIX,wowsblitz.com,REJECT
 - DOMAIN-SUFFIX,wowtcg.fr,REJECT
 - DOMAIN-SUFFIX,wowwebstats.com,REJECT
+- DOMAIN-SUFFIX,wplace.live,REJECT
 - DOMAIN-SUFFIX,wrathworld.com,REJECT
 - DOMAIN-SUFFIX,wtcraft.com,REJECT
 - DOMAIN-SUFFIX,wurmonline.com,REJECT
