@@ -136,6 +136,13 @@
         ]
       },
       {
+        "rule_set": [
+          "ads-domain",
+          "tracker-domain"
+        ],
+        "action": "reject"
+      },
+      {
         "domain_suffix": [
           "mobilelegends.com",
           "moonton.com",
@@ -11382,13 +11389,6 @@
         "tags": [
           "anti-game"
         ]
-      },
-      {
-        "rule_set": [
-          "ads-domain",
-          "tracker-domain"
-        ],
-        "action": "reject"
       },
       {
         "domain_suffix": [
