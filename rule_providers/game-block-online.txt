@@ -85,9 +85,15 @@ steamgames.com
 # Web game portals / minigame sites
 poki.com
 poki.co.id
+poki-cdn.com
 crazygames.com
 y8.com
 friv.com
+frivmax.com
+yurk.com
+html5.gamedistribution.com
+img.gamedistribution.com
+gamesgamescdn.com
 miniclip.com
 gamepix.com
 kongregate.com

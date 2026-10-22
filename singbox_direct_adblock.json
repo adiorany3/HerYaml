@@ -122,6 +122,20 @@
         ]
       },
       {
+        "domain_suffix": [
+          "frivmax.com",
+          "yurk.com",
+          "html5.gamedistribution.com",
+          "img.gamedistribution.com",
+          "poki-cdn.com",
+          "gamesgamescdn.com"
+        ],
+        "action": "reject",
+        "tags": [
+          "online-minigames"
+        ]
+      },
+      {
         "rule_set": [
           "ads-domain",
           "tracker-domain"

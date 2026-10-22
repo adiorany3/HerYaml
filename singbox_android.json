@@ -595,6 +595,20 @@
       },
       {
         "domain_suffix": [
+          "frivmax.com",
+          "yurk.com",
+          "html5.gamedistribution.com",
+          "img.gamedistribution.com",
+          "poki-cdn.com",
+          "gamesgamescdn.com"
+        ],
+        "action": "reject",
+        "tags": [
+          "online-minigames"
+        ]
+      },
+      {
+        "domain_suffix": [
           "123.ywxww.net",
           "132.red-81-42-249.staticip.rima-tde.net",
           "150.co.il",

@@ -122,11 +122,18 @@
         ]
       },
       {
-        "rule_set": [
-          "ads-domain",
-          "tracker-domain"
+        "domain_suffix": [
+          "frivmax.com",
+          "yurk.com",
+          "html5.gamedistribution.com",
+          "img.gamedistribution.com",
+          "poki-cdn.com",
+          "gamesgamescdn.com"
         ],
-        "action": "reject"
+        "action": "reject",
+        "tags": [
+          "online-minigames"
+        ]
       },
       {
         "domain_suffix": [
@@ -208,9 +215,15 @@
           "steamgames.com",
           "poki.com",
           "poki.co.id",
+          "poki-cdn.com",
           "crazygames.com",
           "y8.com",
           "friv.com",
+          "frivmax.com",
+          "yurk.com",
+          "html5.gamedistribution.com",
+          "img.gamedistribution.com",
+          "gamesgamescdn.com",
           "miniclip.com",
           "gamepix.com",
           "kongregate.com",
@@ -11369,6 +11382,13 @@
         "tags": [
           "anti-game"
         ]
+      },
+      {
+        "rule_set": [
+          "ads-domain",
+          "tracker-domain"
+        ],
+        "action": "reject"
       },
       {
         "domain_suffix": [

@@ -122,6 +122,20 @@
         ]
       },
       {
+        "domain_suffix": [
+          "frivmax.com",
+          "yurk.com",
+          "html5.gamedistribution.com",
+          "img.gamedistribution.com",
+          "poki-cdn.com",
+          "gamesgamescdn.com"
+        ],
+        "action": "reject",
+        "tags": [
+          "online-minigames"
+        ]
+      },
+      {
         "rule_set": [
           "ads-domain",
           "tracker-domain"
@@ -208,9 +222,15 @@
           "steamgames.com",
           "poki.com",
           "poki.co.id",
+          "poki-cdn.com",
           "crazygames.com",
           "y8.com",
           "friv.com",
+          "frivmax.com",
+          "yurk.com",
+          "html5.gamedistribution.com",
+          "img.gamedistribution.com",
+          "gamesgamescdn.com",
           "miniclip.com",
           "gamepix.com",
           "kongregate.com",

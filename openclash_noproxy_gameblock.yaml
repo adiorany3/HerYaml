@@ -1315,9 +1315,15 @@ rules:
 - DOMAIN-SUFFIX,steamgames.com,REJECT
 - DOMAIN-SUFFIX,poki.com,REJECT
 - DOMAIN-SUFFIX,poki.co.id,REJECT
+- DOMAIN-SUFFIX,poki-cdn.com,REJECT
 - DOMAIN-SUFFIX,crazygames.com,REJECT
 - DOMAIN-SUFFIX,y8.com,REJECT
 - DOMAIN-SUFFIX,friv.com,REJECT
+- DOMAIN-SUFFIX,frivmax.com,REJECT
+- DOMAIN-SUFFIX,yurk.com,REJECT
+- DOMAIN-SUFFIX,html5.gamedistribution.com,REJECT
+- DOMAIN-SUFFIX,img.gamedistribution.com,REJECT
+- DOMAIN-SUFFIX,gamesgamescdn.com,REJECT
 - DOMAIN-SUFFIX,miniclip.com,REJECT
 - DOMAIN-SUFFIX,gamepix.com,REJECT
 - DOMAIN-SUFFIX,kongregate.com,REJECT
