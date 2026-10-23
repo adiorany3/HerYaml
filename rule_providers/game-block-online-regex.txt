@@ -9594,6 +9594,7 @@
 ^(?:.*\.)?steammobile\.akamaized\.net$
 ^(?:.*\.)?steammoves\.com$
 ^(?:.*\.)?steammovies\.org$
+^(?:.*\.)?steamos\.cloud$
 ^(?:.*\.)?steamosaic\.com$
 ^(?:.*\.)?steampeek\.hu$
 ^(?:.*\.)?steampipe\-kr\.akamaized\.net$
@@ -10843,6 +10844,7 @@
 ^(?:.*\.)?worldofwarcraft\.com$
 ^(?:.*\.)?worldofwarcraft\.guilde\-ke\.net$
 ^(?:.*\.)?worldofwarplanes\.com$
+^(?:.*\.)?worldofwarships\.asia$
 ^(?:.*\.)?worldofwarships\.eu$
 ^(?:.*\.)?worldofwarships\.org$
 ^(?:.*\.)?worldsendradio\.com$

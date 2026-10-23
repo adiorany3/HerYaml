@@ -10822,6 +10822,7 @@ rules:
 - DOMAIN-SUFFIX,steammobile.akamaized.net,REJECT
 - DOMAIN-SUFFIX,steammoves.com,REJECT
 - DOMAIN-SUFFIX,steammovies.org,REJECT
+- DOMAIN-SUFFIX,steamos.cloud,REJECT
 - DOMAIN-SUFFIX,steamosaic.com,REJECT
 - DOMAIN-SUFFIX,steampeek.hu,REJECT
 - DOMAIN-SUFFIX,steampipe-kr.akamaized.net,REJECT
@@ -12071,6 +12072,7 @@ rules:
 - DOMAIN-SUFFIX,worldofwarcraft.com,REJECT
 - DOMAIN-SUFFIX,worldofwarcraft.guilde-ke.net,REJECT
 - DOMAIN-SUFFIX,worldofwarplanes.com,REJECT
+- DOMAIN-SUFFIX,worldofwarships.asia,REJECT
 - DOMAIN-SUFFIX,worldofwarships.eu,REJECT
 - DOMAIN-SUFFIX,worldofwarships.org,REJECT
 - DOMAIN-SUFFIX,worldsendradio.com,REJECT
