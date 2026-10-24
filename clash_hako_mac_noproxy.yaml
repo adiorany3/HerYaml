@@ -154,8 +154,8 @@ dns:
   - https://9.9.9.9/dns-query
   nameserver:
   - https://1.1.1.1/dns-query
-  - https://94.140.14.14/dns-query
   - https://dns.google/dns-query
+  - https://94.140.14.14/dns-query
   - https://family.cloudflare-dns.com/dns-query
   - https://dns.bebasid.com/dns-query
   - tls://dns.bebasid.com:853
@@ -163,8 +163,8 @@ dns:
   - tls://family.dns.bebasid.com:853
   proxy-server-nameserver:
   - https://1.1.1.1/dns-query
-  - https://94.140.14.14/dns-query
   - https://dns.google/dns-query
+  - https://94.140.14.14/dns-query
   - https://family.cloudflare-dns.com/dns-query
   - https://dns.quad9.net/dns-query
   - https://9.9.9.9/dns-query
@@ -213,8 +213,8 @@ dns:
     geosite:category-ads-all: rcode://success
   fallback:
   - https://1.1.1.1/dns-query
-  - https://94.140.14.14/dns-query
   - https://dns.google/dns-query
+  - https://94.140.14.14/dns-query
   - https://family.cloudflare-dns.com/dns-query
   - https://dns.bebasid.com/dns-query
   - tls://dns.bebasid.com:853
@@ -304,7 +304,7 @@ proxies:
       Host: atharva.web.id
   alpn:
   - http/1.1
-- name: AKUN-005-877774-VLESS-WS-73MS
+- name: AKUN-002-UNKNOWN-VLESS-WS-74MS
   type: vless
   server: 104.17.3.81
   port: 443
@@ -316,12 +316,12 @@ proxies:
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /fp
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
     headers:
       Host: ccc.010304.xyz
   alpn:
   - http/1.1
-- name: AKUN-009-ACE-SG-VLESS-WS-73MS
+- name: AKUN-001-UNKNOWN-VLESS-WS-75MS
   type: vless
   server: 104.17.3.81
   port: 443
@@ -333,7 +333,7 @@ proxies:
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /
+    path: /fp=unsafe
     headers:
       Host: ccc.010304.xyz
   alpn:
@@ -347,8 +347,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-005-877774-VLESS-WS-73MS
-  - AKUN-009-ACE-SG-VLESS-WS-73MS
+  - AKUN-002-UNKNOWN-VLESS-WS-74MS
+  - AKUN-001-UNKNOWN-VLESS-WS-75MS
 rule-providers:
   ads-indonesia:
     type: http
