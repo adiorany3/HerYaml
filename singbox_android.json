@@ -423,219 +423,6 @@
         "outbound": "direct"
       },
       {
-        "domain_suffix": [
-          "msn.com",
-          "yandex.com",
-          "games.msn.com",
-          "play.msn.com",
-          "msngames.msn.com",
-          "gaming.msn.com",
-          "zone.msn.com",
-          "microsoftcasualgames.com",
-          "idmapper.microsoftcasualgames.com",
-          "msnfun.com"
-        ],
-        "domain_keyword": [
-          "msnfun"
-        ],
-        "action": "reject"
-      },
-      {
-        "domain_suffix": [
-          "wtmobile.com",
-          "gaijin.net",
-          "gaijinent.com"
-        ],
-        "action": "reject"
-      },
-      {
-        "domain": [
-          "reddit.com",
-          "www.reddit.com",
-          "old.reddit.com",
-          "oauth.reddit.com",
-          "gateway.reddit.com",
-          "gql.reddit.com",
-          "redditmedia.com",
-          "redditinc.com",
-          "redd.it"
-        ],
-        "action": "route",
-        "outbound": "SOCIAL"
-      },
-      {
-        "domain_suffix": [
-          "redditstatic.com",
-          "i.redd.it",
-          "preview.redd.it"
-        ],
-        "action": "route",
-        "outbound": "SOCIAL"
-      },
-      {
-        "domain_suffix": [
-          "msn.com",
-          "yandex.com",
-          "games.msn.com",
-          "play.msn.com",
-          "msngames.msn.com",
-          "gaming.msn.com",
-          "zone.msn.com",
-          "microsoftcasualgames.com",
-          "idmapper.microsoftcasualgames.com",
-          "msnfun.com"
-        ],
-        "domain_keyword": [
-          "msnfun"
-        ],
-        "action": "reject"
-      },
-      {
-        "domain_suffix": [
-          "wtmobile.com",
-          "gaijin.net",
-          "gaijinent.com"
-        ],
-        "action": "reject"
-      },
-      {
-        "domain_suffix": [
-          "msn.com",
-          "yandex.com",
-          "games.msn.com",
-          "play.msn.com",
-          "msngames.msn.com",
-          "gaming.msn.com",
-          "zone.msn.com",
-          "microsoftcasualgames.com",
-          "idmapper.microsoftcasualgames.com",
-          "msnfun.com"
-        ],
-        "domain_keyword": [
-          "msnfun"
-        ],
-        "action": "reject"
-      },
-      {
-        "domain_suffix": [
-          "wtmobile.com",
-          "gaijin.net",
-          "gaijinent.com"
-        ],
-        "action": "reject"
-      },
-      {
-        "domain_suffix": [
-          "msn.com",
-          "yandex.com",
-          "games.msn.com",
-          "play.msn.com",
-          "msngames.msn.com",
-          "gaming.msn.com",
-          "zone.msn.com",
-          "microsoftcasualgames.com",
-          "idmapper.microsoftcasualgames.com",
-          "msnfun.com"
-        ],
-        "domain_keyword": [
-          "msnfun"
-        ],
-        "action": "reject"
-      },
-      {
-        "domain_suffix": [
-          "wtmobile.com",
-          "gaijin.net",
-          "gaijinent.com"
-        ],
-        "action": "reject"
-      },
-      {
-        "domain_suffix": [
-          "frivmax.com",
-          "yurk.com",
-          "html5.gamedistribution.com",
-          "img.gamedistribution.com",
-          "poki-cdn.com",
-          "gamesgamescdn.com"
-        ],
-        "action": "reject"
-      },
-      {
-        "domain_suffix": [
-          "msn.com",
-          "yandex.com",
-          "games.msn.com",
-          "play.msn.com",
-          "msngames.msn.com",
-          "gaming.msn.com",
-          "zone.msn.com",
-          "microsoftcasualgames.com",
-          "idmapper.microsoftcasualgames.com",
-          "msnfun.com"
-        ],
-        "domain_keyword": [
-          "msnfun"
-        ],
-        "action": "reject"
-      },
-      {
-        "domain_suffix": [
-          "wtmobile.com",
-          "gaijin.net",
-          "gaijinent.com"
-        ],
-        "action": "reject"
-      },
-      {
-        "domain_suffix": [
-          "frivmax.com",
-          "yurk.com",
-          "html5.gamedistribution.com",
-          "img.gamedistribution.com",
-          "poki-cdn.com",
-          "gamesgamescdn.com"
-        ],
-        "action": "reject"
-      },
-      {
-        "domain_suffix": [
-          "msn.com",
-          "yandex.com",
-          "games.msn.com",
-          "play.msn.com",
-          "msngames.msn.com",
-          "gaming.msn.com",
-          "zone.msn.com",
-          "microsoftcasualgames.com",
-          "idmapper.microsoftcasualgames.com",
-          "msnfun.com"
-        ],
-        "domain_keyword": [
-          "msnfun"
-        ],
-        "action": "reject"
-      },
-      {
-        "domain_suffix": [
-          "wtmobile.com",
-          "gaijin.net",
-          "gaijinent.com"
-        ],
-        "action": "reject"
-      },
-      {
-        "domain_suffix": [
-          "frivmax.com",
-          "yurk.com",
-          "html5.gamedistribution.com",
-          "img.gamedistribution.com",
-          "poki-cdn.com",
-          "gamesgamescdn.com"
-        ],
-        "action": "reject"
-      },
-      {
         "domain": [
           "events.reddit.com",
           "events.redditmedia.com",
@@ -233417,6 +233204,30 @@
         ]
       },
       {
+        "domain": [
+          "reddit.com",
+          "www.reddit.com",
+          "old.reddit.com",
+          "oauth.reddit.com",
+          "gateway.reddit.com",
+          "gql.reddit.com",
+          "redditmedia.com",
+          "redditinc.com",
+          "redd.it"
+        ],
+        "action": "route",
+        "outbound": "SOCIAL"
+      },
+      {
+        "domain_suffix": [
+          "redditstatic.com",
+          "i.redd.it",
+          "preview.redd.it"
+        ],
+        "action": "route",
+        "outbound": "SOCIAL"
+      },
+      {
         "domain_suffix": [
           "challenges.cloudflare.com",
           "dana.id",
@@ -233426,6 +233237,7 @@
           "go-jek.com",
           "gopay.co.id",
           "hcaptcha.com",
+          "i.redd.it",
           "ipaymu.com",
           "licdn.com",
           "linkaja.id",
@@ -233436,8 +233248,10 @@
           "nicepay.co.id",
           "ookla.com",
           "ovo.id",
+          "preview.redd.it",
           "qris.id",
           "recaptcha.net",
+          "redditstatic.com",
           "shopee.co.id",
           "shopee.com",
           "shopeemobile.com",
@@ -233447,6 +233261,9 @@
           "speedtest.net",
           "speedtestcustom.com",
           "tripay.co.id",
+          "ultracorp.co.id",
+          "ultravoucher.co.id",
+          "uvcr.me",
           "xendit.co"
         ],
         "action": "route",
@@ -234816,7 +234633,16 @@
           "luckyorange.net",
           "freshmarketer.com",
           "heap.io",
-          "amplitude.com"
+          "amplitude.com",
+          "ironsrc.com",
+          "mintegral.com",
+          "pangle.io",
+          "bugsnag.com",
+          "datadoghq.com",
+          "newrelic.com",
+          "rudderstack.com",
+          "snowplow.io",
+          "posthog.com"
         ],
         "action": "reject"
       },
@@ -234898,7 +234724,24 @@
           "freshmarketer.com",
           "mixpanel.com",
           "heap.io",
-          "amplitude.com"
+          "amplitude.com",
+          "applovin.com",
+          "unityads.unity3d.com",
+          "ironsrc.com",
+          "vungle.com",
+          "mintegral.com",
+          "pangle.io",
+          "ads.tiktok.com",
+          "facebook.net",
+          "amazon-adsystem.com",
+          "sentry.io",
+          "bugsnag.com",
+          "datadoghq.com",
+          "newrelic.com",
+          "segment.io",
+          "rudderstack.com",
+          "snowplow.io",
+          "posthog.com"
         ],
         "action": "reject"
       },

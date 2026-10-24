@@ -298,16 +298,18 @@ dns:
   - https://1.1.1.1/dns-query
   - https://9.9.9.9/dns-query
   nameserver:
-  - https://dns.google/dns-query
   - https://1.1.1.1/dns-query
+  - https://family.cloudflare-dns.com/dns-query
+  - https://dns.google/dns-query
   - https://94.140.14.14/dns-query
   - https://dns.bebasid.com/dns-query
   - tls://dns.bebasid.com:853
   - https://family.dns.bebasid.com/dns-query
   - tls://family.dns.bebasid.com:853
   proxy-server-nameserver:
-  - https://dns.google/dns-query
   - https://1.1.1.1/dns-query
+  - https://family.cloudflare-dns.com/dns-query
+  - https://dns.google/dns-query
   - https://94.140.14.14/dns-query
   - https://dns.quad9.net/dns-query
   - https://9.9.9.9/dns-query
@@ -355,8 +357,9 @@ dns:
     - https://dns.quad9.net/dns-query
     geosite:category-ads-all: rcode://success
   fallback:
-  - https://dns.google/dns-query
   - https://1.1.1.1/dns-query
+  - https://family.cloudflare-dns.com/dns-query
+  - https://dns.google/dns-query
   - https://94.140.14.14/dns-query
   - https://dns.bebasid.com/dns-query
   - tls://dns.bebasid.com:853
@@ -446,38 +449,38 @@ proxies:
       Host: atharva.web.id
   alpn:
   - http/1.1
-- name: AKUN-001-NOTION-WEB-VLESS-WS-99MS
+- name: AKUN-005-877774-VLESS-WS-73MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: d042a74a-c305-4eec-a89f-39a348022c92
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
-  servername: dry-butterfly-8eb9.tmpgnacio83.workers.dev
+  servername: ccc.010304.xyz
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /fp
+    headers:
+      Host: ccc.010304.xyz
+  alpn:
+  - http/1.1
+- name: AKUN-009-ACE-SG-VLESS-WS-73MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  servername: ccc.010304.xyz
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
     path: /
     headers:
-      Host: dry-butterfly-8eb9.tmpgnacio83.workers.dev
-  alpn:
-  - http/1.1
-- name: AKUN-002-CLOUDFLARE-VLESS-WS-543MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  tls: true
-  servername: a.cwvps.eu.org
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
+      Host: ccc.010304.xyz
   alpn:
   - http/1.1
 proxy-groups:
@@ -489,8 +492,8 @@ proxy-groups:
   - MANUAL-VMess-WS-TLS-443-singa08
   - MANUAL-VMess-WS-TLS-443-akuku8
   - MANUAL-VLESS-WS-TLS-443-apt50atpprem
-  - AKUN-001-NOTION-WEB-VLESS-WS-99MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-543MS
+  - AKUN-005-877774-VLESS-WS-73MS
+  - AKUN-009-ACE-SG-VLESS-WS-73MS
 rules:
 - DOMAIN-SUFFIX,reddit.com,DIRECT
 - DOMAIN-SUFFIX,redditmedia.com,DIRECT
