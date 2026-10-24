@@ -1269,8 +1269,8 @@ rule-providers:
   urlhaus-malware:
     type: http
     behavior: domain
-    path: ./rule_providers/urlhaus-malware.yaml
-    url: https://urlhaus.abuse.ch/downloads/hostfile/
+    path: ./rule_providers/urlhaus-malware_android.yaml
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/urlhaus-malware_android.yaml
     interval: 43200
     format: yaml
   openphish:
@@ -1505,6 +1505,7 @@ rules:
 - RULE-SET,threat-malware,REJECT
 - RULE-SET,threat-phishing,REJECT
 - RULE-SET,threat-cryptominers,REJECT
+- RULE-SET,urlhaus-malware,REJECT
 - DOMAIN-SUFFIX,blu.co.id,GLOBAL
 - DOMAIN-SUFFIX,jago.com,GLOBAL
 - DOMAIN-SUFFIX,seabank.co.id,GLOBAL
