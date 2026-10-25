@@ -1022,10 +1022,6 @@ proxy-groups:
   expected-status: 200/204/301/302
   max-failed-times: 2
 rule-providers:
-  universal-adblock-safe:
-    type: file
-    behavior: domain
-    path: ./rule_providers/universal-adblock-safe.yaml
   popup-ads:
     type: http
     behavior: domain
@@ -1077,12 +1073,6 @@ rule-providers:
     url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/urlhaus-malware_android.yaml
     interval: 43200
     format: yaml
-  openphish:
-    type: http
-    behavior: domain
-    path: ./rule_providers/openphish.yaml
-    url: https://raw.githubusercontent.com/openphish/public_feed/main/feed.txt
-    interval: 43200
   adult-category:
     type: http
     behavior: classical
