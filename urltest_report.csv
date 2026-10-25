@@ -1,30 +1,4 @@
 name,type,network,original_server,bug_sni,handshake_ms,ws_upgrade_ms,url_test_ms,url_test_status,url_test_success
-AKUN-001-DMIT-CUSTOMER-US-CA-9001-VLESS-WS-74MS,vless,ws,179.253.246.191,snip.edgeoneai.cc.cd,74,74,3881,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
-AKUN-002-CLOUDFLARE-VLESS-WS-74MS,vless,ws,104.18.46.214,snip.edgeoneai.cc.cd,74,74,3687,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
-AKUN-003-EVOXT-3MY-VLESS-WS-75MS,vless,ws,216.173.67.59,ccc.010304.xyz,75,75,225,HTTP 204,yes
-AKUN-004-CLOUDFLARE-VLESS-WS-75MS,vless,ws,104.26.4.2,ccc.010304.xyz,75,75,211,HTTP 204,yes
-AKUN-005-ALWYZON-CUSTOMERS-AT-35-VLESS-WS-75MS,vless,ws,110.172.148.33,snip.edgeoneai.cc.cd,75,75,3925,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
-AKUN-006-CLOUDFLARE-VLESS-WS-75MS,vless,ws,162.159.130.234,snip.edgeoneai.cc.cd,75,75,4207,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
-AKUN-007-UNKNOWN-VLESS-WS-75MS,vless,ws,198.211.123.90,ccc.010304.xyz,75,75,205,HTTP 204,yes
-AKUN-008-UNKNOWN-VLESS-WS-75MS,vless,ws,3.37.58.69,snip.edgeoneai.cc.cd,75,75,3039,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
-AKUN-009-LEASEWEB-VLESS-WS-77MS,vless,ws,142.91.109.211,snip.edgeoneai.cc.cd,77,77,3384,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
-AKUN-010-ONEASIAHOST-VLESS-WS-78MS,vless,ws,116.251.217.65,snip.edgeoneai.cc.cd,78,78,3865,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
-AKUN-011-UNKNOWN-VLESS-WS-78MS,vless,ws,188.114.98.0,snip.edgeoneai.cc.cd,78,78,2822,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
-AKUN-012-UNKNOWN-VLESS-WS-75MS,vless,ws,188.114.96.6,snip.edgeoneai.cc.cd,75,75,3772,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
-AKUN-013-UNKNOWN-VLESS-WS-75MS,vless,ws,157.22.128.7,snip.edgeoneai.cc.cd,75,75,4232,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
-AKUN-014-UNKNOWN-VLESS-WS-77MS,vless,ws,212.60.4.134,snip.edgeoneai.cc.cd,77,77,3460,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
-AKUN-015-UNKNOWN-VLESS-WS-74MS,vless,ws,172.64.158.170,ccc.010304.xyz,74,74,206,HTTP 204,yes
-AKUN-016-CLOUDFLARE-VLESS-WS-75MS,vless,ws,104.18.33.97,snip.edgeoneai.cc.cd,75,75,4088,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
-AKUN-017-UNKNOWN-VLESS-WS-78MS,vless,ws,45.147.48.28,snip.edgeoneai.cc.cd,78,78,2543,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
-AKUN-018-UNKNOWN-VLESS-WS-74MS,vless,ws,104.18.40.139,snip.edgeoneai.cc.cd,74,74,2903,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
-AKUN-019-COCOPON-VLESS-WS-83MS,vless,ws,vl.cocopon.top,vl.cocopon.top,83,83,258,HTTP 204,yes
-AKUN-020-ORG-VLESS-WS-106MS,vless,ws,cf-socks.caoyuwu.eu.org,cf-socks.caoyuwu.eu.org,106,106,228,HTTP 204,yes
-AKUN-021-UNKNOWN-VLESS-WS-82MS,vless,ws,172.67.152.148,cf-socks.caoyuwu.eu.org,82,82,217,HTTP 204,yes
-AKUN-022-CLEANFOODSHOP-VLESS-WS-116MS,vless,ws,cart.cleanfoodshop.org,cart.cleanfoodshop.org,116,116,223,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
-AKUN-023-FREIFUNKFRANKEN-VLESS-WS-140MS,vless,ws,81.95.4.189,bab-6.site,140,140,237,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
-AKUN-024-UNKNOWN-VLESS-WS-103MS,vless,ws,188.114.98.0,web-app-nr6wpa.app-tp57xz.workers.dev,103,103,4649,"ReadTimeout: HTTPSConnectionPool(host='www.gstatic.com', port=443): Read timed out. (read timeout=4.5)",no
-AKUN-025-UNKNOWN-VLESS-WS-169MS,vless,ws,104.16.32.132,w-mce.pages.dev,169,169,373,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
-AKUN-026-UNKNOWN-VLESS-WS-487MS,vless,ws,104.16.10.2,v2ray.simspeedup.com,487,487,4640,"ReadTimeout: HTTPSConnectionPool(host='www.gstatic.com', port=443): Read timed out. (read timeout=4.5)",no
-AKUN-027-CLOUDFLARE-VLESS-WS-108MS,vless,ws,188.114.97.6,server13.9966338.xyz,108,108,2475,HTTP 204,yes
-AKUN-028-CLOUDFLARE-VLESS-WS-628MS,vless,ws,188.114.97.6,server6.9966338.xyz,628,628,970,HTTP 204,yes
-AKUN-029-UNKNOWN-VLESS-WS-638MS,vless,ws,104.21.219.160,jp3.yohototo.top,638,638,4638,"ReadTimeout: HTTPSConnectionPool(host='www.gstatic.com', port=443): Read timed out. (read timeout=4.5)",no
+AKUN-001-MYBB-VLESS-WS-77MS,vless,ws,mybb.com,rAyAn-007.nAsTaRaN.DpDnS.OrG,77,77,220,HTTP 204,yes
+AKUN-002-OVH-VLESS-WS-130MS,vless,ws,149.202.58.99,bab-6.site,130,130,235,"SSLError: HTTPSConnectionPool(host='www.gstatic.com', port=443): Max retries exceeded with url: /generate_204 (Caused by SSLError(",no
+AKUN-003-CLOUDFLARE-VLESS-WS-1019MS,vless,ws,188.114.97.6,a.cwvps.eu.org,1019,1019,1676,HTTP 204,yes

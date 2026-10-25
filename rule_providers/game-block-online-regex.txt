@@ -2033,6 +2033,10 @@
 ^(?:.*\.)?cdn1\-strangemusicinc\.netdna\-ssl\.com$
 ^(?:.*\.)?cdncl\.net$
 ^(?:.*\.)?cdngarenanow\-a\.akamaihd\.net$
+^(?:.*\.)?cdpred\.services$
+^(?:.*\.)?cdprojekt\.com$
+^(?:.*\.)?cdprojekt\.red$
+^(?:.*\.)?cdprojektred\.com$
 ^(?:.*\.)?celestia\.online\.fr$
 ^(?:.*\.)?celestus\.fr$
 ^(?:.*\.)?cellardoorgames\.com$
@@ -2398,6 +2402,7 @@
 ^(?:.*\.)?cybermelayu\.com$
 ^(?:.*\.)?cybermonkey\.org$
 ^(?:.*\.)?cyberpingui\.free\.fr$
+^(?:.*\.)?cyberpunk\.net$
 ^(?:.*\.)?cyberpuzzles\.free\.fr$
 ^(?:.*\.)?cybersino\.com$
 ^(?:.*\.)?cyberthing\.net$
@@ -4265,7 +4270,6 @@
 ^(?:.*\.)?gcloudsvcs\.com$
 ^(?:.*\.)?gdgames\.com\.mx$
 ^(?:.*\.)?gdrfantasy\.it$
-^(?:.*\.)?gdtimg\.com$
 ^(?:.*\.)?gearhand\.com$
 ^(?:.*\.)?geas\.de$
 ^(?:.*\.)?geeker\.com$
@@ -8264,6 +8268,7 @@
 ^(?:.*\.)?playgamespro\.com$
 ^(?:.*\.)?playgendary\.com$
 ^(?:.*\.)?playground\.ctp\-design\.net$
+^(?:.*\.)?playgwent\.com$
 ^(?:.*\.)?playhacked\.com$
 ^(?:.*\.)?playhearthstone\.com$
 ^(?:.*\.)?playhry\.sk$
@@ -10022,6 +10027,7 @@
 ^(?:.*\.)?theuw\.net$
 ^(?:.*\.)?thewheelhaus\.com$
 ^(?:.*\.)?thewildhuntgame\.com$
+^(?:.*\.)?thewitcher\.com$
 ^(?:.*\.)?thewonderful101\.com$
 ^(?:.*\.)?theyconfuse\.me$
 ^(?:.*\.)?thinks\.com$

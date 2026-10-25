@@ -298,19 +298,19 @@ dns:
   - https://1.1.1.1/dns-query
   - https://9.9.9.9/dns-query
   nameserver:
-  - https://94.140.14.14/dns-query
   - https://1.1.1.1/dns-query
   - https://family.cloudflare-dns.com/dns-query
   - https://dns.google/dns-query
+  - https://94.140.14.14/dns-query
   - https://dns.bebasid.com/dns-query
   - tls://dns.bebasid.com:853
   - https://family.dns.bebasid.com/dns-query
   - tls://family.dns.bebasid.com:853
   proxy-server-nameserver:
-  - https://94.140.14.14/dns-query
   - https://1.1.1.1/dns-query
   - https://family.cloudflare-dns.com/dns-query
   - https://dns.google/dns-query
+  - https://94.140.14.14/dns-query
   - https://dns.quad9.net/dns-query
   - https://9.9.9.9/dns-query
   nameserver-policy:
@@ -357,10 +357,10 @@ dns:
     - https://dns.quad9.net/dns-query
     geosite:category-ads-all: rcode://success
   fallback:
-  - https://94.140.14.14/dns-query
   - https://1.1.1.1/dns-query
   - https://family.cloudflare-dns.com/dns-query
   - https://dns.google/dns-query
+  - https://94.140.14.14/dns-query
   - https://dns.bebasid.com/dns-query
   - tls://dns.bebasid.com:853
   - https://family.dns.bebasid.com/dns-query
@@ -375,7 +375,7 @@ dns:
   use-hosts: true
   use-system-hosts: false
 proxies:
-- name: MANUAL-(ID)+PUSATMEDIA+🇮🇩
+- name: MANUAL-ID-PUSATMEDIA
   type: vless
   server: 104.17.3.81
   port: 443
@@ -390,38 +390,40 @@ proxies:
     path: /id-pusat
     headers:
       Host: edu.ruangguru.com.ex33r.eu.cc
-- name: AKUN-002-UNKNOWN-VLESS-WS-74MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  servername: ccc.010304.xyz
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
-    headers:
-      Host: ccc.010304.xyz
   alpn:
   - http/1.1
-- name: AKUN-001-UNKNOWN-VLESS-WS-75MS
+- name: AKUN-001-MYBB-VLESS-WS-77MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
   udp: true
   tls: true
-  servername: ccc.010304.xyz
+  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /fp=unsafe
+    path: /?ed=2560
     headers:
-      Host: ccc.010304.xyz
+      Host: rayan-007.nastaran.dpdns.org
+  alpn:
+  - http/1.1
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
   alpn:
   - http/1.1
 proxy-groups:
@@ -429,9 +431,9 @@ proxy-groups:
   type: select
   proxies:
   - DIRECT
-  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
-  - AKUN-002-UNKNOWN-VLESS-WS-74MS
-  - AKUN-001-UNKNOWN-VLESS-WS-75MS
+  - MANUAL-ID-PUSATMEDIA
+  - AKUN-001-MYBB-VLESS-WS-77MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
 rules:
 - DOMAIN-SUFFIX,reddit.com,DIRECT
 - DOMAIN-SUFFIX,redditmedia.com,DIRECT
@@ -3210,6 +3212,10 @@ rules:
 - DOMAIN-SUFFIX,cdn1-strangemusicinc.netdna-ssl.com,REJECT
 - DOMAIN-SUFFIX,cdncl.net,REJECT
 - DOMAIN-SUFFIX,cdngarenanow-a.akamaihd.net,REJECT
+- DOMAIN-SUFFIX,cdpred.services,REJECT
+- DOMAIN-SUFFIX,cdprojekt.com,REJECT
+- DOMAIN-SUFFIX,cdprojekt.red,REJECT
+- DOMAIN-SUFFIX,cdprojektred.com,REJECT
 - DOMAIN-SUFFIX,celestia.online.fr,REJECT
 - DOMAIN-SUFFIX,celestus.fr,REJECT
 - DOMAIN-SUFFIX,cellardoorgames.com,REJECT
@@ -3575,6 +3581,7 @@ rules:
 - DOMAIN-SUFFIX,cybermelayu.com,REJECT
 - DOMAIN-SUFFIX,cybermonkey.org,REJECT
 - DOMAIN-SUFFIX,cyberpingui.free.fr,REJECT
+- DOMAIN-SUFFIX,cyberpunk.net,REJECT
 - DOMAIN-SUFFIX,cyberpuzzles.free.fr,REJECT
 - DOMAIN-SUFFIX,cybersino.com,REJECT
 - DOMAIN-SUFFIX,cyberthing.net,REJECT
@@ -5442,7 +5449,6 @@ rules:
 - DOMAIN-SUFFIX,gcloudsvcs.com,REJECT
 - DOMAIN-SUFFIX,gdgames.com.mx,REJECT
 - DOMAIN-SUFFIX,gdrfantasy.it,REJECT
-- DOMAIN-SUFFIX,gdtimg.com,REJECT
 - DOMAIN-SUFFIX,gearhand.com,REJECT
 - DOMAIN-SUFFIX,geas.de,REJECT
 - DOMAIN-SUFFIX,geeker.com,REJECT
@@ -9441,6 +9447,7 @@ rules:
 - DOMAIN-SUFFIX,playgamespro.com,REJECT
 - DOMAIN-SUFFIX,playgendary.com,REJECT
 - DOMAIN-SUFFIX,playground.ctp-design.net,REJECT
+- DOMAIN-SUFFIX,playgwent.com,REJECT
 - DOMAIN-SUFFIX,playhacked.com,REJECT
 - DOMAIN-SUFFIX,playhearthstone.com,REJECT
 - DOMAIN-SUFFIX,playhry.sk,REJECT
@@ -11199,6 +11206,7 @@ rules:
 - DOMAIN-SUFFIX,theuw.net,REJECT
 - DOMAIN-SUFFIX,thewheelhaus.com,REJECT
 - DOMAIN-SUFFIX,thewildhuntgame.com,REJECT
+- DOMAIN-SUFFIX,thewitcher.com,REJECT
 - DOMAIN-SUFFIX,thewonderful101.com,REJECT
 - DOMAIN-SUFFIX,theyconfuse.me,REJECT
 - DOMAIN-SUFFIX,thinks.com,REJECT

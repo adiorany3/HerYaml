@@ -1,10 +1,1 @@
 name,type,network,original_server,bug_sni,mihomo_status,url_test_ms,nekobox_test_ms,nekobox_status,nekobox_ready
-AKUN-007-UNKNOWN-VLESS-WS-75MS,vless,ws,198.211.123.90,ccc.010304.xyz,HTTP 204,205,548,HTTP 204,yes
-AKUN-015-UNKNOWN-VLESS-WS-74MS,vless,ws,172.64.158.170,ccc.010304.xyz,HTTP 204,206,260,HTTP 204,yes
-AKUN-004-CLOUDFLARE-VLESS-WS-75MS,vless,ws,104.26.4.2,ccc.010304.xyz,HTTP 204,211,257,HTTP 204,yes
-AKUN-021-UNKNOWN-VLESS-WS-82MS,vless,ws,172.67.152.148,cf-socks.caoyuwu.eu.org,HTTP 204,217,280,HTTP 204,yes
-AKUN-003-EVOXT-3MY-VLESS-WS-75MS,vless,ws,216.173.67.59,ccc.010304.xyz,HTTP 204,225,231,HTTP 204,yes
-AKUN-020-ORG-VLESS-WS-106MS,vless,ws,cf-socks.caoyuwu.eu.org,cf-socks.caoyuwu.eu.org,HTTP 204,228,252,HTTP 204,yes
-AKUN-019-COCOPON-VLESS-WS-83MS,vless,ws,vl.cocopon.top,vl.cocopon.top,HTTP 204,258,262,HTTP 204,yes
-AKUN-028-CLOUDFLARE-VLESS-WS-628MS,vless,ws,188.114.97.6,server6.9966338.xyz,HTTP 204,970,736,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",no
-AKUN-027-CLOUDFLARE-VLESS-WS-108MS,vless,ws,188.114.97.6,server13.9966338.xyz,HTTP 204,2475,213,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",no

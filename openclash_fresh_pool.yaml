@@ -85,7 +85,6 @@ dns:
   - https://1.1.1.1/dns-query
   - https://9.9.9.9/dns-query
   nameserver:
-  - https://94.140.14.14/dns-query
   - https://1.1.1.1/dns-query
   - https://family.cloudflare-dns.com/dns-query
   - https://dns.google/dns-query
@@ -94,12 +93,12 @@ dns:
   - https://family.dns.bebasid.com/dns-query
   - tls://family.dns.bebasid.com:853
   proxy-server-nameserver:
-  - https://94.140.14.14/dns-query
   - https://1.1.1.1/dns-query
   - https://family.cloudflare-dns.com/dns-query
   - https://dns.google/dns-query
   - https://dns.quad9.net/dns-query
   - https://9.9.9.9/dns-query
+  - https://94.140.14.14/dns-query
   nameserver-policy:
     +.openai.com:
     - https://1.1.1.1/dns-query
@@ -144,7 +143,6 @@ dns:
     - https://dns.quad9.net/dns-query
     geosite:category-ads-all: rcode://success
   fallback:
-  - https://94.140.14.14/dns-query
   - https://1.1.1.1/dns-query
   - https://family.cloudflare-dns.com/dns-query
   - https://dns.google/dns-query
@@ -162,160 +160,41 @@ dns:
   use-hosts: true
   use-system-hosts: false
 proxies:
-- name: AKUN-005-EVOXT-3MY-VLESS-WS-75MS
+- name: AKUN-001-MYBB-VLESS-WS-77MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
   udp: true
   tls: true
-  servername: ccc.010304.xyz
+  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: ccc.010304.xyz
+      Host: rayan-007.nastaran.dpdns.org
   alpn:
   - http/1.1
-- name: AKUN-003-CLOUDFLARE-VLESS-WS-75MS
+- name: AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   udp: true
   tls: true
-  servername: ccc.010304.xyz
+  servername: a.cwvps.eu.org
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /fp=chrome
+    path: /ws
     headers:
-      Host: ccc.010304.xyz
+      Host: a.cwvps.eu.org
   alpn:
   - http/1.1
-- name: AKUN-001-UNKNOWN-VLESS-WS-75MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  servername: ccc.010304.xyz
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /fp=unsafe
-    headers:
-      Host: ccc.010304.xyz
-  alpn:
-  - http/1.1
-- name: AKUN-002-UNKNOWN-VLESS-WS-74MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  servername: ccc.010304.xyz
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
-    headers:
-      Host: ccc.010304.xyz
-  alpn:
-  - http/1.1
-- name: AKUN-007-COCOPON-VLESS-WS-83MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 44f06ad1-982c-4e03-849f-899c1c8dc14f
-  udp: true
-  tls: true
-  servername: vl.cocopon.top
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: vl.cocopon.top
-  alpn:
-  - http/1.1
-- name: AKUN-006-ORG-VLESS-WS-106MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 9cdcbaf0-d244-4f37-b227-90166e43f5b5
-  udp: true
-  tls: true
-  servername: cf-socks.caoyuwu.eu.org
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: cf-socks.caoyuwu.eu.org
-  alpn:
-  - http/1.1
-- name: AKUN-004-UNKNOWN-VLESS-WS-82MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 9cdcbaf0-d244-4f37-b227-90166e43f5b5
-  udp: true
-  tls: true
-  servername: cf-socks.caoyuwu.eu.org
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: cf-socks.caoyuwu.eu.org
-  alpn:
-  - http/1.1
-- name: AKUN-027-CLOUDFLARE-VLESS-WS-108MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  udp: true
-  tls: true
-  servername: server13.9966338.xyz
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  ws-opts:
-    path: /resiouhgggggggggg?ed=2560fp=chrome
-    headers:
-      Host: server13.9966338.xyz
-- name: AKUN-028-CLOUDFLARE-VLESS-WS-628MS
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  udp: true
-  tls: true
-  servername: server6.9966338.xyz
-  network: ws
-  client-fingerprint: unsafe
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  ws-opts:
-    path: /fiughoieuhti834t90?ed=2560
-    headers:
-      Host: server6.9966338.xyz
-- name: MANUAL-(ID)+PUSATMEDIA+🇮🇩
+- name: MANUAL-ID-PUSATMEDIA
   type: vless
   server: 104.17.3.81
   port: 443
@@ -330,6 +209,8 @@ proxies:
     path: /id-pusat
     headers:
       Host: edu.ruangguru.com.ex33r.eu.cc
+  alpn:
+  - http/1.1
 proxy-groups:
 - name: GLOBAL
   type: fallback
@@ -359,15 +240,9 @@ proxy-groups:
 - name: AI-OPENAI
   type: fallback
   proxies:
-  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
-  - AKUN-005-EVOXT-3MY-VLESS-WS-75MS
-  - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-002-UNKNOWN-VLESS-WS-74MS
-  - AKUN-001-UNKNOWN-VLESS-WS-75MS
-  - AKUN-004-UNKNOWN-VLESS-WS-82MS
-  - AKUN-007-COCOPON-VLESS-WS-83MS
-  - AKUN-006-ORG-VLESS-WS-106MS
-  - AKUN-027-CLOUDFLARE-VLESS-WS-108MS
+  - MANUAL-ID-PUSATMEDIA
+  - AKUN-001-MYBB-VLESS-WS-77MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
   url: https://chatgpt.com/favicon.ico
   interval: 300
   lazy: true
@@ -377,15 +252,9 @@ proxy-groups:
 - name: AI-CLAUDE
   type: fallback
   proxies:
-  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
-  - AKUN-005-EVOXT-3MY-VLESS-WS-75MS
-  - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-002-UNKNOWN-VLESS-WS-74MS
-  - AKUN-001-UNKNOWN-VLESS-WS-75MS
-  - AKUN-004-UNKNOWN-VLESS-WS-82MS
-  - AKUN-007-COCOPON-VLESS-WS-83MS
-  - AKUN-006-ORG-VLESS-WS-106MS
-  - AKUN-027-CLOUDFLARE-VLESS-WS-108MS
+  - MANUAL-ID-PUSATMEDIA
+  - AKUN-001-MYBB-VLESS-WS-77MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
   url: https://claude.ai/favicon.ico
   interval: 300
   lazy: true
@@ -395,15 +264,9 @@ proxy-groups:
 - name: AI-GEMINI
   type: fallback
   proxies:
-  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
-  - AKUN-005-EVOXT-3MY-VLESS-WS-75MS
-  - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-002-UNKNOWN-VLESS-WS-74MS
-  - AKUN-001-UNKNOWN-VLESS-WS-75MS
-  - AKUN-004-UNKNOWN-VLESS-WS-82MS
-  - AKUN-007-COCOPON-VLESS-WS-83MS
-  - AKUN-006-ORG-VLESS-WS-106MS
-  - AKUN-027-CLOUDFLARE-VLESS-WS-108MS
+  - MANUAL-ID-PUSATMEDIA
+  - AKUN-001-MYBB-VLESS-WS-77MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
   url: https://gemini.google.com/favicon.ico
   interval: 300
   lazy: true
@@ -413,15 +276,9 @@ proxy-groups:
 - name: AI-OTHER
   type: fallback
   proxies:
-  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
-  - AKUN-005-EVOXT-3MY-VLESS-WS-75MS
-  - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-002-UNKNOWN-VLESS-WS-74MS
-  - AKUN-001-UNKNOWN-VLESS-WS-75MS
-  - AKUN-004-UNKNOWN-VLESS-WS-82MS
-  - AKUN-007-COCOPON-VLESS-WS-83MS
-  - AKUN-006-ORG-VLESS-WS-106MS
-  - AKUN-027-CLOUDFLARE-VLESS-WS-108MS
+  - MANUAL-ID-PUSATMEDIA
+  - AKUN-001-MYBB-VLESS-WS-77MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true
@@ -431,15 +288,9 @@ proxy-groups:
 - name: AI-STABLE
   type: fallback
   proxies:
-  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
-  - AKUN-005-EVOXT-3MY-VLESS-WS-75MS
-  - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-002-UNKNOWN-VLESS-WS-74MS
-  - AKUN-001-UNKNOWN-VLESS-WS-75MS
-  - AKUN-004-UNKNOWN-VLESS-WS-82MS
-  - AKUN-007-COCOPON-VLESS-WS-83MS
-  - AKUN-006-ORG-VLESS-WS-106MS
-  - AKUN-027-CLOUDFLARE-VLESS-WS-108MS
+  - MANUAL-ID-PUSATMEDIA
+  - AKUN-001-MYBB-VLESS-WS-77MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true
@@ -449,10 +300,9 @@ proxy-groups:
 - name: AI-BACKUP
   type: fallback
   proxies:
-  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
-  - AKUN-005-EVOXT-3MY-VLESS-WS-75MS
-  - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-028-CLOUDFLARE-VLESS-WS-628MS
+  - MANUAL-ID-PUSATMEDIA
+  - AKUN-001-MYBB-VLESS-WS-77MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true
@@ -462,10 +312,9 @@ proxy-groups:
 - name: AI-MANUAL
   type: fallback
   proxies:
-  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
-  - AKUN-005-EVOXT-3MY-VLESS-WS-75MS
-  - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-028-CLOUDFLARE-VLESS-WS-628MS
+  - MANUAL-ID-PUSATMEDIA
+  - AKUN-001-MYBB-VLESS-WS-77MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
   url: https://www.gstatic.com/generate_204
   interval: 600
   lazy: true
@@ -475,9 +324,9 @@ proxy-groups:
 - name: AI
   type: fallback
   proxies:
-  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
-  - AKUN-005-EVOXT-3MY-VLESS-WS-75MS
-  - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
+  - MANUAL-ID-PUSATMEDIA
+  - AKUN-001-MYBB-VLESS-WS-77MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
   - AI-OPENAI
   - AI-CLAUDE
   - AI-GEMINI
@@ -549,9 +398,9 @@ proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
-  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
-  - AKUN-005-EVOXT-3MY-VLESS-WS-75MS
-  - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
+  - MANUAL-ID-PUSATMEDIA
+  - AKUN-001-MYBB-VLESS-WS-77MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
   url: https://www.gstatic.com/generate_204
   interval: 180
   tolerance: 150
@@ -562,16 +411,9 @@ proxy-groups:
 - name: FALLBACK
   type: fallback
   proxies:
-  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
-  - AKUN-005-EVOXT-3MY-VLESS-WS-75MS
-  - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-002-UNKNOWN-VLESS-WS-74MS
-  - AKUN-001-UNKNOWN-VLESS-WS-75MS
-  - AKUN-027-CLOUDFLARE-VLESS-WS-108MS
-  - AKUN-004-UNKNOWN-VLESS-WS-82MS
-  - AKUN-007-COCOPON-VLESS-WS-83MS
-  - AKUN-006-ORG-VLESS-WS-106MS
-  - AKUN-028-CLOUDFLARE-VLESS-WS-628MS
+  - MANUAL-ID-PUSATMEDIA
+  - AKUN-001-MYBB-VLESS-WS-77MS
+  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
   url: https://www.gstatic.com/generate_204
   interval: 180
   lazy: true
@@ -582,10 +424,7 @@ proxy-groups:
   type: load-balance
   strategy: sticky-sessions
   proxies:
-  - AKUN-002-UNKNOWN-VLESS-WS-74MS
-  - AKUN-005-EVOXT-3MY-VLESS-WS-75MS
-  - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
-  - AKUN-001-UNKNOWN-VLESS-WS-75MS
+  - AKUN-001-MYBB-VLESS-WS-77MS
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true
@@ -605,7 +444,7 @@ proxy-groups:
 - name: MANUAL
   type: fallback
   proxies:
-  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
+  - MANUAL-ID-PUSATMEDIA
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true

@@ -1,1 +1,1 @@
-vless://a2b5a5d4-9d46-4cd9-8fd8-2a7984b4adaf@ex33r.eu.cc:443?encryption=none&security=tls&sni=edu.ruangguru.com.ex33r.eu.cc&type=ws&host=edu.ruangguru.com.ex33r.eu.cc&path=/id-pusat#(ID)+PUSATMEDIA+🇮🇩
+vless://a2b5a5d4-9d46-4cd9-8fd8-2a7984b4adaf@104.17.3.81:443?encryption=none&security=tls&sni=edu.ruangguru.com.ex33r.eu.cc&type=ws&host=edu.ruangguru.com.ex33r.eu.cc&path=/id-pusat#MANUAL-ID-PUSATMEDIA
