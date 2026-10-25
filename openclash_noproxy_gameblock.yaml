@@ -440,11 +440,9 @@ rules:
 - DOMAIN-SUFFIX,redditinc.com,DIRECT
 - DOMAIN,old.reddit.com,DIRECT
 - DOMAIN,audit.checkmarx.cx,REJECT
-- DOMAIN,googleads.g.doubleclick.net,REJECT
 - DOMAIN,ad.doubleclick.net,REJECT
 - DOMAIN,pubads.g.doubleclick.net,REJECT
 - DOMAIN,securepubads.g.doubleclick.net,REJECT
-- DOMAIN,pagead2.googlesyndication.com,REJECT
 - DOMAIN,tpc.googlesyndication.com,REJECT
 - DOMAIN,www.googleadservices.com,REJECT
 - DOMAIN,imasdk.googleapis.com,REJECT
@@ -649,7 +647,6 @@ rules:
 - DOMAIN,onlinecasinosohneverifizierung.de,REJECT
 - DOMAIN,orozino-casino.fr,REJECT
 - DOMAIN,oscar-spincasino.fr,REJECT
-- DOMAIN,pixel.spotify.com,REJECT
 - DOMAIN,pixel.web.roku.com,REJECT
 - DOMAIN,playmojocasino.fr,REJECT
 - DOMAIN,plinkocasinoenligne.fr,REJECT
@@ -725,6 +722,20 @@ rules:
 - DOMAIN,www.titancasino.com,REJECT
 - DOMAIN,x5bet.casino,REJECT
 - DOMAIN,zoome-casino.fr,REJECT
+- DOMAIN,googleads.g.doubleclick.net,REJECT
+- DOMAIN,pagead2.googlesyndication.com,REJECT
+- DOMAIN,adeventtracker.spotify.com,REJECT
+- DOMAIN,pixel.spotify.com,REJECT
+- DOMAIN,pixel-static.spotify.com,REJECT
+- DOMAIN,static.doubleclick.net,DIRECT
+- DOMAIN,spclient.wg.spotify.com,DIRECT
+- DOMAIN,login5.spotify.com,DIRECT
+- DOMAIN,clienttoken.spotify.com,DIRECT
+- DOMAIN,apresolve.spotify.com,DIRECT
+- DOMAIN,ap.spotify.com,DIRECT
+- DOMAIN,dealer.spotify.com,DIRECT
+- DOMAIN,accounts.spotify.com,DIRECT
+- DOMAIN,api.spotify.com,DIRECT
 - RULE-SET,threat-malware,REJECT
 - RULE-SET,threat-phishing,REJECT
 - RULE-SET,threat-cryptominers,REJECT
@@ -846,7 +857,6 @@ rules:
 - RULE-SET,popup-ads,REJECT
 - DOMAIN,805ba.v.fwmrm.net,REJECT
 - DOMAIN,tvm-mtv-freewheel.akamaized.net,REJECT
-- DOMAIN,adeventtracker.spotify.com,REJECT
 - DOMAIN,ads-fa.spotify.com,REJECT
 - DOMAIN,ads-ak.spotify.com,REJECT
 - DOMAIN,adserver.spotify.com,REJECT
@@ -856,7 +866,6 @@ rules:
 - DOMAIN,analytics.spotify.com,REJECT
 - DOMAIN,bloodhound.spotify.com,REJECT
 - DOMAIN,crashdump.spotify.com,REJECT
-- DOMAIN,pixel-static.spotify.com,REJECT
 - DOMAIN,pixels.spotify.com,REJECT
 - DOMAIN-SUFFIX,popads.net,REJECT
 - DOMAIN-SUFFIX,popcash.net,REJECT
@@ -900,7 +909,6 @@ rules:
 - DOMAIN,advice-ads.s3.amazonaws.com,REJECT
 - DOMAIN,pagead2.googleadservices.com,REJECT
 - DOMAIN,afs.googlesyndication.com,REJECT
-- DOMAIN,static.doubleclick.net,REJECT
 - DOMAIN,ads30.adcolony.com,REJECT
 - DOMAIN,adc3-launch.adcolony.com,REJECT
 - DOMAIN,events3alt.adcolony.com,REJECT

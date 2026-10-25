@@ -601,6 +601,19 @@
         ]
       },
       {
+        "domain": [
+          "googleads.g.doubleclick.net",
+          "pagead2.googlesyndication.com",
+          "adeventtracker.spotify.com",
+          "pixel.spotify.com",
+          "pixel-static.spotify.com"
+        ],
+        "action": "reject",
+        "tags": [
+          "streaming-safe-ad-filter"
+        ]
+      },
+      {
         "domain_suffix": [
           "123.ywxww.net",
           "132.red-81-42-249.staticip.rima-tde.net",
@@ -233628,7 +233641,6 @@
           "sonobi.com",
           "static.adsafeprotected.com",
           "static.criteo.net",
-          "static.doubleclick.net",
           "static.hotjar.com",
           "static.media.net",
           "stats.g.doubleclick.net",

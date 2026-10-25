@@ -139,6 +139,19 @@
         ]
       },
       {
+        "domain": [
+          "googleads.g.doubleclick.net",
+          "pagead2.googlesyndication.com",
+          "adeventtracker.spotify.com",
+          "pixel.spotify.com",
+          "pixel-static.spotify.com"
+        ],
+        "action": "reject",
+        "tags": [
+          "streaming-safe-ad-filter"
+        ]
+      },
+      {
         "rule_set": [
           "ads-domain",
           "tracker-domain"
