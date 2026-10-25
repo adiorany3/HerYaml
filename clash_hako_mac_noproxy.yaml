@@ -229,81 +229,151 @@ dns:
   prefer-h3: false
   use-hosts: true
   use-system-hosts: false
+sniffer:
+  enable: true
+  sniff:
+    TLS:
+      ports:
+      - 443
+      - 8443
+    HTTP:
+      ports:
+      - 80
+      - 8080-8880
+      override-destination: true
+    QUIC:
+      ports:
+      - 443
+      - 8443
+  force-domain:
+  - +.v2ex.com
+  skip-domain:
+  - +.lan
+  - +.local
+  - +.allobank.com
+  - +.bankaceh.co.id
+  - +.bankaladin.co.id
+  - +.bankaltimtara.co.id
+  - +.bankbisnis.com
+  - +.bankbjb.co.id
+  - +.bankbsi.co.id
+  - +.bankcapital.co.id
+  - +.bankdki.co.id
+  - +.bankganesha.co.id
+  - +.bankina.co.id
+  - +.bankindex.co.id
+  - +.bankjago.com
+  - +.bankjateng.co.id
+  - +.bankjatim.co.id
+  - +.bankkalbar.co.id
+  - +.bankkalsel.co.id
+  - +.bankkalteng.co.id
+  - +.banklampung.co.id
+  - +.bankmalukumalut.co.id
+  - +.bankmandiri.co.id
+  - +.bankmas.co.id
+  - +.bankmayapada.com
+  - +.bankmayora.com
+  - +.bankmega-syariah.co.id
+  - +.bankmega.co.id
+  - +.bankmega.com
+  - +.bankmestika.co.id
+  - +.bankmuamalat.co.id
+  - +.banknagari.co.id
+  - +.bankneo.co.id
+  - +.banknobu.com
+  - +.bankntbsyariah.co.id
+  - +.bankpapua.co.id
+  - +.bankraya.co.id
+  - +.bankriaukepri.co.id
+  - +.banksampoerna.com
+  - +.banksinarmas.com
+  - +.banksulselbar.co.id
+  - +.banksulutgo.co.id
+  - +.banksumselbabel.com
+  - +.banksumut.co.id
+  - +.bankvictoriasyariah.co.id
+  - +.bankwoorisaudara.com
+  - +.bca.co.id
+  - +.bcasyariah.co.id
+  - +.bi.go.id
+  - +.blu.co.id
+  - +.bni.co.id
+  - +.bpdbali.co.id
+  - +.bpddiy.co.id
+  - +.bpdntt.co.id
+  - +.bri.co.id
+  - +.btn.co.id
+  - +.btpn.com
+  - +.btpnsyariah.com
+  - +.cimbniaga.co.id
+  - +.citibank.co.id
+  - +.dana.id
+  - +.danamon.co.id
+  - +.dbs.com
+  - +.dbs.id
+  - +.doku.com
+  - +.duitku.com
+  - +.faspay.co.id
+  - +.finpay.co.id
+  - +.flip.id
+  - +.gojek.com
+  - +.gojekapi.com
+  - +.gopay.co.id
+  - +.grab.com
+  - +.grabtaxi.com
+  - +.hsbc.co.id
+  - +.ipaymu.com
+  - +.jago.com
+  - +.jenius.com
+  - +.kebhana.co.id
+  - +.klikbca.com
+  - +.linkaja.id
+  - +.livinbymandiri.co.id
+  - +.maybank.co.id
+  - +.midtrans.com
+  - +.mybca.co.id
+  - +.nicepay.co.id
+  - +.ocbc.id
+  - +.ocbcnisp.com
+  - +.octo.co.id
+  - +.ovo.id
+  - +.oyindonesia.com
+  - +.panin.co.id
+  - +.permatabank.com
+  - +.prismalink.co.id
+  - +.qris.id
+  - +.sc.com
+  - +.seabank.co.id
+  - +.shinhan.co.id
+  - +.shopee.co.id
+  - +.shopee.com
+  - +.shopee.sg
+  - +.shopeemobile.com
+  - +.shopeepay.co.id
+  - +.shopeeusercontent.com
+  - +.shp.ee
+  - +.spaylater.co.id
+  - +.susercontent.com
+  - +.tripay.co.id
+  - +.uob.co.id
+  - +.xendit.co
 proxies:
-- name: MANUAL-VMess-WS-TLS-443-ikada543
-  type: vmess
-  server: 104.17.3.81
-  port: 443
-  uuid: 07b0b1d3-0f2a-4d95-895a-c31be0f6a784
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: fbcdn.sbs
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /modern-analyze-to-machine-learning/buy-vmess-ws-pm-telegram-at-synricha
-    headers:
-      Host: fbcdn.sbs
-  alpn:
-  - http/1.1
-- name: MANUAL-VMess-WS-TLS-443-singa08
-  type: vmess
-  server: 104.17.3.81
-  port: 443
-  uuid: 66827e09-9743-47d4-952c-d9c90f31fe48
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: midtrans.cyou
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /essential-achieve-to-growth-hacking/buy-vmess-ws-pm-telegram-at-synricha
-    headers:
-      Host: midtrans.cyou
-  alpn:
-  - http/1.1
-- name: MANUAL-VMess-WS-TLS-443-akuku8
-  type: vmess
-  server: 104.17.3.81
-  port: 443
-  uuid: 4ee97185-f0ea-4842-b116-aaa1832665cc
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: fbcdn.sbs
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /beginner-understand-to-growth-hacking/buy-vmess-ws-pm-telegram-at-synricha
-    headers:
-      Host: fbcdn.sbs
-  alpn:
-  - http/1.1
-- name: MANUAL-VLESS-WS-TLS-443-apt50atpprem
+- name: MANUAL-(ID)+PUSATMEDIA+🇮🇩
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: c13ff27e-268a-4c69-a464-d8a625fd01b3
+  uuid: a2b5a5d4-9d46-4cd9-8fd8-2a7984b4adaf
   udp: true
   tls: true
-  servername: atharva.web.id
+  servername: edu.ruangguru.com.ex33r.eu.cc
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /effective-steps-to-cloud-computing/buy-vless-ws-pm-telegram-at-synricha
+    path: /id-pusat
     headers:
-      Host: atharva.web.id
-  alpn:
-  - http/1.1
+      Host: edu.ruangguru.com.ex33r.eu.cc
 - name: AKUN-002-UNKNOWN-VLESS-WS-74MS
   type: vless
   server: 104.17.3.81
@@ -343,13 +413,52 @@ proxy-groups:
   type: select
   proxies:
   - DIRECT
-  - MANUAL-VMess-WS-TLS-443-ikada543
-  - MANUAL-VMess-WS-TLS-443-singa08
-  - MANUAL-VMess-WS-TLS-443-akuku8
-  - MANUAL-VLESS-WS-TLS-443-apt50atpprem
+  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
   - AKUN-002-UNKNOWN-VLESS-WS-74MS
   - AKUN-001-UNKNOWN-VLESS-WS-75MS
 rule-providers:
+  threat-fake-scam:
+    type: http
+    behavior: domain
+    format: yaml
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/threat-fake-scam_android.yaml
+    interval: 86400
+  urlhaus-malware:
+    type: http
+    behavior: domain
+    format: yaml
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/urlhaus-malware_android.yaml
+    interval: 86400
+  gambling-regex:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/security-gambling.yaml
+    interval: 86400
+  indonesia-gambling-research:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/indonesia-gambling-research.yaml
+    interval: 86400
+  adult-local:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/security-adult.yaml
+    interval: 86400
+  pinjol-local:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/security-pinjol.yaml
+    interval: 86400
+  universal-adblock-safe:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/universal-adblock-safe.yaml
+    interval: 86400
   ads-indonesia:
     type: http
     behavior: domain
@@ -376,7 +485,7 @@ rule-providers:
     interval: 86400
   tracker-domain:
     type: http
-    behavior: domain
+    behavior: classical
     format: yaml
     url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/tracker.yaml
     interval: 86400
@@ -386,13 +495,6 @@ rule-providers:
     format: text
     url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/game-block-online.txt
     interval: 43200
-  hagezi-pro:
-    type: http
-    behavior: domain
-    format: mrs
-    path: ./rule_providers/compiled/hagezi-pro.mrs
-    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/hagezi-pro.mrs
-    interval: 43200
 rules:
 - GEOIP,private,DIRECT,no-resolve
 - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
@@ -400,13 +502,127 @@ rules:
 - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
 - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
 - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+- DOMAIN-SUFFIX,allobank.com,DIRECT
+- DOMAIN-SUFFIX,bankaceh.co.id,DIRECT
+- DOMAIN-SUFFIX,bankaladin.co.id,DIRECT
+- DOMAIN-SUFFIX,bankaltimtara.co.id,DIRECT
+- DOMAIN-SUFFIX,bankbisnis.com,DIRECT
+- DOMAIN-SUFFIX,bankbjb.co.id,DIRECT
+- DOMAIN-SUFFIX,bankbsi.co.id,DIRECT
+- DOMAIN-SUFFIX,bankcapital.co.id,DIRECT
+- DOMAIN-SUFFIX,bankdki.co.id,DIRECT
+- DOMAIN-SUFFIX,bankganesha.co.id,DIRECT
+- DOMAIN-SUFFIX,bankina.co.id,DIRECT
+- DOMAIN-SUFFIX,bankindex.co.id,DIRECT
+- DOMAIN-SUFFIX,bankjago.com,DIRECT
+- DOMAIN-SUFFIX,bankjateng.co.id,DIRECT
+- DOMAIN-SUFFIX,bankjatim.co.id,DIRECT
+- DOMAIN-SUFFIX,bankkalbar.co.id,DIRECT
+- DOMAIN-SUFFIX,bankkalsel.co.id,DIRECT
+- DOMAIN-SUFFIX,bankkalteng.co.id,DIRECT
+- DOMAIN-SUFFIX,banklampung.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmalukumalut.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmandiri.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmas.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmayapada.com,DIRECT
+- DOMAIN-SUFFIX,bankmayora.com,DIRECT
+- DOMAIN-SUFFIX,bankmega-syariah.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmega.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmega.com,DIRECT
+- DOMAIN-SUFFIX,bankmestika.co.id,DIRECT
+- DOMAIN-SUFFIX,bankmuamalat.co.id,DIRECT
+- DOMAIN-SUFFIX,banknagari.co.id,DIRECT
+- DOMAIN-SUFFIX,bankneo.co.id,DIRECT
+- DOMAIN-SUFFIX,banknobu.com,DIRECT
+- DOMAIN-SUFFIX,bankntbsyariah.co.id,DIRECT
+- DOMAIN-SUFFIX,bankpapua.co.id,DIRECT
+- DOMAIN-SUFFIX,bankraya.co.id,DIRECT
+- DOMAIN-SUFFIX,bankriaukepri.co.id,DIRECT
+- DOMAIN-SUFFIX,banksampoerna.com,DIRECT
+- DOMAIN-SUFFIX,banksinarmas.com,DIRECT
+- DOMAIN-SUFFIX,banksulselbar.co.id,DIRECT
+- DOMAIN-SUFFIX,banksulutgo.co.id,DIRECT
+- DOMAIN-SUFFIX,banksumselbabel.com,DIRECT
+- DOMAIN-SUFFIX,banksumut.co.id,DIRECT
+- DOMAIN-SUFFIX,bankvictoriasyariah.co.id,DIRECT
+- DOMAIN-SUFFIX,bankwoorisaudara.com,DIRECT
+- DOMAIN-SUFFIX,bca.co.id,DIRECT
+- DOMAIN-SUFFIX,bcasyariah.co.id,DIRECT
+- DOMAIN-SUFFIX,bi.go.id,DIRECT
+- DOMAIN-SUFFIX,blu.co.id,DIRECT
+- DOMAIN-SUFFIX,bni.co.id,DIRECT
+- DOMAIN-SUFFIX,bpdbali.co.id,DIRECT
+- DOMAIN-SUFFIX,bpddiy.co.id,DIRECT
+- DOMAIN-SUFFIX,bpdntt.co.id,DIRECT
+- DOMAIN-SUFFIX,bri.co.id,DIRECT
+- DOMAIN-SUFFIX,btn.co.id,DIRECT
+- DOMAIN-SUFFIX,btpn.com,DIRECT
+- DOMAIN-SUFFIX,btpnsyariah.com,DIRECT
+- DOMAIN-SUFFIX,cimbniaga.co.id,DIRECT
+- DOMAIN-SUFFIX,citibank.co.id,DIRECT
+- DOMAIN-SUFFIX,dana.id,DIRECT
+- DOMAIN-SUFFIX,danamon.co.id,DIRECT
+- DOMAIN-SUFFIX,dbs.com,DIRECT
+- DOMAIN-SUFFIX,dbs.id,DIRECT
+- DOMAIN-SUFFIX,doku.com,DIRECT
+- DOMAIN-SUFFIX,duitku.com,DIRECT
+- DOMAIN-SUFFIX,faspay.co.id,DIRECT
+- DOMAIN-SUFFIX,finpay.co.id,DIRECT
+- DOMAIN-SUFFIX,flip.id,DIRECT
+- DOMAIN-SUFFIX,gojek.com,DIRECT
+- DOMAIN-SUFFIX,gojekapi.com,DIRECT
+- DOMAIN-SUFFIX,gopay.co.id,DIRECT
+- DOMAIN-SUFFIX,grab.com,DIRECT
+- DOMAIN-SUFFIX,grabtaxi.com,DIRECT
+- DOMAIN-SUFFIX,hsbc.co.id,DIRECT
+- DOMAIN-SUFFIX,ipaymu.com,DIRECT
+- DOMAIN-SUFFIX,jago.com,DIRECT
+- DOMAIN-SUFFIX,jenius.com,DIRECT
+- DOMAIN-SUFFIX,kebhana.co.id,DIRECT
+- DOMAIN-SUFFIX,klikbca.com,DIRECT
+- DOMAIN-SUFFIX,linkaja.id,DIRECT
+- DOMAIN-SUFFIX,livinbymandiri.co.id,DIRECT
+- DOMAIN-SUFFIX,maybank.co.id,DIRECT
+- DOMAIN-SUFFIX,midtrans.com,DIRECT
+- DOMAIN-SUFFIX,mybca.co.id,DIRECT
+- DOMAIN-SUFFIX,nicepay.co.id,DIRECT
+- DOMAIN-SUFFIX,ocbc.id,DIRECT
+- DOMAIN-SUFFIX,ocbcnisp.com,DIRECT
+- DOMAIN-SUFFIX,octo.co.id,DIRECT
+- DOMAIN-SUFFIX,ovo.id,DIRECT
+- DOMAIN-SUFFIX,oyindonesia.com,DIRECT
+- DOMAIN-SUFFIX,panin.co.id,DIRECT
+- DOMAIN-SUFFIX,permatabank.com,DIRECT
+- DOMAIN-SUFFIX,prismalink.co.id,DIRECT
+- DOMAIN-SUFFIX,qris.id,DIRECT
+- DOMAIN-SUFFIX,sc.com,DIRECT
+- DOMAIN-SUFFIX,seabank.co.id,DIRECT
+- DOMAIN-SUFFIX,shinhan.co.id,DIRECT
+- DOMAIN-SUFFIX,shopee.co.id,DIRECT
+- DOMAIN-SUFFIX,shopee.com,DIRECT
+- DOMAIN-SUFFIX,shopee.sg,DIRECT
+- DOMAIN-SUFFIX,shopeemobile.com,DIRECT
+- DOMAIN-SUFFIX,shopeepay.co.id,DIRECT
+- DOMAIN-SUFFIX,shopeeusercontent.com,DIRECT
+- DOMAIN-SUFFIX,shp.ee,DIRECT
+- DOMAIN-SUFFIX,spaylater.co.id,DIRECT
+- DOMAIN-SUFFIX,susercontent.com,DIRECT
+- DOMAIN-SUFFIX,tripay.co.id,DIRECT
+- DOMAIN-SUFFIX,uob.co.id,DIRECT
+- DOMAIN-SUFFIX,xendit.co,DIRECT
+- RULE-SET,threat-fake-scam,REJECT
+- RULE-SET,urlhaus-malware,REJECT
+- RULE-SET,gambling-regex,REJECT
+- RULE-SET,indonesia-gambling-research,REJECT
+- RULE-SET,adult-local,REJECT
+- RULE-SET,pinjol-local,REJECT
+- RULE-SET,universal-adblock-safe,REJECT
 - RULE-SET,ads-indonesia,REJECT
 - RULE-SET,popup-ads,REJECT
 - RULE-SET,ads-domain,REJECT
 - RULE-SET,anti-ad,REJECT
 - RULE-SET,tracker-domain,REJECT
 - RULE-SET,game-block-online,REJECT
-- RULE-SET,hagezi-pro,REJECT
 - DOMAIN-SUFFIX,msn.com,REJECT
 - DOMAIN-SUFFIX,yandex.com,REJECT
 - DOMAIN-SUFFIX,games.msn.com,REJECT

@@ -243,10 +243,7 @@
       "tag": "proxy",
       "outbounds": [
         "AUTO-FAST",
-        "MANUAL-VMess-WS-TLS-443-ikada543",
-        "MANUAL-VMess-WS-TLS-443-singa08",
-        "MANUAL-VMess-WS-TLS-443-akuku8",
-        "MANUAL-VLESS-WS-TLS-443-apt50atpprem"
+        "MANUAL-(ID)+PUSATMEDIA+🇮🇩"
       ],
       "default": "AUTO-FAST"
     },
@@ -254,10 +251,7 @@
       "type": "urltest",
       "tag": "AUTO-FAST",
       "outbounds": [
-        "MANUAL-VMess-WS-TLS-443-ikada543",
-        "MANUAL-VMess-WS-TLS-443-singa08",
-        "MANUAL-VMess-WS-TLS-443-akuku8",
-        "MANUAL-VLESS-WS-TLS-443-apt50atpprem"
+        "MANUAL-(ID)+PUSATMEDIA+🇮🇩"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -290,98 +284,14 @@
       "default": "proxy"
     },
     {
-      "type": "vmess",
-      "tag": "MANUAL-VMess-WS-TLS-443-ikada543",
-      "server": "104.17.3.81",
-      "server_port": 443,
-      "uuid": "07b0b1d3-0f2a-4d95-895a-c31be0f6a784",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "fbcdn.sbs",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/modern-analyze-to-machine-learning/buy-vmess-ws-pm-telegram-at-synricha",
-        "headers": {
-          "Host": "fbcdn.sbs"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "MANUAL-VMess-WS-TLS-443-singa08",
-      "server": "104.17.3.81",
-      "server_port": 443,
-      "uuid": "66827e09-9743-47d4-952c-d9c90f31fe48",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "midtrans.cyou",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/essential-achieve-to-growth-hacking/buy-vmess-ws-pm-telegram-at-synricha",
-        "headers": {
-          "Host": "midtrans.cyou"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "MANUAL-VMess-WS-TLS-443-akuku8",
-      "server": "104.17.3.81",
-      "server_port": 443,
-      "uuid": "4ee97185-f0ea-4842-b116-aaa1832665cc",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "fbcdn.sbs",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/beginner-understand-to-growth-hacking/buy-vmess-ws-pm-telegram-at-synricha",
-        "headers": {
-          "Host": "fbcdn.sbs"
-        }
-      }
-    },
-    {
       "type": "vless",
-      "tag": "MANUAL-VLESS-WS-TLS-443-apt50atpprem",
+      "tag": "MANUAL-(ID)+PUSATMEDIA+🇮🇩",
       "server": "104.17.3.81",
       "server_port": 443,
-      "uuid": "c13ff27e-268a-4c69-a464-d8a625fd01b3",
+      "uuid": "a2b5a5d4-9d46-4cd9-8fd8-2a7984b4adaf",
       "tls": {
         "enabled": true,
-        "server_name": "atharva.web.id",
+        "server_name": "edu.ruangguru.com.ex33r.eu.cc",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -393,9 +303,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/effective-steps-to-cloud-computing/buy-vless-ws-pm-telegram-at-synricha",
+        "path": "/id-pusat",
         "headers": {
-          "Host": "atharva.web.id"
+          "Host": "edu.ruangguru.com.ex33r.eu.cc"
         }
       }
     },

@@ -315,80 +315,21 @@ proxies:
     path: /fiughoieuhti834t90?ed=2560
     headers:
       Host: server6.9966338.xyz
-- name: MANUAL-VMess-WS-TLS-443-ikada543
-  type: vmess
-  server: 104.17.3.81
-  port: 443
-  uuid: 07b0b1d3-0f2a-4d95-895a-c31be0f6a784
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: fbcdn.sbs
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /modern-analyze-to-machine-learning/buy-vmess-ws-pm-telegram-at-synricha
-    headers:
-      Host: fbcdn.sbs
-  alpn:
-  - http/1.1
-- name: MANUAL-VMess-WS-TLS-443-singa08
-  type: vmess
-  server: 104.17.3.81
-  port: 443
-  uuid: 66827e09-9743-47d4-952c-d9c90f31fe48
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: midtrans.cyou
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /essential-achieve-to-growth-hacking/buy-vmess-ws-pm-telegram-at-synricha
-    headers:
-      Host: midtrans.cyou
-  alpn:
-  - http/1.1
-- name: MANUAL-VMess-WS-TLS-443-akuku8
-  type: vmess
-  server: 104.17.3.81
-  port: 443
-  uuid: 4ee97185-f0ea-4842-b116-aaa1832665cc
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: fbcdn.sbs
-  network: ws
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /beginner-understand-to-growth-hacking/buy-vmess-ws-pm-telegram-at-synricha
-    headers:
-      Host: fbcdn.sbs
-  alpn:
-  - http/1.1
-- name: MANUAL-VLESS-WS-TLS-443-apt50atpprem
+- name: MANUAL-(ID)+PUSATMEDIA+🇮🇩
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: c13ff27e-268a-4c69-a464-d8a625fd01b3
+  uuid: a2b5a5d4-9d46-4cd9-8fd8-2a7984b4adaf
   udp: true
   tls: true
-  servername: atharva.web.id
+  servername: edu.ruangguru.com.ex33r.eu.cc
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /effective-steps-to-cloud-computing/buy-vless-ws-pm-telegram-at-synricha
+    path: /id-pusat
     headers:
-      Host: atharva.web.id
-  alpn:
-  - http/1.1
+      Host: edu.ruangguru.com.ex33r.eu.cc
 proxy-groups:
 - name: GLOBAL
   type: fallback
@@ -418,10 +359,7 @@ proxy-groups:
 - name: AI-OPENAI
   type: fallback
   proxies:
-  - MANUAL-VMess-WS-TLS-443-ikada543
-  - MANUAL-VMess-WS-TLS-443-singa08
-  - MANUAL-VMess-WS-TLS-443-akuku8
-  - MANUAL-VLESS-WS-TLS-443-apt50atpprem
+  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
   - AKUN-005-EVOXT-3MY-VLESS-WS-75MS
   - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
   - AKUN-002-UNKNOWN-VLESS-WS-74MS
@@ -439,10 +377,7 @@ proxy-groups:
 - name: AI-CLAUDE
   type: fallback
   proxies:
-  - MANUAL-VMess-WS-TLS-443-ikada543
-  - MANUAL-VMess-WS-TLS-443-singa08
-  - MANUAL-VMess-WS-TLS-443-akuku8
-  - MANUAL-VLESS-WS-TLS-443-apt50atpprem
+  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
   - AKUN-005-EVOXT-3MY-VLESS-WS-75MS
   - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
   - AKUN-002-UNKNOWN-VLESS-WS-74MS
@@ -460,10 +395,7 @@ proxy-groups:
 - name: AI-GEMINI
   type: fallback
   proxies:
-  - MANUAL-VMess-WS-TLS-443-ikada543
-  - MANUAL-VMess-WS-TLS-443-singa08
-  - MANUAL-VMess-WS-TLS-443-akuku8
-  - MANUAL-VLESS-WS-TLS-443-apt50atpprem
+  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
   - AKUN-005-EVOXT-3MY-VLESS-WS-75MS
   - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
   - AKUN-002-UNKNOWN-VLESS-WS-74MS
@@ -481,10 +413,7 @@ proxy-groups:
 - name: AI-OTHER
   type: fallback
   proxies:
-  - MANUAL-VMess-WS-TLS-443-ikada543
-  - MANUAL-VMess-WS-TLS-443-singa08
-  - MANUAL-VMess-WS-TLS-443-akuku8
-  - MANUAL-VLESS-WS-TLS-443-apt50atpprem
+  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
   - AKUN-005-EVOXT-3MY-VLESS-WS-75MS
   - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
   - AKUN-002-UNKNOWN-VLESS-WS-74MS
@@ -502,10 +431,7 @@ proxy-groups:
 - name: AI-STABLE
   type: fallback
   proxies:
-  - MANUAL-VMess-WS-TLS-443-ikada543
-  - MANUAL-VMess-WS-TLS-443-singa08
-  - MANUAL-VMess-WS-TLS-443-akuku8
-  - MANUAL-VLESS-WS-TLS-443-apt50atpprem
+  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
   - AKUN-005-EVOXT-3MY-VLESS-WS-75MS
   - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
   - AKUN-002-UNKNOWN-VLESS-WS-74MS
@@ -523,10 +449,7 @@ proxy-groups:
 - name: AI-BACKUP
   type: fallback
   proxies:
-  - MANUAL-VMess-WS-TLS-443-ikada543
-  - MANUAL-VMess-WS-TLS-443-singa08
-  - MANUAL-VMess-WS-TLS-443-akuku8
-  - MANUAL-VLESS-WS-TLS-443-apt50atpprem
+  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
   - AKUN-005-EVOXT-3MY-VLESS-WS-75MS
   - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
   - AKUN-028-CLOUDFLARE-VLESS-WS-628MS
@@ -539,10 +462,7 @@ proxy-groups:
 - name: AI-MANUAL
   type: fallback
   proxies:
-  - MANUAL-VMess-WS-TLS-443-ikada543
-  - MANUAL-VMess-WS-TLS-443-singa08
-  - MANUAL-VMess-WS-TLS-443-akuku8
-  - MANUAL-VLESS-WS-TLS-443-apt50atpprem
+  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
   - AKUN-005-EVOXT-3MY-VLESS-WS-75MS
   - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
   - AKUN-028-CLOUDFLARE-VLESS-WS-628MS
@@ -555,10 +475,7 @@ proxy-groups:
 - name: AI
   type: fallback
   proxies:
-  - MANUAL-VMess-WS-TLS-443-ikada543
-  - MANUAL-VMess-WS-TLS-443-singa08
-  - MANUAL-VMess-WS-TLS-443-akuku8
-  - MANUAL-VLESS-WS-TLS-443-apt50atpprem
+  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
   - AKUN-005-EVOXT-3MY-VLESS-WS-75MS
   - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
   - AI-OPENAI
@@ -632,10 +549,7 @@ proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
-  - MANUAL-VMess-WS-TLS-443-ikada543
-  - MANUAL-VMess-WS-TLS-443-singa08
-  - MANUAL-VMess-WS-TLS-443-akuku8
-  - MANUAL-VLESS-WS-TLS-443-apt50atpprem
+  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
   - AKUN-005-EVOXT-3MY-VLESS-WS-75MS
   - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
   url: https://www.gstatic.com/generate_204
@@ -648,10 +562,7 @@ proxy-groups:
 - name: FALLBACK
   type: fallback
   proxies:
-  - MANUAL-VMess-WS-TLS-443-ikada543
-  - MANUAL-VMess-WS-TLS-443-singa08
-  - MANUAL-VMess-WS-TLS-443-akuku8
-  - MANUAL-VLESS-WS-TLS-443-apt50atpprem
+  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
   - AKUN-005-EVOXT-3MY-VLESS-WS-75MS
   - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
   - AKUN-002-UNKNOWN-VLESS-WS-74MS
@@ -694,10 +605,7 @@ proxy-groups:
 - name: MANUAL
   type: fallback
   proxies:
-  - MANUAL-VMess-WS-TLS-443-ikada543
-  - MANUAL-VMess-WS-TLS-443-singa08
-  - MANUAL-VMess-WS-TLS-443-akuku8
-  - MANUAL-VLESS-WS-TLS-443-apt50atpprem
+  - MANUAL-(ID)+PUSATMEDIA+🇮🇩
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true
