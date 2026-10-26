@@ -299,8 +299,8 @@ dns:
   - https://9.9.9.9/dns-query
   nameserver:
   - https://1.1.1.1/dns-query
-  - https://94.140.14.14/dns-query
   - https://dns.google/dns-query
+  - https://94.140.14.14/dns-query
   - https://family.cloudflare-dns.com/dns-query
   - https://dns.bebasid.com/dns-query
   - tls://dns.bebasid.com:853
@@ -308,8 +308,8 @@ dns:
   - tls://family.dns.bebasid.com:853
   proxy-server-nameserver:
   - https://1.1.1.1/dns-query
-  - https://94.140.14.14/dns-query
   - https://dns.google/dns-query
+  - https://94.140.14.14/dns-query
   - https://family.cloudflare-dns.com/dns-query
   - https://dns.quad9.net/dns-query
   - https://9.9.9.9/dns-query
@@ -358,8 +358,8 @@ dns:
     geosite:category-ads-all: rcode://success
   fallback:
   - https://1.1.1.1/dns-query
-  - https://94.140.14.14/dns-query
   - https://dns.google/dns-query
+  - https://94.140.14.14/dns-query
   - https://family.cloudflare-dns.com/dns-query
   - https://dns.bebasid.com/dns-query
   - tls://dns.bebasid.com:853
