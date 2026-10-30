@@ -12403,22 +12403,6 @@ rules:
 - DOMAIN-SUFFIX,zyngapoker.com,REJECT
 - DOMAIN-SUFFIX,zyraffa.pl,REJECT
 - DOMAIN-SUFFIX,zzstudios.com,REJECT
-- DOMAIN-KEYWORD,game,REJECT
-- DOMAIN-KEYWORD,minigame,REJECT
-- DOMAIN-KEYWORD,juegos,REJECT
-- DOMAIN-KEYWORD,jogos,REJECT
-- DOMAIN-KEYWORD,jocuri,REJECT
-- DOMAIN-KEYWORD,giochi,REJECT
-- DOMAIN-KEYWORD,gioco,REJECT
-- DOMAIN-KEYWORD,igrice,REJECT
-- DOMAIN-KEYWORD,oyun,REJECT
-- DOMAIN-KEYWORD,spiele,REJECT
-- DOMAIN-KEYWORD,spiel,REJECT
-- DOMAIN-KEYWORD,jeux,REJECT
-- DOMAIN-KEYWORD,arcade,REJECT
-- DOMAIN-KEYWORD,friv,REJECT
-- DOMAIN-KEYWORD,poki,REJECT
-- DOMAIN-KEYWORD,crazygames,REJECT
 - RULE-SET,game-block-online,REJECT
 - RULE-SET,hagezi-pro,REJECT
 - DOMAIN-SUFFIX,msn.com,REJECT
@@ -12628,6 +12612,7 @@ rule-providers:
     type: http
     behavior: domain
     format: text
+    path: ./rule_providers/game-block-online.txt
     url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/game-block-online.txt
     interval: 43200
   hagezi-pro:

@@ -11390,30 +11390,6 @@
         ]
       },
       {
-        "domain_keyword": [
-          "game",
-          "minigame",
-          "juegos",
-          "jogos",
-          "jocuri",
-          "giochi",
-          "gioco",
-          "igrice",
-          "oyun",
-          "spiele",
-          "spiel",
-          "jeux",
-          "arcade",
-          "friv",
-          "poki",
-          "crazygames"
-        ],
-        "action": "reject",
-        "tags": [
-          "anti-game"
-        ]
-      },
-      {
         "domain_suffix": [
           "doubleclick.net",
           "googlesyndication.com",

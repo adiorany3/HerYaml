@@ -1097,6 +1097,7 @@ rule-providers:
     type: http
     behavior: domain
     format: text
+    path: ./rule_providers/game-block-online.txt
     url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/game-block-online.txt
     interval: 43200
   hagezi-pro:
