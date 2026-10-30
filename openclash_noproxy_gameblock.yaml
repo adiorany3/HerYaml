@@ -2315,6 +2315,7 @@ rules:
 - DOMAIN-SUFFIX,alvrealms.onnuke.com,REJECT
 - DOMAIN-SUFFIX,alwaysneat.com,REJECT
 - DOMAIN-SUFFIX,amateurpix.nl,REJECT
+- DOMAIN-SUFFIX,amdgaming.com,REJECT
 - DOMAIN-SUFFIX,ameisengame.de,REJECT
 - DOMAIN-SUFFIX,amiibo.com,REJECT
 - DOMAIN-SUFFIX,amnesyas.com,REJECT

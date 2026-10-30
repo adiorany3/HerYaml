@@ -1135,6 +1135,7 @@
 ^(?:.*\.)?alvrealms\.onnuke\.com$
 ^(?:.*\.)?alwaysneat\.com$
 ^(?:.*\.)?amateurpix\.nl$
+^(?:.*\.)?amdgaming\.com$
 ^(?:.*\.)?ameisengame\.de$
 ^(?:.*\.)?amiibo\.com$
 ^(?:.*\.)?amnesyas\.com$
