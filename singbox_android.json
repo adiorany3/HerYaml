@@ -1082,6 +1082,53 @@
         "action": "reject"
       },
       {
+        "domain_suffix": [
+          "msn.com",
+          "yandex.com",
+          "games.msn.com",
+          "play.msn.com",
+          "msngames.msn.com",
+          "gaming.msn.com",
+          "zone.msn.com",
+          "microsoftcasualgames.com",
+          "idmapper.microsoftcasualgames.com",
+          "msnfun.com"
+        ],
+        "domain_keyword": [
+          "msnfun"
+        ],
+        "action": "reject"
+      },
+      {
+        "domain_suffix": [
+          "wtmobile.com",
+          "gaijin.net",
+          "gaijinent.com"
+        ],
+        "action": "reject"
+      },
+      {
+        "domain_suffix": [
+          "frivmax.com",
+          "yurk.com",
+          "html5.gamedistribution.com",
+          "img.gamedistribution.com",
+          "poki-cdn.com",
+          "gamesgamescdn.com"
+        ],
+        "action": "reject"
+      },
+      {
+        "domain": [
+          "googleads.g.doubleclick.net",
+          "pagead2.googlesyndication.com",
+          "adeventtracker.spotify.com",
+          "pixel.spotify.com",
+          "pixel-static.spotify.com"
+        ],
+        "action": "reject"
+      },
+      {
         "domain": [
           "events.reddit.com",
           "events.redditmedia.com",
