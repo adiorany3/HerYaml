@@ -371,6 +371,65 @@
       },
       {
         "domain_suffix": [
+          "msn.com",
+          "yandex.com",
+          "games.msn.com",
+          "play.msn.com",
+          "msngames.msn.com",
+          "gaming.msn.com",
+          "zone.msn.com",
+          "microsoftcasualgames.com",
+          "idmapper.microsoftcasualgames.com",
+          "msnfun.com"
+        ],
+        "domain_keyword": [
+          "msnfun"
+        ],
+        "action": "reject",
+        "tags": [
+          "msn-games"
+        ]
+      },
+      {
+        "domain_suffix": [
+          "wtmobile.com",
+          "gaijin.net",
+          "gaijinent.com"
+        ],
+        "action": "reject",
+        "tags": [
+          "wtm-block"
+        ]
+      },
+      {
+        "domain_suffix": [
+          "frivmax.com",
+          "yurk.com",
+          "html5.gamedistribution.com",
+          "img.gamedistribution.com",
+          "poki-cdn.com",
+          "gamesgamescdn.com"
+        ],
+        "action": "reject",
+        "tags": [
+          "online-minigames"
+        ]
+      },
+      {
+        "domain": [
+          "googleads.g.doubleclick.net",
+          "pagead2.googlesyndication.com",
+          "adeventtracker.spotify.com",
+          "pixel.spotify.com",
+          "pixel-static.spotify.com"
+        ],
+        "action": "reject",
+        "tags": [
+          "streaming-safe-ad-filter"
+        ]
+      },
+      {
+        "domain_suffix": [
           "123.ywxww.net",
           "132.red-81-42-249.staticip.rima-tde.net",
           "150.co.il",
@@ -233397,7 +233456,6 @@
           "sonobi.com",
           "static.adsafeprotected.com",
           "static.criteo.net",
-          "static.doubleclick.net",
           "static.hotjar.com",
           "static.media.net",
           "stats.g.doubleclick.net",

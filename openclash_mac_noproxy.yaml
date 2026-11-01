@@ -392,38 +392,38 @@ proxies:
       Host: edu.ruangguru.com.ex33r.eu.cc
   alpn:
   - http/1.1
-- name: AKUN-001-MYBB-VLESS-WS-77MS
+- name: AKUN-002-IPXO-VLESS-WS-75MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
+  servername: ccc.010304.xyz
   network: ws
-  client-fingerprint: chrome
+  client-fingerprint: unsafe
   skip-cert-verify: true
   ws-opts:
-    path: /?ed=2560
+    path: /fp
     headers:
-      Host: rayan-007.nastaran.dpdns.org
+      Host: ccc.010304.xyz
   alpn:
   - http/1.1
-- name: AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
+- name: AKUN-003-CLOUDFLARE-VLESS-WS-75MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
-  servername: a.cwvps.eu.org
+  servername: ccc.010304.xyz
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /ws
+    path: /?
     headers:
-      Host: a.cwvps.eu.org
+      Host: ccc.010304.xyz
   alpn:
   - http/1.1
 proxy-groups:
@@ -432,8 +432,8 @@ proxy-groups:
   proxies:
   - DIRECT
   - MANUAL-ID-PUSATMEDIA
-  - AKUN-001-MYBB-VLESS-WS-77MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
+  - AKUN-002-IPXO-VLESS-WS-75MS
+  - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
 rules:
 - DOMAIN-SUFFIX,reddit.com,DIRECT
 - DOMAIN-SUFFIX,redditmedia.com,DIRECT

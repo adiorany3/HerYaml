@@ -1,6 +1,6 @@
 # Refresh Report
 
-Generated: 2026-10-31T23:04:16.544390+00:00
+Generated: 2026-11-01T11:04:19.793920+00:00
 
 ## Feed status
 
@@ -8,11 +8,11 @@ Generated: 2026-10-31T23:04:16.544390+00:00
 |---|---|---:|
 | `ads_indonesia` | updated | 154 |
 | `gambling-mini` | updated | 143812 |
-| `hagezi-pro` | updated | 213387 |
+| `hagezi-pro` | updated | 211739 |
 | `hagezi-pro-plus-mini` | updated | 69377 |
-| `oisd-adblock` | updated | 235511 |
+| `oisd-adblock` | updated | 231967 |
 | `onehosts-lite` | updated | 202868 |
-| `openphish` | updated | 284 |
+| `openphish` | updated | 242 |
 | `popup-ads` | updated | 50522 |
 | `threat-cryptominers` | updated | 296 |
 | `threat-fake-scam` | updated | 17357 |

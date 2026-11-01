@@ -438,13 +438,10 @@ rules:
 - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
 - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
 - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
-- DOMAIN,static.doubleclick.net,YOUTUBE
 - DOMAIN,jnn-pa.googleapis.com,YOUTUBE
-- DOMAIN,googleads.g.doubleclick.net,REJECT
 - DOMAIN,ad.doubleclick.net,REJECT
 - DOMAIN,pubads.g.doubleclick.net,REJECT
 - DOMAIN,securepubads.g.doubleclick.net,REJECT
-- DOMAIN,pagead2.googlesyndication.com,REJECT
 - DOMAIN,tpc.googlesyndication.com,REJECT
 - DOMAIN,www.googleadservices.com,REJECT
 - DOMAIN,imasdk.googleapis.com,REJECT
@@ -542,6 +539,20 @@ rules:
 - DOMAIN-SUFFIX,speedtest.net,GLOBAL
 - DOMAIN-SUFFIX,ookla.com,GLOBAL
 - DOMAIN-SUFFIX,speedtestcustom.com,GLOBAL
+- DOMAIN,googleads.g.doubleclick.net,REJECT
+- DOMAIN,pagead2.googlesyndication.com,REJECT
+- DOMAIN,adeventtracker.spotify.com,REJECT
+- DOMAIN,pixel.spotify.com,REJECT
+- DOMAIN,pixel-static.spotify.com,REJECT
+- DOMAIN,static.doubleclick.net,YOUTUBE
+- DOMAIN,spclient.wg.spotify.com,YOUTUBE
+- DOMAIN,login5.spotify.com,YOUTUBE
+- DOMAIN,clienttoken.spotify.com,YOUTUBE
+- DOMAIN,apresolve.spotify.com,YOUTUBE
+- DOMAIN,ap.spotify.com,YOUTUBE
+- DOMAIN,dealer.spotify.com,YOUTUBE
+- DOMAIN,accounts.spotify.com,YOUTUBE
+- DOMAIN,api.spotify.com,YOUTUBE
 - RULE-SET,threat-malware,REJECT
 - RULE-SET,threat-phishing,REJECT
 - RULE-SET,threat-cryptominers,REJECT
@@ -651,7 +662,6 @@ rules:
 - RULE-SET,obfusgated-coverage,REJECT
 - DOMAIN,805ba.v.fwmrm.net,REJECT
 - DOMAIN,tvm-mtv-freewheel.akamaized.net,REJECT
-- DOMAIN,adeventtracker.spotify.com,REJECT
 - DOMAIN,audio-ads.spotify.com,REJECT
 - DOMAIN,heads-ec.spotify.com,REJECT
 - DOMAIN,ads.spotify.com,REJECT
@@ -664,8 +674,6 @@ rules:
 - DOMAIN,analytics.spotify.com,REJECT
 - DOMAIN,bloodhound.spotify.com,REJECT
 - DOMAIN,crashdump.spotify.com,REJECT
-- DOMAIN,pixel.spotify.com,REJECT
-- DOMAIN,pixel-static.spotify.com,REJECT
 - DOMAIN,pixels.spotify.com,REJECT
 - DOMAIN,advertising.netflix.com,REJECT
 - DOMAIN,beacon.netflix.com,REJECT
@@ -727,6 +735,19 @@ rules:
 - DOMAIN-SUFFIX,video.twimg.com,MANUAL
 - DOMAIN-SUFFIX,cloudflare.com,MANUAL
 - DOMAIN-SUFFIX,gstatic.com,MANUAL
+- RULE-SET,game-block-online,REJECT
+- RULE-SET,hagezi-pro,REJECT
+- DOMAIN-SUFFIX,msn.com,REJECT
+- DOMAIN-SUFFIX,yandex.com,REJECT
+- DOMAIN-SUFFIX,games.msn.com,REJECT
+- DOMAIN-SUFFIX,play.msn.com,REJECT
+- DOMAIN-SUFFIX,msngames.msn.com,REJECT
+- DOMAIN-SUFFIX,gaming.msn.com,REJECT
+- DOMAIN-SUFFIX,zone.msn.com,REJECT
+- DOMAIN-SUFFIX,microsoftcasualgames.com,REJECT
+- DOMAIN-SUFFIX,idmapper.microsoftcasualgames.com,REJECT
+- DOMAIN-SUFFIX,msnfun.com,REJECT
+- DOMAIN-KEYWORD,msnfun,REJECT
 - MATCH,GLOBAL
 rule-providers:
   ads_indonesia:
@@ -1173,6 +1194,20 @@ rule-providers:
     format: mrs
     path: ./rule_providers/youtube.mrs
     url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs
+    interval: 43200
+  game-block-online:
+    type: http
+    behavior: domain
+    format: text
+    path: ./rule_providers/game-block-online.txt
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/game-block-online.txt
+    interval: 43200
+  hagezi-pro:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rule_providers/compiled/hagezi-pro.mrs
+    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/hagezi-pro.mrs
     interval: 43200
 hosts:
   www.google.com: forcesafesearch.google.com
