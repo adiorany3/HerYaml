@@ -1,12 +1,12 @@
 # Node Quality Report - Smart Stable
 
 ## Ringkasan
-- Total proxy di YAML: 3
+- Total proxy di YAML: 11
 - WARM-UP harian: 0 node
 - WARM-UP-CF Cloudflare/Worker: 0 node
 - STREAMING-FAST: 0 node
-- AUTO-FAST: 3 node
-- FALLBACK: 3 referensi, manual backup: 1 node
+- AUTO-FAST: 5 node
+- FALLBACK: 11 referensi, manual backup: 1 node
 
 ## Rekomendasi Pakai
 - Harian/browsing: pilih `WARM-UP` atau `AUTO-FAST`.
@@ -24,7 +24,7 @@
 - Tidak ada
 
 ## Node Berisiko dari NekoBox/sing-box Test
-- Tes NekoBox/sing-box dinonaktifkan; node tidak diuji.
+- Tidak ada yang gagal pada laporan terakhir
 
 ## Catatan Smart Mode
 - Health-check cepat hanya untuk pool kecil, bukan semua node.

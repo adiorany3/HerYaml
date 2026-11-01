@@ -83,19 +83,11 @@ dns:
   - https://1.1.1.1/dns-query
   - https://9.9.9.9/dns-query
   nameserver:
-  - https://dns.google/dns-query
-  - https://94.140.14.14/dns-query
-  - https://family.cloudflare-dns.com/dns-query
-  - https://1.1.1.1/dns-query
   - https://dns.bebasid.com/dns-query
   - tls://dns.bebasid.com:853
   - https://family.dns.bebasid.com/dns-query
   - tls://family.dns.bebasid.com:853
   fallback:
-  - https://dns.google/dns-query
-  - https://94.140.14.14/dns-query
-  - https://family.cloudflare-dns.com/dns-query
-  - https://1.1.1.1/dns-query
   - https://dns.bebasid.com/dns-query
   - tls://dns.bebasid.com:853
   - https://family.dns.bebasid.com/dns-query
@@ -108,12 +100,11 @@ dns:
   cache-algorithm: arc
   fallback-lazy-query: false
   proxy-server-nameserver:
-  - https://dns.google/dns-query
-  - https://94.140.14.14/dns-query
-  - https://family.cloudflare-dns.com/dns-query
   - https://1.1.1.1/dns-query
+  - https://dns.google/dns-query
   - https://dns.quad9.net/dns-query
   - https://9.9.9.9/dns-query
+  - https://94.140.14.14/dns-query
   nameserver-policy:
     +.openai.com:
     - https://1.1.1.1/dns-query
@@ -162,38 +153,174 @@ dns:
   use-hosts: true
   use-system-hosts: false
 proxies:
-- name: AKUN-001-MYBB-VLESS-WS-77MS
+- name: AKUN-001-CF-BYOIP-188-164-248-0-2-VLESS-WS-76MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
+  servername: ccc.010304.xyz
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /?ed=2560
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
-      Host: rayan-007.nastaran.dpdns.org
+      Host: ccc.010304.xyz
   alpn:
   - http/1.1
-- name: AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
+- name: AKUN-002-IPXO-VLESS-WS-75MS
   type: vless
   server: 104.17.3.81
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
-  servername: a.cwvps.eu.org
+  servername: ccc.010304.xyz
+  network: ws
+  client-fingerprint: unsafe
+  skip-cert-verify: true
+  ws-opts:
+    path: /fp
+    headers:
+      Host: ccc.010304.xyz
+  alpn:
+  - http/1.1
+- name: AKUN-003-CLOUDFLARE-VLESS-WS-75MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  servername: ccc.010304.xyz
   network: ws
   client-fingerprint: chrome
   skip-cert-verify: true
   ws-opts:
-    path: /ws
+    path: /?
     headers:
-      Host: a.cwvps.eu.org
+      Host: ccc.010304.xyz
+  alpn:
+  - http/1.1
+- name: AKUN-004-CLOUDFLARE-VLESS-WS-89MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  udp: true
+  tls: true
+  servername: nautica-cff.kloningstrife002.workers.dev
+  network: ws
+  client-fingerprint: unsafe
+  skip-cert-verify: true
+  ws-opts:
+    path: /138.2.74.219-28616
+    headers:
+      Host: nautica-cff.kloningstrife002.workers.dev
+  alpn:
+  - http/1.1
+- name: AKUN-005-UNKNOWN-VLESS-WS-77MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 93fa8bdb-9cca-4a3e-8355-b7c12e4f595e
+  udp: true
+  tls: true
+  servername: fornewiran.ade-1000.workers.dev
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /vl/yLWNcuUuw1jlJpkDhGy?ed=2560
+    headers:
+      Host: fornewiran.ade-1000.workers.dev
+  alpn:
+  - http/1.1
+- name: AKUN-006-235231-VLESS-WS-81MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 65d3f9b3-d289-4a8e-9c87-90bba156de30
+  udp: true
+  tls: true
+  servername: ld.235231.xyz
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      Host: ld.235231.xyz
+  alpn:
+  - http/1.1
+- name: AKUN-007-CLOUDFLARE-VLESS-WS-75MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  servername: ccc.010304.xyz
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /fp?ed%23Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: ccc.010304.xyz
+  alpn:
+  - http/1.1
+- name: AKUN-008-UNKNOWN-VLESS-WS-83MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 4c0b7280-76bb-495c-9c8b-f05712ebf805
+  udp: true
+  tls: true
+  servername: youxuanku.kdns.fr
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      Host: youxuanku.kdns.fr
+  alpn:
+  - http/1.1
+- name: AKUN-009-UNKNOWN-VLESS-WS-78MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: ce440dcf-e570-4a50-af37-bf588ee8a988
+  udp: true
+  tls: true
+  servername: 6qwoom7kdrcoan3ui4ra5dy.pages.dev
+  network: ws
+  client-fingerprint: unsafe
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /vl/KSPdmco70dfoXFS292o2Nv6yPt?ed=2560%23Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: 6qwoom7kdrcoan3ui4ra5dy.pages.dev
+- name: AKUN-010-EU-VLESS-WS-97MS
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 22424ee2-6fe3-42ca-9749-6d4c5a8acc82
+  udp: true
+  tls: true
+  servername: tn1r.eu.cc
+  network: ws
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /id-pusat
+    headers:
+      Host: tn1r.eu.cc
   alpn:
   - http/1.1
 - name: MANUAL-ID-PUSATMEDIA
@@ -243,8 +370,14 @@ proxy-groups:
   type: fallback
   proxies:
   - MANUAL-ID-PUSATMEDIA
-  - AKUN-001-MYBB-VLESS-WS-77MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
+  - AKUN-001-CF-BYOIP-188-164-248-0-2-VLESS-WS-76MS
+  - AKUN-002-IPXO-VLESS-WS-75MS
+  - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-007-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-005-UNKNOWN-VLESS-WS-77MS
+  - AKUN-009-UNKNOWN-VLESS-WS-78MS
+  - AKUN-006-235231-VLESS-WS-81MS
+  - AKUN-008-UNKNOWN-VLESS-WS-83MS
   url: https://chatgpt.com/favicon.ico
   interval: 300
   lazy: true
@@ -255,8 +388,14 @@ proxy-groups:
   type: fallback
   proxies:
   - MANUAL-ID-PUSATMEDIA
-  - AKUN-001-MYBB-VLESS-WS-77MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
+  - AKUN-001-CF-BYOIP-188-164-248-0-2-VLESS-WS-76MS
+  - AKUN-002-IPXO-VLESS-WS-75MS
+  - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-007-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-005-UNKNOWN-VLESS-WS-77MS
+  - AKUN-009-UNKNOWN-VLESS-WS-78MS
+  - AKUN-006-235231-VLESS-WS-81MS
+  - AKUN-008-UNKNOWN-VLESS-WS-83MS
   url: https://claude.ai/favicon.ico
   interval: 300
   lazy: true
@@ -267,8 +406,14 @@ proxy-groups:
   type: fallback
   proxies:
   - MANUAL-ID-PUSATMEDIA
-  - AKUN-001-MYBB-VLESS-WS-77MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
+  - AKUN-001-CF-BYOIP-188-164-248-0-2-VLESS-WS-76MS
+  - AKUN-002-IPXO-VLESS-WS-75MS
+  - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-007-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-005-UNKNOWN-VLESS-WS-77MS
+  - AKUN-009-UNKNOWN-VLESS-WS-78MS
+  - AKUN-006-235231-VLESS-WS-81MS
+  - AKUN-008-UNKNOWN-VLESS-WS-83MS
   url: https://gemini.google.com/favicon.ico
   interval: 300
   lazy: true
@@ -279,8 +424,14 @@ proxy-groups:
   type: fallback
   proxies:
   - MANUAL-ID-PUSATMEDIA
-  - AKUN-001-MYBB-VLESS-WS-77MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
+  - AKUN-001-CF-BYOIP-188-164-248-0-2-VLESS-WS-76MS
+  - AKUN-002-IPXO-VLESS-WS-75MS
+  - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-007-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-005-UNKNOWN-VLESS-WS-77MS
+  - AKUN-009-UNKNOWN-VLESS-WS-78MS
+  - AKUN-006-235231-VLESS-WS-81MS
+  - AKUN-008-UNKNOWN-VLESS-WS-83MS
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true
@@ -291,8 +442,14 @@ proxy-groups:
   type: fallback
   proxies:
   - MANUAL-ID-PUSATMEDIA
-  - AKUN-001-MYBB-VLESS-WS-77MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
+  - AKUN-001-CF-BYOIP-188-164-248-0-2-VLESS-WS-76MS
+  - AKUN-002-IPXO-VLESS-WS-75MS
+  - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-007-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-005-UNKNOWN-VLESS-WS-77MS
+  - AKUN-009-UNKNOWN-VLESS-WS-78MS
+  - AKUN-006-235231-VLESS-WS-81MS
+  - AKUN-008-UNKNOWN-VLESS-WS-83MS
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true
@@ -303,8 +460,10 @@ proxy-groups:
   type: fallback
   proxies:
   - MANUAL-ID-PUSATMEDIA
-  - AKUN-001-MYBB-VLESS-WS-77MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
+  - AKUN-001-CF-BYOIP-188-164-248-0-2-VLESS-WS-76MS
+  - AKUN-002-IPXO-VLESS-WS-75MS
+  - AKUN-004-CLOUDFLARE-VLESS-WS-89MS
+  - AKUN-010-EU-VLESS-WS-97MS
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true
@@ -315,8 +474,10 @@ proxy-groups:
   type: fallback
   proxies:
   - MANUAL-ID-PUSATMEDIA
-  - AKUN-001-MYBB-VLESS-WS-77MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
+  - AKUN-001-CF-BYOIP-188-164-248-0-2-VLESS-WS-76MS
+  - AKUN-002-IPXO-VLESS-WS-75MS
+  - AKUN-004-CLOUDFLARE-VLESS-WS-89MS
+  - AKUN-010-EU-VLESS-WS-97MS
   url: https://www.gstatic.com/generate_204
   interval: 600
   lazy: true
@@ -327,8 +488,8 @@ proxy-groups:
   type: fallback
   proxies:
   - MANUAL-ID-PUSATMEDIA
-  - AKUN-001-MYBB-VLESS-WS-77MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
+  - AKUN-001-CF-BYOIP-188-164-248-0-2-VLESS-WS-76MS
+  - AKUN-002-IPXO-VLESS-WS-75MS
   - AI-OPENAI
   - AI-CLAUDE
   - AI-GEMINI
@@ -401,8 +562,10 @@ proxy-groups:
   type: url-test
   proxies:
   - MANUAL-ID-PUSATMEDIA
-  - AKUN-001-MYBB-VLESS-WS-77MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
+  - AKUN-001-CF-BYOIP-188-164-248-0-2-VLESS-WS-76MS
+  - AKUN-002-IPXO-VLESS-WS-75MS
+  - AKUN-005-UNKNOWN-VLESS-WS-77MS
+  - AKUN-009-UNKNOWN-VLESS-WS-78MS
   url: https://www.gstatic.com/generate_204
   interval: 180
   tolerance: 150
@@ -414,8 +577,16 @@ proxy-groups:
   type: fallback
   proxies:
   - MANUAL-ID-PUSATMEDIA
-  - AKUN-001-MYBB-VLESS-WS-77MS
-  - AKUN-002-CLOUDFLARE-VLESS-WS-1019MS
+  - AKUN-001-CF-BYOIP-188-164-248-0-2-VLESS-WS-76MS
+  - AKUN-002-IPXO-VLESS-WS-75MS
+  - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-007-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-004-CLOUDFLARE-VLESS-WS-89MS
+  - AKUN-005-UNKNOWN-VLESS-WS-77MS
+  - AKUN-009-UNKNOWN-VLESS-WS-78MS
+  - AKUN-006-235231-VLESS-WS-81MS
+  - AKUN-008-UNKNOWN-VLESS-WS-83MS
+  - AKUN-010-EU-VLESS-WS-97MS
   url: https://www.gstatic.com/generate_204
   interval: 180
   lazy: true
@@ -426,7 +597,10 @@ proxy-groups:
   type: load-balance
   strategy: sticky-sessions
   proxies:
-  - AKUN-001-MYBB-VLESS-WS-77MS
+  - AKUN-002-IPXO-VLESS-WS-75MS
+  - AKUN-003-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-007-CLOUDFLARE-VLESS-WS-75MS
+  - AKUN-001-CF-BYOIP-188-164-248-0-2-VLESS-WS-76MS
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: true
@@ -656,12 +830,10 @@ rule-providers:
     interval: 43200
     format: mrs
   hagezi-pro:
-    type: http
+    type: file
     behavior: domain
     format: mrs
     path: ./rule_providers/compiled/hagezi-pro.mrs
-    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/compiled/hagezi-pro.mrs
-    interval: 43200
   threat-tif-ip:
     type: http
     behavior: ipcidr
@@ -992,13 +1164,6 @@ rule-providers:
     type: file
     behavior: classical
     path: ./rule_providers/manual-routing.yaml
-  game-block-online:
-    type: http
-    behavior: domain
-    format: text
-    path: ./rule_providers/game-block-online.txt
-    url: https://raw.githubusercontent.com/adiorany3/HerYaml/main/rule_providers/game-block-online.txt
-    interval: 43200
 rules:
 - DOMAIN-SUFFIX,local,DIRECT
 - DOMAIN-SUFFIX,lan,DIRECT
@@ -1112,10 +1277,13 @@ rules:
 - RULE-SET,openai_domain,AI-OPENAI
 - RULE-SET,ai_category,AI-OTHER
 - RULE-SET,chatgpt_voice,AI-OPENAI,no-resolve
+- DOMAIN,static.doubleclick.net,YOUTUBE
 - DOMAIN,jnn-pa.googleapis.com,YOUTUBE
+- DOMAIN,googleads.g.doubleclick.net,REJECT
 - DOMAIN,ad.doubleclick.net,REJECT
 - DOMAIN,pubads.g.doubleclick.net,REJECT
 - DOMAIN,securepubads.g.doubleclick.net,REJECT
+- DOMAIN,pagead2.googlesyndication.com,REJECT
 - DOMAIN,tpc.googlesyndication.com,REJECT
 - DOMAIN,www.googleadservices.com,REJECT
 - DOMAIN,imasdk.googleapis.com,REJECT
@@ -1213,20 +1381,6 @@ rules:
 - DOMAIN-SUFFIX,speedtest.net,GLOBAL
 - DOMAIN-SUFFIX,ookla.com,GLOBAL
 - DOMAIN-SUFFIX,speedtestcustom.com,GLOBAL
-- DOMAIN,googleads.g.doubleclick.net,REJECT
-- DOMAIN,pagead2.googlesyndication.com,REJECT
-- DOMAIN,adeventtracker.spotify.com,REJECT
-- DOMAIN,pixel.spotify.com,REJECT
-- DOMAIN,pixel-static.spotify.com,REJECT
-- DOMAIN,static.doubleclick.net,YOUTUBE
-- DOMAIN,spclient.wg.spotify.com,STREAMING
-- DOMAIN,login5.spotify.com,STREAMING
-- DOMAIN,clienttoken.spotify.com,STREAMING
-- DOMAIN,apresolve.spotify.com,STREAMING
-- DOMAIN,ap.spotify.com,STREAMING
-- DOMAIN,dealer.spotify.com,STREAMING
-- DOMAIN,accounts.spotify.com,STREAMING
-- DOMAIN,api.spotify.com,STREAMING
 - RULE-SET,threat-malware,REJECT
 - RULE-SET,threat-phishing,REJECT
 - RULE-SET,threat-cryptominers,REJECT
@@ -1333,11 +1487,13 @@ rules:
 - RULE-SET,adult-local,REJECT
 - RULE-SET,pinjol-local,REJECT
 - RULE-SET,hagezi-pro-plus-mini,REJECT
+- RULE-SET,hagezi-pro,REJECT
 - RULE-SET,popup-ads,REJECT
 - RULE-SET,threat-tif-ip,REJECT,no-resolve
 - RULE-SET,obfusgated-coverage,REJECT
 - DOMAIN,805ba.v.fwmrm.net,REJECT
 - DOMAIN,tvm-mtv-freewheel.akamaized.net,REJECT
+- DOMAIN,adeventtracker.spotify.com,REJECT
 - DOMAIN,audio-ads.spotify.com,REJECT
 - DOMAIN,heads-ec.spotify.com,REJECT
 - DOMAIN,ads.spotify.com,REJECT
@@ -1350,6 +1506,8 @@ rules:
 - DOMAIN,analytics.spotify.com,REJECT
 - DOMAIN,bloodhound.spotify.com,REJECT
 - DOMAIN,crashdump.spotify.com,REJECT
+- DOMAIN,pixel.spotify.com,REJECT
+- DOMAIN,pixel-static.spotify.com,REJECT
 - DOMAIN,pixels.spotify.com,REJECT
 - DOMAIN,advertising.netflix.com,REJECT
 - DOMAIN,beacon.netflix.com,REJECT
@@ -1404,19 +1562,6 @@ rules:
 - DOMAIN-SUFFIX,gstatic.com,GLOBAL
 - RULE-SET,manual-routing,MANUAL
 - RULE-SET,social_media_auto,SOCIAL-MEDIA
-- RULE-SET,game-block-online,REJECT
-- RULE-SET,hagezi-pro,REJECT
-- DOMAIN-SUFFIX,msn.com,REJECT
-- DOMAIN-SUFFIX,yandex.com,REJECT
-- DOMAIN-SUFFIX,games.msn.com,REJECT
-- DOMAIN-SUFFIX,play.msn.com,REJECT
-- DOMAIN-SUFFIX,msngames.msn.com,REJECT
-- DOMAIN-SUFFIX,gaming.msn.com,REJECT
-- DOMAIN-SUFFIX,zone.msn.com,REJECT
-- DOMAIN-SUFFIX,microsoftcasualgames.com,REJECT
-- DOMAIN-SUFFIX,idmapper.microsoftcasualgames.com,REJECT
-- DOMAIN-SUFFIX,msnfun.com,REJECT
-- DOMAIN-KEYWORD,msnfun,REJECT
 - MATCH,GLOBAL
 hosts:
   www.google.com: forcesafesearch.google.com
