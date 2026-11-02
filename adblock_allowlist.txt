@@ -1,0 +1,50 @@
+# Domain yang harus lolos adblock. Satu domain per baris.
+# LinkedIn resmi: cegah false positive pada website dan app; domain phishing mirip tetap tidak ikut.
+linkedin.com
+linkedin.cn
+licdn.com
+lnkd.in
+challenges.cloudflare.com
+hcaptcha.com
+recaptcha.net
+# SIMASTER UGM: seluruh subdomain harus lolos semua pemblokiran.
+simaster.ugm.ac.id
+# Speedtest by Ookla: web, app, server discovery, dan custom test resmi.
+# Optimizer merutekannya ke GLOBAL/node aktif, bukan DIRECT.
+speedtest.net
+ookla.com
+speedtestcustom.com
+# Pembayaran QRIS/e-wallet: lindungi checkout, deep-link, token, dan callback resmi.
+# Domain utama saja; subdomain ikut terlindungi, sementara domain iklan pihak ketiga tetap diblokir.
+qris.id
+shopeepay.co.id
+shopee.co.id
+shopee.com
+shopeemobile.com
+spaylater.co.id
+gopay.co.id
+go-jek.com
+dana.id
+ovo.id
+linkaja.id
+flip.id
+xendit.co
+midtrans.com
+faspay.co.id
+nicepay.co.id
+# Reddit visual assets only; keep Reddit telemetry/ad endpoints blocked.
+redditstatic.com
+i.redd.it
+preview.redd.it
+tripay.co.id
+finpay.co.id
+ipaymu.com
+# Ultra Voucher resmi: web/app, voucher redemption, callback, dan short link.
+# Lindungi hanya domain resmi; domain tiruan/phishing tetap diblokir.
+ultravoucher.co.id
+uvcr.me
+ultracorp.co.id
+# National Geographic: lindungi domain utama dan assets agar konten tidak terblokir.
+nationalgeographic.com
+natgeomedia.com
+nglassets.com
